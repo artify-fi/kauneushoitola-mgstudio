@@ -1,0 +1,93 @@
+---
+title: Gatsby Tutorial
+slug: gatsby-tutorial
+image: ./images/react-3.png
+date: 2021-01-02
+author: art bachmann
+category: gatsby
+readTime: 34
+---
+import { Link } from 'gatsby'
+import {FiInfo} from 'react-icons/fi'
+import {Counter, LikeButton} from '../../components/Complete'
+
+
+<section className='mdx-page'>
+
+## my first mdx file.
+
+**AMD used ShareThis for social sharing. They wanted to increase the amount of sharing 
+among visitors.** They tested _six variations_, with different icons and placement. 
+They tested it on AMD’s Support & Drivers page.
+
+<div className='code'>
+
+```js
+const firstName = 'Art'
+const lastName = 'Bachmann'
+```
+</div>
+
+<div className='nice-text'>
+
+<h3>nice text</h3>
+
+<FiInfo className='nice-text-icon'></FiInfo>
+
+If you're here, you may already have an idea of how powerful SEO keyword research can be. You may already know that keyword research is the foundation of winning SEO.
+
+In fact, you could almost say it's necessary for the majority of SEO campaigns.
+
+The "magic of SEO" happens because, when you know what people are searching for, you can make the answer appear the exact moment they search for it.
+
+</div>
+
+<br />
+<br />
+
+<h2> React components </h2>
+
+<br />
+<br />
+
+<Counter />
+
+<br />
+<br />
+<br />
+
+```jsx
+import React from "react"
+import styled from "styled-components"
+import { AiOutlineLike } from "react-icons/ai"
+const LikeButton = () => {
+  const [value, setValue] = React.useState(0)
+  return (
+    <Wrapper>
+      <div>
+        <button onClick={() => setValue(value + 1)}>
+          <AiOutlineLike />
+        </button>
+        <p>
+          Liked the post?
+          <br />
+          Click thumbs up few times
+        </p>
+      </div>
+      <span>+{value}</span>
+    </Wrapper>
+  )
+}
+```
+<br />
+<br />
+
+<LikeButton />
+
+
+<Link to='/posts' className='btn center-btn'>
+  all posts page
+</Link>
+
+
+</section>
