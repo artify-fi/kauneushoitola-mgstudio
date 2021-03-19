@@ -13,7 +13,7 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <SEO title="Artify" />
+      <SEO title="MG Studio" />
       <ResetCSS />
       <GlobalStyle />
       <AgencyWrapper>

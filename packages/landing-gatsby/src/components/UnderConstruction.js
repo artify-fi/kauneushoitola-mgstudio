@@ -27,7 +27,7 @@ const UnderConstructor = () => {
   const matchesXS = useMediaQuery(theme.breakpoints.down('xs'))
   return (
     <Grid container
-      style={{ height: '94vh', marginTop: '-2em' }}
+      style={{ height: '64vh', marginTop: '-2em' }}
       alignItems='center'
       justify='center'
       className={classes.background}>

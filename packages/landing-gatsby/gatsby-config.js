@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Pienyrittäjille modernit ja hakukonenoptimoidut verkkosivut sekä mobiilisovellukset.`,
-    description: `Responsiiviset kotisivut ja mobiilisovellukset 
-    jotka tukevat uusien asiakkaiden tavoittamista sekä näyttävät hyvältä niin pöytäkoneilla kuin mobiililaitteillakin.`,
-    titleTemplate: `%s |Modernit hakukoneoptimoidut kotisivut pienyrittäjille`,
-    siteUrl: `https://hakukonestudio.fi/`,
-    twitterUsername: `@ArtBachmann`,
+    title: `MG Studio - Kauneushoitola Martinlaakso`,
+    description: `MG Studiosta saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. `,
+    titleTemplate: `%s |Kauneushoitola Martinlaakso, Vantaa`,
+    siteUrl: `https://www.mgstudio.fi//`,
+    twitterUsername: `@mgstudio`,
     image: `logo.jpg`,
   },
   plugins: [
@@ -91,15 +90,15 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://hakukonestudio.fi/',
-        sitemap: 'https://hakukonestudio.fi/sitemap.xml',
+        host: 'https://www.mgstudio.fi/',
+        sitemap: 'https://www.mgstudio.fi/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://hakukonestudio.fi/`,
+        siteUrl: `https://www.mgstudio.fi/`,
       },
     },
     {

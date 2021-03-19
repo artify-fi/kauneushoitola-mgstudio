@@ -23,11 +23,11 @@ const SocialLinks = ({ styleClass }) => {
           <FaTwitterSquare className="social-icon twitter-icon"></FaTwitterSquare>
         </a>
       </li> */}
-      {/* <li>
-        <a href="https://twitter.com">
-          <FaInstagram className="social-icon instagram-icon"></FaInstagram>
-        </a>
-      </li> */}
+        <li>
+          <a href="https://www.instagram.com/mgstudiofinland">
+            <FaInstagram className="social-icon instagram-icon"></FaInstagram>
+          </a>
+        </li>
     </ul>
   )
 }
