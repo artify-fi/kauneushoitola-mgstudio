@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../css/main.css';
-import Layout from '../../components/layout';
+import Layout from '../../components/layoutPage';
 import SEO from '../../components/SEO';
 import UnderConstructor from '../../components/UnderConstruction'
 

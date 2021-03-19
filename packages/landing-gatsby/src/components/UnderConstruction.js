@@ -27,7 +27,7 @@ const UnderConstructor = () => {
   const matchesXS = useMediaQuery(theme.breakpoints.down('xs'))
   return (
     <Grid container
-      style={{ height: '64vh', marginTop: '-2em' }}
+      style={{ height: '64vh', marginTop: '-1.8em' }}
       alignItems='center'
       justify='center'
       className={classes.background}>
@@ -35,12 +35,14 @@ const UnderConstructor = () => {
       <Card className={classes.revolutionCard}>
         <CardContent>
           <Grid container
-            direction='column' >
+            direction='column'
+            style={{ marginTop: '12em' }}
+            >
             <Grid item>
               <img
                 alt='qr logo'
                 src={UC}
-                style={{
+                style={{                 
                   width:
                     matchesXS ? '14em' :
                       matchesSM ? '18em' :

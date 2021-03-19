@@ -47,13 +47,13 @@ const Navbar = () => {
 
 const Wrapper = styled.nav`
   position: relative;
-  background-color:transparent;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+  background-color:#4f5a75; 
   z-index: 1;
   width: 100vw;
-  height: 5rem;
+  height: 6rem;
   display: flex;
   align-items: center;
+  
   position: fixed;
   .nav-center {
     width: 100vw;
@@ -113,7 +113,7 @@ const Wrapper = styled.nav`
       grid-gap: 0 1rem;
       align-items: center;
       justify-items: right;
-      margin-top: -5.2vh;
+      margin-top: -4.2vh;
     }
     .nav-links {
       display: grid;
@@ -140,9 +140,9 @@ const Wrapper = styled.nav`
       font-family: 'Raleway';
       background: transparent;
       border: transparent;
-      font-size: 0.9rem;
+      font-size: 1.3rem;
       letter-spacing: 2px;
-      font-weight: 300;
+      font-weight: 400;
       padding: 10px 10px;
       width: 100%;
       text-transform: capitalize;
