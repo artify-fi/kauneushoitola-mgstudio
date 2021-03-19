@@ -1,7 +1,7 @@
 import React from 'react';
 import { ResetCSS } from 'common/src/assets/css/style';
 import { GlobalStyle, AgencyWrapper } from '../containers/Agency/agency.style';
-import Banner from '../containers/Agency/Banner';
+import Banner from '../containers/AppModern/Banner';
 import FeatureSection from '../containers/Agency/FeatureSection';
 import Pricing from '../containers/Agency/Pricing';
 import FaqSection from '../containers/Agency/FaqSection';
@@ -18,10 +18,10 @@ export default () => {
       <GlobalStyle />
       <AgencyWrapper>
         <Banner />
-        <FeatureSection />
+        {/* <FeatureSection />
         <Pricing />
         <FaqSection />
-        <NewsletterSection />
+        <NewsletterSection /> */}
       </AgencyWrapper>
     </Layout>
   );
