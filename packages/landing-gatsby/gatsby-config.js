@@ -153,8 +153,8 @@ module.exports = {
               variants: [`300`, `400`, `500`, `600`, `700`, `800`],
             },
             {
-              family: `B612`,
-              variants: [`400`, `400i`, `700`, `700i`],
+              family: `Playfair Display`,
+              variants: [`300`,`400`, `400i`, `700`,`500`, `600`, `700i`],
             },
             {
               family: `DM Sans`,
