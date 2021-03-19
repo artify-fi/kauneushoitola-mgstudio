@@ -18,8 +18,8 @@ export default () => {
       <GlobalStyle />
       <AgencyWrapper>
         <Banner />
-        {/* <FeatureSection />
-        <Pricing />
+        {/* <FeatureSection /> */}
+        {/* <Pricing />
         <FaqSection />
         <NewsletterSection /> */}
       </AgencyWrapper>

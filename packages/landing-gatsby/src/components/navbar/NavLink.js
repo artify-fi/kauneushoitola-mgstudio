@@ -8,7 +8,8 @@ const NavLink = ({ page }) => {
   const { links } = useContext(GatsbyContext)
   return (
     <Wrapper>
-      <button>{page}</button>
+      <button>{page}</button>   
+     
       <div className="links">
         {links.map((link, index) => {
           const { url, label, icon } = link
@@ -32,12 +33,12 @@ const Wrapper = styled.li`
   padding: 1rem 0;
   position: relative;
   button {
-    color: var(--clr-white);
+    color: #f7f4f4;
     background: transparent;
     border: transparent;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 400;
     padding: 10px 20px;
     width: 100%;
     text-transform: capitalize;
@@ -63,7 +64,7 @@ const Wrapper = styled.li`
       gap: 0.5rem;
       grid-gap: 0.5rem;
       align-items: center;
-      color: #0a2540;
+      color: #19243a;
       text-transform: capitalize;
       font-family: 'Merriweather';
       font-weight: 500;

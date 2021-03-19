@@ -1,11 +1,12 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import logo from '../../images/logo.jpg';
+import logo from '../../images/favicon.png';
 import { GoThreeBars } from 'react-icons/go';
 import { Link } from 'gatsby';
 import NavLink from './NavLink';
 import { GatsbyContext } from '../../context/context';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import SocialLinks from '../../constants/socialLinks'
 
 const Navbar = () => {
   const { isSidebarOpen, showSidebar, links } = useContext(GatsbyContext);
@@ -24,19 +25,21 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="artify_logo" />
+            <img src={logo} alt="mgstudio_logo" />
           </Link>
+          <SocialLinks styleClass='nav-icons' />
           {!isSidebarOpen && (
             <button className="toggle-btn" onClick={showSidebar}>
               <GoThreeBars />
             </button>
           )}
         </div>
+     
         <ul className="nav-links">
           {tempLinks.map((page, index) => {
-            return <NavLink key={index} page={page}></NavLink>;
+            return <NavLink key={index} page={page}></NavLink>;            
           })}
-        </ul>
+        </ul>             
       </div>
     </Wrapper>
   );
@@ -44,7 +47,8 @@ const Navbar = () => {
 
 const Wrapper = styled.nav`
   position: relative;
-  background-color: #e7eef4;
+  background-color:transparent;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   z-index: 1;
   width: 100vw;
   height: 5rem;
@@ -63,7 +67,7 @@ const Wrapper = styled.nav`
     justify-content: space-around;
 
     img {
-      width: 120px;
+      width: 60px;
     }
     ul,
     li {
@@ -80,7 +84,7 @@ const Wrapper = styled.nav`
       border-radius: 2rem;
       border: transparent;
       color: var(--clr-white);
-      background: var(--clr-primary-5);
+      background: var(--clr-grey-1);
       margin-right: 2rem;
       cursor: pointer;
       transition: var(--transition);
@@ -130,16 +134,16 @@ const Wrapper = styled.nav`
       display: inline-block;
       margin-top: 1.4rem;
       margin-left: 4rem;
-    }
+    }   
     button {
-      color: var(--clr-grey-3);
-      font-family: 'Lato';
+      color: '#f7f4f4';
+      font-family: 'Raleway';
       background: transparent;
       border: transparent;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       letter-spacing: 2px;
-      font-weight: 500;
-      padding: 10px 20px;
+      font-weight: 400;
+      padding: 10px 10px;
       width: 100%;
       text-transform: capitalize;
       position: relative;

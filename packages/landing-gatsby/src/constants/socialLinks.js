@@ -1,51 +1,34 @@
-import React from 'react';
+import React from "react"
 import {
-  FaFacebookSquare,
-  FaLinkedin,
+  FaFacebook,
   FaDribbbleSquare,
-  FaBehanceSquare,
   FaTwitterSquare,
-} from 'react-icons/fa';
-
-const data = [
-  {
-    id: 1,
-    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: 'https://www.twitter.com',
-  },
-  {
-    id: 2,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: 'https://www.twitter.com',
-  },
-  {
-    id: 3,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    url: 'https://www.twitter.com',
-  },
-  {
-    id: 4,
-    icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-    url: 'https://www.twitter.com',
-  },
-  {
-    id: 5,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: 'https://www.twitter.com',
-  },
-];
-const links = data.map((link) => {
+  FaInstagram
+} from "react-icons/fa"
+const SocialLinks = ({ styleClass }) => {
   return (
-    <li key={link.id}>
-      <a href={link.url} className="social-link">
-        {link.icon}
-      </a>
-    </li>
-  );
-});
-
-export default ({ styleClass }) => {
-  return (
-    <ul className={`social-links ${styleClass ? styleClass : ''}`}>{links}</ul>
-  );
-};
+    <ul className={styleClass}>
+      <li>
+        <a href="https://www.facebook.com/MGstudioFinland">
+          <FaFacebook className="social-icon facebook-icon"></FaFacebook>
+        </a>
+      </li>
+      {/* <li>
+        <a href="https://twitter.com">
+          <FaDribbbleSquare className="social-icon dribble-icon"></FaDribbbleSquare>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com">
+          <FaTwitterSquare className="social-icon twitter-icon"></FaTwitterSquare>
+        </a>
+      </li> */}
+      {/* <li>
+        <a href="https://twitter.com">
+          <FaInstagram className="social-icon instagram-icon"></FaInstagram>
+        </a>
+      </li> */}
+    </ul>
+  )
+}
+export default SocialLinks
