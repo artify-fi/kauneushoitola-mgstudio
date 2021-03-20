@@ -5,7 +5,6 @@ import { GoThreeBars } from 'react-icons/go';
 import { Link } from 'gatsby';
 import NavLink from './NavLink';
 import { GatsbyContext } from '../../context/context';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import SocialLinks from '../../constants/socialLinks'
 
 const Navbar = () => {
@@ -47,7 +46,7 @@ const Navbar = () => {
 
 const Wrapper = styled.nav`
   position: relative;
-  background-color:#4f5a75; 
+  background-color: transparent; 
   z-index: 1;
   width: 100vw;
   height: 6rem;
@@ -140,7 +139,7 @@ const Wrapper = styled.nav`
       font-family: 'Raleway';
       background: transparent;
       border: transparent;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       letter-spacing: 2px;
       font-weight: 400;
       padding: 10px 10px;
