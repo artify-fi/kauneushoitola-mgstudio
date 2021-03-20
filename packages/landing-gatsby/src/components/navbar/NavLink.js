@@ -57,7 +57,8 @@ const Wrapper = styled.li`
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem 2rem;
-    grid-gap: 1rem 4rem;    
+    grid-gap: 1rem 4rem;   
+    // link names on the navbar >> Koti, meista jne. 
     a {
       display: grid;
       grid-template-columns: auto 1fr;
@@ -68,14 +69,15 @@ const Wrapper = styled.li`
       text-transform: capitalize;
       font-family: 'Merriweather';
       font-weight: 500;
-      font-size: '1.2rem';
+      font-size: 1.2rem;
       .icon {
-        color: #88add2;
+        font-size: 1.2rem;
+        color: #d80f06;
       }
       &:hover {
         color: #88add2;
         .icon {
-          color: #0a2540;
+          color: #b084ce;
         }
       }
     }
