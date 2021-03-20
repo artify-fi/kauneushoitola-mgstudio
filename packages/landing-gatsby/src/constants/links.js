@@ -29,25 +29,25 @@ export default [
   {
     page: 'MEISTÄ',
     label: 'Tietoa meistä',
-    url: `tietoa-meistä/tietoa-meista`,
+    url: `/tietoa-meistä/tietoa-meista/`,
     icon: <FaUsers className="icon" />,
   },
   {
     page: 'PALVELUMME',
     label: 'Naisten hiusten leikkaus',
-    url: `palvelumme/naisten-hiusten-leikkaus`,
+    url: `/palvelumme/naisten-hiusten-leikkaus/`,
     icon: <FaUser className="icon" />,
   },
   {
     page: 'PALVELUMME',
     label: 'Miesten hiusten leikkaus',
-    url: `palvelumme/miesten-hiusten-leikkaus`,
+    url: `/palvelumme/miesten-hiusten-leikkaus/`,
     icon: <FaUserTie className="icon" />,
   },
   {
     page: 'PALVELUMME',
     label: 'Väripaketti',
-    url: `palvelumme/väripaketti`,
+    url: `/palvelumme/väripaketti/`,
     icon: <FaFillDrip className="icon" />,
   },
   {
@@ -77,19 +77,19 @@ export default [
   {
     page: 'PALVELUMME',
     label: 'Kynnet',
-    url: `/palvelumme/kynnet`,
+    url: `/palvelumme/kynnet/`,
     icon: <FaHandPaper className="icon" />,
   },
   {
     page: 'PALVELUMME',
     label: 'Ripset & kulmat',
-    url: `/palvelumme/ripset-kulmat`,
+    url: `/palvelumme/ripset-kulmat/`,
     icon: <FaEye className="icon" />,
   },
   {
     page: 'HINTALISTA',
     label: 'Hintalista',
-    url: `/hintalista/hintalista`,
+    url: `/hintalista/hintalista/`,
     icon: <FaMoneyBill className="icon" />,
   },
   {
