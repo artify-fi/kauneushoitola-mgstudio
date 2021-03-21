@@ -14,32 +14,31 @@ const BannerWrapper = styled.div`
   // added shadow on the Hero
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-    max-height: 36vh;    
+    max-height: 26vh;    
   }
   @media only screen and (min-width: 1099px) and (max-width: 1200px) {
-    max-height: 36vh;
+    max-height: 26vh;
   }
   @media only screen and (max-width: 480px) {
     padding-top: 90px;
-    max-height: 36vh;
+    max-height: 26vh;
   }
 // From here it must be possible to change the height
   > div.container {
-    display: flex;  
-   
+    display: flex;     
     align-items: center;
     justify-content: center;
-    min-height: calc(302px - 100px);
+    min-height: calc(220px - 100px);
     @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-      max-height: calc(40vh - 100px);
+      max-height: calc(30vh - 100px);
       margin-top: 35px;     
     }
     @media only screen and (max-width: 1099px) {
-      max-height: 36vh;
+      max-height: 26vh;
     }
     @media only screen and (max-width: 480px) {
       flex-wrap: wrap;
-      max-height: 36vh;
+      max-height: 26vh;
     }
   }
   .bannerBottomShape {

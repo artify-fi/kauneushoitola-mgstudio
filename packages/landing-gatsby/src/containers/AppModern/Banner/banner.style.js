@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-import img from '../../../images/etusivu_webp/etusivu_valokuva_large.webp'
+import img from '../../../images/etusivu_valokuva_large.webp'
 
 
 const BannerWrapper = styled.div`

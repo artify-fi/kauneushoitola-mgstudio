@@ -139,7 +139,7 @@ const Wrapper = styled.nav`
       font-family: 'Raleway';
       background: transparent;
       border: transparent;
-      font-size: 1.2rem;
+      font-size: 0.9rem;
       letter-spacing: 2px;
       font-weight: 400;
       padding: 10px 10px;

@@ -1,10 +1,6 @@
 /* eslint-disable */
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import { Link, useStaticQuery, graphql } from 'gatsby';
-import Heading from 'common/src/components/Heading';
-// import BgImage from "../../../components/BgImage";
-
 import Container from 'common/src/components/UI/Container';
 import BannerWrapper, {
   BannerContent,
@@ -18,19 +14,14 @@ const Banner = () => {
     <BannerWrapper id="home">
       <Container>   
         <BannerContent style={{ position: 'fixed' }}>         
-          <Fade up delay={200}>
-            <Heading
-              as="h1"
-              content="Kauneus & Hyvinvointi"
-            />
+          <Fade up delay={200}>         
           </Fade>         
         </BannerContent>       
       </Container>     
-      <img
-        className="bannerBottomShape"
-        // src={circleBorder}
+      {/* <img
+        className="bannerBottomShape"       
         alt="Bottom Circle"
-      />
+      /> */}
     </BannerWrapper>
   );
 };
