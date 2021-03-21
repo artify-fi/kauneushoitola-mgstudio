@@ -12,9 +12,7 @@ const IndexPage = () => (
     <SEO />
     <Banner />   
     <Title as='h1' title="Hieronta" /> 
-    <UnderConstructor />
-    <UnderConstructor />
-    <UnderConstructor />
+    <UnderConstructor />  
   </Layout>
 );
 

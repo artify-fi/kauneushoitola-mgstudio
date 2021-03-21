@@ -24,7 +24,9 @@ const SocialLinks = ({ styleClass }) => {
         </a>
       </li> */}
         <li>
-          <a href="https://www.instagram.com/mgstudiofinland">
+          <a 
+          style={{color: '#fcdede'}}
+          href="https://www.instagram.com/mgstudiofinland">
             <FaInstagram className="social-icon instagram-icon"></FaInstagram>
           </a>
         </li>
