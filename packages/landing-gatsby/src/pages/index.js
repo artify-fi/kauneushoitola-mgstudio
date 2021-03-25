@@ -5,7 +5,11 @@ import Banner from '../containers/AppModern/Banner';
 import FeatureSection from '../containers/Agency/FeatureSection';
 import Pricing from '../containers/Agency/Pricing';
 import FaqSection from '../containers/Agency/FaqSection';
-import NewsletterSection from '../containers/Agency/NewsletterSection';
+import DesignedAndBuilt from '../containers/AppModern/DesignedAndBuilt'
+import EtusivuImages from '../components/etusivu/EtusivuImages'
+import NewsletterSection from '../containers/AppModern/Newsletter';
+import SimpleReactLightbox from "simple-react-lightbox";
+
 import '@redq/reuse-modal/es/index.css';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
@@ -17,11 +21,16 @@ export default () => {
       <ResetCSS />
       <GlobalStyle />
       <AgencyWrapper>
+        <SimpleReactLightbox>
         <Banner />
+        <NewsletterSection />
+        <EtusivuImages />
+        <DesignedAndBuilt />
         {/* <FeatureSection /> */}
         {/* <Pricing />
-        <FaqSection />
-        <NewsletterSection /> */}
+        <FaqSection /> */}
+       
+        </SimpleReactLightbox>       
       </AgencyWrapper>
     </Layout>
   );

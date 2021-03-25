@@ -74,8 +74,13 @@ export const BannerContent = styled.div`
     border-top: 2px solid rgba(20, 28, 45, .95);
     border-bottom: 2px solid rgba(20, 28, 45, .95);
 
-    @media only screen and (min-width: 440px) and (max-width: 998px) {
-      font-size: 2.2rem;     
+    @media only screen and (min-width: 440px) and (max-width: 680px) {
+      font-size: 2rem;     
+      margin-bottom: 6rem;
+    }
+
+    @media only screen and (min-width: 681px) and (max-width: 998px) {
+      font-size: 2.8rem;     
       margin-bottom: 6rem;
     }
 

@@ -48,11 +48,12 @@ const Navbar = () => {
 const Wrapper = styled.nav`
   position: relative;
   background-color:transparent;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
   z-index: 1;
   width: 100vw;
   height: 5rem;
   display: flex;
+  justify-items: space-evenly;
   align-items: center;
   position: fixed;
   .nav-center {
@@ -63,11 +64,13 @@ const Wrapper = styled.nav`
   .nav-header {
     color: var(--clr-white);
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; 
 
     img {
-      width: 60px;
+      display: flex;
+      width: 60px;    
+      justify-self: flex-start;
+      margin-left: 2rem;
     }
     ul,
     li {
@@ -96,7 +99,7 @@ const Wrapper = styled.nav`
   .nav-links {
     display: none;
   }
-  @media (min-width: 800px) {
+  @media (min-width: 880px) {
     .nav-header {
       .toggle-btn {
         display: none;
@@ -112,12 +115,13 @@ const Wrapper = styled.nav`
       gap: 0 1rem;
       grid-gap: 0 1rem;
       align-items: center;
-      justify-items: right;
+      justify-items: space-evenly;
       margin-top: -5.2vh;
     }
     .nav-links {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
+      justify-items: space-evenly;
       max-width: 799px;
     }
     ul {
@@ -132,8 +136,8 @@ const Wrapper = styled.nav`
 } */
     a > img {
       display: inline-block;
-      margin-top: 1.4rem;
-      margin-left: 4rem;
+     
+      margin-left: 2rem;
     }   
     button {
       color: '#f7f4f4';

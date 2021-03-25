@@ -7,42 +7,28 @@ import Button from 'common/src/components/Button';
 import Input from 'common/src/components/Input';
 import Container from 'common/src/components/UI/Container';
 
-import NewsletterWrapper, { ContactFormWrapper } from './newsletter.style';
+import NewsletterWrapper from './newsletter.style';
 
 const Newsletter = ({
   sectionWrapper,
   textArea,
-  buttonArea,
-  buttonStyle,
   title,
   description,
 }) => {
   return (
-    <Box {...sectionWrapper} as="section">
+    // <Box {...sectionWrapper} as="section">
       <NewsletterWrapper>
         <Container>
           <Box {...textArea}>
-            <Heading content="Subscribe our newsletter" {...title} />
+            <Heading content="MG Studio Kauneushoitola" {...title} />
             <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore"
+              content="MG Studiosta saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. Laajasta palveluvalikoimasta löydät muun muassa parturi-kampaajan, ripsiteknikon, kynsiteknikon, hierojan ja jalkahoitajan palveluja."
               {...description}
             />
-          </Box>
-          <Box {...buttonArea}>
-            <ContactFormWrapper>
-              <Input
-                inputType="email"
-                label="Email address"
-                iconPosition="right"
-                isMaterial={true}
-                className="email_input"
-              />
-              <Button {...buttonStyle} title="Get access" />
-            </ContactFormWrapper>
-          </Box>
+          </Box>         
         </Container>
       </NewsletterWrapper>
-    </Box>
+    // </Box>
   );
 };
 
@@ -57,38 +43,28 @@ Newsletter.propTypes = {
 
 Newsletter.defaultProps = {
   sectionWrapper: {},
-  textArea: {
-    mb: ['40px', '40px', '40px', '0', '0'],
-    pr: ['0', '0', '0', '80px', '100px'],
-  },
+  // textArea: {
+  //   mb: ['40px', '40px', '40px', '0', '0'],
+  //   pr: ['0', '0', '0', '80px', '100px'],
+  // },
   title: {
-    fontSize: ['18px', '20px', '22px', '24px', '26px'],
+    fontSize: ['1.3rem', '1.4rem', '1.5rem', '1.6rem', '1.7rem'],
     fontWeight: '500',
-    color: '#fff',
+    color: '#4f5a75',
     lineHeight: '1.34',
     mb: ['14px', '14px', '14px', '14px', '13px'],
-    textAlign: ['center', 'center', 'center', 'left', 'left'],
+    textAlign: ['center'],
     letterSpacing: '-0.025em',
   },
   description: {
-    fontSize: ['14px', '14px'],
-    maxWidth: ['100%', '400px'],
+    fontSize: ['1.1rem', '1.4rem'],
+    maxWidth: ['100%', '800px'],
     fontWeight: '400',
-    color: '#fefefe',
-    lineHeight: '1.7',
+    color: '#2d3a56',
+    lineHeight: '1.5',
     mb: 0,
-    textAlign: ['center', 'center', 'center', 'left', 'left'],
-  },
-  buttonArea: {
-    zIndex: 1,
-  },
-  buttonStyle: {
-    type: 'button',
-    fontSize: '14px',
-    fontWeight: '700',
-    pl: '30px',
-    pr: '30px',
-  },
+    textAlign: ['center'],
+  },  
 };
 
 export default Newsletter;
