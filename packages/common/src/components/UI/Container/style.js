@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 const ContainerWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
+  display: grid;
   ${(props) =>
     props.fullWidth &&
     css`

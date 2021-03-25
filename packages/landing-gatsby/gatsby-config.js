@@ -108,7 +108,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-
+    {
+      resolve: 'gatsby-plugin-react-leaflet',
+      options: {
+        linkStyles: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-webfonts`,
       options: {
@@ -153,7 +158,7 @@ module.exports = {
             },
             {
               family: `Playfair Display`,
-              variants: [`300`,`400`, `400i`, `700`,`500`, `600`, `700i`],
+              variants: [`300`, `400`, `400i`, `700`, `500`, `600`, `700i`],
             },
             {
               family: `DM Sans`,
