@@ -32,7 +32,7 @@ const Wrapper = styled.div`
 
     @media only screen and (min-width: 440px) and (max-width: 998px) {
       font-size: 2.2rem;     
-      margin-bottom: 6rem;
+      margin-bottom: 4rem;
       border-color: #f7f4f4;
     }
 

@@ -9,7 +9,7 @@ import UnderConstructor from '../../components/UnderConstruction'
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <SEO title="Hemmotteleva kuumakivihieronta" />
     <Banner />   
     <Title as='h1' title="Hemmotteleva kuumakivihieronta" /> 
     <UnderConstructor />  

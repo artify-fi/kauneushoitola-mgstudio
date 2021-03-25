@@ -13,7 +13,7 @@ import Layout from '../components/layout';
 export default () => {
   return (
     <Layout>
-      <SEO title="MG Studio" />
+      <SEO title="MG Studio Kauneushoitola Martinlaakso " />
       <ResetCSS />
       <GlobalStyle />
       <AgencyWrapper>
