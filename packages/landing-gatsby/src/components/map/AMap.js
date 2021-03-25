@@ -11,7 +11,7 @@ class AMap extends React.Component {
     this.state = {
       lng: 24.85842,
       lat: 60.25142,
-      zoom: 17,
+      zoom: 16,
     };
   }
   componentDidMount() {
@@ -44,7 +44,19 @@ class AMap extends React.Component {
       const el = document.createElement('div');
       el.className = 'marker';
       // make a marker for each feature and add to the map
-      new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
+      new mapboxgl.Marker(el)
+        .setLngLat(marker.geometry.coordinates)
+        .addTo(map)
+        .setPopup(
+          new mapboxgl.Popup({ offset: 25 }) // add popups
+            .setHTML(
+              '<h3>' +
+                marker.properties.title +
+                '</h3><p>' +
+                marker.properties.description +
+                '</p>'
+            )
+        );
     });
   }
   render() {

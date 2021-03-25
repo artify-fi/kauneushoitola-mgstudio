@@ -6,7 +6,7 @@ import { Link } from 'gatsby';
 import NavLink from './NavLink';
 import { GatsbyContext } from '../../context/context';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import SocialLinks from '../../constants/socialLinks'
+import SocialLinks from '../../constants/socialLinks';
 
 const Navbar = () => {
   const { isSidebarOpen, showSidebar, links } = useContext(GatsbyContext);
@@ -27,19 +27,19 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="mgstudio_logo" />
           </Link>
-          <SocialLinks styleClass='nav-icons' />
+          <SocialLinks styleClass="nav-icons" />
           {!isSidebarOpen && (
             <button className="toggle-btn" onClick={showSidebar}>
               <GoThreeBars />
             </button>
           )}
         </div>
-     
+
         <ul className="nav-links">
           {tempLinks.map((page, index) => {
-            return <NavLink key={index} page={page}></NavLink>;            
+            return <NavLink key={index} page={page}></NavLink>;
           })}
-        </ul>             
+        </ul>
       </div>
     </Wrapper>
   );
@@ -47,8 +47,8 @@ const Navbar = () => {
 
 const Wrapper = styled.nav`
   position: relative;
-  background-color:transparent;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
   z-index: 1;
   width: 100vw;
   height: 5rem;
@@ -64,13 +64,14 @@ const Wrapper = styled.nav`
   .nav-header {
     color: var(--clr-white);
     display: flex;
-    align-items: center; 
+    align-items: center;
 
     img {
       display: flex;
-      width: 60px;    
+      width: 60px;
       justify-self: flex-start;
       margin-left: 2rem;
+      margin-top: 0.8rem;
     }
     ul,
     li {
@@ -136,9 +137,9 @@ const Wrapper = styled.nav`
 } */
     a > img {
       display: inline-block;
-     
+
       margin-left: 2rem;
-    }   
+    }
     button {
       color: '#f7f4f4';
       font-family: 'Raleway';
