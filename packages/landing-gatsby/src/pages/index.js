@@ -7,8 +7,8 @@ import Pricing from '../containers/Agency/Pricing';
 import FaqSection from '../containers/Agency/FaqSection';
 import EtusivuImages from '../components/etusivu/EtusivuImages';
 import NewsletterSection from '../containers/AppModern/Newsletter';
+import WorkHard from '../containers/AppModern/WorkHard';
 import SimpleReactLightbox from 'simple-react-lightbox';
-
 import '@redq/reuse-modal/es/index.css';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
@@ -28,6 +28,7 @@ export default () => {
           {/* <Pricing />
         <FaqSection /> */}
         </SimpleReactLightbox>
+        <WorkHard />
       </AgencyWrapper>
     </Layout>
   );

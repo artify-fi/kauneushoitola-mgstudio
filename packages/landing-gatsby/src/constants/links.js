@@ -3,7 +3,7 @@ import {
   FaHome,
   FaDiagnoses,
   FaMailBulk,
-  FaMoneyBill,   
+  FaMoneyBill,
   FaFillDrip,
   FaHandPaper,
   FaEye,
@@ -30,6 +30,12 @@ export default [
     page: 'MEISTÄ',
     label: 'Tietoa meistä',
     url: `/tietoa-meistä/tietoa-meista/`,
+    icon: <FaUsers className="icon" />,
+  },
+  {
+    page: 'MEISTÄ',
+    label: 'Eilika',
+    url: `/tietoa-meistä/eilika/`,
     icon: <FaUsers className="icon" />,
   },
   {
@@ -73,7 +79,7 @@ export default [
     label: 'kasvohoito',
     url: `/palvelumme/kasvohoito/`,
     icon: <FaGem className="icon" />,
-  },  
+  },
   {
     page: 'PALVELUMME',
     label: 'Kynnet',
