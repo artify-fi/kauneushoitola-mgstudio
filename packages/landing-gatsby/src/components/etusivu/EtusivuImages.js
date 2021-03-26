@@ -1,6 +1,7 @@
 import React from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
-// import '../../css/App.css';
+import EtusivuImageWrapper from './etusivuimage.style';
+
 import Img1 from '../../images/etusivu/kauniit_kynnet.webp';
 import Img2 from '../../images/etusivu/kauniit_kynnet_thumb.jpg';
 import Img3 from '../../images/etusivu/kauniit_silmaripset.webp';
@@ -43,9 +44,10 @@ const options = {
 
 function EtusivuImages() {
   return (
-    <div style={{ padding: '30px' }}>
+    <EtusivuImageWrapper>
       <SRLWrapper options={options}>
         <a
+          className="zoom"
           href={Img1}
           style={{ padding: '10px' }}
           alt="kauniit_kynnet_thumbnail"
@@ -55,6 +57,7 @@ function EtusivuImages() {
         </a>
 
         <a
+          className="zoom"
           href={Img3}
           style={{ padding: '10px' }}
           alt="kauniit_silmaripset_thumbnail"
@@ -64,6 +67,7 @@ function EtusivuImages() {
         </a>
 
         <a
+          className="zoom"
           href={Img5}
           style={{ padding: '10px' }}
           alt="kauniit_varvaskynnet_thumbnail"
@@ -73,6 +77,7 @@ function EtusivuImages() {
         </a>
 
         <a
+          className="zoom"
           href={Img7}
           style={{ padding: '10px' }}
           alt="kauniit_huulet_thumbnail"
@@ -81,7 +86,7 @@ function EtusivuImages() {
           <img src={Img8} alt="Kulmien ja ripsien värjäykset" />
         </a>
       </SRLWrapper>
-    </div>
+    </EtusivuImageWrapper>
   );
 }
 export default EtusivuImages;
