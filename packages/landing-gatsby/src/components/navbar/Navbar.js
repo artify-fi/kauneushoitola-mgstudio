@@ -48,7 +48,7 @@ const Navbar = () => {
 const Wrapper = styled.nav`
   position: relative;
   background-color: transparent;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
   z-index: 1;
   width: 100vw;
   height: 5rem;
@@ -107,7 +107,7 @@ const Wrapper = styled.nav`
   .nav-links {
     display: none;
   }
-  @media (min-width: 880px) {
+  @media (min-width: 940px) {
     .nav-header {
       .toggle-btn {
         display: none;

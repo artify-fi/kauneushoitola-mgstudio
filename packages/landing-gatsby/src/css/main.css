@@ -1397,7 +1397,7 @@ Navbar
 .dribble-icon {
   color: #ea4c89;
 }
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 940px) {
   .toggle-btn {
     display: none;
   }
