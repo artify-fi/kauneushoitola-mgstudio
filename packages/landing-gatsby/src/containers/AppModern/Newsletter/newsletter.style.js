@@ -15,6 +15,16 @@ const NewsletterWrapper = styled.div`
     padding: 35px 20px;
   }
 
+  .link {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #bd5f91;
+    line-height: 1.7;
+    font-family: Playfair Display;
+    text-decoration: underline;
+  }
+
   .container {
     display: flex;
     align-items: center;

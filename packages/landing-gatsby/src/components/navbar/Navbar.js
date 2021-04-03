@@ -72,6 +72,13 @@ const Wrapper = styled.nav`
       justify-self: flex-start;
       margin-left: 2rem;
       margin-top: 0.8rem;
+      @media only screen and (max-width: 1099px) {
+        margin-top: 0rem;
+      }
+      /* @media only screen and (max-width: 480px) {
+      flex-wrap: wrap;
+      max-height: 80vh;
+    } */
     }
     ul,
     li {
@@ -137,7 +144,6 @@ const Wrapper = styled.nav`
 } */
     a > img {
       display: inline-block;
-
       margin-left: 2rem;
     }
     button {

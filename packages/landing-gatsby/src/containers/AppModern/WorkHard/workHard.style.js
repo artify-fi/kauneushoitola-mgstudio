@@ -38,13 +38,11 @@ export const Content = styled.div`
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     width: 48%;
     margin-top: 8em;
-   
   }
   @media only screen and (max-width: 768px) {
-    width: 100%; 
+    width: 100%;
     margin-top: 12em;
     margin-top: 12em;
-    
   }
 
   h2 {
@@ -64,7 +62,7 @@ export const Content = styled.div`
       margin-top: 15px;
     }
   }
-  
+
   h3 {
     font-weight: 600;
     font-size: 1.4rem;
@@ -78,7 +76,7 @@ export const Content = styled.div`
     }
     @media only screen and (max-width: 768px) {
       font-size: 1rem;
-      text-align: center;     
+      text-align: center;
     }
   }
   p {
@@ -88,7 +86,7 @@ export const Content = styled.div`
       line-height: 1.5em;
       font-size: 1.2rem;
     }
-    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    @media only screen and (min-width: 769px) and (max-width: 1023px) {
       line-height: 1.2rem;
       font-size: 1rem;
     }
@@ -99,28 +97,28 @@ export const Content = styled.div`
     }
   }
   a {
-  color: #11287c;
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-  font-weight: 500;
-  &:before {
-    background-color: #11287c;
-    content: '';
-    height: 2px;
-    position: absolute;
-    bottom: -1px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: width 0.3s ease-in-out;
-    width: 100%;
-  }
-  &:hover {
+    color: #11287c;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
     &:before {
-       width: 0;
+      background-color: #11287c;
+      content: '';
+      height: 2px;
+      position: absolute;
+      bottom: -1px;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: width 0.3s ease-in-out;
+      width: 100%;
+    }
+    &:hover {
+      &:before {
+        width: 0;
+      }
     }
   }
-}
   .explore {
     color: #2d3a56;
     font-weight: 700;
@@ -135,25 +133,7 @@ export const Content = styled.div`
       width: 100%;
       font-size: 1.2rem;
     }
-
-    /* i {
-      line-height: 1;
-      margin-left: 2px;
-      transition: 0.3s ease 0s;
-    }
-    &:hover i {
-      margin-left: 7px;
-    }
-    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-      margin-top: 15px;
-    }
-    @media only screen and (max-width: 768px) {
-      margin-top: 15px;
-    }
-    @media only screen and (max-width: 480px) {
-      margin-top: 25px;
-    }
-  } */
+  }
 `;
 
 export const Illustration = styled.figure`
@@ -168,37 +148,5 @@ export const Illustration = styled.figure`
     display: none;
   }
 `;
-/* 
-export const ListGroup = styled.div`  
-  margin-top: 30px;
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    margin-top: 25px;
-  }
-  @media only screen and (max-width: 768px) {
-    margin: 0 auto;
-    max-width: 70%;
-    margin-top: 40px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  @media only screen and (max-width: 411px) {
-    column-count: 1;
-  }
-  .list-item {
-    display: flex;
-    align-items: center;
-
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 12px;
-    }
-    img {
-      margin-right: 10px;
-    }
-    &:not(:last-child) {
-      margin-bottom: 22px;
-    }
-  }
-`; */
 
 export default SectionWrapper;

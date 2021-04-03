@@ -1,19 +1,14 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
-import { Icon } from 'react-icons-kit';
-import { chevronRight } from 'react-icons-kit/feather/chevronRight';
-
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-// import Link from 'common/src/components/Link';
 import AMap from '../../../components/map/AMap';
 
 import SectionWrapper, {
   Section,
   Content,
   Illustration,
-  ListGroup,
 } from './workHard.style';
 
 const WorkHard = () => {
