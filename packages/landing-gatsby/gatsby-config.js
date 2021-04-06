@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `MG Studio - Kauneushoitola Martinlaakso`,
+    title: `MG Studio - Kauneushoitola Malminkartano`,
     description: `MG Studiosta saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. `,
-    titleTemplate: `%s |Kauneushoitola Martinlaakso, Vantaa`,
+    titleTemplate: `%s |Kauneushoitola Malminkartano, Vantaa`,
     siteUrl: `https://www.mgstudio.fi//`,
     twitterUsername: `@mgstudio`,
     image: `logo.jpg`,
@@ -51,6 +51,15 @@ module.exports = {
       options: {
         name: `data`,
         path: `../common/src/data/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        // the only required plugin option for WordPress is the GraphQL url.
+        url:
+          process.env.WPGRAPHQL_URL ||
+          `https://hakukonestudio.artify.fi/hakukonestudio/graphql`,
       },
     },
     {

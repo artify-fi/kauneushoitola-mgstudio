@@ -93,6 +93,12 @@ export default [
     icon: <FaEye className="icon" />,
   },
   {
+    page: 'BLOGI',
+    label: 'MG Studio Blogi',
+    url: `/templates/blog-post-archive/`,
+    icon: <FaEye className="icon" />,
+  },
+  {
     page: 'HINTALISTA',
     label: 'Hintalista',
     url: `/hintalista/hintalista/`,
