@@ -45,7 +45,7 @@ const Wrapper = styled.li`
   }
   .links {
     position: absolute;
-    top: 6rem;
+    top: 5rem;
     left: 50%;
     transform: translateX(-50%);
     visibility: hidden;
