@@ -134,9 +134,64 @@ export const Content = styled.div`
       font-size: 1.2rem;
     }
   }
+
+  .image {
+    display: flex;
+    max-width: 20em;
+    margin-top: 12em;
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+      width: 20em;
+      margin-top: 10em;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      width: 48%;
+      margin-top: 8em;
+    }
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+      margin-top: 12em;
+      margin-top: 12em;
+    }
+  }
+`;
+
+export const ListGroup = styled.div`
+  column-count: 1;
+  margin-top: 30px;
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 25px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 0 auto;
+    max-width: 70%;
+    margin-top: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  @media only screen and (max-width: 411px) {
+    column-count: 1;
+  }
+  .list-item {
+    display: flex;
+    align-items: center;
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      font-size: 1.3rem;
+      color: #fff;
+    }
+    img {
+      margin-right: 16px;
+    }
+    &:not(:last-child) {
+      margin-bottom: 22px;
+    }
+  }
 `;
 
 export const Illustration = styled.figure`
+  display: flex;
+  justify-content: center;
   width: 55%;
   margin: 0 0 0 5%;
   @media only screen and (max-width: 768px) {

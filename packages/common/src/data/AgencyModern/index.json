@@ -106,27 +106,31 @@
   "workHardList": [
     {
       "id": 1,
-      "title": "Medical and vision"
+      "title": "Kampaamo-Parturi"
     },
     {
       "id": 2,
-      "title": "Life insurance"
+      "title": "Ripsienpidennykset (Klassiset, hybrid, volyymit)"
     },
     {
       "id": 3,
-      "title": "400(k) savings"
+      "title": "Kulmien ja ripsien värjäykset"
     },
     {
       "id": 4,
-      "title": "HSAs and FSAs"
+      "title": "Geelilakkaukset/ Rakennekynnet"
     },
     {
       "id": 5,
-      "title": "Commuter benefits"
+      "title": "Käsihoidot"
     },
     {
       "id": 6,
-      "title": "529 college savings"
+      "title": "Jalkahoito"
+    },
+    {
+      "id": 6,
+      "title": "Hieronnat (klassinen- ja urheiluhieronta, kuumakivihieronta"
     }
   ],
   "ultimateFeatures": [
