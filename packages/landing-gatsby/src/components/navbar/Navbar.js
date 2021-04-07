@@ -122,7 +122,7 @@ const Wrapper = styled.nav`
       grid-gap: 0 1rem;
       align-items: center;
       justify-items: flex-end;
-      margin-top: -5.2vh;
+      margin-top: -6.2vh;
       height: 5rem;
     }
     .nav-links {
