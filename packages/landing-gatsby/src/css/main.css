@@ -1432,6 +1432,7 @@ Navbar
   .nav-icons {
     display: flex;
     justify-content: space-between;
+    margin-top: 1em;
   }
   .nav-icons .social-icon {
     font-size: 3.2rem;

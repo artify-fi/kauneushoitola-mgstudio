@@ -1,36 +1,34 @@
-import React, { useContext } from "react"
+import React, { useContext } from 'react';
 
-import styled from "styled-components"
-import { Link } from "gatsby"
-import { GatsbyContext } from '../../context/context'
+import styled from 'styled-components';
+import { Link } from 'gatsby';
+import { GatsbyContext } from '../../context/context';
 
 const NavLink = ({ page }) => {
-  const { links } = useContext(GatsbyContext)
+  const { links } = useContext(GatsbyContext);
   return (
     <Wrapper>
-      <button>{page}</button>   
-     
+      <button>{page}</button>
+
       <div className="links">
         {links.map((link, index) => {
-          const { url, label, icon } = link
+          const { url, label, icon } = link;
           if (link.page === page) {
             return (
               <Link to={url} key={index}>
                 {icon}
                 {label}
               </Link>
-            )
+            );
           }
         })}
         <div className="caret"></div>
       </div>
     </Wrapper>
-  )
-
-}
+  );
+};
 
 const Wrapper = styled.li`
-  padding: 1rem 0;
   position: relative;
   button {
     color: #f7f4f4;
@@ -39,7 +37,7 @@ const Wrapper = styled.li`
     font-size: 1.3rem;
     letter-spacing: 2px;
     font-weight: 400;
-    padding: 10px 20px;
+    padding: 10px;
     width: 100%;
     text-transform: capitalize;
     position: relative;
@@ -57,8 +55,8 @@ const Wrapper = styled.li`
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem 2rem;
-    grid-gap: 1rem 4rem;   
-    // link names on the navbar >> Koti, meista jne. 
+    grid-gap: 1rem 4rem;
+    // link names on the navbar >> Koti, meista jne.
     a {
       display: grid;
       grid-template-columns: auto 1fr;
@@ -97,6 +95,6 @@ const Wrapper = styled.li`
     left: 50%;
     transform: translateX(-50%);
   }
-`
+`;
 
-export default NavLink
+export default NavLink;
