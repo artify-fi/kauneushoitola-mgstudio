@@ -1,71 +1,114 @@
 import React from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
 import Container from 'common/src/components/UI/ContainerTwo';
-import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import { Icon } from 'react-icons-kit';
-import { chevronRight } from 'react-icons-kit/feather/chevronRight';
+import {
+  FaDiagnoses,
+  FaCut,
+  FaHandPaper,
+  FaSignLanguage,
+  FaRegGrinBeam,
+  FaRegGrinStars,
+  FaRegGrinAlt,
+  FaWalking,
+} from 'react-icons/fa';
 import Image from 'common/src/components/Image';
-import List from 'common/src/components/List';
 
 import SectionWrapper, {
   Section,
   Content,
   Illustration,
   ListGroup,
+  descriptionBold,
 } from './workHard.style';
 
 import illustration from 'common/src/assets/image/agencyModern/mg-studio-logo-large.png';
 
-const WorkHard = () => {
-  const Data = useStaticQuery(graphql`
-    query {
-      Tick: file(relativePath: { eq: "image/agencyModern/tick-circle.png" }) {
-        childImageSharp {
-          fluid(quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      agencyModernJson {
-        workHardList {
-          id
-          title
-        }
-      }
-    }
-  `);
-
+const Palvelumme = () => {
   return (
     <SectionWrapper>
       <Container>
+        <Heading
+          style={{ textAlign: 'center' }}
+          className="palvelumme"
+          as="h2"
+          content="PALVELUMME"
+        />
         <Section>
-          <Content style={{ marginTop: '-3em' }}>
-            <Heading as="h2" content="PALVELUMME" />
+          <Content>
             <ListGroup>
-              {Data.agencyModernJson.workHardList.map((item) => (
-                <List
-                  className="list-item"
-                  key={item.id}
-                  text={item.title}
-                  icon={
-                    <Image
-                      fluid={
-                        (Data.Tick !== null) | undefined
-                          ? Data.Tick.childImageSharp.fluid
-                          : {}
-                      }
-                      src={Data.Tick.childImageSharp.fluid.src}
-                      objectFit="contain"
-                      alt="Tick Icon"
-                    />
-                  }
-                />
-              ))}
+              <Link
+                className="explore"
+                href="/palvelumme/naisten-hiusten-leikkaus/"
+              >
+                <FaCut className="icon" />
+                <Heading as="h3" content="Kampaamo-Parturi" />
+              </Link>
+              <br />
+
+              <Link className="explore" href="/palvelumme/ripset-kulmat/">
+                <FaRegGrinAlt className="icon" />
+                <Heading as="h3" content="Ripsienpidennykset" />
+              </Link>
+              <br />
+
+              <Link className="explore" href="/palvelumme/ripset-kulmat/">
+                <FaRegGrinBeam className="icon" />
+                <Heading as="h3" content="Kulmien värjäykset" />
+              </Link>
+              <br />
+
+              <Link className="explore" href="/palvelumme/ripset-kulmat/">
+                <FaRegGrinStars className="icon" />
+                <Heading as="h3" content="Ripsien värjäykset" />
+              </Link>
+              <br />
+
+              <Link className="explore" href="/palvelumme/kynnet/">
+                <FaHandPaper className="icon" />
+                <Heading as="h3" content="Geelilakkaukset" />
+              </Link>
+              <br />
+
+              <Link className="explore" href="/palvelumme/kynnet/">
+                <FaHandPaper className="icon" />
+                <Heading as="h3" content="Rakennekynnet" />
+              </Link>
+              <br />
+
+              <Link className="explore" href="/palvelumme/kynnet/">
+                <FaSignLanguage className="icon" />
+                <Heading as="h3" content="Käsihoidot" />
+              </Link>
+              <br />
+
+              <Link className="explore" href="/palvelumme/jalkahoito/">
+                <FaWalking className="icon" />
+                <Heading as="h3" content="Jalkahoitot" />
+              </Link>
+              <br />
+
+              <Link className="explore" href="/palvelumme/hieronta/">
+                <FaDiagnoses className="icon" />
+                <Heading as="h3" content="Klassinen Hieronta" />
+              </Link>
+              <br />
+
+              <Link className="explore" href="/palvelumme/hieronta/">
+                <FaDiagnoses className="icon" />
+                <Heading as="h3" content="Urheiluhieronta" />
+              </Link>
+              <br />
+
+              <Link
+                className="explore"
+                href="/palvelumme/hemmotteleva-kuumakivihieronta/"
+              >
+                <FaDiagnoses className="icon" />
+                <Heading as="h3" content="Kuumakivihieronta" />
+              </Link>
             </ListGroup>
-            {/* <Link className="explore" href="#">
-              Explore more <Icon icon={chevronRight} />
-            </Link> */}
           </Content>
           <Illustration>
             <Image
@@ -80,4 +123,22 @@ const WorkHard = () => {
   );
 };
 
-export default WorkHard;
+Palvelumme.propTypes = {
+  sectionWrapper: PropTypes.object,
+  descriptionBold: PropTypes.object,
+};
+
+Palvelumme.defaultProps = {
+  descriptionBold: {
+    fontSize: ['1.1rem', '1.4rem'],
+    maxWidth: ['100%', '800px'],
+    fontWeight: '700',
+    color: '#141c2d',
+    lineHeight: '1.7',
+    fontFamily: 'Playfair Display',
+    mb: 0,
+    textAlign: ['center'],
+  },
+};
+
+export default Palvelumme;

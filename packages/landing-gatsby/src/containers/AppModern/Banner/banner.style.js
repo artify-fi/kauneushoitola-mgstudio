@@ -1,19 +1,19 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-import img from '../../../images/etusivu_valokuva_large.webp'
-
+import img from '../../../images/etusivu_valokuva_large.webp';
 
 const BannerWrapper = styled.div`
   padding-top: 100px;
   min-height: 802px;
+  max-height: 120vh;
   overflow: hidden;
-  position: relative; 
+  position: relative;
   background-image: url(${img});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-    max-height: 80vh;    
+    max-height: 80vh;
   }
   @media only screen and (min-width: 1099px) and (max-width: 1200px) {
     max-height: 80vh;
@@ -28,16 +28,17 @@ const BannerWrapper = styled.div`
     align-items: center;
     justify-content: center;
     min-height: calc(802px - 100px);
+    height: 94vh;
     @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-      max-height: calc(100vh - 100px);
-      margin-top: 35px;     
+      max-height: calc(100vh - 40px);
+      margin-top: 35px;
     }
     @media only screen and (max-width: 1099px) {
-      max-height: 80vh;
+      max-height: 92vh;
     }
     @media only screen and (max-width: 480px) {
       flex-wrap: wrap;
-      max-height: 80vh;
+      max-height: 92vh;
     }
   }
   .bannerBottomShape {
@@ -64,38 +65,38 @@ export const BannerContent = styled.div`
 
   h1 {
     font-family: 'Playfair Display';
-    font-size: 1.8rem;  
+    font-size: 2.4rem;
+    letter-spacing: 2px;
     font-weight: 400;
-    color: rgba(20, 28, 45, .95);
-    padding: 0.5rem;
+    color: rgba(20, 28, 45, 0.95);
     margin-bottom: 10rem;
+    text-align: center;
     border: 2px 0 2px 0;
-    border-color: rgba(20, 28, 45, .95);
-    border-top: 2px solid rgba(20, 28, 45, .95);
-    border-bottom: 2px solid rgba(20, 28, 45, .95);
+    border-color: rgba(20, 28, 45, 0.95);
+    border-top: 2px solid rgba(20, 28, 45, 0.95);
+    border-bottom: 2px solid rgba(20, 28, 45, 0.95);
 
     @media only screen and (min-width: 440px) and (max-width: 680px) {
-      font-size: 2rem;     
+      font-size: 2rem;
       margin-bottom: 6rem;
     }
 
     @media only screen and (min-width: 681px) and (max-width: 998px) {
-      font-size: 2.8rem;     
+      font-size: 2.8rem;
       margin-bottom: 6rem;
     }
 
     @media only screen and (min-width: 999px) and (max-width: 1366px) {
-      font-size: 3.6rem;     
+      font-size: 3.6rem;
       margin-bottom: 6rem;
     }
-  
+
     @media only screen and (min-width: 1366px) {
-      font-size: 4.8rem;     
+      font-size: 4.8rem;
       margin-bottom: 6rem;
-    }  
+    }
   }
 `;
-
 
 // export const BannerImage = styled.div`
 //   flex-shrink: 0;

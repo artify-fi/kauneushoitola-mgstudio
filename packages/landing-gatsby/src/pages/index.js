@@ -10,6 +10,7 @@ import NewsletterSection from '../containers/AppModern/Newsletter';
 import Footer from '../containers/AppModern/FooterMap';
 import Palvelumme from '../containers/AppModern/Palvelumme';
 import SimpleReactLightbox from 'simple-react-lightbox';
+import AMap from '../components/map/AMap';
 import '@redq/reuse-modal/es/index.css';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
@@ -31,6 +32,7 @@ export default () => {
         </SimpleReactLightbox>
         <Palvelumme />
         <Footer />
+        <AMap />
       </AgencyWrapper>
     </Layout>
   );

@@ -22,12 +22,8 @@ const Newsletter = ({
     // <Box {...sectionWrapper} as="section">
     <NewsletterWrapper>
       <Container>
-        <Box {...textArea}>
-          <Heading
-            style={{ marginTop: '1em' }}
-            content="MG Studio Kauneushoitola"
-            {...title}
-          />
+        <Box>
+          <Heading content="MG Studio Kauneushoitola" {...title} />
           <Text
             content="MG Studiosta saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. Laajasta palveluvalikoimasta löydät muun muassa parturi-kampaajan, ripsiteknikon, kynsiteknikon, hierojan ja jalkahoitajan palveluja."
             {...description}
@@ -80,12 +76,13 @@ Newsletter.defaultProps = {
   //   pr: ['0', '0', '0', '80px', '100px'],
   // },
   title: {
-    fontSize: ['1.3rem', '1.4rem', '1.5rem', '1.6rem', '1.7rem'],
+    fontSize: ['1.6rem', '1.8rem', '2rem', '2.2rem', '2.6rem'],
     fontWeight: '500',
     color: '#BD5F91',
+    fontFamily: 'Playfair Display',
     lineHeight: '1.34em',
-    mt: ['2em', '3.4em', '3.8em'],
-    mb: ['1.6em', '2.2em', '2.6em'],
+    mt: ['1.2em', '2.4em', '2.8em'],
+    mb: ['1.6em', '1.8em', '2em'],
     textAlign: ['center'],
     letterSpacing: '-0.025em',
   },
