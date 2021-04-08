@@ -5,7 +5,7 @@ import { GoThreeBars } from 'react-icons/go';
 import { Link } from 'gatsby';
 import NavLink from './NavLink';
 import { GatsbyContext } from '../../context/context';
-import SocialLinks from '../../constants/socialLinks'
+import SocialLinks from '../../constants/socialLinks';
 
 const Navbar = () => {
   const { isSidebarOpen, showSidebar, links } = useContext(GatsbyContext);
@@ -26,19 +26,19 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="mgstudio_logo" />
           </Link>
-          <SocialLinks styleClass='nav-icons' />
+          <SocialLinks styleClass="nav-icons" />
           {!isSidebarOpen && (
             <button className="toggle-btn" onClick={showSidebar}>
               <GoThreeBars />
             </button>
           )}
         </div>
-     
+
         <ul className="nav-links">
           {tempLinks.map((page, index) => {
-            return <NavLink key={index} page={page}></NavLink>;            
+            return <NavLink key={index} page={page}></NavLink>;
           })}
-        </ul>             
+        </ul>
       </div>
     </Wrapper>
   );
@@ -46,27 +46,34 @@ const Navbar = () => {
 
 const Wrapper = styled.nav`
   position: relative;
-  background-color: transparent; 
+  background-color: transparent;
   z-index: 1;
   width: 100vw;
-  height: 6rem;
+  height: 5rem;
   display: flex;
+  justify-items: space-evenly;
   align-items: center;
-  
   position: fixed;
+
   .nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100vw;
     margin: auto auto;
     /* max-width: var(--max-width); */
   }
+
   .nav-header {
     color: var(--clr-white);
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
     img {
+      display: flex;
       width: 60px;
+      justify-self: flex-start;
+      align-self: center;
+      margin-left: 2rem;
     }
     ul,
     li {
@@ -77,6 +84,8 @@ const Wrapper = styled.nav`
       width: 3.5rem;
       height: 2.25rem;
       display: flex;
+      margin-left: 54vw;
+      margin-right: 8em;
       align-items: center;
       justify-content: center;
       font-size: 1.5rem;
@@ -95,7 +104,7 @@ const Wrapper = styled.nav`
   .nav-links {
     display: none;
   }
-  @media (min-width: 800px) {
+  @media (min-width: 940px) {
     .nav-header {
       .toggle-btn {
         display: none;
@@ -111,29 +120,31 @@ const Wrapper = styled.nav`
       gap: 0 1rem;
       grid-gap: 0 1rem;
       align-items: center;
-      justify-items: right;
+      justify-items: flex-end;
       margin-top: -4.2vh;
+      height: 5rem;
     }
     .nav-links {
       display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      max-width: 799px;
+      grid-template-columns: 62px 80px 140px 70px 122px 150px;
+      max-width: 860px;
+      justify-items: flex-end;
+      height: 5rem;
+      margin-right: 1em;
     }
     ul {
       text-decoration: none;
     }
     li {
-      margin-bottom: 2rem;
+      /* margin-bottom: 2rem; */
       position: relative;
     }
     /* ul li::marker {
     display: none;
 } */
     a > img {
-      display: inline-block;
-      margin-top: 1.4rem;
-      margin-left: 4rem;
-    }   
+      margin-top: 0.5em;
+    }
     button {
       color: '#f7f4f4';
       font-family: 'Raleway';

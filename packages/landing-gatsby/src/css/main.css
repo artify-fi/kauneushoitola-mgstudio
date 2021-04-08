@@ -1397,14 +1397,14 @@ Navbar
 .dribble-icon {
   color: #ea4c89;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 940px) {
   .toggle-btn {
     display: none;
   }
   .nav-center {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    column-gap: 2rem;
+    column-gap: 1rem;
     align-items: center;
   }
   .nav-links {
@@ -1432,6 +1432,7 @@ Navbar
   .nav-icons {
     display: flex;
     justify-content: space-between;
+    margin-top: 1em;
   }
   .nav-icons .social-icon {
     font-size: 3.2rem;

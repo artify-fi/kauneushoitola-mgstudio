@@ -8,8 +8,8 @@ import Sidebar from './sidebar/Sidebar';
 import { GatsbyContext } from '../context/context';
 import { DrawerProvider } from '../../../common/src/contexts/DrawerContext';
 import Sticky from 'react-stickynode';
-import '../css/main.css';
-// import '../css/style.css'
+import '../css/style.css';
+//import '../css/normalize.css';
 
 const Layout = ({ children }) => {
   const { isSidebarOpen } = useContext(GatsbyContext);
