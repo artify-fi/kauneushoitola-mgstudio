@@ -94,7 +94,7 @@ export default [
   },
   {
     page: 'BLOGI',
-    label: 'MG Studio Blogi',
+    label: 'Blogi',
     url: `/templates/blog-post-archive/`,
     icon: <FaEye className="icon" />,
   },

@@ -56,6 +56,7 @@ const Wrapper = styled.nav`
   justify-items: space-evenly;
   align-items: center;
   position: fixed;
+
   .nav-center {
     display: flex;
     align-items: center;
@@ -128,7 +129,7 @@ const Wrapper = styled.nav`
     .nav-links {
       display: grid;
       grid-template-columns: 62px 80px 140px 70px 122px 150px;
-      justify-items: end;
+      justify-items: flex-end;
       max-width: 860px;
       height: 5rem;
       margin-right: 1em;
