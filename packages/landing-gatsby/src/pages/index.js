@@ -8,7 +8,7 @@ import FaqSection from '../containers/Agency/FaqSection';
 import EtusivuImages from '../components/etusivu/EtusivuImages';
 import NewsletterSection from '../containers/AppModern/Newsletter';
 import Footer from '../containers/AppModern/FooterMap';
-import Palvelumme from '../containers/AppModern/Palvelumme';
+import Palvelumme from '../containers/AppModern/MeidanPalvelut';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import AMap from '../components/map/AMap';
 import '@redq/reuse-modal/es/index.css';

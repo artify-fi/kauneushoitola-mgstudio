@@ -2,40 +2,34 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
 const SectionWrapper = styled.section`
-  padding: 30px 0 130px;
-  margin-bottom: 3em;
   @media only screen and (max-width: 1440px) {
-    padding: 0px 0 100px;
-  }
-  @media only screen and (max-width: 1024px) {
-    padding: 50px 0 100px;
-  }
-  @media only screen and (max-width: 768px) {
-    padding: 20px 0 65px;
-  }
-  @media only screen and (max-width: 480px) {
-    padding: 0px 0 70px;
-    margin-top: 2em;
-  }
-
-  .palvelumme {
-    font-weight: 700;
-    font-size: 2.8rem;
-    line-height: 1.8;
-    color: #bd5f91;
-    font-family: Playfair Display;
-    letter-spacing: 3px;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    @media only screen and (max-width: 1440px) {
-      font-size: 1.4rem;
-    }
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 1.2rem;
+    @media only screen and (max-width: 1024px) {
     }
     @media only screen and (max-width: 768px) {
-      font-size: 1.4rem;
-      text-align: center;
+    }
+    @media only screen and (max-width: 480px) {
+      margin-top: 2em;
+    }
+
+    .palvelumme {
+      font-weight: 700;
+      font-size: 2.8rem;
+      line-height: 1.8;
+      color: #bd5f91;
+      font-family: Playfair Display;
+      letter-spacing: 3px;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      @media only screen and (max-width: 1440px) {
+        font-size: 1.4rem;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 1.2rem;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 1.4rem;
+        text-align: center;
+      }
     }
   }
 `;
@@ -181,9 +175,6 @@ export const ListGroup = styled.div`
   @media only screen and (max-width: 768px) {
     margin: 0 auto;
     max-width: 98%;
-    margin-top: 40px;
-    padding-top: 0;
-    padding-bottom: 0;
   }
 
   @media only screen and (max-width: 411px) {

@@ -95,7 +95,7 @@ export default [
   {
     page: 'BLOGI',
     label: 'Blogi',
-    url: `/templates/blog-post-archive/`,
+    url: `https://hakukonestudio.fi/`,
     icon: <FaEye className="icon" />,
   },
   {

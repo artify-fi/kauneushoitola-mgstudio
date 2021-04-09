@@ -31,10 +31,8 @@ export const Content1 = styled.div`
   grid-column: 1 / 2;
   width: 100%;
   @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    margin-top: 3em;
   }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    margin-top: 2em;
   }
   @media only screen and (max-width: 768px) {
     grid-column: 1 / 1;
@@ -43,56 +41,91 @@ export const Content1 = styled.div`
   h2 {
     font-family: Playfair Display, Times New Roman, serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1.9rem;
+    text-align: center;
     line-height: 1.52;
     letter-spacing: 2px;
     color: #000;
-    @media only screen and (max-width: 1440px) {
-      font-size: 1.4px;
-    }
+    text-align: center;
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 1.2rem;
-    }
-    @media only screen and (max-width: 768px) {
       font-size: 1rem;
       text-align: center;
       margin-top: 15px;
     }
+    @media only screen and (min-width: 1440px) {
+      font-size: 1.4px;
+    }
   }
 
   h3 {
-    font-weight: 600;
+    font-family: Playfair Display, Times New Roman, serif;
+    color: #9f4976;
+    text-align: center;
+    border-color: rgba(159, 73, 118, 0.5);
+    font-weight: 700;
     font-size: 1.4rem;
     line-height: 1.5em;
-    letter-spacing: -1px;
-    @media only screen and (max-width: 1440px) {
-      font-size: 1.4rempx;
-    }
+    letter-spacing: 1px;
+
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
     }
-    @media only screen and (max-width: 768px) {
-      font-size: 1rem;
+
+    @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+      font-size: 1.8rempx;
+    }
+
+    @media only screen and (min-width: 1440px) {
+      font-size: 2.2rem;
       text-align: center;
     }
   }
+
   p {
+    text-align: center;
+    font-family: Playfair Display, Times New Roman, serif;
+    color: #000;
+    font-weight: 400;
+    border-color: rgba(0, 0, 0, 0.5);
     font-size: 1.2rem;
-    line-height: 1.5rem;
-    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-      line-height: 1.5em;
-      font-size: 1.2rem;
-    }
+    line-height: 1.6rem;
+
     @media only screen and (min-width: 769px) and (max-width: 1023px) {
       line-height: 1.2rem;
       font-size: 1rem;
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+      line-height: 1.5em;
+      font-size: 1.2rem;
+    }
+
+    @media only screen and (min-width: 1367px) {
       line-height: 1.1rem;
       text-align: center;
       font-size: 0.8rem;
     }
   }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    background-color: #d80f06;
+    margin-bottom: 2em;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #bd5f91;
+    line-height: 1.7;
+    font-family: Playfair Display;
+    text-decoration: underline;
+  }
+  /* 
   a {
     color: #11287c;
     display: inline-block;
@@ -115,7 +148,7 @@ export const Content1 = styled.div`
         width: 0;
       }
     }
-  }
+  } */
   .explore {
     color: #2d3a56;
     font-weight: 700;
@@ -144,26 +177,6 @@ export const Content2 = styled.div`
   }
   @media only screen and (max-width: 768px) {
     grid-column: 1 / 1;
-  }
-
-  h2 {
-    font-family: Playfair Display, Times New Roman, serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 1.52;
-    letter-spacing: 2px;
-    color: #000;
-    @media only screen and (max-width: 1440px) {
-      font-size: 1.4px;
-    }
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 1.2rem;
-    }
-    @media only screen and (max-width: 768px) {
-      font-size: 1rem;
-      text-align: center;
-      margin-top: 15px;
-    }
   }
 
   h3 {

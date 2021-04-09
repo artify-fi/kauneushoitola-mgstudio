@@ -19,7 +19,7 @@ const ButtonStyle = styled.button`
   font-size: ${themeGet('fontSizes.4', '16')}px;
   font-weight: ${themeGet('fontWeights.4', '500')};
   text-decoration: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   padding-top: ${themeGet('space.2', '8')}px;
   padding-bottom: ${themeGet('space.2', '8')}px;
   padding-left: ${themeGet('space.4', '15')}px;
@@ -43,7 +43,8 @@ const ButtonStyle = styled.button`
 
   /* Material style goes here */
   &.is-material {
-    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
   }
 
   /* When button on loading stage */

@@ -53,15 +53,15 @@ module.exports = {
         path: `../common/src/data/`,
       },
     },
-    {
-      resolve: `gatsby-source-wordpress`,
-      options: {
-        // the only required plugin option for WordPress is the GraphQL url.
-        url:
-          process.env.WPGRAPHQL_URL ||
-          `https://hakukonestudio.artify.fi/hakukonestudio/graphql`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-wordpress`,
+    //   options: {
+    //     // the only required plugin option for WordPress is the GraphQL url.
+    //     url:
+    //       process.env.WPGRAPHQL_URL ||
+    //       `https://hakukonestudio.artify.fi/hakukonestudio/graphql`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-instagram`,
       options: {

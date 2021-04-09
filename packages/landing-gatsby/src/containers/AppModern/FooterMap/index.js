@@ -3,6 +3,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
+import Button from 'common/src/components/Button';
 
 import SectionWrapper, { Section, Content1, Content2 } from './workHard.style';
 
@@ -17,11 +18,21 @@ const WorkHard = () => {
             <Text content="Tuohiaukio 4, 00410, Helsinki, Malminkartano" />
             <Heading as="h3" content="SOITA MEILLE" />
             <Text content="(+358) 0400 9790 51" />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <a href="tel:+18475555555">
+                {' '}
+                <Button
+                  className="button"
+                  title={'Helppo yhdeydenotto klikkaamalla'}
+                />
+              </a>
+            </div>
             <div>
               <a
                 href="https://varaa.timma.fi/MGstudio"
                 target="_blank"
                 rel="noopener norefferer"
+                className="link"
               >
                 VARAA AIKA NETISSÄ
               </a>
