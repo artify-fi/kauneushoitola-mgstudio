@@ -88,9 +88,13 @@ export const Content = styled.div`
     font-size: 1.2em;
   }
   p {
-    font-size: 1.2rem;
+    font-size: clamp(
+      var(--fluid-type-min, 1rem),
+      calc(1rem + var(--fluid-type-target, 3vw)),
+      var(--fluid-type-max, 1.3rem)
+    );
     line-height: 1.5rem;
-    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    /* @media only screen and (min-width: 1024px) and (max-width: 1366px) {
       line-height: 1.5em;
       font-size: 1.2rem;
     }
@@ -102,7 +106,7 @@ export const Content = styled.div`
       line-height: 1.1rem;
       text-align: center;
       font-size: 0.8rem;
-    }
+    } */
   }
 
   a {

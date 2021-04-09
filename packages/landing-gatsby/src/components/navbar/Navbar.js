@@ -144,7 +144,7 @@ const Wrapper = styled.nav`
     display: none;
 } */
     a > img {
-      margin-top: 2.8em;
+      margin-top: 3.7em;
     }
     button {
       color: '#f7f4f4';

@@ -53,18 +53,36 @@ export default [
   {
     page: 'PALVELUMME',
     label: 'Väripaketti',
-    url: `/palvelumme/väripaketti/`,
+    url: `/palvelumme/varipaketti/`,
     icon: <FaFillDrip className="icon" />,
   },
   {
     page: 'PALVELUMME',
-    label: 'hieronta',
+    label: 'Permanentti',
+    url: `/palvelumme/permanentti/`,
+    icon: <FaFillDrip className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Airtouch',
+    url: `/palvelumme/airtouch/`,
+    icon: <FaFillDrip className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Olaplex',
+    url: `/palvelumme/olaplex/`,
+    icon: <FaFillDrip className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Hieronta',
     url: `/palvelumme/hieronta/`,
     icon: <FaDiagnoses className="icon" />,
   },
   {
     page: 'PALVELUMME',
-    label: 'jalkahoito',
+    label: 'Jalkahoito',
     url: `/palvelumme/jalkahoito/`,
     icon: <FaGem className="icon" />,
   },
@@ -76,7 +94,7 @@ export default [
   },
   {
     page: 'PALVELUMME',
-    label: 'kasvohoito',
+    label: 'Kasvohoito',
     url: `/palvelumme/kasvohoito/`,
     icon: <FaGem className="icon" />,
   },

@@ -1438,7 +1438,7 @@ Navbar
     font-size: 3.2rem;
     transition: var(--transition);
     margin-left: 3rem;
-    margin-top: 3.2rem;
+    margin-top: 3.3rem;
   }
   .nav-icons .social-icon:hover {
     color: var(--clr-primary-5);
