@@ -29,11 +29,11 @@ const BannerWrapper = styled.div`
     justify-content: center;
     min-height: calc(802px - 100px);
     height: 94vh;
-    @media only screen and (min-width: 1201px) and (max-width: 1440px) {
+    @media only screen and (min-width: 1200px) and (max-width: 1440px) {
       max-height: calc(100vh - 40px);
       margin-top: 35px;
     }
-    @media only screen and (max-width: 1099px) {
+    @media only screen and (max-width: 1199px) {
       max-height: 92vh;
     }
     @media only screen and (max-width: 480px) {
