@@ -25,6 +25,14 @@ const NewsletterWrapper = styled.div`
     text-decoration: underline;
   }
 
+  .button {
+    display: flex;
+    justify-content: center;
+    background-color: #892121;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+
   .container {
     display: flex;
     align-items: center;

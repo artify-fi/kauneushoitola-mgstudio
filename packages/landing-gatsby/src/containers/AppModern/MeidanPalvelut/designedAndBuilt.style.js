@@ -34,7 +34,6 @@ const SectionWrapper = styled.div`
     @media only screen and (max-width: 420px) {
       font-size: 2rem;
       text-align: center;
-      margin-top: 0.6em;
     }
   }
 `;

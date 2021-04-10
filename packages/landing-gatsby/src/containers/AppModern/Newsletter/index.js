@@ -31,10 +31,17 @@ const Newsletter = ({
           <br />
           <Text content="Ajanvaraus puhelimitse " {...descriptionBold} />
           <Text content="0400 9790 51 " {...descriptionPink} />
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <a href="tel:0400 9790 51">
+              {' '}
+              <Button className="button" title={'Helppo puhelu klikkaamalla'} />
+            </a>
+          </div>
           <Text
             content="tai helposti ja vaivattomasti netin kautta 24/7 "
             {...descriptionBold}
           />
+
           <div
             style={{
               textAlign: 'center',

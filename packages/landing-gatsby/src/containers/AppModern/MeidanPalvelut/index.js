@@ -27,32 +27,32 @@ const DesignedAndBuilt = () => {
       </div>
       <Container>
         {/* Heading of the section */}
-        <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image1}
-              alt="naisten hiusten leikkaus vantaa martinlaakso"
-            />
-          </div>
-          <div className="content">
-            <Heading
-              as="h2"
-              className="heading"
-              content="Naisten hiusten leikkaus"
-            />
-            <Heading
-              as="h4"
-              className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left.'
-            />
-            <Link className="link" href="/palvelumme/naisten-hiusten-leikkaus/">
-              <Button className="button" title="Lue lisää tai varaa aikaa" />
-            </Link>
-          </div>
-        </ContentWrapper>
+        {/* <ContentWrapper>
+            <div className="image">
+              <Image
+                className="image"
+                src={Image1}
+                alt="naisten hiusten leikkaus vantaa martinlaakso"
+              />
+            </div>
+            <div className="content">
+              <Heading
+                as="h2"
+                className="heading"
+                content="Naisten hiusten leikkaus"
+              />
+              <Heading
+                as="h4"
+                className="text"
+                content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left.'
+              />
+              <Link className="link" href="/palvelumme/naisten-hiusten-leikkaus/">
+                <Button className="button" title="Lue lisää tai varaa aikaa" />
+              </Link>
+            </div>
+          </ContentWrapper> */}
         {/* 2. Miesten hiusten leikkaus */}
-        <ContentWrapper>
+        {/* <ContentWrapper>
           <div className="image">
             <Image
               className="image"
@@ -75,10 +75,10 @@ const DesignedAndBuilt = () => {
               <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
-        </ContentWrapper>
+        </ContentWrapper> */}
 
         {/* 3. Varipaketti */}
-        <ContentWrapper>
+        {/* <ContentWrapper>
           <div className="image">
             <Image
               className="image"
@@ -97,9 +97,9 @@ const DesignedAndBuilt = () => {
               <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
-        </ContentWrapper>
+        </ContentWrapper> */}
         {/* 4. Permanentti */}
-        <ContentWrapper>
+        {/* <ContentWrapper>
           <div className="image">
             <Image
               className="image"
@@ -118,10 +118,10 @@ const DesignedAndBuilt = () => {
               <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
-        </ContentWrapper>
+        </ContentWrapper> */}
 
         {/* 5. Airtouch */}
-        <ContentWrapper>
+        {/* <ContentWrapper>
           <div className="image">
             <Image
               className="image"
@@ -143,10 +143,10 @@ const DesignedAndBuilt = () => {
               <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
-        </ContentWrapper>
+        </ContentWrapper> */}
 
         {/* 6. Olaplex */}
-        <ContentWrapper>
+        {/* <ContentWrapper>
           <div className="image">
             <Image
               className="image"
@@ -168,7 +168,7 @@ const DesignedAndBuilt = () => {
               <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
-        </ContentWrapper>
+        </ContentWrapper> */}
 
         {/* 7. Hemmotteleva kuumakivihieronta */}
         <ContentWrapper>

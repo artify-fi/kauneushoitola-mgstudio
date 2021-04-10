@@ -1,5 +1,4 @@
 import React from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
@@ -23,7 +22,7 @@ const WorkHard = () => {
                 {' '}
                 <Button
                   className="button"
-                  title={'Helppo yhdeydenotto klikkaamalla'}
+                  title={'Helppo puhelu klikkaamalla'}
                 />
               </a>
             </div>
@@ -34,7 +33,7 @@ const WorkHard = () => {
                 rel="noopener norefferer"
                 className="link"
               >
-                VARAA AIKA NETISSÄ
+                VARAA AIKA NETISSÄ KLIKKAAMALLA LIMKILLA
               </a>
             </div>
             <Text content="Teethän mahdolliset ajanvarauksen siirrot tai peruutukset mahdollisimman ajoissa, kuitenkin viimeistään 24 tuntia ennen varattua aikaa." />
@@ -47,12 +46,36 @@ const WorkHard = () => {
           <Content2>
             <Heading as="h2" content="Aukioloajat" />
             <Heading as="h3" content="MAANANTAI - PERJANTAI" />
-            <Text content="10.00-18.00" />
+            <Text style={{ fontWeight: 600 }} content="10.00-18.00" />
             <Heading as="h3" content="LAUANTAI" />
-            <Text content="Sopimuksen mukaan" />
-            <Heading as="h3" content="MAANANTAI - PERJANTAI" />
-            <Text content="Suljettu" />
-            <Link to="/yhteystiedot">Yhteystiedot</Link>
+            <Text style={{ fontWeight: 600 }} content="Sopimuksen mukaan" />
+            <Heading as="h3" content="SUNNUNTAI" />
+            <Text
+              style={{ marginBottom: '2em', fontWeight: 600 }}
+              content="Suljettu"
+            />
+            <Text content="Seuraa meitä facebookissa" />
+            <div>
+              <a
+                href="https://facebook.com/MGstudioFinland"
+                target="_blank"
+                rel="noopener norefferer"
+                className="link"
+              >
+                Facebook MG Studio
+              </a>
+            </div>
+            <Text content="Seuraa meitä Instagramissa" />
+            <div>
+              <a
+                href="https://instagram.com/MGstudioFinland"
+                target="_blank"
+                rel="noopener norefferer"
+                className="link"
+              >
+                Instagram MG Studio
+              </a>
+            </div>
           </Content2>
         </Section>
       </Container>
