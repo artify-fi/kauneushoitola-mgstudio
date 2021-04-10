@@ -22,12 +22,12 @@ import Image12 from '../../../images/palvelut/ripsiet_kulmat_ripsienpidennykset.
 const DesignedAndBuilt = () => {
   return (
     <SectionWrapper>
+      <div className="mainheading">
+        <Heading as="h1" className="mainheading" content="Palvelumme" />
+      </div>
       <Container>
         {/* Heading of the section */}
         <ContentWrapper>
-          <div className="content">
-            <Heading as="h1" className="mainheading" content="Palvelumme" />
-          </div>
           <div className="image">
             <Image
               className="image"
@@ -46,8 +46,8 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left.'
             />
-            <Link href="/palvelumme/naisten-hiusten-leikkaus/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link className="link" href="/palvelumme/naisten-hiusten-leikkaus/">
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -71,8 +71,8 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
             />
-            <Link href="/palvelumme/naisten-hiusten-leikkaus/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link className="link" href="/palvelumme/naisten-hiusten-leikkaus/">
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -93,8 +93,8 @@ const DesignedAndBuilt = () => {
               className="text"
               content="Kids, you tried your best and you failed miserably. The lesson is, never try. Remember the time he ate my goldfish? And you lied and said I never had goldfish. Then why did I have the bowl."
             />
-            <Link href="//palvelumme/permanentti//">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link className="link" href="//palvelumme/permanentti//">
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -114,8 +114,8 @@ const DesignedAndBuilt = () => {
               className="text"
               content="Shoplifting is a victimless crime. Like punching someone in the dark. You dont win friends with salad. Son, when you participate in sporting events, its not whether you win or lose."
             />
-            <Link href="//palvelumme/permanentti/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link className="link" href="//palvelumme/permanentti/">
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -136,8 +136,11 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!". You may remember me from such self-help tapes as '
             />
-            <Link href="/palvelumme/hemmotteleva-kuumakivihieronta/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link
+              className="link"
+              href="/palvelumme/hemmotteleva-kuumakivihieronta/"
+            >
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -158,8 +161,11 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
             />
-            <Link href="/palvelumme/hemmotteleva-kuumakivihieronta/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link
+              className="link"
+              href="/palvelumme/hemmotteleva-kuumakivihieronta/"
+            >
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -184,8 +190,11 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
             />
-            <Link href="/palvelumme/hemmotteleva-kuumakivihieronta/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link
+              className="link"
+              href="/palvelumme/hemmotteleva-kuumakivihieronta/"
+            >
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -206,8 +215,8 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
             />
-            <Link href="/palvelumme/hieronta/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link className="link" href="/palvelumme/hieronta/">
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -232,8 +241,8 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
             />
-            <Link href="/palvelumme/kasvohoito/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link className="link" href="/palvelumme/kasvohoito/">
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -254,8 +263,8 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
             />
-            <Link href="/palvelumme/kynnet/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link className="link" href="/palvelumme/kynnet/">
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -276,8 +285,8 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
             />
-            <Link href="/palvelumme/jalkahoito/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link className="link" href="/palvelumme/jalkahoito/">
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>
@@ -302,8 +311,8 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me with.'
             />
-            <Link href="/palvelumme/ripset-kulmat/">
-              <Button title="Lue lisää tai varaa aikaa" />
+            <Link className="link" href="/palvelumme/ripset-kulmat/">
+              <Button className="button" title="Lue lisää tai varaa aikaa" />
             </Link>
           </div>
         </ContentWrapper>

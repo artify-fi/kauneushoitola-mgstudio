@@ -1,11 +1,10 @@
 import styled from 'styled-components';
-import { themeGet } from '@styled-system/theme-get';
 import img from '../../../images/etusivu_valokuva_large.webp';
 
 const BannerWrapper = styled.div`
   padding-top: 100px;
   min-height: 802px;
-  max-height: 120vh;
+  max-height: 90vh;
   overflow: hidden;
   position: relative;
   background-image: url(${img});
@@ -13,14 +12,14 @@ const BannerWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-    max-height: 80vh;
+    max-height: 98vh;
   }
   @media only screen and (min-width: 1099px) and (max-width: 1200px) {
-    max-height: 80vh;
+    max-height: 98vh;
   }
   @media only screen and (max-width: 480px) {
     padding-top: 90px;
-    max-height: 90vh;
+    max-height: 98vh;
   }
 
   > div.container {
@@ -34,11 +33,11 @@ const BannerWrapper = styled.div`
       margin-top: 35px;
     }
     @media only screen and (max-width: 1199px) {
-      max-height: 92vh;
+      max-height: 98vh;
     }
     @media only screen and (max-width: 480px) {
       flex-wrap: wrap;
-      max-height: 92vh;
+      max-height: 98vh;
     }
   }
   .bannerBottomShape {
@@ -69,7 +68,8 @@ export const BannerContent = styled.div`
     letter-spacing: 2px;
     font-weight: 400;
     color: rgba(20, 28, 45, 0.95);
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
+    padding-bottom: 0.3em;
     text-align: center;
     border: 2px 0 2px 0;
     border-color: rgba(20, 28, 45, 0.95);
@@ -77,158 +77,25 @@ export const BannerContent = styled.div`
     border-bottom: 2px solid rgba(20, 28, 45, 0.95);
 
     @media only screen and (min-width: 440px) and (max-width: 680px) {
-      font-size: 2rem;
-      margin-bottom: 6rem;
+      font-size: 2.6rem;
+      margin-bottom: 12rem;
     }
 
     @media only screen and (min-width: 681px) and (max-width: 998px) {
-      font-size: 2.8rem;
-      margin-bottom: 6rem;
+      font-size: 3rem;
+      margin-bottom: 12rem;
     }
 
     @media only screen and (min-width: 999px) and (max-width: 1366px) {
-      font-size: 3.6rem;
-      margin-bottom: 6rem;
+      font-size: 3.8rem;
+      margin-bottom: 12rem;
     }
 
     @media only screen and (min-width: 1366px) {
-      font-size: 4.8rem;
-      margin-bottom: 6rem;
+      font-size: 4.2rem;
+      margin-bottom: 12rem;
     }
   }
 `;
 
-// export const BannerImage = styled.div`
-//   flex-shrink: 0;
-//   img {
-//     margin-left: -40px;
-//     margin-top: 50px;
-//     @media only screen and (max-width: 1440px) {
-//       margin-top: 0px;
-//     }
-//   }
-//   @media only screen and (max-width: 1199px) {
-//     display: none;
-//   }
-// `;
-
-// export const ButtonGroup = styled.div`
-//   margin-top: 35px;
-
-//   .reusecore__button {
-//     text-transform: inherit;
-//     border-radius: 5px;
-//     padding-left: 16px;
-//     padding-right: 16px;
-
-//     &.primary {
-//       background-color: ${themeGet('colors.white', '#fff')};
-//       color: rgb(15, 33, 55);
-//       font-size: 16px;
-//       letter-spacing: -0.1px;
-//       &:hover {
-//         box-shadow: #1e2a4a 0px 12px 24px -10px;
-//       }
-//     }
-
-//     &.text {
-//       font-size: 16px;
-//       color: ${themeGet('colors.white', '#fff')};
-//       letter-spacing: -0.1px;
-//       font-weight: 500;
-//       .btn-icon {
-//         i {
-//           color: #fff;
-//         }
-//         svg {
-//           width: auto;
-//           height: 25px;
-//         }
-//       }
-//     }
-//   }
-// `;
-// export const VideoGroup = styled.div`
-//   display: flex;
-//   margin-top: 60px;
-//   @media only screen and (max-width: 768px) {
-//     margin-top: 45px;
-//   }
-//   @media only screen and (max-width: 600px) {
-//     flex-direction: column;
-//   }
-//   img {
-//     margin-right: 10px;
-//     max-width: 100%;
-//     object-fit: cover;
-//     cursor: pointer;
-//     height: 100%;
-//     @media only screen and (max-width: 600px) {
-//       margin-right: 0;
-//       margin-bottom: 15px;
-//     }
-//   }
-// `;
-// export const VideoWrapper = styled.div`
-//   max-width: 100%;
-//   width: 900px;
-//   position: relative;
-//   &:before {
-//     content: '';
-//     display: block;
-//     padding-top: 56.25%;
-//   }
-//   iframe {
-//     width: 100%;
-//     height: 100%;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//   }
-// `;
-// export const CustomerWrapper = styled.div`
-//   max-width: 850px;
-//   padding: 0px 0 70px;
-//   width: 100%;
-//   margin: 0 auto;
-//   display: flex;
-//   align-items: center;
-//   @media only screen and (max-width: 1440px) {
-//     padding: 0px 0 55px;
-//   }
-//   @media only screen and (max-width: 1099px) {
-//     padding: 55px 0 55px;
-//     max-width: 920px;
-//   }
-//   @media only screen and (max-width: 991px) {
-//     padding: 40px 0;
-//   }
-//   @media only screen and (max-width: 600px) {
-//     padding: 25px 0 40px;
-//   }
-
-//   p {
-//     margin: 0 12px 0 0;
-//     color: ${themeGet('colors.menu', '#0D233E')};
-//     @media only screen and (max-width: 991px) {
-//       display: none;
-//     }
-//   }
-// `;
-
-// export const ImageWrapper = styled.div`
-//   display: flex;
-//   align-items: center;
-//   @media only screen and (max-width: 991px) {
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     margin: 0 auto;
-//   }
-//   img {
-//     margin: 0 12px;
-//     @media only screen and (max-width: 667px) {
-//       margin: 5px 10px;
-//     }
-//   }
-// `;
 export default BannerWrapper;

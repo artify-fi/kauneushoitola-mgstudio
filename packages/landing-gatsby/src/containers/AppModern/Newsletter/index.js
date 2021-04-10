@@ -90,7 +90,7 @@ Newsletter.defaultProps = {
     fontSize: ['1rem', '1.3rem'],
     maxWidth: ['100%', '800px'],
     fontWeight: '400',
-    color: '#2d3a56',
+    color: '#1c273d',
     fontFamily: 'Playfair Display',
     lineHeight: '1.5',
     mb: 0,
