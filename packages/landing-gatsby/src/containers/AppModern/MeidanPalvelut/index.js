@@ -6,48 +6,53 @@ import Button from 'common/src/components/Button';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
-import Image1 from '../../../images/palvelut/naisten_hiusten_leikkaus.jpg';
-import Image2 from '../../../images/palvelut/miesten_hiusten_leikkaus.jpg';
+// import Image1 from '../../../images/palvelut/naisten_hiusten_leikkaus.jpg';
+// import Image2 from '../../../images/palvelut/miesten_hiusten_leikkaus.jpg';
 import Image3 from '../../../images/palvelut/varipaketti.jpg';
-import Image4 from '../../../images/palvelut/permanentti.jpg';
-import Image5 from '../../../images/palvelut/airtouch.jpg';
-import Image6 from '../../../images/palvelut/olaplex.jpeg';
+// import Image4 from '../../../images/palvelut/permanentti.jpg';
+// import Image5 from '../../../images/palvelut/airtouch.jpg';
+// import Image6 from '../../../images/palvelut/olaplex.jpeg';
 import Image7 from '../../../images/palvelut/hemmotteleva_kuumakivihieronta.jpg';
 import Image8 from '../../../images/palvelut/hieronta.jpg';
 import Image9 from '../../../images/palvelut/kasvohoito.jpg';
 import Image10 from '../../../images/palvelut/kynnet.jpg';
 import Image11 from '../../../images/palvelut/jalkahoito.jpg';
 import Image12 from '../../../images/palvelut/ripsiet_kulmat_ripsienpidennykset.jpg';
+import { Icon } from 'react-icons-kit';
+import { chevronRight } from 'react-icons-kit/feather/chevronRight';
 
 const DesignedAndBuilt = () => {
   return (
     <SectionWrapper id="palvelut">
       <Container>
         {/* Heading of the section */}
-        {/* <ContentWrapper>
-            <div className="image">
-              <Image
-                className="image"
-                src={Image1}
-                alt="naisten hiusten leikkaus vantaa martinlaakso"
-              />
-            </div>
-            <div className="content">
-              <Heading
-                as="h2"
-                className="heading"
-                content="Naisten hiusten leikkaus"
-              />
-              <Heading
-                as="h4"
-                className="text"
-                content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left.'
-              />
-              <Link className="link" href="/palvelumme/naisten-hiusten-leikkaus/">
-                <Button className="button" title="Lue lisää tai varaa aikaa" />
-              </Link>
-            </div>
-          </ContentWrapper> */}
+        <ContentWrapper style={{ marginTop: '-1em' }}>
+          <div className="image">
+            <Image
+              className="image"
+              src={Image3}
+              alt="naisten hiusten leikkaus vantaa martinlaakso"
+            />
+          </div>
+          <div className="content">
+            <Heading
+              as="h2"
+              className="heading"
+              content="Naisten hiusten leikkaus"
+            />
+            <Heading
+              as="h4"
+              className="text"
+              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left.'
+            />
+            <Link
+              className="explore"
+              href="/palvelumme/naisten-hiusten-leikkaus/"
+            >
+              Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
+            </Link>
+          </div>
+        </ContentWrapper>
         {/* 2. Miesten hiusten leikkaus */}
         {/* <ContentWrapper>
           <div className="image">

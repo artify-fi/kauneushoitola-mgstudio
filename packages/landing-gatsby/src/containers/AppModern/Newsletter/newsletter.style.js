@@ -25,6 +25,13 @@ const NewsletterWrapper = styled.div`
     text-decoration: underline;
   }
 
+  .phone {
+    display: flex;
+    justify-content: center;
+    width: 3.4em;
+    margin-bottom: 2em;
+  }
+
   .button {
     display: flex;
     justify-content: center;

@@ -13,7 +13,7 @@ const SectionWrapper = styled.div`
     justify-content: center;
     align-items: center;
     font-family: Playfair Display;
-    color: #bd5f91;
+    color: #ff3f66;
     font-size: 3.2rem;
     line-height: 1.4em;
     margin-top: 2.6em;
@@ -34,6 +34,7 @@ const SectionWrapper = styled.div`
     @media only screen and (max-width: 480px) {
       font-size: 2rem;
       text-align: center;
+      margin-top: 1.4em;
     }
   }
 `;

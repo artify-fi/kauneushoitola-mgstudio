@@ -6,6 +6,8 @@ import Heading from 'common/src/components/Heading';
 import Button from 'common/src/components/Button';
 import Input from 'common/src/components/Input';
 import Container from 'common/src/components/UI/Container';
+import Img from 'common/src/components/Image';
+import phone from '../../../images/phone.png';
 
 import NewsletterWrapper from './newsletter.style';
 
@@ -32,9 +34,9 @@ const Newsletter = ({
           <Text content="Ajanvaraus puhelimitse " {...descriptionBold} />
           <Text content="0400 9790 51 " {...descriptionPink} />
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <a href="tel:0400 9790 51">
+            <a href="tel:+358400979051">
               {' '}
-              <Button className="button" title={'Helppo puhelu klikkaamalla'} />
+              <Img className="phone" src={phone} />
             </a>
           </div>
           <Text
@@ -85,7 +87,7 @@ Newsletter.defaultProps = {
   title: {
     fontSize: ['1.6rem', '1.6rem', '1.8rem', '2rem', '2.2rem'],
     fontWeight: '500',
-    color: '#BD5F91',
+    color: '#ff3f66',
     fontFamily: 'Playfair Display',
     lineHeight: '1.34em',
     mt: ['1.2em', '2.4em', '2.8em'],
@@ -117,7 +119,7 @@ Newsletter.defaultProps = {
     fontSize: ['1.1rem', '1.4rem'],
     maxWidth: ['100%', '800px'],
     fontWeight: '700',
-    color: '#BD5F91',
+    color: '#ff3f66',
     lineHeight: '1.7',
     fontFamily: 'Playfair Display',
     mb: 0,

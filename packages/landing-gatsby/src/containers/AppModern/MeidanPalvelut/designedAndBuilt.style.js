@@ -7,10 +7,10 @@ const SectionWrapper = styled.div`
   justify-content: center;
   padding: 6px 0;
   @media only screen and (max-width: 1366px) {
-    padding: 60px 0;
+    padding: 0;
   }
   @media only screen and (max-width: 667px) {
-    padding: 45px 0;
+    padding: 0;
   }
 `;
 
@@ -120,6 +120,22 @@ export const ContentWrapper = styled.div`
     align-items: center;
     justify-items: center;
     background-color: #ff3f66;
+  }
+
+  .explore {
+    color: #ff3f66;
+  }
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 42px;
+  margin-top: 30px;
+  display: inline-flex;
+  align-items: center;
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+    font-size: 1.2rem;
+    /* margin-left: -50px; */
+    width: 100%;
   }
 
   .reusecore__button {

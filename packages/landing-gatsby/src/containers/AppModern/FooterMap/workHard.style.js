@@ -116,6 +116,13 @@ export const Content1 = styled.div`
     }
   }
 
+  .phone {
+    display: flex;
+    justify-content: center;
+    width: 3.4em;
+    margin-bottom: 2em;
+  }
+
   .link {
     display: flex;
     justify-content: center;

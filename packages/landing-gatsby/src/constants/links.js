@@ -44,12 +44,12 @@ export default [
     url: `/tietoa-meistä/eilika/`,
     icon: <FaUsers className="icon" />,
   },
-  // {
-  //   page: 'PALVELUMME',
-  //   label: 'Naisten hiusten leikkaus',
-  //   url: `/palvelumme/naisten-hiusten-leikkaus/`,
-  //   icon: <FaUser className="icon" />,
-  // },
+  {
+    page: 'PALVELUMME',
+    label: 'Kampaaja(oppilastyö)',
+    url: `/palvelumme/naisten-hiusten-leikkaus/`,
+    icon: <FaUser className="icon" />,
+  },
   // {
   //   page: 'PALVELUMME',
   //   label: 'Miesten hiusten leikkaus',
