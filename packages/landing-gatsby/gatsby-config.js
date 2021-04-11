@@ -116,6 +116,14 @@ module.exports = {
         trackingId: 'UA-180499768-1',
       },
     },
+    {
+      resolve: 'gatsby-plugin-social9-socialshare',
+      options: {
+        content: '29d2779c013d4b8f9b989bd2f4cad535',
+        async: true,
+        defer: true,
+      },
+    },
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-webfonts`,

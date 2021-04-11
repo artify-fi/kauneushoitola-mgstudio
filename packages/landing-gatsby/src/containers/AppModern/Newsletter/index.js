@@ -83,7 +83,7 @@ Newsletter.defaultProps = {
   //   pr: ['0', '0', '0', '80px', '100px'],
   // },
   title: {
-    fontSize: ['1.6rem', '1.8rem', '2rem', '2.2rem', '2.6rem'],
+    fontSize: ['1.6rem', '1.6rem', '1.8rem', '2rem', '2.2rem'],
     fontWeight: '500',
     color: '#BD5F91',
     fontFamily: 'Playfair Display',

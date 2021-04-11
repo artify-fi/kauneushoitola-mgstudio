@@ -3,6 +3,19 @@ import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import Button from 'common/src/components/Button';
+import FaPhone from 'react-icons/fa';
+import FacebookIframe from '../../../components/facebook/FacebookIframe';
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  FacebookShareCount,
+} from 'react-share';
+import ReactFBLike from 'react-fb-like';
+// import {
+//   FacebookShareCount,
+//   FacebookShareButton,
+
+// } from 'react-share';
 
 import SectionWrapper, { Section, Content1, Content2 } from './workHard.style';
 
@@ -12,18 +25,26 @@ const WorkHard = () => {
       <Container>
         <Section>
           <Content1>
+            <FacebookIframe />
+            {/* <ReactFBLike 
+            language="fi_FI" 
+            appId="717589285046812" 
+            version="v2.12"
+            width='160'            
+            />  */}
             <Text id="footer" style={{ marginBottom: '5em' }} content="" />
             <Heading as="h2" content="MG Studio" />
             <Heading id="footer" as="h3" content="TULE KÄYMÄÄN" />
             <Text content="Tuohiaukio 4, 00410, Helsinki, Malminkartano" />
             <Heading as="h3" content="SOITA MEILLE" />
-            <Text content="(+358) 0400 9790 51" />
+            {/* <Text content="(+358) 0400 9790 51" /> */}
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <a href="tel:+18475555555">
+              <a href="tel:+358400979051">
                 {' '}
                 <Button
+                  icon={FaPhone}
                   className="button"
-                  title={'Helppo puhelu klikkaamalla'}
+                  title={'0400 9790 51'}
                 />
               </a>
             </div>
@@ -37,6 +58,18 @@ const WorkHard = () => {
                 VARAA AIKA NETISSÄ KLIKKAAMALLA LIMKILLA
               </a>
             </div>
+            <FacebookShareButton
+              url={'https://www.facebook.com/art.bachmann'}
+              quote={'CampersTribe - World is yours to explore'}
+              hashtag="#camperstribe"
+              // className={classes.socialMediaButton}
+            >
+              <FacebookIcon size={36} />
+            </FacebookShareButton>
+            <FacebookShareCount
+              url={'https://www.facebook.com/art.bachmann'}
+            ></FacebookShareCount>
+
             <Text content="Teethän mahdolliset ajanvarauksen siirrot tai peruutukset mahdollisimman ajoissa, kuitenkin viimeistään 24 tuntia ennen varattua aikaa." />
             <Text
               style={{ fontWeight: 600, marginTop: '-1em' }}

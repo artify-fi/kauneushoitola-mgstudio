@@ -65,7 +65,7 @@ export const Content = styled.div`
     justify-content: flex-start;
     align-items: center;
     font-family: Playfair Display;
-    color: #bd5f91;
+    color: #ff3f66;
     font-size: 2.2rem;
     line-height: 1.4em;
     margin-top: 2.6em;

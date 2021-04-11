@@ -19,7 +19,7 @@ const NewsletterWrapper = styled.div`
     text-align: center;
     font-size: 1.3rem;
     font-weight: 700;
-    color: #bd5f91;
+    color: #ff3f66;
     line-height: 1.7;
     font-family: Playfair Display;
     text-decoration: underline;
@@ -28,7 +28,8 @@ const NewsletterWrapper = styled.div`
   .button {
     display: flex;
     justify-content: center;
-    background-color: #892121;
+    color: #000;
+    background-color: #ff3f66;
     margin-bottom: 2em;
     margin-top: 1em;
   }

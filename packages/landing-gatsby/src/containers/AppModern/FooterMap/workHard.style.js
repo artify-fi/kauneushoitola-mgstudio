@@ -58,7 +58,7 @@ export const Content1 = styled.div`
 
   h3 {
     font-family: Playfair Display, Times New Roman, serif;
-    color: #9f4976;
+    color: #ff3f66;
     text-align: center;
     border-color: rgba(159, 73, 118, 0.5);
     font-weight: 700;
@@ -108,8 +108,12 @@ export const Content1 = styled.div`
   .button {
     display: flex;
     justify-content: center;
-    background-color: #892121;
+    color: #000;
+    background-color: #ff3f66;
     margin-bottom: 2em;
+    &:hover {
+      background-color: #f4899e;
+    }
   }
 
   .link {
@@ -120,15 +124,20 @@ export const Content1 = styled.div`
     font-family: DM Sans;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #bd5f91;
+    color: #ff3f66;
     line-height: 1.7;
     font-family: Playfair Display;
     text-decoration: underline;
     word-spacing: 0.1em;
   }
 
+  .align {
+    display: flex;
+    align-items: center;
+  }
+
   .explore {
-    color: #2d3a56;
+    color: #ff3f66;
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 42px;
@@ -178,7 +187,7 @@ export const Content2 = styled.div`
 
   h3 {
     font-family: Playfair Display, Times New Roman, serif;
-    color: #9f4976;
+    color: #ff3f66;
     text-align: center;
     border-color: rgba(159, 73, 118, 0.5);
     font-weight: 700;
@@ -226,9 +235,10 @@ export const Content2 = styled.div`
   }
 
   .button {
+    color: #000;
     display: flex;
     justify-content: center;
-    background-color: #d80f06;
+    background-color: #ff3f66;
     margin-bottom: 2em;
   }
 
@@ -239,14 +249,14 @@ export const Content2 = styled.div`
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #bd5f91;
+    color: #ff3f66;
     line-height: 1.7;
     font-family: Playfair Display;
     text-decoration: underline;
   }
 
   .explore {
-    color: #2d3a56;
+    color: #ff3f66;
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 42px;

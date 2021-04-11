@@ -57,7 +57,7 @@ export const ContentWrapper = styled.div`
     display: flex;
     justify-content: center;
     font-family: Playfair Display;
-    color: #bd5f91;
+    color: #ff3f66;
     font-size: 2.2rem;
     line-height: 2.4px;
     font-weight: 700;
@@ -119,13 +119,13 @@ export const ContentWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-items: center;
-    background-color: #9b2925;
+    background-color: #ff3f66;
   }
 
   .reusecore__button {
     border-radius: 5px;
     &:hover {
-      background-color: #9f4976;
+      background-color: #f4899e;
     }
   }
 `;
