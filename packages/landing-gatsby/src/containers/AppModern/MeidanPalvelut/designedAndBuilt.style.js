@@ -12,33 +12,6 @@ const SectionWrapper = styled.div`
   @media only screen and (max-width: 667px) {
     padding: 45px 0;
   }
-  .mainheading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Playfair Display;
-    color: #bd5f91;
-    font-size: 3.2rem;
-    line-height: 3.4em;
-    font-weight: 700;
-    letter-spacing: -1px;
-    align-self: center;
-    @media only screen and (max-width: 1366px) {
-      font-size: 2.8rem;
-    }
-    @media only screen and (max-width: 991px) {
-      font-size: 2.6rem;
-      line-height: 38px;
-    }
-    @media only screen and (max-width: 768px) {
-      font-size: 2.4rem;
-      text-align: center;
-    }
-    @media only screen and (max-width: 480px) {
-      font-size: 2rem;
-      text-align: center;
-    }
-  }
 `;
 
 export const ContentWrapper = styled.div`
@@ -51,29 +24,30 @@ export const ContentWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 34vw;
+    width: 500px;
+    padding: 1em;
+    margin-right: 4em;
     @media only screen and (max-width: 1366px) {
-      width: 36vw;
-      padding: 1em;
+      width: 40vw;
+      margin-right: 0.2em;
     }
     @media only screen and (max-width: 991px) {
-      width: 36vw;
     }
     @media only screen and (max-width: 768px) {
-      width: 42vw;
     }
     @media only screen and (max-width: 420px) {
-      width: 80vw;
+      width: 96vw;
     }
   }
   .content {
-    width: 36vw;
-    padding: 2em 0;
+    width: 480px;
+    padding: 1em;
+    @media only screen and (max-width: 1366px) {
+      width: 40vw;
+    }
     @media only screen and (max-width: 991px) {
-      width: 36vw;
     }
     @media only screen and (max-width: 768px) {
-      width: 36vw;
     }
     @media only screen and (max-width: 480px) {
       width: 98vw;

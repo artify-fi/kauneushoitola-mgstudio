@@ -12,8 +12,9 @@ const WorkHard = () => {
       <Container>
         <Section>
           <Content1>
+            <Text id="footer" style={{ marginBottom: '5em' }} content="" />
             <Heading as="h2" content="MG Studio" />
-            <Heading as="h3" content="TULE KÄYMÄÄN" />
+            <Heading id="footer" as="h3" content="TULE KÄYMÄÄN" />
             <Text content="Tuohiaukio 4, 00410, Helsinki, Malminkartano" />
             <Heading as="h3" content="SOITA MEILLE" />
             <Text content="(+358) 0400 9790 51" />
@@ -44,7 +45,11 @@ const WorkHard = () => {
           </Content1>
 
           <Content2>
-            <Heading as="h2" content="Aukioloajat" />
+            <Heading
+              style={{ marginTop: '1.6em' }}
+              as="h2"
+              content="Aukioloajat"
+            />
             <Heading as="h3" content="MAANANTAI - PERJANTAI" />
             <Text style={{ fontWeight: 600 }} content="10.00-18.00" />
             <Heading as="h3" content="LAUANTAI" />

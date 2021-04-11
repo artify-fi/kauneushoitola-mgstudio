@@ -20,12 +20,18 @@ export default [
     icon: <FaHome className="icon" />,
   },
   // example
-  // {
-  //   page: 'MEISTÄ',
-  //   label: 'Tietoa meistä',
-  //   url: `/#pricing`,
-  //   icon: <FaObjectGroup className="icon" />,
-  // },
+  {
+    page: 'KOTI',
+    label: 'Palvelumme',
+    url: `/#palvelumme`,
+    icon: <FaUsers className="icon" />,
+  },
+  {
+    page: 'KOTI',
+    label: 'Yhteystiedot',
+    url: `/#footer`,
+    icon: <FaUsers className="icon" />,
+  },
   {
     page: 'MEISTÄ',
     label: 'Tietoa meistä',

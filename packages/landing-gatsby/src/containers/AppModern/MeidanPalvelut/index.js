@@ -21,10 +21,7 @@ import Image12 from '../../../images/palvelut/ripsiet_kulmat_ripsienpidennykset.
 
 const DesignedAndBuilt = () => {
   return (
-    <SectionWrapper>
-      <div className="mainheading">
-        <Heading as="h1" className="mainheading" content="Palvelumme" />
-      </div>
+    <SectionWrapper id="palvelut">
       <Container>
         {/* Heading of the section */}
         {/* <ContentWrapper>
@@ -180,11 +177,7 @@ const DesignedAndBuilt = () => {
             />
           </div>
           <div className="content">
-            <Heading
-              as="h2"
-              className="heading"
-              content="Hemmotteleva kuumakivihieronta"
-            />
+            <Heading as="h2" className="heading" content="Kuumakivihieronta" />
             <Heading
               as="h4"
               className="text"
