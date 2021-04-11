@@ -23,7 +23,7 @@ const BlockWrapper = styled.div`
     padding-bottom: 10px;
   }
   @media only screen and (max-width: 480px) {
-    padding: 10px;
+    padding: 3em;
     background-size: cover;
     margin-bottom: 40px;
   }

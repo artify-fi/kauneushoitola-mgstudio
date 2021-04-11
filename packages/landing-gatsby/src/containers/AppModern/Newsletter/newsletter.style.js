@@ -29,7 +29,7 @@ const NewsletterWrapper = styled.div`
     display: flex;
     justify-content: center;
     width: 3.4em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
 
   .button {

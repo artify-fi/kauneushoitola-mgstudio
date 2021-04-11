@@ -46,7 +46,7 @@ const WorkHard = () => {
 
           <Content2>
             <Heading
-              style={{ marginTop: '1.6em' }}
+              style={{ marginTop: '2.2em' }}
               as="h2"
               content="Aukioloajat"
             />

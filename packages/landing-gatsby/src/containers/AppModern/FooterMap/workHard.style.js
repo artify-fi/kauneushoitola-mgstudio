@@ -40,19 +40,19 @@ export const Content1 = styled.div`
   h2 {
     font-family: Playfair Display, Times New Roman, serif;
     font-weight: 700;
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     text-align: center;
     line-height: 1.52;
     letter-spacing: 2px;
     color: #000;
     text-align: center;
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 1rem;
+      font-size: 1.6rem;
       text-align: center;
       margin-top: 15px;
     }
     @media only screen and (min-width: 1440px) {
-      font-size: 1.4px;
+      font-size: 1.6rem;
     }
   }
 
@@ -62,16 +62,16 @@ export const Content1 = styled.div`
     text-align: center;
     border-color: rgba(159, 73, 118, 0.5);
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.5em;
     letter-spacing: 1px;
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 1.6rem;
+      font-size: 1.3rem;
     }
 
     @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-      font-size: 1.8rempx;
+      font-size: 1.5rempx;
     }
 
     @media only screen and (min-width: 1440px) {
@@ -104,7 +104,7 @@ export const Content1 = styled.div`
       font-size: 0.8rem;
     }
   }
-
+  /* 
   .button {
     display: flex;
     justify-content: center;
@@ -114,7 +114,7 @@ export const Content1 = styled.div`
     &:hover {
       background-color: #f4899e;
     }
-  }
+  } */
 
   .phone {
     display: flex;
@@ -176,19 +176,19 @@ export const Content2 = styled.div`
   h2 {
     font-family: Playfair Display, Times New Roman, serif;
     font-weight: 700;
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     text-align: center;
-    line-height: 1.52;
+
     letter-spacing: 2px;
     color: #000;
     text-align: center;
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 1rem;
+      font-size: 1.6rem;
       text-align: center;
-      margin-top: 15px;
+      margin-top: -2em;
     }
     @media only screen and (min-width: 1440px) {
-      font-size: 1.4px;
+      font-size: 1.6rem;
     }
   }
 
@@ -198,16 +198,16 @@ export const Content2 = styled.div`
     text-align: center;
     border-color: rgba(159, 73, 118, 0.5);
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.5em;
     letter-spacing: 1px;
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 1.6rem;
+      font-size: 1.3rem;
     }
 
     @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-      font-size: 1.8rempx;
+      font-size: 1.5rempx;
     }
 
     @media only screen and (min-width: 1440px) {
@@ -240,14 +240,14 @@ export const Content2 = styled.div`
       font-size: 0.8rem;
     }
   }
-
+  /* 
   .button {
     color: #000;
     display: flex;
     justify-content: center;
     background-color: #ff3f66;
     margin-bottom: 2em;
-  }
+  } */
 
   .link {
     display: flex;

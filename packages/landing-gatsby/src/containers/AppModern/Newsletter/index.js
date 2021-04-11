@@ -33,7 +33,13 @@ const Newsletter = ({
           <br />
           <Text content="Ajanvaraus puhelimitse " {...descriptionBold} />
           <Text content="0400 9790 51 " {...descriptionPink} />
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              marginTop: '1em',
+            }}
+          >
             <a href="tel:+358400979051">
               {' '}
               <Img className="phone" src={phone} />

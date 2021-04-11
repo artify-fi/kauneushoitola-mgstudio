@@ -126,14 +126,14 @@ export const ContentWrapper = styled.div`
     color: #ff3f66;
   }
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 42px;
   margin-top: 30px;
   display: inline-flex;
   align-items: center;
   @media only screen and (max-width: 768px) {
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     /* margin-left: -50px; */
     width: 100%;
   }
