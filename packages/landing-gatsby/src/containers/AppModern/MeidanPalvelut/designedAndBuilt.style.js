@@ -28,7 +28,7 @@ export const ContentWrapper = styled.div`
     padding: 1em;
     margin-right: 4em;
     @media only screen and (max-width: 1366px) {
-      width: 40vw;
+      width: 30vw;
       margin-right: 0.2em;
     }
     @media only screen and (max-width: 991px) {
@@ -86,7 +86,7 @@ export const ContentWrapper = styled.div`
   }
   .text {
     color: #0a1730;
-    font-family: DM Sans;
+    font-family: Raleway;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 26px;
@@ -124,18 +124,19 @@ export const ContentWrapper = styled.div`
 
   .explore {
     color: #ff3f66;
-  }
-  font-weight: 500;
-  font-size: 1.2rem;
-  line-height: 42px;
-  margin-top: 30px;
-  display: inline-flex;
-  align-items: center;
-  @media only screen and (max-width: 768px) {
-    justify-content: center;
-    font-size: 1.1rem;
-    /* margin-left: -50px; */
-    width: 100%;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 32px;
+
+    display: inline-flex;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+      justify-content: center;
+      font-size: 1.1rem;
+      /* margin-left: -50px; */
+      width: 100%;
+      margin-top: -2em;
+    }
   }
 
   .reusecore__button {

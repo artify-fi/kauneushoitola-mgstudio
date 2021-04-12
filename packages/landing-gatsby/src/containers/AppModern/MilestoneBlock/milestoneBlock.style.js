@@ -33,7 +33,7 @@ export const MilestoneCard = styled.div`
   max-width: 323px;
   padding: 1em;
   border-radius: 10px;
-  background-color: #db983b;
+  background-color: #935216;
   text-align: center;
   @media only screen and (max-width: 1440px) {
   }
@@ -47,7 +47,7 @@ export const MilestoneCard = styled.div`
   p {
     font-size: 1.2rem;
     line-height: 1.4em;
-    font-weight: 400;
+    font-weight: 300;
     color: #fff;
     margin: 0;
     @media only screen and (max-width: 1440px) {
@@ -55,7 +55,7 @@ export const MilestoneCard = styled.div`
       line-height: 1.4em;
     }
     @media only screen and (max-width: 1360px) {
-      font-size: 1.1rem;
+      font-size: 1rem;
       line-height: 1.4em;
     }
   }

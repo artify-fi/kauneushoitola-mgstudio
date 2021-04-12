@@ -161,7 +161,7 @@ module.exports = {
             },
             {
               family: `Raleway`,
-              variants: [`500`, `600`],
+              variants: [`300`, `400`, `500`, `600`],
             },
             {
               family: `Heebo`,

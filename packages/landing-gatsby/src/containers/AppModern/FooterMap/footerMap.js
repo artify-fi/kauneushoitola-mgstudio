@@ -118,6 +118,14 @@ export const Content1 = styled.div`
       background-color: #f4899e;
     }
   } */
+  /* 
+  .social {
+    display: flex;
+    @media only screen and (max-width: 769px) {
+     margin-left: 2.2em;
+     margin-right: 2.2em;    
+    }
+  } */
 
   .phone {
     display: flex;

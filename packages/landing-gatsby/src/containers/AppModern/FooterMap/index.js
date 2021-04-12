@@ -7,9 +7,15 @@ import phone from '../../../images/Phone.jpg';
 import facebook from '../../../images/Facebook.png';
 import instagram from '../../../images/Instagram.jpg';
 
+import Facebook from 'react-sharingbuttons/dist/buttons/Facebook';
+import Twitter from 'react-sharingbuttons/dist/buttons/Twitter';
+import 'react-sharingbuttons/dist/main.css';
+
 import SectionWrapper, { Section, Content1, Content2 } from './footerMap';
 
 const WorkHard = () => {
+  const url = 'https://www.mgstudio.fi/';
+  const shareText = 'Tarkista tämä kauneussalonki!';
   return (
     <SectionWrapper>
       <Container>
@@ -27,6 +33,7 @@ const WorkHard = () => {
                 <Img className="phone" src={phone} />
               </a>
             </div>
+
             <div>
               <a
                 href="https://varaa.timma.fi/MGstudio"
@@ -42,6 +49,24 @@ const WorkHard = () => {
               style={{ fontWeight: 600, marginTop: '-1em' }}
               content="Myöhemmin peruutetuista tai peruuttamatta jätetyistä ajoista joudumme laskuttamaan 50% varatun palvelun hinnasta."
             />
+            <Text
+              style={{
+                paddingTop: '14px',
+                fontWeight: '600',
+                color: '#ff3f66',
+              }}
+              content="Suosittele meitä"
+            />
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <Facebook url={url} />
+              <Twitter url={url} shareText={shareText} />
+            </div>
           </Content1>
 
           <Content2>
