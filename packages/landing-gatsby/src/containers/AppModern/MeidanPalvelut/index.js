@@ -8,16 +8,16 @@ import Container from 'common/src/components/UI/Container';
 import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
 // import Image1 from '../../../images/palvelut/naisten_hiusten_leikkaus.jpg';
 // import Image2 from '../../../images/palvelut/miesten_hiusten_leikkaus.jpg';
-import Image3 from '../../../images/palvelut/varipaketti.jpg';
+import Image3 from '../../../images/palvelut/naisten_hiusten_leikkaus_w.webp';
 // import Image4 from '../../../images/palvelut/permanentti.jpg';
 // import Image5 from '../../../images/palvelut/airtouch.jpg';
 // import Image6 from '../../../images/palvelut/olaplex.jpeg';
-import Image7 from '../../../images/palvelut/hemmotteleva_kuumakivihieronta.jpg';
-import Image8 from '../../../images/palvelut/hieronta.jpg';
-import Image9 from '../../../images/palvelut/kasvohoito.jpg';
-import Image10 from '../../../images/palvelut/kynnet.jpg';
-import Image11 from '../../../images/palvelut/jalkahoito.jpg';
-import Image12 from '../../../images/palvelut/ripsiet_kulmat_ripsienpidennykset.jpg';
+import Image7 from '../../../images/palvelut/hemmotteleva_kuumakivi_hieronta_w.webp';
+import Image8 from '../../../images/palvelut/hieronta_w.webp';
+// import Image9 from '../../../images/palvelut/kasvohoito.jpg';
+import Image10 from '../../../images/palvelut/kynnet_w.webp';
+import Image11 from '../../../images/palvelut/jalkahoito_w.webp';
+import Image12 from '../../../images/palvelut/ripset_kulmat_w.webp';
 import { Icon } from 'react-icons-kit';
 import { chevronRight } from 'react-icons-kit/feather/chevronRight';
 
@@ -219,7 +219,7 @@ const DesignedAndBuilt = () => {
           </div>
         </ContentWrapper>
 
-        {/* 9. Kasvohoito */}
+        {/* 9. Kasvohoito
         <ContentWrapper>
           <div className="image">
             <Image
@@ -243,7 +243,7 @@ const DesignedAndBuilt = () => {
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>
-        </ContentWrapper>
+        </ContentWrapper> */}
 
         {/* 10 Kynnet */}
         <ContentWrapper>

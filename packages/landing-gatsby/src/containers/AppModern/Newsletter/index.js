@@ -7,7 +7,7 @@ import Button from 'common/src/components/Button';
 import Input from 'common/src/components/Input';
 import Container from 'common/src/components/UI/Container';
 import Img from 'common/src/components/Image';
-import phone from '../../../images/phone.png';
+import phone from '../../../images/Phone.jpg';
 
 import NewsletterWrapper from './newsletter.style';
 

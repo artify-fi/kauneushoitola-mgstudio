@@ -54,6 +54,9 @@ export const Content1 = styled.div`
     @media only screen and (min-width: 1440px) {
       font-size: 1.6rem;
     }
+    @media only screen and (max-width: 420px) {
+      margin-top: -3em;
+    }
   }
 
   h3 {
@@ -248,6 +251,28 @@ export const Content2 = styled.div`
     background-color: #ff3f66;
     margin-bottom: 2em;
   } */
+
+  .phone {
+    display: flex;
+    justify-content: center;
+    width: 3em;
+    margin-bottom: 2em;
+  }
+
+  .facebook {
+    display: flex;
+    justify-content: center;
+    width: 2.8em;
+    margin-bottom: 1em;
+    margin-top: -0.4em;
+  }
+
+  .instagram {
+    display: flex;
+    justify-content: center;
+    width: 3em;
+    margin-bottom: 2em;
+  }
 
   .link {
     display: flex;

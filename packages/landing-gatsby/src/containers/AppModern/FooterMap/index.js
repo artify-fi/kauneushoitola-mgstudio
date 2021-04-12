@@ -2,12 +2,12 @@ import React from 'react';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Button from 'common/src/components/Button';
 import Img from 'common/src/components/Image';
-//import FaPhone from 'react-icons/fa';
-import phone from '../../../images/phone.png';
+import phone from '../../../images/Phone.jpg';
+import facebook from '../../../images/Facebook.png';
+import instagram from '../../../images/Instagram.jpg';
 
-import SectionWrapper, { Section, Content1, Content2 } from './workHard.style';
+import SectionWrapper, { Section, Content1, Content2 } from './footerMap';
 
 const WorkHard = () => {
   return (
@@ -34,7 +34,7 @@ const WorkHard = () => {
                 rel="noopener norefferer"
                 className="link"
               >
-                VARAA AIKA NETISSÄ KLIKKAAMALLA LInKILLA
+                VARAA AIKA NETISSÄ
               </a>
             </div>
             <Text content="Teethän mahdolliset ajanvarauksen siirrot tai peruutukset mahdollisimman ajoissa, kuitenkin viimeistään 24 tuntia ennen varattua aikaa." />
@@ -67,10 +67,12 @@ const WorkHard = () => {
                 rel="noopener norefferer"
                 className="link"
               >
+                <Img className="facebook" src={facebook} />
                 Facebook MG Studio
               </a>
             </div>
             <Text content="Seuraa meitä Instagramissa" />
+
             <div>
               <a
                 href="https://instagram.com/MGstudioFinland"
@@ -78,6 +80,7 @@ const WorkHard = () => {
                 rel="noopener norefferer"
                 className="link"
               >
+                <Img className="instagram" src={instagram} />
                 Instagram MG Studio
               </a>
             </div>
