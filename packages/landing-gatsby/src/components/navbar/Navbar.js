@@ -1,12 +1,13 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import logo from '../../images/mgstudio_logo.webp';
+// import logo from '../../images/mgstudio_logo.webp';
 import { GoThreeBars } from 'react-icons/go';
 import { Link } from 'gatsby';
 import NavLink from './NavLink';
 import { GatsbyContext } from '../../context/context';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import SocialLinks from '../../constants/socialLinks';
+// import SocialLinks from '../../constants/socialLinks';
+import TextLogo from '../logo/TextLogo';
 
 const Navbar = () => {
   const { isSidebarOpen, showSidebar, links } = useContext(GatsbyContext);
@@ -25,9 +26,10 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="mgstudio_logo" />
+            <TextLogo alt="mgstudio_logo" />
+            {/* <img src={TextLogo} alt="mgstudio_logo" /> */}
           </Link>
-          <SocialLinks styleClass="nav-icons" />
+          {/* <SocialLinks styleClass="nav-icons" /> */}
           {!isSidebarOpen && (
             <button className="toggle-btn" onClick={showSidebar}>
               <GoThreeBars />
@@ -69,14 +71,14 @@ const Wrapper = styled.nav`
     color: var(--clr-white);
     display: flex;
     align-items: center;
-
+    /* 
     img {
       display: flex;
       width: 60px;
       justify-self: flex-start;
       align-self: center;
       margin-left: 2rem;
-    }
+    } */
     ul,
     li {
       list-style-type: none;
@@ -95,9 +97,24 @@ const Wrapper = styled.nav`
       border: transparent;
       color: var(--clr-white);
       background: var(--clr-grey-1);
-      margin-right: 2rem;
       cursor: pointer;
       transition: var(--transition);
+      @media only screen and (max-width: 1366px) {
+        font-size: 1.4rem;
+      }
+      @media only screen and (max-width: 991px) {
+        font-size: 1.4rem;
+      }
+      @media only screen and (max-width: 768px) {
+        margin-left: 10em;
+      }
+      @media only screen and (max-width: 620px) {
+        margin-left: auto;
+        margin-right: 2em;
+      }
+      @media only screen and (max-width: 420px) {
+        margin-left: 2em;
+      }
       &:hover {
         background: var(--clr-primary-3);
       }
@@ -123,7 +140,7 @@ const Wrapper = styled.nav`
       grid-gap: 0 1rem;
       align-items: center;
       justify-items: flex-end;
-      margin-top: -6.2vh;
+      margin-top: -4.2vh;
       height: 5rem;
     }
     .nav-links {
@@ -132,7 +149,7 @@ const Wrapper = styled.nav`
       justify-items: flex-end;
       max-width: 860px;
       height: 5rem;
-      margin-right: 1em;
+      margin-right: 3em;
     }
     ul {
       text-decoration: none;

@@ -78,7 +78,7 @@ export const Content1 = styled.div`
     }
 
     @media only screen and (min-width: 1440px) {
-      font-size: 2.2rem;
+      font-size: 1.7rem;
       text-align: center;
     }
   }
@@ -102,9 +102,9 @@ export const Content1 = styled.div`
     }
 
     @media only screen and (min-width: 1367px) {
-      line-height: 1.1rem;
+      line-height: 1.8rem;
       text-align: center;
-      font-size: 0.8rem;
+      font-size: 1.3rem;
     }
   }
   /* 
@@ -185,11 +185,13 @@ export const Content2 = styled.div`
   }
 
   h2 {
+    display: flex;
+    justify-content: center;
+
     font-family: Playfair Display, Times New Roman, serif;
     font-weight: 700;
     font-size: 1.3rem;
     text-align: center;
-
     letter-spacing: 2px;
     color: #000;
     text-align: center;
@@ -199,7 +201,8 @@ export const Content2 = styled.div`
       margin-top: -2em;
     }
     @media only screen and (min-width: 1440px) {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
+      padding-top: 1.8em;
     }
   }
 
@@ -222,7 +225,7 @@ export const Content2 = styled.div`
     }
 
     @media only screen and (min-width: 1440px) {
-      font-size: 2.2rem;
+      font-size: 1.7rem;
       text-align: center;
     }
   }
@@ -246,9 +249,9 @@ export const Content2 = styled.div`
     }
 
     @media only screen and (min-width: 1367px) {
-      line-height: 1.1rem;
+      line-height: 1.8rem;
       text-align: center;
-      font-size: 0.8rem;
+      font-size: 1.3rem;
     }
   }
   /* 

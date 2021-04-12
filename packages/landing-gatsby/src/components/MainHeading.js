@@ -15,8 +15,9 @@ const SectionWrapper = styled.div`
     font-family: Playfair Display;
     color: #ff3f66;
     font-size: 3.2rem;
+    margin-top: 1em;
+    margin-bottom: 1.3em;
     line-height: 1.4em;
-    margin-top: 2.6em;
     font-weight: 700;
     letter-spacing: -1px;
     align-self: center;
