@@ -3,13 +3,22 @@ import PropTypes from 'prop-types';
 import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Button from 'common/src/components/Button';
-import Input from 'common/src/components/Input';
+// import Button from 'common/src/components/Button';
+// import Input from 'common/src/components/Input';
 import Container from 'common/src/components/UI/Container';
-import Img from 'common/src/components/Image';
-import phone from '../../../images/Phone.jpg';
-
+// import Img from 'common/src/components/Image';
+// import phone from '../../../images/Phone.jpg';
 import NewsletterWrapper from './newsletter.style';
+import Button from '@material-ui/core/Button';
+import { makeStyles } from '@material-ui/core/styles';
+
+import PhoneIcon from '@material-ui/icons/Phone';
+
+const useStyles = makeStyles((theme) => ({
+  button: {
+    margin: theme.spacing(1),
+  },
+}));
 
 const Newsletter = ({
   sectionWrapper,
@@ -20,6 +29,7 @@ const Newsletter = ({
   descriptionPink,
   link,
 }) => {
+  const classes = useStyles();
   return (
     // <Box {...sectionWrapper} as="section">
     <NewsletterWrapper>
@@ -42,7 +52,20 @@ const Newsletter = ({
           >
             <a href="tel:+358400979051">
               {' '}
-              <Img className="phone" src={phone} />
+              <Button
+                style={{
+                  backgroundColor: '#ff3f66',
+                  border: '6px solid black',
+                  fontSize: '1rem',
+                }}
+                variant="contained"
+                color="#000"
+                size="small"
+                className={classes.button}
+                startIcon={<PhoneIcon />}
+              >
+                (+358) 0400 9790 51
+              </Button>
             </a>
           </div>
           <Text
@@ -61,7 +84,7 @@ const Newsletter = ({
               rel="noopener norefferer"
               className="link"
             >
-              MG Studio
+              MG Studio ajanvaraus
             </a>
           </div>
           <Text

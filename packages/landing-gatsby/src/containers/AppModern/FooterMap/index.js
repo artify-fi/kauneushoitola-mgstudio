@@ -3,7 +3,6 @@ import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import Img from 'common/src/components/Image';
-import phone from '../../../images/Phone.jpg';
 import facebook from '../../../images/Facebook.png';
 import instagram from '../../../images/Instagram.jpg';
 
@@ -11,9 +10,19 @@ import Facebook from 'react-sharingbuttons/dist/buttons/Facebook';
 import Twitter from 'react-sharingbuttons/dist/buttons/Twitter';
 import 'react-sharingbuttons/dist/main.css';
 
+import PhoneIcon from '@material-ui/icons/Phone';
+import Button from '@material-ui/core/Button';
+import { makeStyles } from '@material-ui/core/styles';
 import SectionWrapper, { Section, Content1, Content2 } from './footerMap';
 
+const useStyles = makeStyles((theme) => ({
+  button: {
+    margin: theme.spacing(1),
+  },
+}));
+
 const WorkHard = () => {
+  const classes = useStyles();
   const url = 'https://www.mgstudio.fi/';
   const shareText = 'Tarkista tämä kauneussalonki!';
   return (
@@ -30,7 +39,19 @@ const WorkHard = () => {
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <a href="tel:+358400979051">
                 {' '}
-                <Img className="phone" src={phone} />
+                <Button
+                  style={{
+                    backgroundColor: '#ff3f66',
+                    border: '8px solid black',
+                  }}
+                  variant="contained"
+                  color="#000"
+                  size="small"
+                  className={classes.button}
+                  startIcon={<PhoneIcon />}
+                >
+                  (+358) 0400 9790 51
+                </Button>
               </a>
             </div>
 

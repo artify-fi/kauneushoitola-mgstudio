@@ -152,6 +152,10 @@ module.exports = {
               variants: [`300`, `400`, `500`, `600`, `700`],
             },
             {
+              family: `Great Vibes`,
+              variants: [`400`],
+            },
+            {
               family: `Lato`,
               variants: [`300`, `400`, `700`],
             },

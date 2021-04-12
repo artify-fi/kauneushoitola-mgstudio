@@ -74,12 +74,12 @@ export default [
   //   url: `/palvelumme/airtouch/`,
   //   icon: <FaFillDrip className="icon" />,
   // },
-  // {
-  //   page: 'PALVELUMME',
-  //   label: 'Olaplex',
-  //   url: `/palvelumme/olaplex/`,
-  //   icon: <FaFillDrip className="icon" />,
-  // },
+  {
+    page: 'PALVELUMME',
+    label: 'Olaplex',
+    url: `/palvelumme/olaplex-salonkihoito/`,
+    icon: <FaFillDrip className="icon" />,
+  },
   {
     page: 'PALVELUMME',
     label: 'Hieronta',
