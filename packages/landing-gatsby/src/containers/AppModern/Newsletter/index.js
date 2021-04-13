@@ -3,16 +3,13 @@ import PropTypes from 'prop-types';
 import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-// import Button from 'common/src/components/Button';
-// import Input from 'common/src/components/Input';
 import Container from 'common/src/components/UI/Container';
-// import Img from 'common/src/components/Image';
-// import phone from '../../../images/Phone.jpg';
 import NewsletterWrapper from './newsletter.style';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 
 import PhoneIcon from '@material-ui/icons/Phone';
+import CalendarButton from '../../../components/logo/CalendarButton';
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -62,7 +59,7 @@ const Newsletter = ({
                 color="#000"
                 size="small"
                 className={classes.button}
-                startIcon={<PhoneIcon />}
+                startIcon={<PhoneIcon style={{ fontSize: '1em' }} />}
               >
                 (+358) 0400 9790 51
               </Button>
@@ -78,6 +75,14 @@ const Newsletter = ({
               textAlign: 'center',
             }}
           >
+            <a
+              href="https://varaa.timma.fi/MGstudio"
+              target="_blank"
+              rel="noopener norefferer"
+              className="link"
+            >
+              <CalendarButton />
+            </a>
             <a
               href="https://varaa.timma.fi/MGstudio"
               target="_blank"

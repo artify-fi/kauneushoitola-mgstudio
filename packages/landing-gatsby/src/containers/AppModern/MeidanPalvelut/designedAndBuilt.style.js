@@ -86,7 +86,7 @@ export const ContentWrapper = styled.div`
   }
   .text {
     color: #0a1730;
-    font-family: Raleway;
+    font-family: Playfair Display;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 26px;

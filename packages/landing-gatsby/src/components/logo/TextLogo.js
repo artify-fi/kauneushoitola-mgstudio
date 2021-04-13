@@ -25,6 +25,7 @@ const ButtonWrapper = styled.div`
   }
   @media only screen and (max-width: 991px) {
     font-size: 1.4rem;
+    margin-top: 1em;
   }
   @media only screen and (max-width: 768px) {
     width: 340px;

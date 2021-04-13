@@ -10,19 +10,23 @@ import Facebook from 'react-sharingbuttons/dist/buttons/Facebook';
 import Twitter from 'react-sharingbuttons/dist/buttons/Twitter';
 import 'react-sharingbuttons/dist/main.css';
 
-import PhoneIcon from '@material-ui/icons/Phone';
-import Button from '@material-ui/core/Button';
-import { makeStyles } from '@material-ui/core/styles';
+import PhoneButton from '../../../components/logo/PhoneButton';
+import CalendarButton from '../../../components/logo/CalendarButton';
+
+// import PhoneIcon from '@material-ui/icons/Phone';
+// import Button from '@material-ui/core/Button';
+// import { makeStyles } from '@material-ui/core/styles';
 import SectionWrapper, { Section, Content1, Content2 } from './footerMap';
+import { marginTop } from 'styled-system';
 
-const useStyles = makeStyles((theme) => ({
-  button: {
-    margin: theme.spacing(1),
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   button: {
+//     margin: theme.spacing(1),
+//   },
+// }));
 
-const WorkHard = () => {
-  const classes = useStyles();
+const Footer = () => {
+  // const classes = useStyles();
   const url = 'https://www.mgstudio.fi/';
   const shareText = 'Tarkista tämä kauneussalonki!';
   return (
@@ -34,42 +38,92 @@ const WorkHard = () => {
             <Heading as="h2" content="MG Studio" />
             <Heading id="footer" as="h3" content="TULE KÄYMÄÄN" />
             <Text content="Tuohiaukio 4, 00410, Helsinki, Malminkartano" />
-            <Heading as="h3" content="SOITA MEILLE" />
-            <Text content="(+358) 0400 9790 51" />
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+
+            {/* Ajanvaraus soittaminen */}
+
+            <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
               <a href="tel:+358400979051">
                 {' '}
-                <Button
+                <PhoneButton />
+              </a>
+              <a href="tel:+358400979051">
+                {' '}
+                <Heading
                   style={{
-                    backgroundColor: '#ff3f66',
-                    border: '8px solid black',
+                    marginLeft: '1em',
+                    marginTop: '0.6em',
                   }}
-                  variant="contained"
-                  color="#000"
-                  size="small"
-                  className={classes.button}
-                  startIcon={<PhoneIcon />}
-                >
-                  (+358) 0400 9790 51
-                </Button>
+                  as="h3"
+                  content="	Soita ja varaa aika"
+                />
               </a>
             </div>
+            <Text
+              style={{
+                fontWeight: '700',
+                display: 'flex',
+                justifyContent: 'flex-start',
+                textAlign: 'left',
+                marginTop: '1em',
+              }}
+              content="(+358) 0400 9790 51"
+            />
+            <Text
+              style={{
+                display: 'flex',
+                justifyContent: 'flex-start',
+                textAlign: 'left',
+              }}
+              content="Teethän mahdolliset ajanvarauksen siirrot tai peruutukset mahdollisimman ajoissa, kuitenkin viimeistään 24 tuntia ennen varattua aikaa."
+            />
+            <Text
+              style={{
+                fontWeight: '700',
+                display: 'flex',
+                justifyContent: 'flex-start',
+                textAlign: 'left',
+              }}
+              content="Myöhemmin peruutetuista tai peruuttamatta jätetyistä ajoista joudumme laskuttamaan 50% varatun palvelun hinnasta."
+            />
 
-            <div>
+            {/* Ajanvaraus kalenteri */}
+            <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
               <a
                 href="https://varaa.timma.fi/MGstudio"
                 target="_blank"
                 rel="noopener norefferer"
                 className="link"
               >
-                VARAA AIKA NETISSÄ
+                <CalendarButton />
+              </a>
+              <a
+                href="https://varaa.timma.fi/MGstudio"
+                target="_blank"
+                rel="noopener norefferer"
+                className="link"
+              >
+                {' '}
+                <Heading
+                  style={{
+                    marginLeft: '1em',
+                    marginTop: '0.6em',
+                  }}
+                  as="h3"
+                  content="Nettiajanvaraus"
+                />
               </a>
             </div>
-            <Text content="Teethän mahdolliset ajanvarauksen siirrot tai peruutukset mahdollisimman ajoissa, kuitenkin viimeistään 24 tuntia ennen varattua aikaa." />
             <Text
-              style={{ fontWeight: 600, marginTop: '-1em' }}
-              content="Myöhemmin peruutetuista tai peruuttamatta jätetyistä ajoista joudumme laskuttamaan 50% varatun palvelun hinnasta."
+              style={{
+                display: 'flex',
+                justifyContent: 'flex-start',
+                textAlign: 'left',
+              }}
+              content="Varaa aikasi vaivattomasti 24/7 nettiajanvarauksesta.
+                Jos et löydä mieleistäsi aikaa, soita meille!"
             />
+
+            {/* Social Media */}
             <Text
               style={{
                 paddingTop: '14px',
@@ -137,4 +191,4 @@ const WorkHard = () => {
   );
 };
 
-export default WorkHard;
+export default Footer;

@@ -50,6 +50,12 @@ export default [
     url: `/palvelumme/naisten-hiusten-leikkaus/`,
     icon: <FaUser className="icon" />,
   },
+  {
+    page: 'PALVELUMME',
+    label: 'Olaplex salonkihoito',
+    url: `/palvelumme/olaplex-salonkihoito/`,
+    icon: <FaUserTie className="icon" />,
+  },
   // {
   //   page: 'PALVELUMME',
   //   label: 'Miesten hiusten leikkaus',

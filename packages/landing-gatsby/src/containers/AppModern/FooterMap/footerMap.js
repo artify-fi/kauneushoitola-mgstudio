@@ -74,7 +74,7 @@ export const Content1 = styled.div`
     }
 
     @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-      font-size: 1.5rempx;
+      font-size: 1.5rem;
     }
 
     @media only screen and (min-width: 1440px) {

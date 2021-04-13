@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
-import PhoneIcon from '@material-ui/icons/Phone';
+import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import Fab from '@material-ui/core/Fab';
 
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +22,7 @@ export default function PhoneButton() {
         color="#ff3f66"
         className={classes.margin}
       >
-        <PhoneIcon style={{ fontSize: '2.4em' }} />
+        <EventAvailableIcon style={{ fontSize: '2.4em' }} />
       </Fab>
     </div>
   );
