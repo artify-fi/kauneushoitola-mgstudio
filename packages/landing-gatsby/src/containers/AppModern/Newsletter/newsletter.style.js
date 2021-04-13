@@ -15,6 +15,30 @@ const NewsletterWrapper = styled.div`
     padding: 35px 20px;
   }
 
+  h3 {
+    font-family: Playfair Display, Times New Roman, serif;
+    color: #ff3f66;
+    text-align: center;
+    border-color: rgba(159, 73, 118, 0.5);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      font-size: 1.3rem;
+    }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (min-width: 1440px) {
+      font-size: 1.7rem;
+      text-align: center;
+    }
+  }
+
   .link {
     text-align: center;
     font-size: 1.3rem;

@@ -72,7 +72,9 @@ const Newsletter = ({
 
           <div
             style={{
-              textAlign: 'center',
+              display: 'flex',
+              justifyContent: 'center',
+              margin: '0.6em',
             }}
           >
             <a
@@ -89,7 +91,15 @@ const Newsletter = ({
               rel="noopener norefferer"
               className="link"
             >
-              MG Studio ajanvaraus
+              {' '}
+              <Heading
+                style={{
+                  marginLeft: '1em',
+                  marginTop: '0.6em',
+                }}
+                as="h3"
+                content="Nettiajanvaraus"
+              />
             </a>
           </div>
           <Text
@@ -130,7 +140,7 @@ Newsletter.defaultProps = {
     letterSpacing: '-0.025em',
   },
   description: {
-    fontSize: ['1rem', '1.3rem'],
+    fontSize: ['1.1rem', '1.3rem'],
     maxWidth: ['100%', '800px'],
     fontWeight: '400',
     color: '#1c273d',

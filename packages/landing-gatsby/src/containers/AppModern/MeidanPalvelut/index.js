@@ -40,14 +40,9 @@ const DesignedAndBuilt = () => {
               className="heading"
               content="Kampaaja(oppilastyö)"
             />
+            <Heading as="h4" className="text" content=" Hiusten värjäys" />
             <Heading
-              style={{ padding: '0px' }}
-              as="h4"
-              className="text"
-              content=" Hiusten värjäys"
-            />
-            <Heading
-              style={{ padding: '0px' }}
+              style={{ paddingTop: '0.3rem' }}
               as="h4"
               className="text"
               content="Hiusten leikkaus"

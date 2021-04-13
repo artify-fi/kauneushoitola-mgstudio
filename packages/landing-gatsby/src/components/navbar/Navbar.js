@@ -31,7 +31,11 @@ const Navbar = () => {
           </Link>
           {/* <SocialLinks styleClass="nav-icons" /> */}
           {!isSidebarOpen && (
-            <button className="toggle-btn" onClick={showSidebar}>
+            <button
+              // style={{marginLeft: 'auto'}}
+              className="toggle-btn"
+              onClick={showSidebar}
+            >
               <GoThreeBars />
             </button>
           )}
@@ -88,8 +92,6 @@ const Wrapper = styled.nav`
       width: 3.5rem;
       height: 2.25rem;
       display: flex;
-      margin-left: 48vw;
-      margin-right: 2em;
       align-items: center;
       justify-content: center;
       font-size: 1.5rem;
@@ -102,15 +104,17 @@ const Wrapper = styled.nav`
       @media only screen and (max-width: 1366px) {
         font-size: 1.4rem;
       }
+      @media only screen and (max-width: 1060px) {
+        margin-left: 28em;
+      }
       @media only screen and (max-width: 991px) {
-        font-size: 1.4rem;
+        margin-left: 23em;
       }
       @media only screen and (max-width: 768px) {
-        margin-left: 10em;
+        margin-left: 13em;
       }
       @media only screen and (max-width: 620px) {
-        margin-left: auto;
-        margin-right: 2em;
+        margin-left: 6em;
       }
       @media only screen and (max-width: 420px) {
         margin-left: 1em;
@@ -123,7 +127,7 @@ const Wrapper = styled.nav`
   .nav-links {
     display: none;
   }
-  @media (min-width: 940px) {
+  @media (min-width: 1060px) {
     .nav-header {
       .toggle-btn {
         display: none;

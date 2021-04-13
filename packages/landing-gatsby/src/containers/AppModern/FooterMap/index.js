@@ -13,20 +13,9 @@ import 'react-sharingbuttons/dist/main.css';
 import PhoneButton from '../../../components/logo/PhoneButton';
 import CalendarButton from '../../../components/logo/CalendarButton';
 
-// import PhoneIcon from '@material-ui/icons/Phone';
-// import Button from '@material-ui/core/Button';
-// import { makeStyles } from '@material-ui/core/styles';
 import SectionWrapper, { Section, Content1, Content2 } from './footerMap';
-import { marginTop } from 'styled-system';
-
-// const useStyles = makeStyles((theme) => ({
-//   button: {
-//     margin: theme.spacing(1),
-//   },
-// }));
 
 const Footer = () => {
-  // const classes = useStyles();
   const url = 'https://www.mgstudio.fi/';
   const shareText = 'Tarkista tämä kauneussalonki!';
   return (
