@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Heading from 'common/src/components/Heading';
 import Text from 'common/src/components/Text';
 import Container from 'common/src/components/UI/ContainerTwo';
+import Line from '../../components/reusableComponents/Line';
 
 const SectionWrapper = styled.section`
   position: relative;
@@ -10,41 +11,46 @@ const SectionWrapper = styled.section`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 60px 80px;
+  width: 90vw;
+  margin-bottom: 3em;
 `;
 
 export const Section = styled.section`
-  @media only screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    flex-direction: column;
-  }
+  grid-template-columns: 1fr;
+  flex-direction: column;
+
   .hintalistaheading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     font-family: Playfair Display;
-    color: #bd5f91;
-    font-size: 2.8rem;
+    max-width: 80vw;
+    color: #ff3f66;
+    font-size: 2.2rem;
     line-height: 1.4em;
-    margin-top: 2.6em;
-    font-weight: 700;
+    margin-top: 2.2em;
+    font-weight: 600;
     letter-spacing: -1px;
-    align-self: center;
+    text-align: center;
     @media only screen and (max-width: 1366px) {
-      font-size: 2.8rem;
+      font-size: 2.2rem;
     }
     @media only screen and (max-width: 991px) {
-      font-size: 2.6rem;
-      line-height: 38px;
+      font-size: 1.8rem;
     }
     @media only screen and (max-width: 768px) {
-      font-size: 2.4rem;
-      text-align: center;
+      font-size: 1.6rem;
     }
     @media only screen and (max-width: 480px) {
-      font-size: 2rem;
-      text-align: center;
+      font-size: 1.4rem;
+      margin-top: 1em;
     }
+  }
+  .hintalistaheading:after {
+    content: ''; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #ff3f66; /* This creates the border. Replace black with whatever color you want. */
   }
 `;
 
@@ -52,6 +58,7 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 80vw;
   @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -65,25 +72,23 @@ export const Content = styled.div`
     justify-content: flex-start;
     align-items: center;
     font-family: Playfair Display;
-    color: #ff3f66;
-    font-size: 2.2rem;
+    color: #2e4371;
+    font-size: 1.4rem;
     line-height: 1.4em;
-    margin-top: 2.6em;
-    font-weight: 700;
+    margin-top: 0.6em;
+    font-weight: 500;
     letter-spacing: -1px;
     @media only screen and (max-width: 1366px) {
-      font-size: 2.8rem;
+      font-size: 1.2rem;
     }
     @media only screen and (max-width: 991px) {
-      font-size: 2.6rem;
       line-height: 38px;
     }
     @media only screen and (max-width: 768px) {
-      font-size: 2.4rem;
       text-align: center;
     }
     @media only screen and (max-width: 480px) {
-      font-size: 2rem;
+      font-size: 1.1rem;
       text-align: center;
     }
   }
@@ -92,7 +97,7 @@ export const Content = styled.div`
 const KampaamoParturi = () => {
   return (
     <SectionWrapper>
-      <Container>
+      <Container style={{ padding: '0px' }}>
         <Section>
           <Heading
             as="h2"
@@ -109,7 +114,176 @@ const KampaamoParturi = () => {
               as="p"
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content=" 30€"
+              content="30€"
+            />
+          </Content>
+          <Line color="#fff" width="110%" />
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Miesten hiusten leikkaus"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="25€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Koneajo" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="15€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Mallinmuutos" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="35 - 55€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Otsatukka" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="8 - 12€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Lasten hiusten leikkaus (alle 7v.)"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="20€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Permanentti" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="70 - 110€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Pesu ja hieronta"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="15€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Föönkampaus" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="30 - 50€"
+            />
+          </Content>
+
+          {/* V'rit */}
+          <Heading as="h2" className="hintalistaheading" content="Värit" />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Lyhyt hiukset" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="60€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Puolipitkät hiukset"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="70€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Pitkät hiukset" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="80 - 100€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Raidat" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="60 - 100€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Tyviväri" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="55€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Föönkampaus" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="30 - 50€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Toinen lisäväri
+              "
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="10€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Raidat + sävy " />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="alk. 100€"
             />
           </Content>
         </Section>

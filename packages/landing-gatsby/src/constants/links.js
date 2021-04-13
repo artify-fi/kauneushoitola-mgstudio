@@ -56,6 +56,37 @@ export default [
     url: `/palvelumme/olaplex-salonkihoito/`,
     icon: <FaUserTie className="icon" />,
   },
+  {
+    page: 'PALVELUMME',
+    label: 'Ripset & kulmat',
+    url: `/palvelumme/ripset-kulmat/`,
+    icon: <FaEye className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Kasvohoito',
+    url: `/palvelumme/kasvohoito/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Jalkahoito',
+    url: `/palvelumme/jalkahoito/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Hieronta',
+    url: `/palvelumme/hieronta/`,
+    icon: <FaDiagnoses className="icon" />,
+  },
+
+  {
+    page: 'PALVELUMME',
+    label: 'Kuumakivihieronta',
+    url: `/palvelumme/hemmotteleva-kuumakivihieronta/`,
+    icon: <FaDiagnoses className="icon" />,
+  },
   // {
   //   page: 'PALVELUMME',
   //   label: 'Miesten hiusten leikkaus',
@@ -80,48 +111,20 @@ export default [
   //   url: `/palvelumme/airtouch/`,
   //   icon: <FaFillDrip className="icon" />,
   // },
-  {
-    page: 'PALVELUMME',
-    label: 'Olaplex',
-    url: `/palvelumme/olaplex-salonkihoito/`,
-    icon: <FaFillDrip className="icon" />,
-  },
-  {
-    page: 'PALVELUMME',
-    label: 'Hieronta',
-    url: `/palvelumme/hieronta/`,
-    icon: <FaDiagnoses className="icon" />,
-  },
-  {
-    page: 'PALVELUMME',
-    label: 'Jalkahoito',
-    url: `/palvelumme/jalkahoito/`,
-    icon: <FaGem className="icon" />,
-  },
-  {
-    page: 'PALVELUMME',
-    label: 'Hemmotteleva kuumakivihieronta',
-    url: `/palvelumme/hemmotteleva-kuumakivihieronta/`,
-    icon: <FaDiagnoses className="icon" />,
-  },
-  {
-    page: 'PALVELUMME',
-    label: 'Kasvohoito',
-    url: `/palvelumme/kasvohoito/`,
-    icon: <FaGem className="icon" />,
-  },
-  {
-    page: 'PALVELUMME',
-    label: 'Kynnet',
-    url: `/palvelumme/kynnet/`,
-    icon: <FaHandPaper className="icon" />,
-  },
-  {
-    page: 'PALVELUMME',
-    label: 'Ripset & kulmat',
-    url: `/palvelumme/ripset-kulmat/`,
-    icon: <FaEye className="icon" />,
-  },
+  // {
+  //   page: 'PALVELUMME',
+  //   label: 'Olaplex',
+  //   url: `/palvelumme/olaplex-salonkihoito/`,
+  //   icon: <FaFillDrip className="icon" />,
+  // },
+
+  // {
+  //   page: 'PALVELUMME',
+  //   label: 'Kynnet',
+  //   url: `/palvelumme/kynnet/`,
+  //   icon: <FaHandPaper className="icon" />,
+  // },
+
   {
     page: 'BLOGI',
     label: 'Blogi',

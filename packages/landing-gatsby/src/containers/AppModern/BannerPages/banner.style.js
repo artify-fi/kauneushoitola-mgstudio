@@ -23,6 +23,7 @@ const BannerWrapper = styled.div`
   @media only screen and (max-width: 480px) {
     padding-top: 90px;
     max-height: 26vh;
+    margin-bottom: 4em;
   }
   // From here it must be possible to change the height
   > div.container {

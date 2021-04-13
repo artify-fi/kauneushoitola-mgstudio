@@ -40,19 +40,16 @@ export const Content1 = styled.div`
   h2 {
     font-family: Playfair Display, Times New Roman, serif;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     text-align: center;
     line-height: 1.52;
     letter-spacing: 2px;
     color: #000;
     text-align: center;
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-      font-size: 1.6rem;
-      text-align: center;
       margin-top: 15px;
     }
     @media only screen and (min-width: 1440px) {
-      font-size: 1.6rem;
     }
     @media only screen and (max-width: 420px) {
       margin-top: -3em;

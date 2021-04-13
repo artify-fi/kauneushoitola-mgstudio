@@ -1,11 +1,12 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import logo from '../../images/favicon.png';
+//import logo from '../../images/favicon.png';
 import { GoThreeBars } from 'react-icons/go';
 import { Link } from 'gatsby';
 import NavLink from './NavLink';
 import { GatsbyContext } from '../../context/context';
-import SocialLinks from '../../constants/socialLinks';
+import TextLogo from '../logo/TextLogo';
+//import SocialLinks from '../../constants/socialLinks';
 
 const Navbar = () => {
   const { isSidebarOpen, showSidebar, links } = useContext(GatsbyContext);
@@ -24,9 +25,13 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
+            <TextLogo alt="mgstudio_logo" />
+            {/* <img src={TextLogo} alt="mgstudio_logo" /> */}
+          </Link>
+          {/* <Link to="/">
             <img src={logo} alt="mgstudio_logo" />
           </Link>
-          <SocialLinks styleClass="nav-icons" />
+          <SocialLinks styleClass="nav-icons" /> */}
           {!isSidebarOpen && (
             <button className="toggle-btn" onClick={showSidebar}>
               <GoThreeBars />
@@ -68,13 +73,13 @@ const Wrapper = styled.nav`
     color: var(--clr-white);
     display: flex;
     align-items: center;
-    img {
+    /* img {
       display: flex;
       width: 60px;
       justify-self: flex-start;
       align-self: center;
       margin-left: 2rem;
-    }
+    } */
     ul,
     li {
       list-style-type: none;
@@ -84,8 +89,6 @@ const Wrapper = styled.nav`
       width: 3.5rem;
       height: 2.25rem;
       display: flex;
-      margin-left: 54vw;
-      margin-right: 8em;
       align-items: center;
       justify-content: center;
       font-size: 1.5rem;
@@ -93,9 +96,26 @@ const Wrapper = styled.nav`
       border: transparent;
       color: var(--clr-white);
       background: var(--clr-grey-1);
-      margin-right: 2rem;
       cursor: pointer;
       transition: var(--transition);
+      @media only screen and (max-width: 1366px) {
+        font-size: 1.4rem;
+      }
+      @media only screen and (max-width: 1060px) {
+        margin-left: 28em;
+      }
+      @media only screen and (max-width: 991px) {
+        margin-left: 23em;
+      }
+      @media only screen and (max-width: 768px) {
+        margin-left: 13em;
+      }
+      @media only screen and (max-width: 620px) {
+        margin-left: 6em;
+      }
+      @media only screen and (max-width: 420px) {
+        margin-left: 1em;
+      }
       &:hover {
         background: var(--clr-primary-3);
       }
@@ -104,7 +124,7 @@ const Wrapper = styled.nav`
   .nav-links {
     display: none;
   }
-  @media (min-width: 940px) {
+  @media (min-width: 1060px) {
     .nav-header {
       .toggle-btn {
         display: none;

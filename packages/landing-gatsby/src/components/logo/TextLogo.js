@@ -6,9 +6,7 @@ const ButtonWrapper = styled.div`
   z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 2em;
-  //box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8) !important;
+  margin-top: 3em;
   font-family: 'Great Vibes', cursive !important;
   width: 100%;
   height: 50px;
@@ -21,24 +19,27 @@ const ButtonWrapper = styled.div`
   font-size: 1.6rem !important;
   @media only screen and (max-width: 1366px) {
     font-size: 1.4rem;
-    margin-top: 1.8em;
+    margin-top: 2.2em;
   }
   @media only screen and (max-width: 1060px) {
+    margin-left: 2em;
+    width: 300px;
     font-size: 1.4rem;
     margin-top: 0px;
   }
   @media only screen and (max-width: 768px) {
-    width: 340px;
+    width: 280px;
+    margin-left: 2em;
   }
   @media only screen and (max-width: 420px) {
-    width: 260px;
+    width: 240px;
     margin-left: 1em;
     font-size: 1.36rem !important;
   }
 `;
 
 const Button = () => {
-  return <ButtonWrapper>MG Studio "Make you glow"</ButtonWrapper>;
+  return <ButtonWrapper>MG Studio Make you glow</ButtonWrapper>;
 };
 
 export default Button;
