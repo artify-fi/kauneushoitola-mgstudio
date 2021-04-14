@@ -80,10 +80,7 @@ const DesignedAndBuilt = () => {
 
               Olaplex-salonkihoito voidaan tehdä muun kampaamopalvelun yhteydessä tai voit varata siihen erikseen ajan."
             />
-            <Link
-              className="explore"
-              href="/palvelumme/hemmotteleva-kuumakivihieronta/"
-            >
+            <Link className="explore" href="/palvelumme/olaplex-salonkihoito/">
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>

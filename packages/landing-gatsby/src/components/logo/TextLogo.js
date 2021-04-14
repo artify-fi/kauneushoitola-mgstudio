@@ -22,18 +22,26 @@ const ButtonWrapper = styled.div`
     margin-top: 2.2em;
   }
   @media only screen and (max-width: 1060px) {
-    margin-left: 2em;
+    margin-left: 3em;
     width: 300px;
     font-size: 1.4rem;
     margin-top: 0px;
+    padding-left: 0.6em;
+  }
+  @media only screen and (max-width: 991px) {
+    margin-left: 3em;
   }
   @media only screen and (max-width: 768px) {
-    width: 280px;
-    margin-left: 2em;
+    width: 300px;
+    margin-left: 2.8em;
+    padding-left: 0.8em;
+  }
+  @media only screen and (max-width: 620px) {
+    margin-left: 2.6em;
   }
   @media only screen and (max-width: 420px) {
     width: 254px;
-    margin-left: 1em;
+    margin-left: 0.6em;
     font-size: 1.36rem !important;
     padding-left: 0.6em;
   }

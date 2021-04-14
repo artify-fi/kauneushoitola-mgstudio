@@ -39,17 +39,18 @@ const Wrapper = styled.aside`
   display: flex;
   align-items: center;
   justify-content: center;
-  @media (min-width: 941px) {
+  @media (min-width: 1061px) {
     display: none;
   }
   .container {
     /* background: var(--clr-white); */
     background: #edeaea;
     width: 80vw;
-    height: 80vh;
+    height: 82vh;
     border-radius: var(--radius);
     position: relative;
-    padding: 4rem 2rem 2rem 2rem;
+    padding: 4rem 1.2rem 1.2rem 1.2rem;
+    margin-top: 3em;
     button {
       position: absolute;
       top: 0.5rem;
@@ -62,23 +63,23 @@ const Wrapper = styled.aside`
     }
     .links {
       display: grid;
-      gap: 1rem 2rem;
+      gap: 0.6rem 0.4rem;
       @media (min-width: 940px) {
         grid-template-columns: 1fr 1fr;
       }
       a {
         display: grid;
         grid-template-columns: auto 1fr;
-        gap: 0.75rem;
-        grid-gap: 0.75rem;
+        gap: 0.25rem;
+        grid-gap: 0.25rem;
         align-items: center;
         color: #0a2540;
         text-transform: capitalize;
-        font-weight: 700;
-        font-size: 1.2rem;
+        font-weight: 500;
+        font-size: 1rem;
         .icon {
           color: #88add2;
-          font-size: 2rem;
+          font-size: 1.1rem;
         }
         &:hover {
           color: #88add2;

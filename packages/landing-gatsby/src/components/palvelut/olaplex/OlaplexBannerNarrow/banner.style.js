@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../../../images/palvelut/palvelut_erikseen/olaplex_salonkihoito.webp';
+import img from '../../../../images/palvelut/palvelut_erikseen/banner_narrow.jpg';
 
 const BannerWrapper = styled.div`
   overflow: hidden;
@@ -12,16 +12,14 @@ const BannerWrapper = styled.div`
   /* top: 0; */
   z-index: 1;
   // added shadow on the Hero
+  max-height: 80px;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-    max-height: 26vh;
   }
   @media only screen and (min-width: 1099px) and (max-width: 1200px) {
-    max-height: 36vh;
   }
   @media only screen and (max-width: 480px) {
-    padding-top: 90px;
-    max-height: 26vh;
+    max-height: 80px;
   }
   // From here it must be possible to change the height
   > div.container {
@@ -33,11 +31,10 @@ const BannerWrapper = styled.div`
       max-height: calc(30vh - 100px);
     }
     @media only screen and (max-width: 1099px) {
-      max-height: 36vh;
     }
     @media only screen and (max-width: 480px) {
       flex-wrap: wrap;
-      max-height: 26vh;
+      max-height: 80px;
     }
   }
   .bannerBottomShape {

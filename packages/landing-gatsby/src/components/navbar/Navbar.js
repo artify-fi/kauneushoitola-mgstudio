@@ -54,7 +54,7 @@ const Navbar = () => {
 const Wrapper = styled.nav`
   position: relative;
   background-color: transparent;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
   z-index: 1;
   width: 100vw;
   height: 5rem;
@@ -105,10 +105,10 @@ const Wrapper = styled.nav`
         font-size: 1.4rem;
       }
       @media only screen and (max-width: 1060px) {
-        margin-left: 28em;
+        margin-left: 23em;
       }
       @media only screen and (max-width: 991px) {
-        margin-left: 23em;
+        margin-left: 20em;
       }
       @media only screen and (max-width: 768px) {
         margin-left: 13em;
@@ -117,7 +117,7 @@ const Wrapper = styled.nav`
         margin-left: 6em;
       }
       @media only screen and (max-width: 420px) {
-        margin-left: 1em;
+        margin-left: 0.4em;
       }
       &:hover {
         background: var(--clr-primary-3);

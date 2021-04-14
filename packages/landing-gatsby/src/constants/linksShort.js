@@ -38,11 +38,60 @@ export default [
   //   url: `/tietoa-meistä/eilika/`,
   //   icon: <FaUsers className="icon" />,
   // },
+  // {
+  //   page: 'PALVELUMME',
+  //   label: 'Palvelumme',
+  //   url: `/palvelumme/kauneushoitolan-palvelut/`,
+  //   icon: <FaUser className="icon" />,
+  // },
   {
     page: 'PALVELUMME',
-    label: 'Palvelumme',
-    url: `/palvelumme/kauneushoitolan-palvelut/`,
-    icon: <FaUser className="icon" />,
+    label: 'Kampaaja(oppilastyö)',
+    url: `/palvelumme/naisten-hiusten-leikkaus/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Olaplex salonkihoito',
+    url: `/palvelumme/olaplex-salonkihoito/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Ripset & kulmat',
+    url: `/palvelumme/ripset-kulmat/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Kasvohoito(tulossa)',
+    url: `/palvelumme/kasvohoito/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Jalkahoito',
+    url: `/palvelumme/jalkahoito/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Geelilakkaus varpaaisiin',
+    url: `/palvelumme/geelilakkaus-varpaisiin/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Hieronta',
+    url: `/palvelumme/hieronta/`,
+    icon: <FaGem className="icon" />,
+  },
+
+  {
+    page: 'PALVELUMME',
+    label: 'Kuumakivihieronta',
+    url: `/palvelumme/hemmotteleva-kuumakivihieronta/`,
+    icon: <FaGem className="icon" />,
   },
   // {
   //   page: 'PALVELUMME',

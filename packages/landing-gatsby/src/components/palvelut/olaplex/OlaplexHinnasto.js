@@ -26,10 +26,10 @@ export const Section = styled.section`
     color: #ff3f66;
     font-size: 2.2rem;
     line-height: 1.4em;
-    margin-top: 2.2em;
     font-weight: 600;
     letter-spacing: -1px;
     text-align: center;
+    padding-top: 3em;
     @media only screen and (max-width: 1366px) {
       font-size: 2.2rem;
     }
@@ -41,7 +41,6 @@ export const Section = styled.section`
     }
     @media only screen and (max-width: 480px) {
       font-size: 1.4rem;
-      margin-top: 1em;
     }
   }
   .hintalistaheading:after {
