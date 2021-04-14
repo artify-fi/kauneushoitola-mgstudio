@@ -1,10 +1,11 @@
 import styled from 'styled-components';
-import img from '../../../images/palvelut/palvelut_erikseen/olaplex_salonkihoito.webp';
+import img from '../../../../images/palvelut/palvelut_erikseen/olaplex_salonkihoito.webp';
 
 const BannerWrapper = styled.div`
   padding-top: 100px;
   overflow: hidden;
   position: relative;
+  display: flex;
   background-image: url(${img});
   background-position: center;
   background-repeat: no-repeat;
@@ -19,26 +20,26 @@ const BannerWrapper = styled.div`
   }
   @media only screen and (min-width: 1099px) and (max-width: 1200px) {
   }
-  @media only screen and (max-width: 480px) {
-    padding-top: 90px;
+  @media only screen and (max-width: 768px) {
   }
+  @media only screen and (max-width: 480px) {
+    max-height: 22vh;
+  }
+
   // From here it must be possible to change the height
   > div.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
     @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-      max-height: 60vh;
-      margin-top: 4em;
     }
     @media only screen and (max-width: 1099px) {
-      max-height: 40vh;
+    }
+    @media only screen and (max-width: 768px) {
+      padding: 20px 0 15px;
     }
     @media only screen and (max-width: 480px) {
       flex-wrap: wrap;
-      max-height: 36vh;
-      margin-top: 4em;
     }
   }
   .bannerBottomShape {
@@ -76,7 +77,12 @@ export const BannerContent = styled.div`
     border-top: 2px solid rgba(20, 28, 45, 0.95);
     border-bottom: 2px solid rgba(20, 28, 45, 0.95);
 
-    @media only screen and (min-width: 440px) and (max-width: 998px) {
+    @media only screen and (min-width: 440px) and (max-width: 768px) {
+      font-size: 2.2rem;
+      margin-bottom: 6rem;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 998px) {
       font-size: 2.2rem;
       margin-bottom: 6rem;
     }
@@ -86,7 +92,7 @@ export const BannerContent = styled.div`
       margin-bottom: 6rem;
     }
 
-    @media only screen and (min-width: 1366px) {
+    @media only screen and (min-width: 1367px) {
       font-size: 4.8rem;
       margin-bottom: 6rem;
     }

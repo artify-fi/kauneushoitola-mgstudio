@@ -18,6 +18,7 @@ import Image9 from '../../../images/palvelut/kasvohoito.jpg';
 import Image10 from '../../../images/palvelut/kynnet_w.webp';
 import Image11 from '../../../images/palvelut/jalkahoito_w.webp';
 import Image12 from '../../../images/palvelut/ripset_kulmat_w.webp';
+import Image13 from '../../../images/palvelut/geelilakkaus_varpaisiin_w.webp';
 import { Icon } from 'react-icons-kit';
 import { chevronRight } from 'react-icons-kit/feather/chevronRight';
 
@@ -153,6 +154,35 @@ const DesignedAndBuilt = () => {
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
             />
             <Link className="explore" href="/palvelumme/jalkahoito/">
+              Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
+            </Link>
+          </div>
+        </ContentWrapper>
+
+        {/* 10 Geelilakkaus varpaaisiin */}
+        <ContentWrapper>
+          <div className="image">
+            <Image
+              className="image"
+              src={Image13}
+              alt="Kynnet vantaa martinlaakso"
+            />
+          </div>
+          <div className="content">
+            <Heading
+              as="h2"
+              className="heading"
+              content="Geelilakkaus Varpaisiin"
+            />
+            <Heading
+              as="h4"
+              className="text"
+              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
+            />
+            <Link
+              className="explore"
+              href="/palvelumme/geelilakkaus-varpaisiin/"
+            >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>
@@ -307,27 +337,6 @@ export default DesignedAndBuilt;
           </div>
         </ContentWrapper> 
      
-        10 Kynnet 
-        <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image10}
-              alt="Kynnet vantaa martinlaakso"
-            />
-          </div>
-          <div className="content">
-            <Heading as="h2" className="heading" content="Kynnet" />
-            <Heading
-              as="h4"
-              className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
-            />
-            <Link className="explore" href="/palvelumme/kynnet/">
-              Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
-            </Link>
-          </div>
-        </ContentWrapper>      
-     
+       
      */
 }

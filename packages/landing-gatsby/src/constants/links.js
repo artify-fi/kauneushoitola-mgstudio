@@ -48,23 +48,23 @@ export default [
     page: 'PALVELUMME',
     label: 'Kampaaja(oppilastyö)',
     url: `/palvelumme/naisten-hiusten-leikkaus/`,
-    icon: <FaUser className="icon" />,
+    icon: <FaGem className="icon" />,
   },
   {
     page: 'PALVELUMME',
     label: 'Olaplex salonkihoito',
     url: `/palvelumme/olaplex-salonkihoito/`,
-    icon: <FaUserTie className="icon" />,
+    icon: <FaGem className="icon" />,
   },
   {
     page: 'PALVELUMME',
     label: 'Ripset & kulmat',
     url: `/palvelumme/ripset-kulmat/`,
-    icon: <FaEye className="icon" />,
+    icon: <FaGem className="icon" />,
   },
   {
     page: 'PALVELUMME',
-    label: 'Kasvohoito',
+    label: 'Kasvohoito(tulossa)',
     url: `/palvelumme/kasvohoito/`,
     icon: <FaGem className="icon" />,
   },
@@ -76,16 +76,22 @@ export default [
   },
   {
     page: 'PALVELUMME',
+    label: 'Geelilakkaus varpaaisiin',
+    url: `/palvelumme/geelilakkaus-varpaisiin/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
     label: 'Hieronta',
     url: `/palvelumme/hieronta/`,
-    icon: <FaDiagnoses className="icon" />,
+    icon: <FaGem className="icon" />,
   },
 
   {
     page: 'PALVELUMME',
     label: 'Kuumakivihieronta',
     url: `/palvelumme/hemmotteleva-kuumakivihieronta/`,
-    icon: <FaDiagnoses className="icon" />,
+    icon: <FaGem className="icon" />,
   },
   // {
   //   page: 'PALVELUMME',

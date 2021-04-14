@@ -32,9 +32,10 @@ const ButtonWrapper = styled.div`
     margin-left: 2em;
   }
   @media only screen and (max-width: 420px) {
-    width: 240px;
+    width: 254px;
     margin-left: 1em;
     font-size: 1.36rem !important;
+    padding-left: 0.6em;
   }
 `;
 

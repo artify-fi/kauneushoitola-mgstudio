@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Heading from 'common/src/components/Heading';
 import Text from 'common/src/components/Text';
 import Container from 'common/src/components/UI/ContainerTwo';
-import Line from '../../components/reusableComponents/Line';
+import Line from '../reusableComponents/Line';
 
 const SectionWrapper = styled.section`
   position: relative;
@@ -11,7 +11,7 @@ const SectionWrapper = styled.section`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 90vw;
+  width: 100vw;
   margin-bottom: 3em;
 `;
 
@@ -52,6 +52,32 @@ export const Section = styled.section`
     padding-top: 10px; /* This creates some space between the element and the border. */
     border-bottom: 2px solid #ff3f66; /* This creates the border. Replace black with whatever color you want. */
   }
+
+  .hintalistasubheading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Playfair Display;
+    color: #ff3f66;
+    font-size: 2.1rem;
+    line-height: 1.4em;
+    margin-top: 0.6em;
+    font-weight: 500;
+    letter-spacing: -1px;
+    @media only screen and (max-width: 1366px) {
+      font-size: 2rem;
+    }
+    @media only screen and (max-width: 991px) {
+      font-size: 1.7rem;
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+    @media only screen and (max-width: 480px) {
+      font-size: 1.3rem;
+      margin-top: 2em;
+    }
+  }
 `;
 
 export const Content = styled.div`
@@ -86,18 +112,20 @@ export const Content = styled.div`
     }
     @media only screen and (max-width: 768px) {
       text-align: center;
+      margin-right: 2em;
     }
     @media only screen and (max-width: 480px) {
       font-size: 1.1rem;
+      margin-right: 0.2em;
       text-align: center;
     }
   }
 `;
 
-const KampaamoParturi = () => {
+const Hintalista = () => {
   return (
     <SectionWrapper>
-      <Container style={{ padding: '0px' }}>
+      <Container>
         <Section>
           <Heading
             as="h2"
@@ -117,7 +145,7 @@ const KampaamoParturi = () => {
               content="30€"
             />
           </Content>
-          <Line color="#fff" width="110%" />
+          <Line color="#fff" width="100%" />
           <Content>
             <Text
               as="p"
@@ -131,6 +159,7 @@ const KampaamoParturi = () => {
               content="25€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Koneajo" />
             <Text
@@ -140,6 +169,7 @@ const KampaamoParturi = () => {
               content="15€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Mallinmuutos" />
             <Text
@@ -149,6 +179,7 @@ const KampaamoParturi = () => {
               content="35 - 55€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Otsatukka" />
             <Text
@@ -158,6 +189,7 @@ const KampaamoParturi = () => {
               content="8 - 12€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text
               as="p"
@@ -171,6 +203,7 @@ const KampaamoParturi = () => {
               content="20€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Permanentti" />
             <Text
@@ -180,6 +213,7 @@ const KampaamoParturi = () => {
               content="70 - 110€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text
               as="p"
@@ -193,6 +227,7 @@ const KampaamoParturi = () => {
               content="15€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Föönkampaus" />
             <Text
@@ -214,6 +249,7 @@ const KampaamoParturi = () => {
               content="60€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text
               as="p"
@@ -227,6 +263,7 @@ const KampaamoParturi = () => {
               content="70€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Pitkät hiukset" />
             <Text
@@ -236,6 +273,7 @@ const KampaamoParturi = () => {
               content="80 - 100€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Raidat" />
             <Text
@@ -245,6 +283,7 @@ const KampaamoParturi = () => {
               content="60 - 100€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Tyviväri" />
             <Text
@@ -254,15 +293,7 @@ const KampaamoParturi = () => {
               content="55€"
             />
           </Content>
-          <Content>
-            <Text as="p" className="hintalistatext" content="Föönkampaus" />
-            <Text
-              as="p"
-              style={{ marginLeft: 'auto' }}
-              className="hintalistatext"
-              content="30 - 50€"
-            />
-          </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text
               as="p"
@@ -277,6 +308,7 @@ const KampaamoParturi = () => {
               content="10€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Raidat + sävy " />
             <Text
@@ -286,10 +318,221 @@ const KampaamoParturi = () => {
               content="alk. 100€"
             />
           </Content>
+          <Heading
+            as="h2"
+            className="hintalistaheading"
+            content="Väripaketti"
+          />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Lyhyt hiukset" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="70€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Puolipitkät hiukset"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="80€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Pitkät hiukset" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="90 - 100€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Raidat" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="70 - 100€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Raidat + Väri" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="80 -120€"
+            />
+          </Content>
+          <Heading
+            as="h2"
+            className="hintalistaheading"
+            content="Olaplex-palvelut"
+          />
+          <Heading
+            as="h3"
+            className="hintalistasubheading"
+            content="Olaplex värikäsittely"
+          />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Lyhyet hiukset" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="15€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Puolipitkät hiukset"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="20€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Pitkät hiukset" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="25€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Erittäin pitkät hiukset"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="30€"
+            />
+          </Content>
+          <Heading
+            as="h3"
+            className="Olaplex vaalennuskäsittely"
+            content="Olaplex värikäsittely"
+          />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Lyhyt hiukset" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="25€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Puolipitkät hiukset"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="30€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Pitkät hiukset" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="35€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Erittäin pitkät hiukset"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="40€"
+            />
+          </Content>
+          <Heading
+            as="h3"
+            className="Olaplex vaalennuskäsittely"
+            content="Olaplex salonkihoito"
+          />
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Lyhyt hiukset
+              "
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="30€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Puolipitkät hiukset"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="35€"
+            />
+          </Content>
+          <Content>
+            <Text as="p" className="hintalistatext" content="Pitkät hiukset" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="40€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Erittäin pitkät hiukset"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="45€"
+            />
+          </Content>
         </Section>
       </Container>
     </SectionWrapper>
   );
 };
 
-export default KampaamoParturi;
+export default Hintalista;
