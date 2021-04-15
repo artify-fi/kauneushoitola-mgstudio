@@ -11,24 +11,24 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            <Heading
-              as="h1"
-              content="Olaplex – Ei enää koskaan vaurioituneita hiuksia"
-            />
+            <Heading as="h2" content="Vaalennukset" />
 
-            <Text content="Olaplex-käsittelyt takaavat, että hiuksesi eivät enää koskaan mene huonoon kuntoon niitä vaalennettaessa, värjättäessä tai tehtäessä rakennekäsittelyjä. Takaamme että käyttäessäsi Olaplex-palveluitamme hiuksesi ovat huomattavasti paremmassa kunnossa kuin ennen käsittelyä." />
-            <Text content="Olaplex on Yhdysvalloissa vuonna 2014 kehitetty aine. Se ehkäisee hiusten kuitukerroksessa olevia rikkisiltoja vaurioitumasta sekä korjaa jo vaurioituneet rikkisillat, sekä vahvistaa hiuksen liitoksia palauttaen hiuksen alkuperäiseen rakenteeseensa. Tämä teknologia on hiustenkäsittelyn mullistava uutuus ja mitään vastaavaa ei koskaan aikaisemmin ole pystytty kehittämään. Lopputulos on välittömästi nähtävissä ja käsin kosketeltavissa. Olaplexissä parasta on se, että se ei vain väliaikaisesti täytä vaurioituneiden hiussuomujen välejä, vaan rakentaa rikkisillat uudelleen, joten tulos on pysyvä." />
-            <Heading as="h2" content="Miten se toimii?" />
+            <Text content="Hiusten vaalennus on kemiallinen prosessi, jossa hiusten väriä vaalennetaan. Vaalennuskäsittelyissä käytetään aina hapetetta. Vaalennus voidaan tehdä joko vaalennusvärillä, jolloin hiuksen omaa pigmenttiä värjätään vaaleammaksi tai ”valkaisemalla”, jolloin hiuksen pigmentti poistetaan kokonaan. Näistä kahdesta vaalennusvärjäys on hiukselle huomattavasti hellävaraisempi käsittely. Valkaisuvaalennuskäsittelyyn kannattaa aina lisätä sävytys eli taitto, joka korjaa hiusta ja poistaa vaaleata väristä ei-toivottua keltaisuutta." />
+            <Text content="Kylmän vaaleiden hiusten sävyn säilyttämiseksi ja ylläpitämiseksi tulee aina käyttää kotihoidossa tähän tarkoitettuja hopeashampoota ja -hoitoainetta. Ilman näitä tuotteita kylmän vaalea sävy tulee häviämään hiuksista ja hiusten sävy tulee taittamaan kylmästä lämpimään, yleensä kellertävään." />
+            <Text content="Kylmän vaaleiden hiusten ylläpitohoito siihen tarkoitetuilla tuotteilla tulee aloittaa välittömästi värjäyksen jälkeen. Hiusta ei tule päästää ensin kellastumaan, sillä kerran menetetyn kylmän vaalean sävyn palauttaminen takaisin pelkillä kotihoituotuotteilla on lähes mahdotonta." />
+            <Text content="Kasviväreillä tai hennalla värjättyjä hiuksia emme lähde vaalentamaan lainkaan." />
 
-            <Text content="Olaplex-käsittely on kolmivaiheinen prosessi. Ensimmäisessä vaiheessa vaalennus- / väriaineeseen sekoitetaan Olaplex Bond Multiplier -ainesosa. Tämä ehkäisee käsittelyssä normaalisti tapahtuvaa hiusten kuitukerroksen rikkisiltojen hajoamista. Samalla Olaplex-molekyylit aloittavat jo hajonneiden rikkisiltojen uudelleen rakentamisen. Värikäsittelyn jälkeen hiukset hoidetaan Olaplex Bond Perfector -aineella, joka sitoo hiuksissa olevat rikkisillat vahvasti kiinni toisiinsa." />
-            <Text content="Käsittely jatkuu kotona kerran viikossa hiusten pesun yhteydessä käytettävällä Olaplex Hair Perfector -aineella. Kotituote ei ole välttämätön, mutta suosittelemme vahvasti sen käyttöä etenkin, mikäli hiuksia käsitellään usein muotoiluraudalla, föönillä, tms. lämpölaitteella tai voimakkaasti harjaten. Kotihoitotuote ehkäisee vaurioiden syntymistä ja korjaa jo syntyneitä vaurioita päivittäisestä hiuksiin kohdistuvasta rasituksesta." />
-            <Heading as="h2" content="Olaplex vaalennus- ja värikäsittely." />
+            <Heading as="h2" content="Raidat" />
 
-            <Text content="Mikäli olet harkinnut hiusten vaalentamista, suosittelemme ehdottomasti sen tehtävän Olaplex-käsittelynä. Vaalentaminen on hiuksia eniten rasittava toimenpide, joka jättää hiukset usein kuiviksi ja karheiksi. Voit unohtaa kuivuuden ja karheuden, kun vaalennus toteutetaan Olaplex-käsittelynä. Olaplexin avulla pystymme myös vaalentamaan hiuksiasi todella paljon enemmän kuin perinteisellä vaalennusmenetelmällä pelkäämättä hiusten vaurioitumista." />
-            <Text
-              content=" Nyt sinun on siis mahdollista toteuttaa unelmiesi ombré, pastelli tai blondi säilyttäen hiukset hyvässä kunnossa.
-              Värikäsittelyt Olaplexilla lisäävät huomattavasti hiusten kiiltoa ja värien intensiivisyyttä ja täyteläisyyttä. Mikäli värikäsittelyt ovat aiemmin aiheuttaneet hiuksiisi kuivuutta tai karheutta, suosittelemme ehdottomasti värikäsittelyt tehtäväksi Olaplexilla."
-            />
+            <Text content="Hiusten raidoittaminen tarkoittaa suortuvien erottelua hiuksista ja niiden käsittelemistä hiusvärillä tai vaalennusaineella, jotta niistä tulee pohjaväriä tai luonnollista väriä vaaleammat tai tummemmat. Raidoilla voidaan saada aikaan ulottuvuutta luomalla kontrastia muihin hiuksiin. Hiusten raidoitus voidaan tehdä folioilla, hupulla tai erityisillä kammoilla tai siveltimillä, joilla väri ”maalataan” hiuksiin" />
+
+            <Heading as="h2" content="Tyviväri" />
+
+            <Text content="Hius kasvaa juuresta, joten tyvikasvu on väistämätön. Tyvivärillä eli juurivärillä tarkoitetaan hiuksen omaa väriä, joka kasvaa tummempana tai vaaleampana, kuin hiusten pituuksiin laitettu väri. Tyvivärin raja on enintään 3 cm. Mikäli värjättävän tyven pituus on enemmän kuin 3 cm, ei kyseessä enää ole tyviväri vaan väri." />
+
+            <Heading as="h2" content="Sävytys eli taitto" />
+
+            <Text content=" Sävytys eli taitto tarkoittaa varsinaisen värin sävyttämistä eli taittamista viileään. Taitolla sävytetään lämpimät eli kultaiset eli keltaiset sävyt viileän vaaleiksi. Kylmät ja harmaat sävyt vaativat aina sävytyksen. Taitto on aina värikäsittelyn lisäpalvelu." />
           </Content1>
           <Content2></Content2>
         </Section>

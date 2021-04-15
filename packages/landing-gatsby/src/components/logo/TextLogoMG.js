@@ -7,7 +7,7 @@ const ButtonWrapper = styled.div`
   display: flex;
   align-items: center;
   margin-top: 3em;
-  font-family: Great Vibes, cursive !important;
+  font-family: Playfair Display, Times New Roman, serif;
   width: 100%;
   height: 50px;
   border: none;
@@ -50,16 +50,7 @@ const ButtonWrapper = styled.div`
 const Button = () => {
   return (
     <ButtonWrapper>
-      <span
-        style={{
-          fontFamily: 'Playfair Display',
-          marginRight: '0.4em',
-          marginBottom: '0.2em',
-        }}
-      >
-        MG Studio
-      </span>
-      Make you glow
+      <span style={{ fontFamily: '' }}>MG Studio</span>
     </ButtonWrapper>
   );
 };

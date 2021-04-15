@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../../../images/palvelut/palvelut_erikseen/olaplex_salonkihoito.webp';
+import img from '../images/olaplex_salonkihoito.webp';
 
 const BannerWrapper = styled.div`
   overflow: hidden;

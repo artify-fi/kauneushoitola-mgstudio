@@ -104,7 +104,7 @@ export const Content1 = styled.div`
       font-size: 1.3rem;
     }
   }
-  /* 
+  /*   
   .button {
     display: flex;
     justify-content: center;
@@ -113,8 +113,16 @@ export const Content1 = styled.div`
     margin-bottom: 2em;
     &:hover {
       background-color: #f4899e;
-    }
+    }   
   } */
+
+  .margin {
+    display: flex;
+    margin-bottom: 2em;
+    @media only screen and (min-width: 540px) and (max-width: 1023px) {
+      padding-bottom: 3em;
+    }
+  }
   /* 
   .social {
     display: flex;

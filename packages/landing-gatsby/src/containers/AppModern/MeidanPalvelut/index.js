@@ -51,7 +51,7 @@ const DesignedAndBuilt = () => {
 
             <Link
               className="explore"
-              href="/palvelumme/naisten-hiusten-leikkaus/"
+              href="/palvelumme/kampaaja-helsinki-malminkartano/"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>

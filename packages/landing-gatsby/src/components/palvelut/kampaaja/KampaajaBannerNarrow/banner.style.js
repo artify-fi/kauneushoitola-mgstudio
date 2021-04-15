@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../../../images/palvelut/palvelut_erikseen/banner_narrow.jpg';
+import img from '../images/banner_narrow.jpg';
 
 const BannerWrapper = styled.div`
   overflow: hidden;

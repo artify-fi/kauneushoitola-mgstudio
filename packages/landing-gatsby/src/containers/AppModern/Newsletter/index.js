@@ -7,7 +7,7 @@ import Container from 'common/src/components/UI/Container';
 import NewsletterWrapper from './newsletter.style';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
-
+import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import PhoneIcon from '@material-ui/icons/Phone';
 import CalendarButton from '../../../components/logo/CalendarButton';
 
@@ -39,7 +39,8 @@ const Newsletter = ({
           />
           <br />
           <Text content="Ajanvaraus puhelimitse " {...descriptionBold} />
-          <Text content="0400 9790 51 " {...descriptionPink} />
+          {/* <Text content="0400 9790 51 " {...descriptionPink} /> */}
+          ristkylik icon number
           <div
             style={{
               display: 'flex',
@@ -69,14 +70,44 @@ const Newsletter = ({
             content="tai helposti ja vaivattomasti netin kautta 24/7 "
             {...descriptionBold}
           />
-
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              marginTop: '1em',
+            }}
+          >
+            <a
+              href="https://varaa.timma.fi/MGstudio"
+              target="_blank"
+              rel="noopener norefferer"
+              className="link"
+            >
+              {' '}
+              <Button
+                style={{
+                  backgroundColor: '#ff3f66',
+                  border: '6px solid black',
+                  fontSize: '1rem',
+                }}
+                variant="contained"
+                color="#000"
+                size="small"
+                className={classes.button}
+                startIcon={<EventAvailableIcon style={{ fontSize: '1em' }} />}
+              >
+                Nettiajanvaraus
+              </Button>
+            </a>
+          </div>
+          {/* 
           <div
             style={{
               display: 'flex',
               justifyContent: 'center',
               margin: '0.6em',
             }}
-          >
+            >
             <a
               href="https://varaa.timma.fi/MGstudio"
               target="_blank"
@@ -101,7 +132,7 @@ const Newsletter = ({
                 content="Nettiajanvaraus"
               />
             </a>
-          </div>
+          </div> */}
           <Text
             content="Jos ei löydy sopiva aika, niin soitta!"
             {...descriptionBold}

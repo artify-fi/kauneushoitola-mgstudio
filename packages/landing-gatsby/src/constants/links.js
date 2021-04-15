@@ -47,7 +47,7 @@ export default [
   {
     page: 'PALVELUMME',
     label: 'Kampaaja(oppilastyö)',
-    url: `/palvelumme/naisten-hiusten-leikkaus/`,
+    url: `/palvelumme/kampaaja-helsinki-malminkartano/`,
     icon: <FaGem className="icon" />,
   },
   {

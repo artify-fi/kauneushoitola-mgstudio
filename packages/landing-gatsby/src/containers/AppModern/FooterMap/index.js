@@ -12,6 +12,7 @@ import 'react-sharingbuttons/dist/main.css';
 
 import PhoneButton from '../../../components/logo/PhoneButton';
 import CalendarButton from '../../../components/logo/CalendarButton';
+import CardButton from '../../../components/logo/CardButton';
 
 import SectionWrapper, { Section, Content1, Content2 } from './footerMap';
 
@@ -25,12 +26,41 @@ const Footer = () => {
           <Content1>
             <Text id="footer" style={{ marginBottom: '5em' }} content="" />
             <Heading as="h2" content="MG Studio" />
-            <Heading id="footer" as="h3" content="TULE KÄYMÄÄN" />
-            <Text content="Tuohiaukio 4, 00410, Helsinki, Malminkartano" />
+            {/* <Heading id="footer" as="h3" content="TULE KÄYMÄÄN" /> */}
+            {/* <Text content="Tuohiaukio 4, 00410, Helsinki, Malminkartano" /> */}
+
+            {/* Osoite ja sen eteena nupp karttalla */}
+
+            <div
+              classNam="margin"
+              style={{
+                display: 'flex',
+                justifyContent: 'flex-start',
+              }}
+            >
+              <CardButton />
+
+              <Heading
+                style={{
+                  display: 'flex',
+                  textAlign: 'start',
+                  paddingLeft: '1.2em',
+                  paddingTop: '0.4em',
+                }}
+                as="h3"
+                content="Tuohiaukio 4, 00410, Helsinki, Malminkartano"
+              />
+            </div>
 
             {/* Ajanvaraus soittaminen */}
 
-            <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'flex-start',
+                marginTop: '1em',
+              }}
+            >
               <a href="tel:+358400979051">
                 {' '}
                 <PhoneButton />

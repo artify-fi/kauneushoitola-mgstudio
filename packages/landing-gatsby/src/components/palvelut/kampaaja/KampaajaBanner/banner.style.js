@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../../../images/palvelut/palvelut_erikseen/olaplex_salonkihoito.webp';
+import img from '../images/kampaaja_w.webp';
 
 const BannerWrapper = styled.div`
   overflow: hidden;
@@ -19,6 +19,9 @@ const BannerWrapper = styled.div`
   @media only screen and (min-width: 1099px) and (max-width: 1200px) {
     max-height: 36vh;
   }
+  @media only screen and (max-width: 1099px) {
+    max-height: 46vh;
+  }
   @media only screen and (max-width: 480px) {
     padding-top: 90px;
     max-height: 26vh;
@@ -33,7 +36,7 @@ const BannerWrapper = styled.div`
       max-height: calc(30vh - 100px);
     }
     @media only screen and (max-width: 1099px) {
-      max-height: 36vh;
+      max-height: 46vh;
     }
     @media only screen and (max-width: 480px) {
       flex-wrap: wrap;
