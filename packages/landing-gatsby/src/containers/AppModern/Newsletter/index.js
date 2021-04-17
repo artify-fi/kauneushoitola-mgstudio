@@ -40,7 +40,6 @@ const Newsletter = ({
           <br />
           <Text content="Ajanvaraus puhelimitse " {...descriptionBold} />
           {/* <Text content="0400 9790 51 " {...descriptionPink} /> */}
-          ristkylik icon number
           <div
             style={{
               display: 'flex',

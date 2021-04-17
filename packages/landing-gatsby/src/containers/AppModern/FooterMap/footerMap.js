@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { themeGet } from '@styled-system/theme-get';
 
 const SectionWrapper = styled.section`
   padding: 30px 0 30px;
@@ -77,6 +76,7 @@ export const Content1 = styled.div`
     @media only screen and (min-width: 1440px) {
       font-size: 1.7rem;
       text-align: center;
+      padding-top: 0px;
     }
   }
 

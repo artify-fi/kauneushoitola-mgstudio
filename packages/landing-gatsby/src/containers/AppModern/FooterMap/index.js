@@ -45,7 +45,7 @@ const Footer = () => {
                   display: 'flex',
                   textAlign: 'start',
                   paddingLeft: '1.2em',
-                  paddingTop: '0.4em',
+                  paddingTop: '0px',
                 }}
                 as="h3"
                 content="Tuohiaukio 4, 00410, Helsinki, Malminkartano"
@@ -53,7 +53,6 @@ const Footer = () => {
             </div>
 
             {/* Ajanvaraus soittaminen */}
-
             <div
               style={{
                 display: 'flex',
