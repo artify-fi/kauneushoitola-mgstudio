@@ -64,7 +64,7 @@ const BannerSection = ({
             <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} />
           </Box>
           <Box {...imageArea} className="image_area">
-            <Image src={PersonImage} alt="Mat Helme" />
+            <Image src={PersonImage} alt="eilika" />
           </Box>
         </Box>
       </Container>

@@ -26,15 +26,47 @@ export const Section = styled.section`
 `;
 
 export const Content1 = styled.div`
+  display: grid;
   grid-column: 1 / 2;
   width: 100%;
   justify-content: center;
+  align-items: center;
   @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
   }
   @media only screen and (max-width: 768px) {
     grid-column: 1 / 1;
+  }
+
+  .img {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em;
+    width: 82vw;
+
+    @media only screen and (min-width: 421px) {
+      width: 40vw;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 1023px) {
+      line-height: 1.2rem;
+      font-size: 1.2rem;
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+      line-height: 1.5em;
+      font-size: 1.3rem;
+      padding-left: 4em;
+      padding-right: 4em;
+    }
+
+    @media only screen and (min-width: 1367px) {
+      line-height: 1.8rem;
+      font-size: 1.4rem;
+    }
   }
 
   h1 {
@@ -289,6 +321,12 @@ export const Content2 = styled.div`
       width: 100%;
       font-size: 1.2rem;
     }
+  }
+
+  p::first-letter {
+    font-size: 170%;
+    color: #ff3f66;
+    font-weight: 700;
   }
 `;
 

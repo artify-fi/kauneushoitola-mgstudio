@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `MG Studio - Kauneushoitola Malminkartano, Helsinki`,
+    title: `MG Studio - Kauneushoitola Martinlaakso, Helsinki`,
     description: `MG Studio kauneushoitolasta saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. `,
     titleTemplate: `%s |Kauneushoitola Malminkartano, Helsinki`,
     siteUrl: `https://www.mgstudio.fi/`,
@@ -62,12 +62,12 @@ module.exports = {
     //       `https://hakukonestudio.artify.fi/hakukonestudio/graphql`,
     //   },
     // },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `gatsbyjs`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-instagram`,
+    //   options: {
+    //     username: `gatsbyjs`,
+    //   },
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-material-ui`,

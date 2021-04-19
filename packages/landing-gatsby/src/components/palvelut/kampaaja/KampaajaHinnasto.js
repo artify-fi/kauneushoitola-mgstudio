@@ -121,7 +121,7 @@ export const Content = styled.div`
   }
 `;
 
-const OlaplexHintalista = () => {
+const KampaajaHintalista = () => {
   return (
     <SectionWrapper>
       <Container>
@@ -129,7 +129,7 @@ const OlaplexHintalista = () => {
           <Heading as="h1" className="hintalistaheading" content="Hinnasto" />
 
           {/* Section 1 */}
-          <Heading as="h2" className="hintalistasubheading" content="Raidat" />
+          {/* <Heading as="h2" className="hintalistasubheading" content="Raidat" /> */}
           <Content>
             <Text as="p" className="hintalistatext" content="Lyhyt " />
             <Text
@@ -209,4 +209,4 @@ const OlaplexHintalista = () => {
   );
 };
 
-export default OlaplexHintalista;
+export default KampaajaHintalista;
