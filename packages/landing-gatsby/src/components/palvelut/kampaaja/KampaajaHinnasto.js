@@ -102,7 +102,7 @@ export const Content = styled.div`
     line-height: 1.4em;
     margin-top: 0.6em;
     font-weight: 500;
-    letter-spacing: -1px;
+    letter-spacing: 0.7px;
     @media only screen and (max-width: 1366px) {
       font-size: 1.2rem;
     }
