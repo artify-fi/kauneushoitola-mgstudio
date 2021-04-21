@@ -197,7 +197,6 @@ export const Content2 = styled.div`
   h2 {
     display: flex;
     justify-content: center;
-
     font-family: Playfair Display, Times New Roman, serif;
     font-weight: 700;
     font-size: 1.3rem;

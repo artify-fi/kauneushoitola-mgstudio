@@ -105,16 +105,16 @@ const Wrapper = styled.nav`
         font-size: 1.4rem;
       }
       @media only screen and (max-width: 1060px) {
-        margin-left: 23em;
+        margin-left: 17em;
       }
       @media only screen and (max-width: 991px) {
-        margin-left: 20em;
-      }
-      @media only screen and (max-width: 768px) {
         margin-left: 13em;
       }
+      @media only screen and (max-width: 768px) {
+        margin-left: 8em;
+      }
       @media only screen and (max-width: 620px) {
-        margin-left: 6em;
+        margin-left: 3em;
       }
       @media only screen and (max-width: 420px) {
         margin-left: 0.4em;

@@ -9,6 +9,7 @@ import PersonImage2 from './images/blonde-woman-getting-her-hair-done.webp';
 import PersonImage3 from './images/beautiful-young-brunette-with-make-up-curly-hair.webp';
 import PersonImage4 from './images/mature-woman-getting-her-hair-straightened-by-hairdresser-home.webp';
 import PersonImage5 from './images/little-girl-getting-her-hair-dyed.webp';
+import PersonImage6 from './images/woman-getting-her-hair-dyed-by-hairdresser-home.jpg';
 
 import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
 
@@ -35,16 +36,12 @@ const Footer = () => {
             />
             <Text content="Vaaleiden hiusten sävyn säilyttämiseksi  tulee aina höydyntää kotihoidossa siihen tarkoitettuja hopeashampoota ja -hoitoainetta. Ilman niitä valmisteitä kylmän vaalea sävy tulee katoamaan hiuksista ja hiusten sävy tulee taittamaan viileästä lämpimään." />
             <Text content="Yleisimmät valkaisuaineet ovat vetyperoksidi ja ammoniakki. Jotkut tuotemerkit markkinoivat itseään 'peroksidittomaksi', mutta se ei ole totta. Nämä tuotemerkit käyttävät vain toista hiusvalkaisuainetta, joka on yhtä vahingollista kuin peroksidi." />
-          </Content1>
 
-          <Content1>
             <Text content="Joten onko valkaisuaineille mitään luonnollisia vaihtoehtoja? No eipä oikeastaan.Sinun on käytettävä jonkinlaista valkaisuainetta." />
             <Text content="Hiusvalkaisu on vahingollista, siitä ei ole epäilystäkään. Mutta voit silti työskennellä hiusten korjaamiseksi ja vahvistamiseksi (plus välttää niitä ärsyttäviä messinkisiä sävyjä) seuraamalla näitä vinkkejä:" />
             <Text content="Käyttää parasta shampoota blondeille hiuksille. Tämä on tärkein vinkki valkaistujen hiusten parhaan jälkihoidon tekemiseksi.  Luonnolliset blondit tietävät jo tarvitsevansa violettisävyisiä puhdistusaineita estääkseen hiuksensa muuttumasta liian keltaiseksi. Jos olet ensimmäistä kertä blondi, muista tämä!" />
             <Text content="Älä pesee hiukseitä liian usein. Vaikka käytät parasta shampoota on silti viisasta ohittaa joitain pesuja. Miksi? Koska tämä antaa luonnollisten päänahkaöljyjen tehdä sen, mitä heidän pitäisi tehdä - kosteuttaa hiuksiasi. Sinun ei myöskään tarvitse muotoilla hiuksiasi niin usein, mikä on ehdottomasti hyvä asia valkaisuaineksille." />
-          </Content1>
 
-          <Content1>
             <Heading className="heading" as="h2" content="Tyviväri" />
             <Text content="Oikea perusväri on välttämätön miellyttävälle ja imartelevalle hiusvärille. Riippumatta siitä, vaalennatko hiuksiasi tai vain värit harmahtavia hiuksiasi, oikean perusvärin luominen on ensimmäinen askel valitsemaan oikea hiusten väri käytettäväksi." />
             <Image
@@ -60,33 +57,25 @@ const Footer = () => {
           <Content2>
             <Heading className="heading" as="h2" content="Sävytys" />
             <Text content="Hiusten sävy ja hiusväri ovat itse asiassa kaksi täysin erilaista asiaa. Vaikka hiusvärin on tarkoitus olla pysyvämpi, hiusten sävyä pidetään puolipysyvänä. Hiusten sävy eroaa hiusväristä, koska sävytysprosessi lisää ylimääräisen värikerroksen säikeisiisi. Pohjimmiltaan lisäät vain pigmenttikerroksen hiuksillesi jo olevan värin päälle. Tämän prosessin tulisi johtaa hienovaraiseen, läpinäkyvään sävyyn ja lisätä värikkäitä yksityiskohtia hiusväriisi. Hiusten sävytys voi myös johtaa kiiltävämpään ulkonäköön." />
-          </Content2>
 
-          <Content2>
             <Image
               className="img"
               src={PersonImage4}
               alt="nainen-kampaaja-kampauksen-blondi-nainen-kauneussalonki.webp"
             />
             <Text content="Tyypillisesti tarvitset valkaisuainetta ja väriä vaalentaaksesi hiuksiasi tarpeeksi värin kiinnittymiseksi. Kun olet päättänyt värin ja ostanut tarvikkeet, aloita värjäys." />
-          </Content2>
 
-          <Content2>
             <Heading className="heading" as="h2" content="Raidat" />
             <Text content="Hiusten raidoittaminen on loistava tapa lisätä väriä hiuksiin sitoutumatta täysin uuteen väriin. Jos tunnet itsesi varmaksi omien hiusten värjäyksestä, mene lähimpään kauneudenhoitotuotteideen myymälään ja osta kaikki tarvittavat tarvikkeet." />
-          </Content2>
 
-          <Content2>
             <Image
               className="img"
-              src={PersonImage4}
+              src={PersonImage6}
               alt="nainen-kampaaja-kampauksen-blondi-nainen-kauneussalonki.webp"
             />
             <Text content="Ammattimainen  hiusväri tunnetaan perusvärinä hiusten vaalentamiseksi tai tummentamiseksi.	Jos olet valmis tekemään merkittävän muutoksen hiusväriisi, sinun on keksiä värikaava, joka tallettaa sävyt, jotka auttavat luomaan halutun värin." />
             <Text content="Kun halutaan useampaa kuin yhtä tai kahta vaalentamisen tai tummentamisen sävyä, asianmukainen perusvärivalinta tulisi jättää koulutetun ammattilaisen tehtäväksi." />
-          </Content2>
 
-          <Content2>
             <Image
               className="img"
               src={PersonImage5}

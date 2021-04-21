@@ -7,7 +7,7 @@ import Line from '../../reusableComponents/Line';
 
 const SectionWrapper = styled.section`
   position: relative;
-  background-color: #fafae4;
+  background-color: #fff;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
