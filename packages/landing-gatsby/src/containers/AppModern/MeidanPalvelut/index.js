@@ -76,8 +76,7 @@ const DesignedAndBuilt = () => {
             <Heading
               as="h4"
               className="text"
-              content="Mikäli hiuksesi ovat huonossa kunnossa, kuivat tai karheat on niihin uskomaton apu Olaplex-salonkihoito.
-
+              content="Mikäli hiuksesi ovat huonossa kunnossa, kuivat tai karheat on niihin uskomaton apu Olaplex-salonkihoidosta.
               Olaplex-salonkihoito voidaan tehdä muun kampaamopalvelun yhteydessä tai voit varata siihen erikseen ajan."
             />
             <Link className="explore" href="/palvelumme/olaplex-salonkihoito/">
