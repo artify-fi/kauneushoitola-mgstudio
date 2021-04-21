@@ -7,7 +7,7 @@ import Line from '../../reusableComponents/Line';
 
 const SectionWrapper = styled.section`
   position: relative;
-  background-color: #fafae4;
+  background-color: #fff;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -92,33 +92,6 @@ export const Content = styled.div`
     grid-column: 1 / 1;
   }
 
-  /*   
-  .hintalistasubheading {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-family: Playfair Display;
-    color: #ff3f66;
-    font-size: 2.1rem;
-    line-height: 1.4em;
-    margin-top: 0.6em;
-    font-weight: 500;
-    letter-spacing: -1px;
-    @media only screen and (max-width: 1366px) {
-      font-size: 2rem;
-    }
-    @media only screen and (max-width: 991px) {
-      font-size: 1.7rem;
-    }
-    @media only screen and (max-width: 768px) {
-      font-size: 1.3rem;    
-    }
-    @media only screen and (max-width: 480px) {
-      font-size: 1.3rem;
-      margin-top: 2em;
-    }
-  } */
-
   .hintalistatext {
     display: flex;
     justify-content: flex-start;
@@ -129,7 +102,7 @@ export const Content = styled.div`
     line-height: 1.4em;
     margin-top: 0.6em;
     font-weight: 500;
-    letter-spacing: -1px;
+    letter-spacing: 0.7px;
     @media only screen and (max-width: 1366px) {
       font-size: 1.2rem;
     }
