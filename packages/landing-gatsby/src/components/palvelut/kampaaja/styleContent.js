@@ -18,8 +18,8 @@ const SectionWrapper = styled.section`
 
 export const Section = styled.section`
   display: grid;
-  justify-content: center;
-  align-content: center;
+  /* justify-content: center;
+  align-content: center; */
   grid-template-columns: repeat(2, 1fr);
   @media only screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -111,6 +111,7 @@ export const Content1 = styled.div`
     text-align: center;
     line-height: 1.52;
     letter-spacing: 2px;
+    margin-top: 1.2em;
 
     @media only screen and (min-width: 769px) and (max-width: 1023px) {
       line-height: 1.2rem;
@@ -226,10 +227,7 @@ export const Content2 = styled.div`
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     padding: 0.6em;
-    padding-bottom: 2em;
-    padding-top: 2em;
 
     @media only screen and (min-width: 421px) {
       width: 74vw;
@@ -303,6 +301,7 @@ export const Content2 = styled.div`
     text-align: center;
     line-height: 1.52;
     letter-spacing: 2px;
+    margin-top: 1.2em;
 
     @media only screen and (min-width: 769px) and (max-width: 1023px) {
       line-height: 1.2rem;
@@ -318,6 +317,7 @@ export const Content2 = styled.div`
       font-size: 1.4rem;
     }
   }
+
   p {
     font-family: Playfair Display, Times New Roman, serif;
     color: #000;

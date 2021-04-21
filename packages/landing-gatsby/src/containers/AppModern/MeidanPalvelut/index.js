@@ -100,7 +100,7 @@ const DesignedAndBuilt = () => {
             <Heading
               as="h4"
               className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me with.'
+              content="Ripsienpidennys klassiset/ hybrid/ volyymit. Ripsien ja kulmien värjäys sekä muotoilu"
             />
             <Link className="explore" href="/palvelumme/ripset-kulmat/">
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
@@ -148,7 +148,7 @@ const DesignedAndBuilt = () => {
             <Heading
               as="h4"
               className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
+              content="Perusjalkohoito, Luxus jalkahoito, Jalkahoito geelilakalla"
             />
             <Link className="explore" href="/palvelumme/jalkahoito/">
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
@@ -174,7 +174,7 @@ const DesignedAndBuilt = () => {
             <Heading
               as="h4"
               className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
+              content="Kauniit ja kestävät kynnet kuukausiksi."
             />
             <Link
               className="explore"
@@ -199,7 +199,7 @@ const DesignedAndBuilt = () => {
             <Heading
               as="h4"
               className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
+              content="Hieronnasta apua kehon kiputiloihin."
             />
             <Link className="explore" href="/palvelumme/hieronta/">
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
@@ -221,7 +221,7 @@ const DesignedAndBuilt = () => {
             <Heading
               as="h4"
               className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
+              content="Kuumakivihieronta on yksi luonnollisimmista paranemisen muodoista, joka käyttää ainutlaatuista menetelmää maapallon lämpöenergian ohjaamiseksi ihmiskehoon."
             />
             <Link
               className="explore"

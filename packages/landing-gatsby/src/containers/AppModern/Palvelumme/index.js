@@ -43,7 +43,7 @@ const Palvelumme = () => {
                 href="/palvelumme/naisten-hiusten-leikkaus/"
               >
                 <FaCut className="icon" />
-                <Heading as="h3" content="Kampaamo-Parturi" />
+                <Heading as="h3" content="Kampaamo" />
               </Link>
               <br />
 
