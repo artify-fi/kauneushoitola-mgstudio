@@ -39,6 +39,7 @@ export const Content1 = styled.div`
   @media only screen and (max-width: 420px) {
     grid-column: 1 / 1;
     padding: 0.6em;
+    margin-bottom: 2em;
   }
 
   h2 {
@@ -109,17 +110,38 @@ export const Content1 = styled.div`
       font-size: 1.3rem;
     }
   }
-  /*   
-  .button {
-    display: flex;
-    justify-content: center;
-    color: #000;
-    background-color: #ff3f66;
-    margin-bottom: 2em;
-    &:hover {
-      background-color: #f4899e;
-    }   
-  } */
+
+  .mgstudio {
+    margin-top: -2em;
+    @media only screen and (min-width: 421px) {
+      margin-top: -5em;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+      margin-top: -2em;
+    }
+
+    @media only screen and (min-width: 1367px) {
+    }
+  }
+
+  .aukioloajat {
+    @media only screen and (max-width: 420px) {
+      margin-top: 2em;
+    }
+    @media only screen and (min-width: 421px) {
+      margin-top: -2em;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+      margin-top: -1em;
+    }
+
+    @media only screen and (min-width: 1367px) {
+    }
+  }
 
   .margin {
     display: flex;
@@ -128,14 +150,6 @@ export const Content1 = styled.div`
       padding-bottom: 3em;
     }
   }
-  /* 
-  .social {
-    display: flex;
-    @media only screen and (max-width: 769px) {
-     margin-left: 2.2em;
-     margin-right: 2.2em;    
-    }
-  } */
 
   .phone {
     display: flex;
@@ -165,7 +179,7 @@ export const Content1 = styled.div`
   }
 
   .explore {
-    color: #ff3f66;
+    color: #000;
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 42px;
@@ -199,7 +213,7 @@ export const Content2 = styled.div`
     justify-content: center;
     font-family: Playfair Display, Times New Roman, serif;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     letter-spacing: 2px;
     color: #000;
@@ -217,7 +231,7 @@ export const Content2 = styled.div`
 
   h3 {
     font-family: Playfair Display, Times New Roman, serif;
-    color: #ff3f66;
+    color: #000;
     text-align: center;
     border-color: rgba(159, 73, 118, 0.5);
     font-weight: 700;
@@ -263,14 +277,6 @@ export const Content2 = styled.div`
       font-size: 1.3rem;
     }
   }
-  /* 
-  .button {
-    color: #000;
-    display: flex;
-    justify-content: center;
-    background-color: #ff3f66;
-    margin-bottom: 2em;
-  } */
 
   .phone {
     display: flex;
@@ -301,14 +307,14 @@ export const Content2 = styled.div`
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #ff3f66;
+    color: #000;
     line-height: 1.7;
     font-family: Playfair Display;
     text-decoration: underline;
   }
 
   .explore {
-    color: #ff3f66;
+    color: #000;
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 42px;
@@ -321,19 +327,6 @@ export const Content2 = styled.div`
       width: 100%;
       font-size: 1.2rem;
     }
-  }
-`;
-
-export const Illustration = styled.figure`
-  width: 55%;
-  margin: 0 0 0 5%;
-  @media only screen and (max-width: 768px) {
-    margin-bottom: 30px;
-    width: 100%;
-    margin: 0;
-  }
-  @media only screen and (max-width: 480px) {
-    display: none;
   }
 `;
 

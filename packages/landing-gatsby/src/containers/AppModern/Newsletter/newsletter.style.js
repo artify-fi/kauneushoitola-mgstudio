@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const NewsletterWrapper = styled.div`
   position: relative;
-  background-color: #fafae4;
+  background-color: #fff;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

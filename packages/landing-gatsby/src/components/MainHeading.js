@@ -13,7 +13,7 @@ const SectionWrapper = styled.div`
     justify-content: center;
     align-items: center;
     font-family: Playfair Display;
-    color: #ff3f66;
+    color: #000;
     font-size: 3.2rem;
     margin-top: 1em;
     margin-bottom: 1.3em;

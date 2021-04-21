@@ -99,39 +99,7 @@ const Newsletter = ({
               </Button>
             </a>
           </div>
-          {/* 
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              margin: '0.6em',
-            }}
-            >
-            <a
-              href="https://varaa.timma.fi/MGstudio"
-              target="_blank"
-              rel="noopener norefferer"
-              className="link"
-            >
-              <CalendarButton />
-            </a>
-            <a
-              href="https://varaa.timma.fi/MGstudio"
-              target="_blank"
-              rel="noopener norefferer"
-              className="link"
-            >
-              {' '}
-              <Heading
-                style={{
-                  marginLeft: '1em',
-                  marginTop: '0.6em',
-                }}
-                as="h3"
-                content="Nettiajanvaraus"
-              />
-            </a>
-          </div> */}
+
           <Text
             content="Jos ei löydy sopiva aika, niin soitta!"
             {...descriptionBold}
@@ -160,8 +128,8 @@ Newsletter.defaultProps = {
   // },
   title: {
     fontSize: ['1.6rem', '1.6rem', '1.8rem', '2rem', '2.2rem'],
-    fontWeight: '500',
-    color: '#ff3f66',
+    fontWeight: '600',
+    color: '#000',
     fontFamily: 'Playfair Display',
     lineHeight: '1.34em',
     mt: ['1.2em', '2.4em', '2.8em'],

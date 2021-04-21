@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
       </Sticky>
       {isSidebarOpen && <Sidebar />}
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </ThemeProvider>
   );
 };

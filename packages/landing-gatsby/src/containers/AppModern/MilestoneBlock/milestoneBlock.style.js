@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-import bgImage from '../../../images/etusivu/kauniit_kynnet.webp';
+import bgImage from '../../../images/etusivu/tausta_uutiset_etusivu.webp';
 
 const BlockWrapper = styled.div`
   width: 100%;

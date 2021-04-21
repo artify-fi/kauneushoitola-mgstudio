@@ -61,7 +61,7 @@ export const ContentWrapper = styled.div`
     display: flex;
     justify-content: center;
     font-family: Playfair Display;
-    color: #ff3f66;
+    color: #000;
     font-size: 2.2rem;
     line-height: 1.2em;
     font-weight: 700;

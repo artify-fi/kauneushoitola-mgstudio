@@ -8,7 +8,7 @@ import Container from 'common/src/components/UI/Container';
 import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
 // import Image1 from '../../../images/palvelut/naisten_hiusten_leikkaus.jpg';
 // import Image2 from '../../../images/palvelut/miesten_hiusten_leikkaus.jpg';
-import Image3 from '../../../images/palvelut/naisten_hiusten_leikkaus_w.webp';
+import Image3 from '../../../images/palvelut/palvelut_kampaaja_oppilastyo.webp';
 // import Image4 from '../../../images/palvelut/permanentti.jpg';
 // import Image5 from '../../../images/palvelut/airtouch.jpg';
 import Image6 from '../../../images/palvelut/olaplex.jpeg';

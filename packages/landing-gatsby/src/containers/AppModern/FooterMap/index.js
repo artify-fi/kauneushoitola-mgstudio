@@ -25,11 +25,7 @@ const Footer = () => {
         <Section>
           <Content1>
             <Text id="footer" style={{ marginBottom: '5em' }} content="" />
-            <Heading as="h2" content="MG Studio" />
-            {/* <Heading id="footer" as="h3" content="TULE KÄYMÄÄN" /> */}
-            {/* <Text content="Tuohiaukio 4, 00410, Helsinki, Malminkartano" /> */}
-
-            {/* Osoite ja sen eteena nupp karttalla */}
+            <Heading className="mgstudio" as="h2" content="MG Studio" />
 
             <div
               classNam="margin"
@@ -146,7 +142,7 @@ const Footer = () => {
               style={{
                 paddingTop: '14px',
                 fontWeight: '600',
-                color: '#ff3f66',
+                color: '#000',
               }}
               content="Suosittele meitä"
             />
@@ -163,11 +159,7 @@ const Footer = () => {
           </Content1>
 
           <Content2>
-            <Heading
-              style={{ marginTop: '2.2em' }}
-              as="h2"
-              content="Aukioloajat"
-            />
+            <Heading className="aukioloajat" as="h2" content="Aukioloajat" />
             <Heading as="h3" content="MAANANTAI - PERJANTAI" />
             <Text style={{ fontWeight: 600 }} content="10.00-18.00" />
             <Heading as="h3" content="LAUANTAI" />
