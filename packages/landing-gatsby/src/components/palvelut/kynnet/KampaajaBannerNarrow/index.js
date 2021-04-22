@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <BannerWrapper id="home">
       <Container>
-        <BannerContent>
+        <BannerContent style={{ position: 'fixed' }}>
           <Fade up delay={200}></Fade>
         </BannerContent>
       </Container>

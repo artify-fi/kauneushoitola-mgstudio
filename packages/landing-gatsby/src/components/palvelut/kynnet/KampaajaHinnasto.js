@@ -13,7 +13,6 @@ const SectionWrapper = styled.section`
   background-repeat: no-repeat;
   width: 100vw;
   margin-bottom: 3em;
-  margin-top: -2em;
 `;
 
 export const Section = styled.section`
@@ -103,7 +102,7 @@ export const Content = styled.div`
     line-height: 1.4em;
     margin-top: 0.6em;
     font-weight: 500;
-    letter-spacing: -1px;
+    letter-spacing: 0.7px;
     @media only screen and (max-width: 1366px) {
       font-size: 1.2rem;
     }
@@ -122,17 +121,17 @@ export const Content = styled.div`
   }
 `;
 
-const OlaplexHintalista = () => {
+const KampaajaHintalista = () => {
   return (
     <SectionWrapper>
       <Container>
         <Section>
+          <Heading as="h1" className="hintalistaheading" content="Hinnasto" />
+
+          {/* Section 1 */}
+          {/* <Heading as="h2" className="hintalistasubheading" content="Raidat" /> */}
           <Content>
-            <Text
-              as="p"
-              className="hintalistatext"
-              content="Varpaankynsien geelilakkaus"
-            />
+            <Text as="p" className="hintalistatext" content="Lyhyt " />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
@@ -141,10 +140,73 @@ const OlaplexHintalista = () => {
             />
           </Content>
           <Line color="#fff" width="100%" />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Keskipitkät  " />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="50€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Pitkät" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="60€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Tyviväri " />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="30€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Sävytys  " />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="25€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Latvojen leikkkaus"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="10-15€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Otsatukka" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="5-10€"
+            />
+          </Content>
         </Section>
       </Container>
     </SectionWrapper>
   );
 };
 
-export default OlaplexHintalista;
+export default KampaajaHintalista;

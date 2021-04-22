@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../images/beautiful-perfect-female-skin-legs-feet-top-view-with-tropical-flowers-green-palm-leaf-banner.webp';
+import img from '../images/banner_narrow.jpg';
 
 const BannerWrapper = styled.div`
   overflow: hidden;
@@ -9,15 +9,17 @@ const BannerWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   position: sticky;
-  top: 0;
+  /* top: 0; */
   z-index: 1;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
-  height: 36vh;
+  // added shadow on the Hero
+  max-height: 80px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
   }
   @media only screen and (min-width: 1099px) and (max-width: 1200px) {
   }
   @media only screen and (max-width: 480px) {
+    max-height: 80px;
   }
   // From here it must be possible to change the height
   > div.container {
@@ -29,11 +31,10 @@ const BannerWrapper = styled.div`
       max-height: calc(30vh - 100px);
     }
     @media only screen and (max-width: 1099px) {
-      max-height: 36vh;
     }
     @media only screen and (max-width: 480px) {
       flex-wrap: wrap;
-      max-height: 36vh;
+      max-height: 80px;
     }
   }
   .bannerBottomShape {
