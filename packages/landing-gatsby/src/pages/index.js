@@ -16,6 +16,7 @@ import '@redq/reuse-modal/es/index.css';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
 import MainHeading from '../components/MainHeading';
+import MyMap from '../components/leaflet/Leaflet';
 
 export default () => {
   return (
@@ -39,7 +40,8 @@ export default () => {
         <MainHeading />
         <Palvelumme />
         <Footer />
-        <AMap />
+        <MyMap />
+        {/* <AMap /> */}
       </AgencyWrapper>
     </Layout>
   );

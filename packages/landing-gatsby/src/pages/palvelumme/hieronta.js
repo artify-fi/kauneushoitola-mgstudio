@@ -16,7 +16,7 @@ const IndexPage = () => (
       description="Terveet ja kauniisti lakatut kynnet kuuluvat jokaisen luottavan naisen kauneusarsenaliin. Manikyyri geelilakalla on kätevä tapa varmistaa kynsien hyvin hoidettu ulkonäkö pitkään ja pienellä vaivalla.  "
     />
     <BannerNarrow />
-    <Banner style={{ paddingBottom: '3em' }} />
+    <Banner />
     <Title as="h1" title="Hieronta" />
     <Hintalista />
     <TextContent />

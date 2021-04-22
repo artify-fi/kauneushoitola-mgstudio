@@ -10313,6 +10313,11 @@ gatsby-plugin-react-helmet@^3.3.5:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
+gatsby-plugin-react-leaflet@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-leaflet/-/gatsby-plugin-react-leaflet-3.0.0.tgz#73e6e1b3c16f6ab09d6b440e504d2644e5197a12"
+  integrity sha512-HJQabsdYRtrtAYt9mw7sA6io8mmMOypykUUs0M90xd9RJPHiUAkqmW3yLiLH7WE6Uju+U0NN9CbNzYqWwX6yWQ==
+
 gatsby-plugin-robots-txt@^1.5.3:
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-robots-txt/-/gatsby-plugin-robots-txt-1.5.5.tgz#5ec156c2283307031d4890a7d036e11131037cea"
@@ -13708,6 +13713,11 @@ lazystream@^1.0.0:
   integrity sha1-9plf4PggOS9hOWvolGJAe7dxaOQ=
   dependencies:
     readable-stream "^2.0.5"
+
+leaflet@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.7.1.tgz#10d684916edfe1bf41d688a3b97127c0322a2a19"
+  integrity sha512-/xwPEBidtg69Q3HlqPdU3DnrXQOvQU/CCHA1tcDQVzOwm91YMYaILjNp7L4Eaw5Z4sOYdbBz6koWyibppd8Zqw==
 
 lerna@^3.22.1:
   version "3.22.1"

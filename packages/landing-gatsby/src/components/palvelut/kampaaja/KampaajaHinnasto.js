@@ -127,7 +127,11 @@ const KampaajaHintalista = () => {
     <SectionWrapper>
       <Container>
         <Section>
-          <Heading as="h1" className="hintalistaheading" content="Hinnasto" />
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Kampaaja Hinnasto"
+          />
 
           {/* Section 1 */}
           {/* <Heading as="h2" className="hintalistasubheading" content="Raidat" /> */}
