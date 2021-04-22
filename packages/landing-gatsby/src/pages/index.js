@@ -20,7 +20,10 @@ import MainHeading from '../components/MainHeading';
 export default () => {
   return (
     <Layout>
-      <SEO title="Kauneushoitola Malminkartano, Helsinki " />
+      <SEO
+        title="Kauneushoitola MG Studio Make you Glow Malminkartano, Helsinki"
+        description="MG Studiosta saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. Laajasta palveluvalikoimasta löydät muun muassa parturi-kampaajan, ripsiteknikon, kynsiteknikon, hierojan ja jalkahoitajan palveluja."
+      />
       <ResetCSS />
       <GlobalStyle />
       <AgencyWrapper>
