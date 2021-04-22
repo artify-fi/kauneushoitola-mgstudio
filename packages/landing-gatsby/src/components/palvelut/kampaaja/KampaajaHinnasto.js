@@ -41,6 +41,7 @@ export const Section = styled.section`
     }
     @media only screen and (max-width: 480px) {
       font-size: 1.4rem;
+      padding-top: 1.2em;
     }
   }
   .hintalistaheading:after {

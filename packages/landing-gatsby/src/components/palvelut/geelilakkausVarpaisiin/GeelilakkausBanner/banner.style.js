@@ -11,7 +11,7 @@ const BannerWrapper = styled.div`
   position: sticky;
   top: 0;
   z-index: 1;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
   height: 36vh;
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
   }
