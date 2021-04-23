@@ -9,6 +9,8 @@ import { GatsbyContext } from '../context/context';
 import { DrawerProvider } from '../../../common/src/contexts/DrawerContext';
 import Sticky from 'react-stickynode';
 import '../css/main.css';
+import MyMap from '../components/leaflet/Leaflet';
+
 // import '../css/style.css'
 
 const Layout = ({ children }) => {
@@ -23,6 +25,7 @@ const Layout = ({ children }) => {
       {isSidebarOpen && <Sidebar />}
       {children}
       {/* <Footer /> */}
+      <MyMap />
     </ThemeProvider>
   );
 };

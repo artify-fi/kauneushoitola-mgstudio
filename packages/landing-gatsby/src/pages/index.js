@@ -10,13 +10,11 @@ import NewsletterSection from '../containers/AppModern/Newsletter';
 import Footer from '../containers/AppModern/FooterMap';
 import Palvelumme from '../containers/AppModern/MeidanPalvelut';
 import Information from '../containers/AppModern/MilestoneBlock';
-// import SimpleReactLightbox from 'simple-react-lightbox';
-import AMap from '../components/map/AMap';
 import '@redq/reuse-modal/es/index.css';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
 import MainHeading from '../components/MainHeading';
-import MyMap from '../components/leaflet/Leaflet';
+//import MyMap from '../components/leaflet/Leaflet';
 
 export default () => {
   return (
@@ -40,8 +38,7 @@ export default () => {
         <MainHeading />
         <Palvelumme />
         <Footer />
-        <MyMap />
-        {/* <AMap /> */}
+        {/* <MyMap /> */}
       </AgencyWrapper>
     </Layout>
   );

@@ -4,7 +4,13 @@ import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import Image from 'common/src/components/Image';
 
-import PersonImage1 from './images/nainen-kampaaja-kampauksen-blondi-nainen-kauneussalonki.webp';
+import PersonImage1 from './images/female-beauty-eyebrows-lashes-1.webp';
+import PersonImage2 from './images/female-beauty-eyebrows-lashes-2.webp';
+import PersonImage3 from './images/female-beauty-eyebrows-lashes.webp';
+import PersonImage4 from './images/ful-female-eyes-with-make-up-brush-1.webp';
+import PersonImage5 from './images/iful-young-woman-s-eye-close-up-shot.webp';
+import PersonImage6 from './images/tiful-female-eyes-with-make-up-brush.webp';
+import PersonImage7 from './images/ty-girl-with-beautiful-big-blue-eyes.webp';
 
 import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
 
@@ -14,48 +20,110 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            <Heading as="h2" content="Hiusten Valkaisu" />
+            <Heading as="h2" content="Ripsien pidennys (Volyymiripset)" />
 
-            <Image className="img" src={PersonImage1} alt="eilika" />
+            <Image
+              className="img"
+              src={PersonImage1}
+              alt="kayniit volyymiripset ja ripsien pidennykset naisille helsinki malminkartano pohjois haaga."
+            />
 
-            <Text content="Valkaisu on kemiallinen käytäntö , milloin hiusten väriä valkaistaan. Valkaisussa käytetään alati hapetetta. Valkaisu  on mahdollista tehdä  vaalennusvärillä, milloin hiuksen  pigmenttiä sävytetään vaaleammaksi tai vaihtoehtoisesti valkaisulla, milloin hiuksen pigmentti poistetaan täysiin.  " />
-            <Text content="Näistä vaihtoehtoista värjäys on hiukselle merkittävästi hellävaraisempi käsittely. Valkaisun ohella on hyvä  lisätä sävytys , joka huoltaa hiusta ja peittää keltaisuutta." />
-            <Text content="Vaaleiden hiusten sävyn säilyttämiseksi  tulee aina höydyntää kotihoidossa siihen tarkoitettuja hopeashampoota ja -hoitoainetta. Ilman niitä valmisteitä kylmän vaalea sävy tulee katoamaan hiuksista ja hiusten sävy tulee taittamaan viileästä lämpimään." />
-            <Text content="Yleisimmät valkaisuaineet ovat vetyperoksidi ja ammoniakki. Jotkut tuotemerkit markkinoivat itseään 'peroksidittomaksi', mutta se ei ole totta. Nämä tuotemerkit käyttävät vain toista hiusvalkaisuainetta, joka on yhtä vahingollista kuin peroksidi." />
-          </Content1>
-          <Content2>
-            <Text content="Joten onko valkaisuaineille mitään luonnollisia vaihtoehtoja? No eipä oikeastaan.Sinun on käytettävä jonkinlaista valkaisuainetta." />
-            <Text content="Hiusvalkaisu on vahingollista, siitä ei ole epäilystäkään. Mutta voit silti työskennellä hiusten korjaamiseksi ja vahvistamiseksi (plus välttää niitä ärsyttäviä messinkisiä sävyjä) seuraamalla näitä vinkkejä:" />
-            <Text content="Käyttää parasta shampoota blondeille hiuksille. Tämä on tärkein vinkki valkaistujen hiusten parhaan jälkihoidon tekemiseksi.  Luonnolliset blondit tietävät jo tarvitsevansa violettisävyisiä puhdistusaineita estääkseen hiuksensa muuttumasta liian keltaiseksi. Jos olet ensimmäistä kertä blondi, muista tämä!" />
-            <Text content="Älä pesee hiukseitä liian usein. Vaikka käytät parasta shampoota on silti viisasta ohittaa joitain pesuja. Miksi? Koska tämä antaa luonnollisten päänahkaöljyjen tehdä sen, mitä heidän pitäisi tehdä - kosteuttaa hiuksiasi. Sinun ei myöskään tarvitse muotoilla hiuksiasi niin usein, mikä on ehdottomasti hyvä asia valkaisuaineksille." />
-          </Content2>
-
-          <Content1>
-            <Heading as="h2" content="Tyviväri" />
-            <Text content="Oikea perusväri on välttämätön miellyttävälle ja imartelevalle hiusvärille. Riippumatta siitä, vaalennatko hiuksiasi tai vain värit harmahtavia hiuksiasi, oikean perusvärin luominen on ensimmäinen askel valitsemaan oikea hiusten väri käytettäväksi." />
-            <Text content="Hiusten väri on tiede, joka voi olla monimutkainen ja sekava harrastajille. Vaikka useimmilla ihmisillä ei ole mitään ongelmaa hiusvärin määrittämisessä, perusväri on eri asia tarkan hiusvärin maailmassa." />
-          </Content1>
-          <Content2>
-            <Text content="Ammattimainen  hiusväri tunnetaan perusvärinä hiusten vaalentamiseksi tai tummentamiseksi.	Jos olet valmis tekemään merkittävän muutoksen hiusväriisi, sinun on keksiä värikaava, joka tallettaa sävyt, jotka auttavat luomaan halutun värin." />
-            <Text content="Kun halutaan useampaa kuin yhtä tai kahta vaalentamisen tai tummentamisen sävyä, asianmukainen perusvärivalinta tulisi jättää koulutetun ammattilaisen tehtäväksi." />
-          </Content2>
-
-          <Content1>
-            <Heading as="h2" content="Raidat" />
-            <Text content="Hiusten raidoittaminen on loistava tapa lisätä väriä hiuksiin sitoutumatta täysin uuteen väriin. Jos tunnet itsesi varmaksi omien hiusten värjäyksestä, mene lähimpään kauneudenhoitotuotteideen myymälään ja osta kaikki tarvittavat tarvikkeet. " />
-          </Content1>
-          <Content2>
-            <Text content="Tyypillisesti tarvitset valkaisuainetta ja väriä vaalentaaksesi hiuksiasi tarpeeksi värin kiinnittymiseksi. Kun olet päättänyt värin ja ostanut tarvikkeet, aloita värjäys." />
-          </Content2>
-
-          <Content1>
-            <Heading as="h2" content="Sävytys" />
-            <Text content="Hiusten sävy ja hiusväri ovat itse asiassa kaksi täysin erilaista asiaa. Vaikka hiusvärin on tarkoitus olla pysyvämpi, hiusten sävyä pidetään puolipysyvänä. Hiusten sävy eroaa hiusväristä, koska sävytysprosessi lisää ylimääräisen värikerroksen säikeisiisi. Pohjimmiltaan lisäät vain pigmenttikerroksen hiuksillesi jo olevan värin päälle. Tämän prosessin tulisi johtaa hienovaraiseen, läpinäkyvään sävyyn ja lisätä värikkäitä yksityiskohtia hiusväriisi. Hiusten sävytys voi myös johtaa kiiltävämpään ulkonäköön." />
-          </Content1>
-          <Content2>
             <Text
-              content="Koska tämä prosessi on puolipysyvä, sillä on taipumus hiipua nopeammin kuin keskimääräinen hiusväri. Sen odotetaan kestävän noin neljä viikkoa, mutta se voi haalistua aikaisemmin, ellei sitä hoideta kunnolla. Katso nämä vinkit varmistaaksesi, että hiustesi sävy kestää mahdollisimman kauan, ennen kuin palaat salonkituoliin.
-                  Yksi helpoimmista paikoista haalistua  tällaiselle hiusvärille on suihkussa. Pitääksesi värisi eloisana ja katseenvangitsijana sinun on käytettävä shampooa ja hoitoaineita, jotka sopivat värikäsitellyille hiuksille. "
+              content="Volyymiripset tai venäläiset volumiripset tai Hollywood-ripset ovat keinotekoisten ripsien tyyli, jossa ripsiteknikko levittää kahdesta kuuteen ihanan kevyttä synteettistä ripsettä tuulettimen muotoisesti jokaiselle yksittäiselle luonnolliselle ripsien hiukselle.
+                            Tilavat silmäripset on valmistettu samasta materiaalista kuin klassiset tekoripset, mutta paljon ohuemmat, jotta luonnollisten ripsien on helpompaa levittää useita tekohiuksia kerralla. Koska volumetriset ripset ovat niin kevyitä, ne pysyvät paikallaan noin kaksi kertaa niin pitkään kuin klassiset ripset."
+            />
+
+            <Heading
+              as="h2"
+              content="Ripsien pidennyksissä käytetyt materiaalit."
+            />
+
+            <Image
+              className="img"
+              src={PersonImage2}
+              alt="kesäksi kauniit kulmakarvat ja ripset naisille malminkartanon lähellä kaikille asiakkaille."
+            />
+
+            <Text
+              content="Materiaali on usein synteettistä minkkiä tai silkkiä.
+                           Lisäksi volyymiripset ovat paljon kevyempiä ja ohuempia kuin luonnolliset ripset.
+                           Volyymiripsien tulisi kestää noin 4-6 viikkoa, huoltoväli 2-3 viikon välein.
+
+                            Kenelle sopiivat volyymiripset?
+                            Tämä tyyli sopii ihmisille, joiden luonnolliset ripset ovat hyvin ohuita ja jotka haluavat ylimääräistä voimakkuutta ripsiin.
+                            Todellisuudessa volyymiripset voivat kuitenkin nauttia myös niistä, joiden luonnollinen ripsekasvu on jo rehevää - volyymit luovat kauniin ja hohdokkaan vaikutelman, joka ei jätä ketään kylmäksi."
+            />
+
+            <Heading as="h2" content="Mitä tarvitaan ripsien asentamiseen?" />
+            <Image
+              className="img"
+              src={PersonImage3}
+              alt="naisen silmät kauniiksi meikkiharjalla myyrmäki ja helsinki"
+            />
+            <Text
+              content="Tilavat ripset on merkitty seuraavasti: 2D, 3D, 4D, 5D ja 6D. Nämä numerot osoittavat, kuinka monta ripsipidennystä käytetään jokaiseen luonnolliseen ripsiin.
+                            2D tarkoittaa kahta synteettistä ripsiä yhdessä tuulettimessa, 3D: llä on kolme, 4D: llä on neljä ja niin edelleen. Raskaampi D on faneillesi, täyteläisempi tai
+                            laajempi tulos. Jos käytät enemmän kuin kuutta ripsiä tuulettimessa, olet jo megavolyymiripset. Eri kaaret ja pituudet antavat haluamasi lopputuloksen."
+            />
+          </Content1>
+
+          <Content2>
+            <Heading
+              as="h2"
+              content="Kuinka volyymiripset ripset eroavat klassisista ripsistä?"
+            />
+
+            <Image
+              className="img"
+              src={PersonImage4}
+              alt="kauniit eroavat volyymiripset sopivat kaikille niin arkielämässä kuin juhlassa helsinki pitäjämäki malminkartano myös saa tulla."
+            />
+
+            <Text
+              content="Klassiset ripsien pidennykset ovat tekniikka, jossa yksi ripsien jatke kiinnitetään jokaiseen luonnolliseen ripsiin.
+                          Ja kuten edellä mainittiin, volyymiripsissä käytetään useampaa kuin yhtä pidennystä kuhunkin luonnolliseen hiukseen järjestäen ne tuulettimen muotoisella tavalla. Tämä antaa vaikutelman, että jokaisen luonnollisen hiuksen juuressa kasvaa enemmän ripsiä."
+            />
+
+            <Heading
+              as="h2"
+              content="Puhaltimessa käytettyjen pidennysten määrä..."
+            />
+
+            <Image
+              className="img"
+              src={PersonImage5}
+              alt="ripsien pidennysten vastaanottaja on tyytyväinen vantaan malminkartanossa ja helsinkista saa tulla helposti junalla."
+            />
+
+            <Text
+              content="..  riippuu siitä, kuinka paksut ja vahvat pidennysten vastaanottajan luonnolliset ripset ovat. Yleissääntönä on kuitenkin, että mitä enemmän pidennyksiä sijoitetaan tuulettimeen ja mitä pehmeämmät ripset ovat, sitä kevyempiä ja ohuempia niiden on oltava.
+
+Kuinka tehdä tilava ripsien tuuletin?
+Volyymiripsissä asennustekniikka on tärkeää maksimaalisen kestävän tuloksen aikaansaamiseksi. Jos klassisia pidennyksiä levitetään luonnollisiin ripsiin, volyymien ollessa kyseessä tuulettimen suljettu osa on käärittävä luonnollisten ripsien ympärille kevyesti painamalla.
+"
+            />
+
+            <Heading
+              as="h2"
+              content="Kääri tuuletin luonnollisten ripsien ympärille"
+            />
+
+            <Image
+              className="img"
+              src={PersonImage6}
+              alt="ripsien pidennysten tarttuvuus ja pidättyminen on tarjolla mg studion kauneushoitolasta malminkartanolla."
+            />
+
+            <Text
+              content="Niin vahvistat pidennysten tarttuvuutta ja pidättymistä. Käärimisen yhteydessä tuulettimen paino jakautuu tasaisemmin ja luonnolliset ripset saavat vähemmän kuormitusta.
+
+Mitä leveämpi tuuletin, sitä pehmeämpi se on. Kapeammilla tuulettimilla kokonaisvaikutelma on tarkempi. Puhaltimen leveys on jokaisen maku.
+
+Volyymiripset voidaan asentaa monilla eri tavoilla tai tekniikoilla. Tässä on joitain suosituimpia:
+
+Raita menetelmä
+Säätämismenetelmä
+Liimapistemenetelmä"
             />
           </Content2>
         </Section>

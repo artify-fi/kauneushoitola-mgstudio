@@ -7,7 +7,7 @@ import Line from '../../reusableComponents/Line';
 
 const SectionWrapper = styled.section`
   position: relative;
-  background-color: #fafae4;
+  background-color: #fff;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ export const Section = styled.section`
     line-height: 1.4em;
     margin-top: 0.6em;
     font-weight: 500;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     @media only screen and (max-width: 1366px) {
       font-size: 2rem;
     }
@@ -102,7 +102,7 @@ export const Content = styled.div`
     line-height: 1.4em;
     margin-top: 0.6em;
     font-weight: 500;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     @media only screen and (max-width: 1366px) {
       font-size: 1.2rem;
     }
@@ -126,32 +126,34 @@ const KampaajaHintalista = () => {
     <SectionWrapper>
       <Container>
         <Section>
-          <Heading as="h1" className="hintalistaheading" content="Hinnasto" />
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Ripsienpidennys/ Ripsien Ja Kulmien Kestovärjäys"
+          />
 
           {/* Section 1 */}
-          {/* <Heading as="h2" className="hintalistasubheading" content="Raidat" /> */}
           <Content>
-            <Text as="p" className="hintalistatext" content="Lyhyt " />
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Ripsienpidennys klassiset "
+            />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content="40€"
+              content="55€ / huolto 50€"
             />
           </Content>
           <Line color="#fff" width="100%" />
+
           <Content>
-            <Text as="p" className="hintalistatext" content="Keskipitkät  " />
             <Text
               as="p"
-              style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content="50€"
+              content="Ripsienpidennys hybrid"
             />
-          </Content>
-          <Line color="#fff" width="100%" />
-          <Content>
-            <Text as="p" className="hintalistatext" content="Pitkät" />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
@@ -160,18 +162,95 @@ const KampaajaHintalista = () => {
             />
           </Content>
           <Line color="#fff" width="100%" />
+
           <Content>
-            <Text as="p" className="hintalistatext" content="Tyviväri " />
+            <Text as="p" className="hintalistatext" content="Volyymit 2D" />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content="30€"
+              content="60€"
             />
           </Content>
           <Line color="#fff" width="100%" />
+
           <Content>
-            <Text as="p" className="hintalistatext" content="Sävytys  " />
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Ripsienhuolto volyymit 2D "
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="50€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text as="p" className="hintalistatext" content="Volyymit 3D  " />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="70€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Ripsienhuolto volyymit 3D"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="65€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Uudet klassiset ripsienpidennykset + kulmien värjäys ja muotoilu"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="65€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Pidennysten poisto"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="20€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Kulmien värjäys ja muotoilu"
+            />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
@@ -180,29 +259,32 @@ const KampaajaHintalista = () => {
             />
           </Content>
           <Line color="#fff" width="100%" />
+
           <Content>
             <Text
               as="p"
               className="hintalistatext"
-              content="Latvojen leikkkaus"
+              content="Ripset ja kulmat + muotoilu"
             />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content="10-15€"
+              content="30€"
             />
           </Content>
           <Line color="#fff" width="100%" />
+
           <Content>
-            <Text as="p" className="hintalistatext" content="Otsatukka" />
+            <Text as="p" className="hintalistatext" content="Ripsien värjäys" />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content="5-10€"
+              content="15€"
             />
           </Content>
+          <Line color="#fff" width="100%" />
         </Section>
       </Container>
     </SectionWrapper>
