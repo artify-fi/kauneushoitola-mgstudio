@@ -76,6 +76,12 @@ export default [
   },
   {
     page: 'PALVELUMME',
+    label: 'Kynnet',
+    url: `/palvelumme/kynnet/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
     label: 'Geelilakkaus varpaaisiin',
     url: `/palvelumme/geelilakkaus-varpaisiin/`,
     icon: <FaGem className="icon" />,

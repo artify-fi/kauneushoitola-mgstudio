@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../images/banner_narrow.jpg';
+import img from '../images/kasvohoito-kauneushoitola-mgStudio-helsinki-malminkartano.webp';
 
 const BannerWrapper = styled.div`
   overflow: hidden;
@@ -11,7 +11,6 @@ const BannerWrapper = styled.div`
   position: sticky;
   /* top: 0; */
   z-index: 1;
-  // added shadow on the Hero
   max-height: 80px;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {

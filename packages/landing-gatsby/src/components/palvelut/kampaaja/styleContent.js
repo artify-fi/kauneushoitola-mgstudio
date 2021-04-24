@@ -169,6 +169,7 @@ export const Content2 = styled.div`
     @media only screen and (min-width: 1024px) and (max-width: 1366px) {
       width: 40vw;
     }
+
     @media only screen and (min-width: 1367px) {
       width: 38vw;
     }
@@ -232,11 +233,5 @@ export const Content2 = styled.div`
       font-size: 1.4rem;
     }
   }
-  p::first-letter {
-    font-size: 170%;
-    color: #ff3f66;
-    font-weight: 700;
-  }
 `;
-
 export default SectionWrapper;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../images/beautiful-perfect-female-skin-legs-feet-top-view-with-tropical-flowers-green-palm-leaf-banner.webp';
+import img from '../images/geelilakkaus-varpaisiin-kauneushoitola-mgstudio-malminkartano-helsinki.webp';
 
 const BannerWrapper = styled.div`
   overflow: hidden;

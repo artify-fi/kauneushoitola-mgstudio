@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../images/kuumakivihieronta-banner.jpg';
+import img from '../images/hemmotteleva_kuumakivi_hieronta-kauneushoitola-mgstudio-helsinki-malminkartano.webp';
 
 const BannerWrapper = styled.div`
   overflow: hidden;

@@ -155,6 +155,30 @@ const DesignedAndBuilt = () => {
           </div>
         </ContentWrapper>
 
+        {/* 5.5 Kynnet */}
+        <ContentWrapper>
+          <div className="image">
+            <Image
+              className="image"
+              src={Image10}
+              alt="Jalkahoito vantaa martinlaakso"
+            />
+          </div>
+          <div className="content">
+            <Heading as="h2" className="heading" content="Kynnet" />
+            <Heading
+              as="h4"
+              className="text"
+              content="Geelilakkaus, Geelikynnet, Manikyyri, Luxus Manikyyri
+
+              "
+            />
+            <Link className="explore" href="/palvelumme/kynnet/">
+              Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
+            </Link>
+          </div>
+        </ContentWrapper>
+
         {/* 10 Geelilakkaus varpaaisiin */}
         <ContentWrapper>
           <div className="image">

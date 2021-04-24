@@ -2,15 +2,15 @@ import React from 'react';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
+// import Image from 'common/src/components/Image';
 
-import PersonImage1 from './images/female-beauty-eyebrows-lashes-1.webp';
-import PersonImage2 from './images/female-beauty-eyebrows-lashes-2.webp';
-import PersonImage3 from './images/female-beauty-eyebrows-lashes.webp';
-import PersonImage4 from './images/ful-female-eyes-with-make-up-brush-1.webp';
-import PersonImage5 from './images/iful-young-woman-s-eye-close-up-shot.webp';
-import PersonImage6 from './images/tiful-female-eyes-with-make-up-brush.webp';
-import PersonImage7 from './images/ty-girl-with-beautiful-big-blue-eyes.webp';
+// import PersonImage1 from './images/female-beauty-eyebrows-lashes-1.webp';
+// import PersonImage2 from './images/female-beauty-eyebrows-lashes-2.webp';
+// import PersonImage3 from './images/female-beauty-eyebrows-lashes.webp';
+// import PersonImage4 from './images/ful-female-eyes-with-make-up-brush-1.webp';
+// import PersonImage5 from './images/iful-young-woman-s-eye-close-up-shot.webp';
+// import PersonImage6 from './images/tiful-female-eyes-with-make-up-brush.webp';
+// import PersonImage7 from './images/ty-girl-with-beautiful-big-blue-eyes.webp';
 
 import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
 
@@ -21,12 +21,12 @@ const Footer = () => {
         <Section>
           <Content1>
             <Heading as="h2" content="Ripsien pidennys (Volyymiripset)" />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage1}
               alt="kayniit volyymiripset ja ripsien pidennykset naisille helsinki malminkartano pohjois haaga."
-            />
+            /> */}
 
             <Text
               content="Volyymiripset tai venäläiset volumiripset tai Hollywood-ripset ovat keinotekoisten ripsien tyyli, jossa ripsiteknikko levittää kahdesta kuuteen ihanan kevyttä synteettistä ripsettä tuulettimen muotoisesti jokaiselle yksittäiselle luonnolliselle ripsien hiukselle.
@@ -37,12 +37,12 @@ const Footer = () => {
               as="h2"
               content="Ripsien pidennyksissä käytetyt materiaalit."
             />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage2}
               alt="kesäksi kauniit kulmakarvat ja ripset naisille malminkartanon lähellä kaikille asiakkaille."
-            />
+            /> */}
 
             <Text
               content="Materiaali on usein synteettistä minkkiä tai silkkiä.
@@ -55,11 +55,11 @@ const Footer = () => {
             />
 
             <Heading as="h2" content="Mitä tarvitaan ripsien asentamiseen?" />
-            <Image
+            {/* <Image
               className="img"
               src={PersonImage3}
               alt="naisen silmät kauniiksi meikkiharjalla myyrmäki ja helsinki"
-            />
+            /> */}
             <Text
               content="Tilavat ripset on merkitty seuraavasti: 2D, 3D, 4D, 5D ja 6D. Nämä numerot osoittavat, kuinka monta ripsipidennystä käytetään jokaiseen luonnolliseen ripsiin.
                             2D tarkoittaa kahta synteettistä ripsiä yhdessä tuulettimessa, 3D: llä on kolme, 4D: llä on neljä ja niin edelleen. Raskaampi D on faneillesi, täyteläisempi tai
@@ -72,12 +72,12 @@ const Footer = () => {
               as="h2"
               content="Kuinka volyymiripset ripset eroavat klassisista ripsistä?"
             />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage4}
               alt="kauniit eroavat volyymiripset sopivat kaikille niin arkielämässä kuin juhlassa helsinki pitäjämäki malminkartano myös saa tulla."
-            />
+            /> */}
 
             <Text
               content="Klassiset ripsien pidennykset ovat tekniikka, jossa yksi ripsien jatke kiinnitetään jokaiseen luonnolliseen ripsiin.
@@ -88,12 +88,12 @@ const Footer = () => {
               as="h2"
               content="Puhaltimessa käytettyjen pidennysten määrä..."
             />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage5}
               alt="ripsien pidennysten vastaanottaja on tyytyväinen vantaan malminkartanossa ja helsinkista saa tulla helposti junalla."
-            />
+            /> */}
 
             <Text
               content="..  riippuu siitä, kuinka paksut ja vahvat pidennysten vastaanottajan luonnolliset ripset ovat. Yleissääntönä on kuitenkin, että mitä enemmän pidennyksiä sijoitetaan tuulettimeen ja mitä pehmeämmät ripset ovat, sitä kevyempiä ja ohuempia niiden on oltava.
@@ -107,12 +107,12 @@ Volyymiripsissä asennustekniikka on tärkeää maksimaalisen kestävän tulokse
               as="h2"
               content="Kääri tuuletin luonnollisten ripsien ympärille"
             />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage6}
               alt="ripsien pidennysten tarttuvuus ja pidättyminen on tarjolla mg studion kauneushoitolasta malminkartanolla."
-            />
+            /> */}
 
             <Text
               content="Niin vahvistat pidennysten tarttuvuutta ja pidättymistä. Käärimisen yhteydessä tuulettimen paino jakautuu tasaisemmin ja luonnolliset ripset saavat vähemmän kuormitusta.

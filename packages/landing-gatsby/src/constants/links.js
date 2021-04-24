@@ -38,12 +38,12 @@ export default [
     url: `/tietoa-meistä/tietoa-meista/`,
     icon: <FaUsers className="icon" />,
   },
-  {
-    page: 'MEISTÄ',
-    label: 'Eilika',
-    url: `/tietoa-meistä/eilika/`,
-    icon: <FaUsers className="icon" />,
-  },
+  // {
+  //   page: 'MEISTÄ',
+  //   label: 'Eilika',
+  //   url: `/tietoa-meistä/eilika/`,
+  //   icon: <FaUsers className="icon" />,
+  // },
   {
     page: 'PALVELUMME',
     label: 'Kampaaja(oppilastyö)',
@@ -72,6 +72,12 @@ export default [
     page: 'PALVELUMME',
     label: 'Jalkahoito',
     url: `/palvelumme/jalkahoito/`,
+    icon: <FaGem className="icon" />,
+  },
+  {
+    page: 'PALVELUMME',
+    label: 'Kynnet',
+    url: `/palvelumme/kynnet/`,
     icon: <FaGem className="icon" />,
   },
   {

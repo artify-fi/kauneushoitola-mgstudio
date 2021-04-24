@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../images/kasvohoito-banner.jpg';
+import img from '../images/kasvohoito-kauneushoitola-mgStudio-helsinki-malminkartano.webp';
 
 const BannerWrapper = styled.div`
   overflow: hidden;

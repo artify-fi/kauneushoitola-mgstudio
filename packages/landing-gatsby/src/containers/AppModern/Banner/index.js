@@ -13,7 +13,7 @@ const Banner = () => {
       <Container>
         <BannerContent>
           <Fade up delay={200}>
-            <Heading as="h1" content="Kauneus & Hyvinvointi" />
+            <Heading as="h1" content="Kauneus & Hieronta" />
           </Fade>
         </BannerContent>
       </Container>

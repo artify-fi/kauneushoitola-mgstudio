@@ -24,7 +24,7 @@ export const Section = styled.section`
     display: block;
     font-family: Playfair Display;
     max-width: 80vw;
-    color: #ff3f66;
+    color: #000;
     font-size: 2.2rem;
     line-height: 1.4em;
     font-weight: 600;
@@ -50,7 +50,7 @@ export const Section = styled.section`
     margin: 0 auto; /* This will center the border. */
     width: 30%; /* Change this to whatever width you want. */
     padding-top: 10px; /* This creates some space between the element and the border. */
-    border-bottom: 2px solid #ff3f66; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 2px solid #000; /* This creates the border. Replace black with whatever color you want. */
   }
 
   .hintalistasubheading {
@@ -58,7 +58,7 @@ export const Section = styled.section`
     justify-content: flex-start;
     align-items: center;
     font-family: Playfair Display;
-    color: #ff3f66;
+    color: #000;
     font-size: 2.1rem;
     line-height: 1.4em;
     margin-top: 0.6em;
@@ -98,7 +98,7 @@ export const Content = styled.div`
     justify-content: flex-start;
     align-items: center;
     font-family: Playfair Display;
-    color: #2e4371;
+    color: #000;
     font-size: 1.4rem;
     line-height: 1.4em;
     margin-top: 0.6em;
@@ -118,6 +118,7 @@ export const Content = styled.div`
       font-size: 1.1rem;
       margin-right: 0.2em;
       text-align: center;
+      margin-top: 1em;
     }
   }
 `;
@@ -127,6 +128,8 @@ const OlaplexHintalista = () => {
     <SectionWrapper>
       <Container>
         <Section>
+          <Heading as="h2" className="hintalistaheading" content="Hinnasto" />
+
           <Content>
             <Text
               as="p"

@@ -1,16 +1,8 @@
 import React from 'react';
 import Container from 'common/src/components/UI/ContainerTwo';
-import Text from 'common/src/components/Text';
+//import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
-import Image from 'common/src/components/Image';
-
-import PersonImage1 from './images/beautician-with-brush-applies-white-moisturizing-mask-face-young-girl-client-spa-beauty-salon.jpg';
-import PersonImage2 from './images/facial-massage-beauty-treatment-salon.webp';
-import PersonImage3 from './images/having-cosmetic-massage.webp';
-import PersonImage4 from './images/with-professional-massage-cosmetician.webp';
-import PersonImage5 from './images/n-receiving-facial-mask-beauty-salon.webp';
-import PersonImage6 from './images/woman-cosmetologist-making-beauty-procedures.jpg';
 
 const Footer = () => {
   return (
@@ -18,14 +10,9 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            <Image
-              className="img"
-              src={PersonImage1}
-              alt="naiselle pedikyyri kynsiviilalla kynnet manikyyri master seka luxus kynsisalonki ja kauneushoitola helsinki, martinlaakso, malminkartano seka myyrmanni"
-            />
-            <Heading as="h1" content="Jalkahoito" />
+            <Heading as="h1" content="Kasvohoito (tulossa)" />
 
-            <Text content="Hieronta, jalkakylpy ja kynsien lakkaus (perus kynsilakalla)" />
+            {/* <Text content="Hieronta, jalkakylpy ja kynsien lakkaus (perus kynsilakalla)" />
 
             <Heading as="h2" content="Luxus-jalkahoito" />
             <Text content="Hieronta, jalkakylpy, jalkojen hoitaminen (kynnet, kynsinauhat, kovettumien poisto) ja kynsien lakkaus (perus kynsilakalla) sekä parafiininaamio" />
@@ -47,9 +34,9 @@ const Footer = () => {
             <Text
               content="Pedikyyri on jalkojen kauneushoito. Korot, pohjat, varpaat ja varpaankynnet hoidetaan pedikyyrilla. Tavallisen pedikyyrin lisäksi voit valita myös pedikyyri, jossa on geeli- tai kynsilakapalvelu.
                 Jalkahoidon aikana jalat kylpetään vedessä, jalat hierotaan, kynsinauhat ja kynnet puhdistetaan ja hoito saatetaan usein päätökseen kevyellä hieronnalla. Pedikyyri käyttää erityisiä jalkojen hoitotuotteita. Jalkojen lopussa jalat ovat puhtaat, kiiltävät ja sileät!"
-            />
+            /> */}
           </Content1>
-
+          {/* 
           <Content2>
             <Heading as="h2" content="Hoitopedikyyri" />
             <Image
@@ -86,7 +73,7 @@ const Footer = () => {
               On myös ihmisiä, jotka eivät pidä jalastaan. He ovat havainneet, että kävely pedikyyrissä ja kaunis kivilakka tekevät ihmeitä. Olemme vain iloisia siitä! Sitä teemme, jotta jalat olisivat kauniita ja pehmeitä!
             "
             />
-          </Content2>
+          </Content2> */}
         </Section>
       </Container>
     </SectionWrapper>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../images/kynnet-banner.jpg';
+import img from '../../../../images/palvelut/kynnet_w.webp';
 
 const BannerWrapper = styled.div`
   overflow: hidden;

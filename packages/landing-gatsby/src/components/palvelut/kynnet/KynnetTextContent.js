@@ -2,14 +2,14 @@ import React from 'react';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
+// import Image from 'common/src/components/Image';
 
-import PersonImage1 from './images/beautiful-french-manicure-art-design.webp';
-import PersonImage2 from './images/woman-having-her-manicure-done-close-up.webp';
-import PersonImage3 from './images/beautiful-woman-s-nails-with-beautiful-french-manicure.jpg';
-import PersonImage4 from './images/ing-her-manicure-done-close-up-salon.webp';
-import PersonImage5 from './images/woman-showing-her-beautiful-nails.webp';
-import PersonImage6 from './images/gh-angle-woman-doing-manicure-client.webp';
+// import PersonImage1 from './images/beautiful-french-manicure-art-design.webp';
+// import PersonImage2 from './images/woman-having-her-manicure-done-close-up.webp';
+// import PersonImage3 from './images/beautiful-woman-s-nails-with-beautiful-french-manicure.jpg';
+// import PersonImage4 from './images/ing-her-manicure-done-close-up-salon.webp';
+// import PersonImage5 from './images/woman-showing-her-beautiful-nails.webp';
+// import PersonImage6 from './images/gh-angle-woman-doing-manicure-client.webp';
 
 import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
 
@@ -19,11 +19,11 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            <Image
+            {/* <Image
               className="img"
               src={PersonImage1}
               alt="kaunis ranskalainen manikyyri art design malminkartano martinlaakso helsinki';"
-            />
+            /> */}
             <Heading
               className="heading"
               as="h2"
@@ -32,12 +32,12 @@ const Footer = () => {
             <Text content="Monet ylistävät, että geelilakka on parasta mitä heille on tapahtunut ja suosittelevat sitä kaikille. Ne pitävät geelilakan tuoreena ja kauniina seuraavaan hoitoon asti. Jotkut taas valittavat, että geelilakka ei tartu kiinni. Alkaako se kuoriutua vai geeli maali irtoaa suoraan tai vastaavasti? Kirjoitamme, kuinka pidät geelilakkaa, nämä vinkit sopivat myös sen jälkeen, kun käytät geeliä ensimmäisen kerran tai sen jälkeen, kun olet mennyt geelilakan päälle. Joten miten pidät paremmin sormesi ristissä? " />
 
             <Text content="On muutama yksinkertainen asia, joka pitää mielessä, jotta geeli lakkaa. Geelilakka on melko vahva ja kestää monia aktiviteetteja, mutta geelilakalla on myös heikkouksia…" />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage2}
               alt="nainen kenelle on manikyyrin tekeminen kasilla ja se tapahtuu malminkartanossa MG Studiossa lähikuva';"
-            />
+            /> */}
             <Heading
               className="heading"
               as="h2"
@@ -49,12 +49,12 @@ const Footer = () => {
               Älä noki geelilakkaa koskaan.
               (Jos sinusta tuntuu, että geelilakka alkaa pudota jonnekin tai kynsisängyssä on korkeampi paikka, yritä jättää se yksin ja jos haluat päästä eroon siitä, käytä viilaa tai leikkaa se pihdeillä. ei ole hyvä irrottaa geelilakka kokonaan, odota seuraavaan huoltoon tai kirjoita teknikkoon tai liota tämä lakka kotona)"
             />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage3}
               alt="kaunis nainen kynnet kauniilla ranskalaisella manikyyrillä halvalla malminkartano ja myyrmaki seka helsinki"
-            />
+            /> */}
             <Heading
               className="heading"
               as="h2"
@@ -86,24 +86,24 @@ const Footer = () => {
           <Content2>
             <Heading className="heading" as="h2" content="Geelikynnet " />
             <Text content="Geelikynnet ovat kestävimmät kynnet. Kynnesi on peitetty geelillä, jos et halua pidentää kynsiäsi. Kuitenkin, jos haluat pidempiä kynsiä, jatka kynsiäsi geelillä käyttäen stensiiliä. Kynnet peitetään sitten geelillä, joka kovettuu UV-lampun alla muutamassa minuutissa. Geelikynnet pysyvät erittäin vahvina, jos materiaalit ovat hyviä ja tekniikka oikea, kynnet eivät murtu." />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage4}
               alt="huolella tehty manikyyri esimerii lähikuva salonki helsinki ja malminkartano"
-            />
+            /> */}
             <Heading
               className="heading"
               as="h2"
               content="Hoitoon tultaessa..."
             />
             <Text content="Hoitoon tultaessa vanha geeli kerros hiotaan enimmäkseen ja kynsi peitetään tuoreella geelillä. Geelikynnet voidaan koristaa kimaltelevilla jauheilla, maaleilla, kiteillä, maalauksilla, folioilla. Tee myös halkeileva ja 'kissan silmä' -vaikutus." />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage5}
               alt="kauniit kynnet naiselle vaivattomasti ja halvalla malminkartano ja helsinki seka pohjois haaga"
-            />
+            /> */}
             <Heading
               className="heading"
               as="h2"
@@ -124,12 +124,12 @@ const Footer = () => {
               Jos lämpötilassa tapahtuu äkillinen muutos, geelilakka voi irrota 
               myös geelikynsiin."
             />
-
+            {/* 
             <Image
               className="img"
               src={PersonImage6}
               alt="kauniit kynnet ammatti taidolla tehty manikyyri naiselle vaivattomasti ja halvalla myyrmanni ja helsinki seka pohjois haaga"
-            />
+            /> */}
 
             <Text
               content="Voiko geelilakka pidentää kynsiä?

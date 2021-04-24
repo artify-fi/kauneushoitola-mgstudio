@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../images/ripsetjakulmat-banner.webp';
+import img from '../images/ripset-kulmat-kauneushoitola-helsinki-marrtinlaakso.webp';
 
 const BannerWrapper = styled.div`
   overflow: hidden;

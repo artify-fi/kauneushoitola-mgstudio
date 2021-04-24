@@ -112,9 +112,9 @@ const Wrapper = styled.nav`
         margin-left: 13em;
       }
       @media only screen and (max-width: 620px) {
-        margin-left: 6em;
+        margin-left: 2.2em;
       }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 413px) {
         margin-left: 0.4em;
       }
       &:hover {
