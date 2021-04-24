@@ -77,6 +77,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-material-ui`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -113,7 +114,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://www.mgstudio.fi/`,
+        siteUrl: `https://kauneushoitola-mgstudio-malminkartano.netlify.app/`,
       },
     },
     {

@@ -173,7 +173,7 @@ const DesignedAndBuilt = () => {
             <Heading
               as="h4"
               className="text"
-              content="Kauniit ja kestävät kynnet kuukausiksi."
+              content="Kauniit ja kestävät kynnet kuukausiksi kauneushoitola martinlaakso."
             />
             <Link
               className="explore"
@@ -190,7 +190,7 @@ const DesignedAndBuilt = () => {
             <Image
               className="image"
               src={Image8}
-              alt="Hieronta vantaa martinlaakso"
+              alt="Hieronta vartalo vantaa martinlaakso"
             />
           </div>
           <div className="content">
