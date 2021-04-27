@@ -24,7 +24,7 @@ export const Section = styled.section`
     display: block;
     font-family: Playfair Display;
     max-width: 80vw;
-    color: #000;
+    color: #ff3f66;
     font-size: 2.2rem;
     line-height: 1.4em;
     font-weight: 600;
@@ -50,7 +50,7 @@ export const Section = styled.section`
     margin: 0 auto; /* This will center the border. */
     width: 30%; /* Change this to whatever width you want. */
     padding-top: 10px; /* This creates some space between the element and the border. */
-    border-bottom: 2px solid #000; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 2px solid #ff3f66; /* This creates the border. Replace black with whatever color you want. */
   }
 
   .hintalistasubheading {

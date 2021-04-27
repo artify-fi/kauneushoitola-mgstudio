@@ -14,7 +14,7 @@ import Image3 from '../../../images/palvelut/palvelut_kampaaja_oppilastyo.webp';
 import Image6 from '../../../images/palvelut/olaplex.jpeg';
 import Image7 from '../../../images/palvelut/hemmotteleva_kuumakivi_hieronta_w.webp';
 import Image8 from '../../../images/palvelut/hieronta_w.webp';
-import Image9 from '../../../images/palvelut/kasvohoito.jpg';
+import Image9 from '../../../images/palvelut/kasvohoito.webp';
 import Image10 from '../../../images/palvelut/kynnet_w.webp';
 import Image11 from '../../../images/palvelut/jalkahoito_w.webp';
 import Image12 from '../../../images/palvelut/ripset_kulmat_w.webp';

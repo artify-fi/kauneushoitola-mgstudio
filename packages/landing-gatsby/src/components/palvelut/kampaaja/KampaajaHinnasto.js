@@ -23,13 +23,14 @@ export const Section = styled.section`
     display: block;
     font-family: Playfair Display;
     max-width: 80vw;
-    color: #000;
+    color: #ff3f66;
     font-size: 2.2rem;
     line-height: 1.4em;
     font-weight: 600;
     letter-spacing: -1px;
     text-align: center;
     padding-top: 3em;
+
     @media only screen and (max-width: 1366px) {
       font-size: 2.2rem;
     }
@@ -42,6 +43,7 @@ export const Section = styled.section`
     @media only screen and (max-width: 480px) {
       font-size: 1.4rem;
       padding-top: 2em;
+      margin: 0px;
     }
   }
   .hintalistaheading:after {
@@ -50,7 +52,7 @@ export const Section = styled.section`
     margin: 0 auto; /* This will center the border. */
     width: 30%; /* Change this to whatever width you want. */
     padding-top: 10px; /* This creates some space between the element and the border. */
-    border-bottom: 2px solid #000; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 2px solid #ff3f66; /* This creates the border. Replace black with whatever color you want. */
   }
 
   .hintalistasubheading {
@@ -76,6 +78,7 @@ export const Section = styled.section`
     @media only screen and (max-width: 480px) {
       font-size: 1.3rem;
       margin-top: 2em;
+      margin-bottom: 0px;
     }
   }
 `;
@@ -130,7 +133,7 @@ const KampaajaHintalista = () => {
           <Heading as="h1" className="hintalistaheading" content="Hinnasto" />
 
           {/* Section 1 */}
-          {/* <Heading as="h2" className="hintalistasubheading" content="Raidat" /> */}
+          <Heading as="h2" className="hintalistasubheading" content="Raidat:" />
           <Content>
             <Text as="p" className="hintalistatext" content="Lyhyt " />
             <Text
@@ -160,6 +163,8 @@ const KampaajaHintalista = () => {
               content="60€"
             />
           </Content>
+          <br />
+          <br />
           <Line color="#fff" width="100%" />
           <Content>
             <Text as="p" className="hintalistatext" content="Tyviväri " />

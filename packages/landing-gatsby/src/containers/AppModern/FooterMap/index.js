@@ -177,7 +177,11 @@ const Footer = () => {
                 rel="noopener norefferer"
                 className="link"
               >
-                <Img className="facebook" src={facebook} />
+                <Img
+                  alt="facebook mg studio finland"
+                  className="facebook"
+                  src={facebook}
+                />
                 Facebook MG Studio
               </a>
             </div>
@@ -190,7 +194,11 @@ const Footer = () => {
                 rel="noopener norefferer"
                 className="link"
               >
-                <Img className="instagram" src={instagram} />
+                <Img
+                  alt="instagram mg studio finland"
+                  className="instagram"
+                  src={instagram}
+                />
                 Instagram MG Studio
               </a>
             </div>
