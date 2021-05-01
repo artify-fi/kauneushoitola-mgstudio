@@ -126,12 +126,14 @@ const KampaajaHintalista = () => {
     <SectionWrapper>
       <Container>
         <Section>
-          <Heading as="h1" className="hintalistaheading" content="Hinnasto" />
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Kauniit ja kestävät kynnet! Hinnasto"
+          />
 
-          {/* Section 1 */}
-          {/* <Heading as="h2" className="hintalistasubheading" content="Raidat" /> */}
           <Content>
-            <Text as="p" className="hintalistatext" content="Lyhyt " />
+            <Text as="p" className="hintalistatext" content="Geelikakkaus" />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
@@ -139,9 +141,10 @@ const KampaajaHintalista = () => {
               content="40€"
             />
           </Content>
+
           <Line color="#fff" width="100%" />
           <Content>
-            <Text as="p" className="hintalistatext" content="Keskipitkät  " />
+            <Text as="p" className="hintalistatext" content="Geelikynnet" />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
@@ -149,19 +152,14 @@ const KampaajaHintalista = () => {
               content="50€"
             />
           </Content>
+
           <Line color="#fff" width="100%" />
           <Content>
-            <Text as="p" className="hintalistatext" content="Pitkät" />
             <Text
               as="p"
-              style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content="60€"
+              content="Manikyyri (sis. lakkauksen)"
             />
-          </Content>
-          <Line color="#fff" width="100%" />
-          <Content>
-            <Text as="p" className="hintalistatext" content="Tyviväri " />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
@@ -171,36 +169,31 @@ const KampaajaHintalista = () => {
           </Content>
           <Line color="#fff" width="100%" />
           <Content>
-            <Text as="p" className="hintalistatext" content="Sävytys  " />
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Lux manikyyri (sis. lakkauksen + parafiininaamion)"
+            />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content="25€"
+              content="40€"
             />
           </Content>
           <Line color="#fff" width="100%" />
+
           <Content>
             <Text
               as="p"
               className="hintalistatext"
-              content="Latvojen leikkkaus"
+              content="Kynsien leikkaus"
             />
             <Text
               as="p"
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content="10-15€"
-            />
-          </Content>
-          <Line color="#fff" width="100%" />
-          <Content>
-            <Text as="p" className="hintalistatext" content="Otsatukka" />
-            <Text
-              as="p"
-              style={{ marginLeft: 'auto' }}
-              className="hintalistatext"
-              content="5-10€"
+              content="15€"
             />
           </Content>
         </Section>

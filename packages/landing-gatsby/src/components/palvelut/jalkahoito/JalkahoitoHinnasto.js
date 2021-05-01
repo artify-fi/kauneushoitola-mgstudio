@@ -153,7 +153,11 @@ const JalkahoitoHintalista = () => {
     <SectionWrapper>
       <Container>
         <Section>
-          <Heading as="h1" className="hintalistaheading" content="Hinnasto" />
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Jalkahoito Hinnasto"
+          />
 
           {/* Section 1 */}
 

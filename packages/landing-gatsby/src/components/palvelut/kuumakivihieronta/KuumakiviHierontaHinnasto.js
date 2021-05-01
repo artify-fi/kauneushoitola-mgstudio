@@ -153,7 +153,11 @@ const OlaplexHintalista = () => {
     <SectionWrapper>
       <Container>
         <Section>
-          <Heading as="h1" className="hintalistaheading" content="Hinnasto" />
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Kuumakivihieronta Hinnasto"
+          />
 
           {/* Section 1 */}
           <Content>

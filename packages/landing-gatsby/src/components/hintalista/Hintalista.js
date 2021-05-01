@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Heading from 'common/src/components/Heading';
 import Text from 'common/src/components/Text';
 import Container from 'common/src/components/UI/ContainerTwo';
-import Line from '../../reusableComponents/Line';
+import Line from '../reusableComponents/Line';
 
 const SectionWrapper = styled.section`
   position: relative;
@@ -17,11 +17,16 @@ const SectionWrapper = styled.section`
 `;
 
 export const Section = styled.section`
+  display: grid;
   grid-template-columns: 1fr;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* flex-direction: column; */
 
   .hintalistaheading {
-    display: block;
+    display: grid;
+    justify-self: center;
     font-family: Playfair Display;
     max-width: 80vw;
     color: #ff3f66;
@@ -29,7 +34,6 @@ export const Section = styled.section`
     line-height: 1.4em;
     font-weight: 600;
     letter-spacing: -1px;
-    text-align: center;
     padding-top: 3em;
     @media only screen and (max-width: 1366px) {
       font-size: 2.2rem;
@@ -62,6 +66,7 @@ export const Section = styled.section`
     font-size: 2.1rem;
     line-height: 1.4em;
     margin-top: 0.6em;
+    margin-left: 3.8em;
     font-weight: 500;
     letter-spacing: -1px;
     @media only screen and (max-width: 1366px) {
@@ -81,10 +86,13 @@ export const Section = styled.section`
 `;
 
 export const Content = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: flex-start;
-  width: 80vw;
+  justify-content: space-between;
+  width: 100vw;
+  padding-left: 2em;
+  padding-right: 2em;
   @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -94,9 +102,9 @@ export const Content = styled.div`
   }
 
   .hintalistatext {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    display: grid;
+    justify-content: space-between;
+    align-items: auto;
     font-family: Playfair Display;
     color: #000;
     font-size: 1.4rem;
@@ -129,7 +137,11 @@ const Hintalista = () => {
       {/* Kampaaja */}
       <Container>
         <Section>
-          <Heading as="h1" className="hintalistaheading" content="Hinnasto" />
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Kampaaja (oppilastyö) Hinnasto"
+          />
 
           {/* Section 1 */}
           <Heading as="h2" className="hintalistasubheading" content="Raidat:" />
@@ -322,6 +334,396 @@ const Hintalista = () => {
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
               content="40€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+        </Section>
+      </Container>
+
+      {/* Ripset ja kulmat */}
+      <Container>
+        <Section>
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Ripsienpidennys/ Ripsien Ja Kulmien Kestovärjäys Hinnasto"
+          />
+
+          {/* Section 1 */}
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Ripsienpidennys klassiset "
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="55€ / huolto 50€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Ripsienpidennys hybrid"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="60€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text as="p" className="hintalistatext" content="Volyymit 2D" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="60€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Ripsienhuolto volyymit 2D "
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="50€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text as="p" className="hintalistatext" content="Volyymit 3D  " />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="70€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Ripsienhuolto volyymit 3D"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="65€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Uudet klassiset ripsienpidennykset + kulmien värjäys ja muotoilu"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="65€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Pidennysten poisto"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="20€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Kulmien värjäys ja muotoilu"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="25€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Ripset ja kulmat + muotoilu"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="30€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text as="p" className="hintalistatext" content="Ripsien värjäys" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="15€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+        </Section>
+      </Container>
+
+      {/* Jalkahoito */}
+      <Container>
+        <Section>
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Jalkahoito Hinnasto"
+          />
+
+          {/* Section 1 */}
+
+          <Content>
+            <Text as="p" className="hintalistatext" content="Jalkahoito" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="50€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Luxus jalkahoito"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="60€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Jalkahoito geelilakalla"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="70€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+        </Section>
+      </Container>
+
+      {/* Kynnet */}
+      <Container>
+        <Section>
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Kauniit ja kestävät kynnet! Hinnasto"
+          />
+
+          <Content>
+            <Text as="p" className="hintalistatext" content="Geelikakkaus" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="40€"
+            />
+          </Content>
+
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text as="p" className="hintalistatext" content="Geelikynnet" />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="50€"
+            />
+          </Content>
+
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Manikyyri (sis. lakkauksen)"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="30€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Lux manikyyri (sis. lakkauksen + parafiininaamion)"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="40€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Kynsien leikkaus"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="15€"
+            />
+          </Content>
+        </Section>
+      </Container>
+
+      {/* Geelilakkaus Varpaisiin */}
+      <Container>
+        <Section>
+          <Heading
+            as="h2"
+            className="hintalistaheading"
+            content="Geelilakkaus Varpaisiin Hinnasto"
+          />
+
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Varpaankynsien geelilakkaus"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="40€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+        </Section>
+      </Container>
+
+      {/* Hieronta */}
+      <Container>
+        <Section>
+          <Heading
+            as="h2"
+            className="hintalistaheading"
+            content="Hieronta Hinnasto"
+          />
+
+          {/* Section 1 */}
+          <Content>
+            <Text as="p" className="hintalistatext" content="45 min." />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="40€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+
+          <Content>
+            <Text as="p" className="hintalistatext" content="60 min. " />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="50€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+          <Content>
+            <Text as="p" className="hintalistatext" content="80 min." />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="70€"
+            />
+          </Content>
+          <Line color="#fff" width="100%" />
+        </Section>
+      </Container>
+
+      {/* Kuumakivihieronta */}
+      <Container>
+        <Section>
+          <Heading
+            as="h1"
+            className="hintalistaheading"
+            content="Kuumakivihieronta Hinnasto"
+          />
+
+          {/* Section 1 */}
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Kuumakivihieronta 75 min."
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="65€"
             />
           </Content>
           <Line color="#fff" width="100%" />

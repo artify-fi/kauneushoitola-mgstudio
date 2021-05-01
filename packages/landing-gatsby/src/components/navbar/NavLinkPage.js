@@ -29,16 +29,15 @@ const NavLink = ({ page }) => {
 };
 
 const Wrapper = styled.li`
-  padding: 1rem 0;
   position: relative;
   button {
     color: #f7f4f4;
     background: transparent;
     border: transparent;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     font-weight: 400;
-    padding: 10px 20px;
+    padding: 10px;
     width: 100%;
     text-transform: capitalize;
     position: relative;
@@ -46,7 +45,7 @@ const Wrapper = styled.li`
   }
   .links {
     position: absolute;
-    margin-top: 2rem;
+    /* margin-top: 2.4rem; */
     left: 50%;
     transform: translateX(-50%);
     visibility: hidden;
@@ -57,6 +56,7 @@ const Wrapper = styled.li`
     grid-template-columns: 1fr 1fr;
     gap: 1rem 2rem;
     grid-gap: 1rem 4rem;
+    // link names on the navbar >> Koti, meista jne.
     a {
       display: grid;
       grid-template-columns: auto 1fr;
@@ -67,14 +67,15 @@ const Wrapper = styled.li`
       text-transform: capitalize;
       font-family: 'Merriweather';
       font-weight: 500;
-      font-size: '1.2rem';
+      font-size: 1rem;
       .icon {
-        color: #88add2;
+        font-size: 1.2rem;
+        color: #d80f06;
       }
       &:hover {
         color: #88add2;
         .icon {
-          color: #0a2540;
+          color: #b084ce;
         }
       }
     }

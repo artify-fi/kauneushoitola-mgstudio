@@ -15,6 +15,7 @@ import SEO from '../components/seo';
 import Layout from '../components/layout';
 import MainHeading from '../components/MainHeading';
 //import MyMap from '../components/leaflet/Leaflet';
+import AMap from '../components/map/AMap';
 
 export default () => {
   return (
@@ -38,7 +39,7 @@ export default () => {
         <MainHeading />
         <Palvelumme />
         <Footer />
-        {/* <MyMap /> */}
+        <AMap />
       </AgencyWrapper>
     </Layout>
   );

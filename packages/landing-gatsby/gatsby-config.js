@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://www.mgstudio.fi/`,
     twitterUsername: `@mgstudio`,
     image: `logo.jpg`,
+    mapboxToken: process.env.GATSBY_MAPBOX_API_TOKEN,
   },
   plugins: [
     `gatsby-plugin-mdx`,

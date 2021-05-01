@@ -6,7 +6,6 @@ import { Link } from 'gatsby';
 import NavLink from './NavLink';
 import { GatsbyContext } from '../../context/context';
 import TextLogo from '../logo/TextLogo';
-//import SocialLinks from '../../constants/socialLinks';
 
 const Navbar = () => {
   const { isSidebarOpen, showSidebar, links } = useContext(GatsbyContext);
@@ -68,7 +67,6 @@ const Wrapper = styled.nav`
     width: 100vw;
     margin: auto auto;
   }
-
   .nav-header {
     color: var(--clr-white);
     display: flex;
@@ -138,7 +136,7 @@ const Wrapper = styled.nav`
     }
     .nav-links {
       display: grid;
-      grid-template-columns: 62px 80px 140px 70px 122px 150px;
+      grid-template-columns: 62px 140px 122px 150px;
       justify-items: flex-end;
       max-width: 860px;
       height: 5rem;
@@ -148,15 +146,9 @@ const Wrapper = styled.nav`
       text-decoration: none;
     }
     li {
-      /* margin-bottom: 2rem; */
       position: relative;
     }
-    /* ul li::marker {
-    display: none;
-} */
-    a > img {
-      margin-top: 0.5em;
-    }
+
     button {
       color: '#f7f4f4';
       font-family: 'Raleway';
@@ -169,7 +161,6 @@ const Wrapper = styled.nav`
       width: 100%;
       text-transform: capitalize;
       position: relative;
-      margin-top: 3rem;
     }
   }
 `;

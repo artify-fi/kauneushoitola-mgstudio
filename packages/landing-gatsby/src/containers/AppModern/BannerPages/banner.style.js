@@ -9,22 +9,13 @@ const BannerWrapper = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 1;
+  height: 36vh;
   // added shadow on the Hero
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
-  @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-    max-height: 26vh;
-  }
-  @media only screen and (min-width: 1099px) and (max-width: 1200px) {
-    max-height: 26vh;
-  }
-  @media only screen and (max-width: 480px) {
-    padding-top: 90px;
-    max-height: 26vh;
-    margin-bottom: 4em;
-  }
+
   // From here it must be possible to change the height
   > div.container {
     display: flex;
@@ -72,7 +63,7 @@ export const BannerContent = styled.div`
     // Text color
     color: #f7f4f4;
     padding: 0.5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
     border: 2px 0 2px 0;
     border-color: rgba(20, 28, 45, 0.95);
     border-top: 2px solid rgba(20, 28, 45, 0.95);
@@ -80,7 +71,7 @@ export const BannerContent = styled.div`
 
     @media only screen and (min-width: 440px) and (max-width: 998px) {
       font-size: 2.2rem;
-      margin-bottom: 6rem;
+      margin-bottom: 3rem;
     }
 
     @media only screen and (min-width: 999px) and (max-width: 1366px) {
