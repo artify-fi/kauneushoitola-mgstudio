@@ -32,12 +32,12 @@ export default [
     url: `/#footer`,
     icon: <FaUsers className="icon" />,
   },
-  {
-    page: 'MEISTÄ',
-    label: 'Tietoa meistä',
-    url: `/tietoa-meistä/tietoa-meista/`,
-    icon: <FaUsers className="icon" />,
-  },
+  // {
+  //   page: 'MEISTÄ',
+  //   label: 'Tietoa meistä',
+  //   url: `/tietoa-meistä/tietoa-meista/`,
+  //   icon: <FaUsers className="icon" />,
+  // },
   // {
   //   page: 'MEISTÄ',
   //   label: 'Eilika',
@@ -137,12 +137,12 @@ export default [
   //   icon: <FaHandPaper className="icon" />,
   // },
 
-  {
-    page: 'BLOGI',
-    label: 'Blogi',
-    url: `https://hakukonestudio.fi/`,
-    icon: <FaEye className="icon" />,
-  },
+  // {
+  //   page: 'BLOGI',
+  //   label: 'Blogi',
+  //   url: `https://hakukonestudio.fi/`,
+  //   icon: <FaEye className="icon" />,
+  // },
   {
     page: 'HINTALISTA',
     label: 'Hintalista',

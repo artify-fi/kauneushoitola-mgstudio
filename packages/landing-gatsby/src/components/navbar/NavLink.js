@@ -45,11 +45,11 @@ const Wrapper = styled.li`
   }
   .links {
     position: absolute;
-    top: 5rem;
+    margin-top: 2.4rem;
     left: 50%;
     transform: translateX(-50%);
     visibility: hidden;
-    padding: 2rem;
+    padding: 4rem;
     background: var(--clr-white);
     border-radius: var(--radius);
     display: grid;

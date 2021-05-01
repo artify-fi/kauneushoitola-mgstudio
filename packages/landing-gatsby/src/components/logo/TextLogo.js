@@ -6,7 +6,6 @@ const ButtonWrapper = styled.div`
   z-index: 1;
   display: flex;
   align-items: center;
-  margin-top: 3em;
   font-family: Great Vibes, cursive !important;
   width: 100%;
   height: 50px;
@@ -19,13 +18,11 @@ const ButtonWrapper = styled.div`
   font-size: 1.6rem !important;
   @media only screen and (max-width: 1366px) {
     font-size: 1.4rem;
-    margin-top: 2.2em;
   }
   @media only screen and (max-width: 1060px) {
     margin-left: 3em;
     width: 300px;
     font-size: 1.4rem;
-    margin-top: 0px;
     padding-left: 0.6em;
   }
   @media only screen and (max-width: 991px) {

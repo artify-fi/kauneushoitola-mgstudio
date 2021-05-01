@@ -5,18 +5,19 @@ const BannerWrapper = styled.div`
   overflow: hidden;
   position: relative;
   background-image: url(${img});
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
   z-index: 1;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
-  height: 36vh;
+  height: 46vh;
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
   }
   @media only screen and (min-width: 1099px) and (max-width: 1200px) {
   }
   @media only screen and (max-width: 480px) {
+    height: 36vh;
   }
   // From here it must be possible to change the height
   > div.container {

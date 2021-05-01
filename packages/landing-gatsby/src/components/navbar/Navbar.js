@@ -1,12 +1,9 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-// import logo from '../../images/mgstudio_logo.webp';
 import { GoThreeBars } from 'react-icons/go';
 import { Link } from 'gatsby';
 import NavLink from './NavLink';
 import { GatsbyContext } from '../../context/context';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-// import SocialLinks from '../../constants/socialLinks';
 import TextLogo from '../logo/TextLogo';
 
 const Navbar = () => {
@@ -27,15 +24,9 @@ const Navbar = () => {
         <div className="nav-header">
           <Link to="/">
             <TextLogo alt="mgstudio_logo" />
-            {/* <img src={TextLogo} alt="mgstudio_logo" /> */}
           </Link>
-          {/* <SocialLinks styleClass="nav-icons" /> */}
           {!isSidebarOpen && (
-            <button
-              // style={{marginLeft: 'auto'}}
-              className="toggle-btn"
-              onClick={showSidebar}
-            >
+            <button className="toggle-btn" onClick={showSidebar}>
               <GoThreeBars />
             </button>
           )}
@@ -69,20 +60,11 @@ const Wrapper = styled.nav`
     justify-content: space-between;
     width: 100vw;
     margin: auto auto;
-    /* max-width: var(--max-width); */
   }
   .nav-header {
     color: var(--clr-white);
     display: flex;
     align-items: center;
-    /* 
-    img {
-      display: flex;
-      width: 60px;
-      justify-self: flex-start;
-      align-self: center;
-      margin-left: 2rem;
-    } */
     ul,
     li {
       list-style-type: none;
@@ -105,10 +87,10 @@ const Wrapper = styled.nav`
         font-size: 1.4rem;
       }
       @media only screen and (max-width: 1060px) {
-        margin-left: 17em;
+        margin-left: 19em;
       }
       @media only screen and (max-width: 991px) {
-        margin-left: 13em;
+        margin-left: 18em;
       }
       @media only screen and (max-width: 768px) {
         margin-left: 8em;
@@ -144,7 +126,6 @@ const Wrapper = styled.nav`
       grid-gap: 0 1rem;
       align-items: center;
       justify-items: flex-end;
-      margin-top: -4.2vh;
       height: 5rem;
     }
     .nav-links {
@@ -161,12 +142,7 @@ const Wrapper = styled.nav`
     li {
       position: relative;
     }
-    /* ul li::marker {
-    display: none;
-} */
-    a > img {
-      margin-top: 3.7em;
-    }
+
     button {
       color: '#f7f4f4';
       font-family: 'Raleway';
@@ -179,7 +155,6 @@ const Wrapper = styled.nav`
       width: 100%;
       text-transform: capitalize;
       position: relative;
-      margin-top: 3rem;
     }
   }
 `;

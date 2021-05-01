@@ -67,20 +67,12 @@ const Wrapper = styled.nav`
     justify-content: space-between;
     width: 100vw;
     margin: auto auto;
-    /* max-width: var(--max-width); */
   }
 
   .nav-header {
     color: var(--clr-white);
     display: flex;
     align-items: center;
-    /* img {
-      display: flex;
-      width: 60px;
-      justify-self: flex-start;
-      align-self: center;
-      margin-left: 2rem;
-    } */
     ul,
     li {
       list-style-type: none;
@@ -103,13 +95,13 @@ const Wrapper = styled.nav`
         font-size: 1.4rem;
       }
       @media only screen and (max-width: 1060px) {
-        margin-left: 23em;
+        margin-left: 19em;
       }
       @media only screen and (max-width: 991px) {
-        margin-left: 20em;
+        margin-left: 18em;
       }
       @media only screen and (max-width: 768px) {
-        margin-left: 13em;
+        margin-left: 8em;
       }
       @media only screen and (max-width: 620px) {
         margin-left: 2.2em;
@@ -142,16 +134,15 @@ const Wrapper = styled.nav`
       grid-gap: 0 1rem;
       align-items: center;
       justify-items: flex-end;
-      margin-top: -4.2vh;
       height: 5rem;
     }
     .nav-links {
       display: grid;
       grid-template-columns: 62px 80px 140px 70px 122px 150px;
-      max-width: 860px;
       justify-items: flex-end;
+      max-width: 860px;
       height: 5rem;
-      margin-right: 1em;
+      margin-right: 3em;
     }
     ul {
       text-decoration: none;
@@ -173,7 +164,7 @@ const Wrapper = styled.nav`
       border: transparent;
       font-size: 0.9rem;
       letter-spacing: 2px;
-      font-weight: 400;
+      font-weight: 300;
       padding: 10px 10px;
       width: 100%;
       text-transform: capitalize;

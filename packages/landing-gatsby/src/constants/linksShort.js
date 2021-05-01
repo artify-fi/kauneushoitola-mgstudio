@@ -26,12 +26,12 @@ export default [
   //   url: `/#pricing`,
   //   icon: <FaObjectGroup className="icon" />,
   // },
-  {
-    page: 'MEISTÄ',
-    label: 'Tietoa meistä',
-    url: `/tietoa-meistä/tietoa-meista/`,
-    icon: <FaUsers className="icon" />,
-  },
+  // {
+  //   page: 'MEISTÄ',
+  //   label: 'Tietoa meistä',
+  //   url: `/tietoa-meistä/tietoa-meista/`,
+  //   icon: <FaUsers className="icon" />,
+  // },
   // {
   //   page: 'MEISTÄ',
   //   label: 'Eilika',
@@ -153,12 +153,12 @@ export default [
   //   url: `/palvelumme/ripset-kulmat/`,
   //   icon: <FaEye className="icon" />,
   // },
-  {
-    page: 'BLOGI',
-    label: 'MG Studio Blogi',
-    url: `/templates/blog-post-archive/`,
-    icon: <FaEye className="icon" />,
-  },
+  // {
+  //   page: 'BLOGI',
+  //   label: 'MG Studio Blogi',
+  //   url: `/templates/blog-post-archive/`,
+  //   icon: <FaEye className="icon" />,
+  // },
   {
     page: 'HINTALISTA',
     label: 'Hintalista',
