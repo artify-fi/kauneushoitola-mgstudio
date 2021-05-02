@@ -34,7 +34,7 @@ const ButtonWrapper = styled.div`
     padding-left: 0.8em;
   }
   @media only screen and (max-width: 620px) {
-    margin-left: 2.6em;
+    margin-left: 0.8em;
   }
   @media only screen and (max-width: 420px) {
     width: 254px;

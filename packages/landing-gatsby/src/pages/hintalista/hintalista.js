@@ -2,7 +2,7 @@ import React from 'react';
 import '../../css/main.css';
 import Layout from '../../components/layoutPage';
 import SEO from '../../components/SEO';
-import Banner from '../../containers/AppModern/BannerPages';
+import Banner from '../../containers/AppModern/BannerHintalista';
 import Title from '../../components/Title';
 
 import Hintalista from '../../components/hintalista/Hintalista';

@@ -1,5 +1,4 @@
 import React from 'react';
-import { paddingRight } from 'styled-system';
 
 const ColoredLine = ({ color, width }) => (
   <hr

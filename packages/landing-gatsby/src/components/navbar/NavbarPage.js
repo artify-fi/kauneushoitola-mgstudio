@@ -25,12 +25,7 @@ const Navbar = () => {
         <div className="nav-header">
           <Link to="/">
             <TextLogo alt="mgstudio_logo" />
-            {/* <img src={TextLogo} alt="mgstudio_logo" /> */}
           </Link>
-          {/* <Link to="/">
-            <img src={logo} alt="mgstudio_logo" />
-          </Link>
-          <SocialLinks styleClass="nav-icons" /> */}
           {!isSidebarOpen && (
             <button className="toggle-btn" onClick={showSidebar}>
               <GoThreeBars />
@@ -89,14 +84,11 @@ const Wrapper = styled.nav`
       background: var(--clr-grey-1);
       cursor: pointer;
       transition: var(--transition);
-      @media only screen and (max-width: 1366px) {
-        font-size: 1.4rem;
-      }
       @media only screen and (max-width: 1060px) {
         margin-left: 19em;
       }
       @media only screen and (max-width: 991px) {
-        margin-left: 18em;
+        margin-left: 12em;
       }
       @media only screen and (max-width: 768px) {
         margin-left: 8em;

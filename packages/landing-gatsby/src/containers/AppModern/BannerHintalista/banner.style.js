@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../images/kasvohoito-kauneushoitola-mgStudio-helsinki-malminkartano.webp';
+import img from '../../../images/smallHero.webp';
 
 const BannerWrapper = styled.div`
   padding-top: 100px;
@@ -14,18 +14,18 @@ const BannerWrapper = styled.div`
   z-index: 1;
   height: 30vh;
   // added shadow on the Hero
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
 
   @media only screen and (min-width: 440px) and (max-width: 998px) {
-    height: 34vh;
+    height: 48vh;
   }
 
   @media only screen and (min-width: 999px) and (max-width: 1366px) {
-    height: 46vh;
+    height: 52vh;
   }
 
   @media only screen and (min-width: 1367px) {
-    height: 48vh;
+    height: 54vh;
   }
 
   // From here it must be possible to change the height

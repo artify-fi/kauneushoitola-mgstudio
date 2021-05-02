@@ -83,14 +83,11 @@ const Wrapper = styled.nav`
       background: var(--clr-grey-1);
       cursor: pointer;
       transition: var(--transition);
-      @media only screen and (max-width: 1366px) {
-        font-size: 1.4rem;
-      }
       @media only screen and (max-width: 1060px) {
         margin-left: 19em;
       }
       @media only screen and (max-width: 991px) {
-        margin-left: 18em;
+        margin-left: 12em;
       }
       @media only screen and (max-width: 768px) {
         margin-left: 8em;

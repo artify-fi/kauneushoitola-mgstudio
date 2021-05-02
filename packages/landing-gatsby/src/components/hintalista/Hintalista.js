@@ -22,8 +22,6 @@ export const Section = styled.section`
   justify-content: center;
   align-items: center;
 
-  /* flex-direction: column; */
-
   .hintalistaheading {
     display: grid;
     justify-self: center;
@@ -90,15 +88,26 @@ export const Content = styled.div`
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
+  width: 94vw;
   padding-left: 2em;
   padding-right: 2em;
-  @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+  @media only screen and (min-width: 440px) and (max-width: 998px) {
+    width: 90vw;
+    padding-left: 3em;
+    padding-right: 3em;
   }
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  @media only screen and (min-width: 999px) and (max-width: 1366px) {
+    width: 86vw;
+    padding-left: 5em;
+    padding-right: 5em;
   }
-  @media only screen and (max-width: 768px) {
-    grid-column: 1 / 1;
+
+  @media only screen and (min-width: 1367px) {
+    width: 78vw;
+    padding-left: 6em;
+    padding-right: 6em;
   }
 
   .hintalistatext {
@@ -108,19 +117,18 @@ export const Content = styled.div`
     font-family: Playfair Display;
     color: #000;
     font-size: 1.4rem;
-    line-height: 1.4em;
+    line-height: 1.6em;
     margin-top: 0.6em;
     font-weight: 500;
     letter-spacing: -1px;
     @media only screen and (max-width: 1366px) {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
     @media only screen and (max-width: 991px) {
-      line-height: 38px;
+      font-size: 1.4rem;
     }
     @media only screen and (max-width: 768px) {
-      text-align: center;
-      margin-right: 2em;
+      font-size: 1.4rem;
     }
     @media only screen and (max-width: 480px) {
       font-size: 1.1rem;
