@@ -24,7 +24,7 @@ const Footer = () => {
               alt="nainen makuulla kylpylä salonkissa iho- ja vartalonhoito seka rentoutuminen hieronta kosmetologia käsite helsinki malminkartano ja helsinkissa"
             /> */}
             <Heading
-              as="h1"
+              as="h2"
               content="Stressi ja jännitys - kaksi suurinta ahdistusta nykyelämässä."
             />
 

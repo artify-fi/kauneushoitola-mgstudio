@@ -3,11 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import Container from 'common/src/components/UI/Container';
-import BlockWrapper, {
-  MilestoneCard,
-  CounterWrapper,
-  CounterItem,
-} from './milestoneBlock.style';
+import BlockWrapper, { MilestoneCard } from './milestoneBlock.style';
 
 const MilestoneBlock = () => {
   const data = useStaticQuery(graphql`
@@ -28,13 +24,8 @@ const MilestoneBlock = () => {
     <Container id="milestone" width="1260px">
       <BlockWrapper>
         <MilestoneCard>
-          {/* <Text content={title} /> */}
           <Heading as="h2" content={amount} />
           <Text content={text} />
-          {/* <a href="#1" className="learn__more-btn">
-            <span className="hyphen" />
-            <span className="btn_text">Meet our Donors</span>
-          </a> */}
         </MilestoneCard>
       </BlockWrapper>
     </Container>

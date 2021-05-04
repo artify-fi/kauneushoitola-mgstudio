@@ -24,7 +24,7 @@ const KuumakiviHieronta = () => {
               alt="kaunis nainen rentouttava spa salonki kuumilla kivillä vartalo kauneushoito terapia helsinki, martinlaakso, malminkartano seka myyrmanni"
             /> */}
             <Heading
-              as="h1"
+              as="h2"
               content="Mitä on Hot Stone eli kuumakivihieronta?"
             />
 

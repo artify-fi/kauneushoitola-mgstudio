@@ -1,15 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `MG Studio - Kauneushoitola Martinlaakso, Helsinki`,
-    description: `MG Studio kauneushoitolasta saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. `,
-    titleTemplate: `%s |Kauneushoitola Malminkartano, Helsinki`,
-    siteUrl: `https://www.mgstudio.fi/`,
+    author: `Art Bachmann`,
+    publisher: `hakukonestudio artify`,
+    title: `Kauneushoitola MG Studio Malminkartano, Helsinki`,
+    description: `Kauneushoitolasta MG Studio saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. `,
+    titleTemplate: `%s |MG Studio: Helsinki`,
+    siteUrl: `https://kauneushoitola-mgstudio-malminkartano.netlify.app/`,
     twitterUsername: `@mgstudio`,
     image: `logo.jpg`,
-    mapboxToken: process.env.GATSBY_MAPBOX_API_TOKEN,
   },
   plugins: [
     `gatsby-plugin-mdx`,
+    'gatsby-plugin-react-leaflet',
     `gatsby-remark-images`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-json`,
@@ -20,23 +22,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-react-leaflet',
-      options: {
-        linkStyles: true, // (default: true) Enable/disable loading stylesheets via CDN
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
         path: `${__dirname}/src/assets`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `posts`,
-        path: `${__dirname}/src/posts`,
       },
     },
     {
@@ -60,21 +49,6 @@ module.exports = {
         path: `../common/src/data/`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-wordpress`,
-    //   options: {
-    //     // the only required plugin option for WordPress is the GraphQL url.
-    //     url:
-    //       process.env.WPGRAPHQL_URL ||
-    //       `https://hakukonestudio.artify.fi/hakukonestudio/graphql`,
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-source-instagram`,
-    //   options: {
-    //     username: `gatsbyjs`,
-    //   },
-    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-material-ui`,
@@ -85,10 +59,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ff3f66`,
+        theme_color: `#ff3f66`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
     {
@@ -107,8 +81,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.mgstudio.fi/',
-        sitemap: 'https://www.mgstudio.fi/sitemap.xml',
+        host: 'https://kauneushoitola-mgstudio-malminkartano.netlify.app/',
+        sitemap:
+          'https://kauneushoitola-mgstudio-malminkartano.netlify.app/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
@@ -118,18 +93,10 @@ module.exports = {
         siteUrl: `https://kauneushoitola-mgstudio-malminkartano.netlify.app/`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-180499768-1',
-      },
-    },
     // {
-    //   resolve: 'gatsby-plugin-social9-socialshare',
+    //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
-    //     content: '29d2779c013d4b8f9b989bd2f4cad535',
-    //     async: true,
-    //     defer: true,
+    //     trackingId: 'UA-180499768-1',
     //   },
     // },
     `gatsby-plugin-offline`,
@@ -139,66 +106,25 @@ module.exports = {
         fonts: {
           google: [
             {
-              family: `Roboto`,
-              variants: [
-                `100`,
-                `100i`,
-                `300`,
-                `300i`,
-                `400`,
-                `400i`,
-                `500`,
-                `500i`,
-                `700`,
-                `700i`,
-                `900`,
-                `900i`,
-              ],
-            },
-            {
-              family: `Poppins`,
-              variants: [`300`, `400`, `500`, `600`, `700`],
-            },
-            {
               family: `Great Vibes`,
               variants: [`400`],
             },
             {
-              family: `Lato`,
-              variants: [`300`, `400`, `700`],
-            },
-            {
               family: `Open Sans`,
-              variants: [`300`, `400`, `500`, `600`, `700`, `800`],
+              variants: [`300`, `400`, `500`, `600`, `700`],
             },
             {
               family: `Raleway`,
               variants: [`300`, `400`, `500`, `600`],
             },
-            {
-              family: `Heebo`,
-              variants: [`300`, `400`, `500`, `600`, `700`, `800`],
-            },
+
             {
               family: `Playfair Display`,
               variants: [`300`, `400`, `400i`, `700`, `500`, `600`, `700i`],
-            },
-            {
-              family: `DM Sans`,
-              variants: [`400`, `400i`, `500`, `500i`, `700`, `700i`],
             },
           ],
         },
       },
     },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `gatsbyjs`,
-      },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ],
 };

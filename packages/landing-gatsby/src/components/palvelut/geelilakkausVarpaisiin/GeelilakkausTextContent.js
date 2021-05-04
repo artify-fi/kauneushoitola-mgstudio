@@ -25,7 +25,7 @@ const Footer = () => {
               alt="kosmetologi laitaa naisen varpaille kynsilakka malminkartanossa helsingissa"
             /> */}
             <Heading
-              as="h1"
+              as="h2"
               content="Kauniit ja kestävät kynnet kuukausiksi."
             />
 

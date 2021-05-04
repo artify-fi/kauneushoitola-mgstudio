@@ -13,8 +13,8 @@ const geelilakkausVarpaisiin = () => {
   return (
     <Layout>
       <SEO
-        title="Geelilakkaus varpaisiin Helsinki, Malminkartano"
-        description="Terveet ja kauniisti lakatut kynnet kuuluvat jokaisen luottavan naisen kauneusarsenaliin. Manikyyri geelilakalla on kätevä tapa varmistaa kynsien hyvin hoidettu ulkonäkö pitkään ja pienellä vaivalla.  "
+        title="Kynsien geelilakkaus"
+        description="Manikyyri geelilakalla on sopiva tapa taata kynsien hyvin hoidettu ulkomuoto pitkään ja pienellä vaivalla. Lakkaus pysyy varpaissa tavallisesti lohkeilematta lukuisia kuukausia.  "
       />
       <BannerNarrow />
       <Banner />

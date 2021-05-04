@@ -34,18 +34,32 @@ const Footer = () => {
                 justifyContent: 'flex-start',
               }}
             >
-              <CardButton />
+              <a
+                href="https://www.google.com/maps/place/MG+Studio/@60.2513955,24.8557821,17z/data=!3m1!4b1!4m5!3m4!1s0x468df777bbe4bfff:0x958876d046430823!8m2!3d60.2513955!4d24.8579761"
+                target="_blank"
+                rel="noopener norefferer"
+                className="link"
+              >
+                <CardButton />
+              </a>
 
-              <Heading
-                style={{
-                  display: 'flex',
-                  textAlign: 'start',
-                  paddingLeft: '1.2em',
-                  paddingTop: '0px',
-                }}
-                as="h3"
-                content="Tuohiaukio 4, 00410, Helsinki, Malminkartano"
-              />
+              <a
+                href="https://www.google.com/maps/place/MG+Studio/@60.2513955,24.8557821,17z/data=!3m1!4b1!4m5!3m4!1s0x468df777bbe4bfff:0x958876d046430823!8m2!3d60.2513955!4d24.8579761"
+                target="_blank"
+                rel="noopener norefferer"
+                className="link"
+              >
+                <Heading
+                  style={{
+                    display: 'flex',
+                    textAlign: 'start',
+                    paddingLeft: '1.2em',
+                    paddingTop: '0px',
+                  }}
+                  as="h3"
+                  content="Tuohiaukio 4, 00410, Helsinki, Malminkartano"
+                />
+              </a>
             </div>
 
             {/* Ajanvaraus soittaminen */}

@@ -32,7 +32,7 @@ const Newsletter = ({
     <NewsletterWrapper>
       <Container>
         <Box>
-          <Heading content="MG Studio Kauneushoitola" {...title} />
+          <Heading as="h2" content="MG Studio Kauneushoitola" {...title} />
           <Text
             content="MG Studiosta saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. Laajasta palveluvalikoimasta löydät muun muassa kampaajan, ripsiteknikon, kynsiteknikon, hierojan ja jalkahoitajan palveluja."
             {...description}

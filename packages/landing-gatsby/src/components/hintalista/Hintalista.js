@@ -146,13 +146,13 @@ const Hintalista = () => {
       <Container>
         <Section>
           <Heading
-            as="h1"
+            as="h2"
             className="hintalistaheading"
             content="Kampaaja (oppilastyö) Hinnasto"
           />
 
           {/* Section 1 */}
-          <Heading as="h2" className="hintalistasubheading" content="Raidat:" />
+          <Heading as="h3" className="hintalistasubheading" content="Raidat:" />
           <Content>
             <Text as="p" className="hintalistatext" content="Lyhyt " />
             <Text
@@ -173,7 +173,7 @@ const Hintalista = () => {
             />
           </Content>
           <Line color="#fff" width="100%" />
-          <Content>
+          <Content style={{ marginBottom: '2em' }}>
             <Text as="p" className="hintalistatext" content="Pitkät" />
             <Text
               as="p"
@@ -352,7 +352,7 @@ const Hintalista = () => {
       <Container>
         <Section>
           <Heading
-            as="h1"
+            as="h2"
             className="hintalistaheading"
             content="Ripsienpidennys/ Ripsien Ja Kulmien Kestovärjäys Hinnasto"
           />
@@ -517,7 +517,7 @@ const Hintalista = () => {
       <Container>
         <Section>
           <Heading
-            as="h1"
+            as="h2"
             className="hintalistaheading"
             content="Jalkahoito Hinnasto"
           />
@@ -569,7 +569,7 @@ const Hintalista = () => {
       <Container>
         <Section>
           <Heading
-            as="h1"
+            as="h2"
             className="hintalistaheading"
             content="Kauniit ja kestävät kynnet! Hinnasto"
           />
@@ -715,7 +715,7 @@ const Hintalista = () => {
       <Container>
         <Section>
           <Heading
-            as="h1"
+            as="h2"
             className="hintalistaheading"
             content="Kuumakivihieronta Hinnasto"
           />

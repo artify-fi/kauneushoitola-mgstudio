@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../css/main.css';
-import Layout from '../../components/layoutPage';
+import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
 import Footer from '../../containers/AppModern/FooterMap';
 
@@ -13,8 +13,9 @@ import TextContent from '../../components/palvelut/kynnet/KynnetTextContent';
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Kauniit kynnet MG Studio Kauneushoitola Martinlaakso"
-      description="Ammattimainen hoito juuri Sinulle"
+      title="Kauniit ja kestävät kynnet"
+      description="Pidä Kynsiäsi Ja Kohtele Niitä Rakkaudella.
+      Kerma kätesi ja öljy kynnet. (Estää kynsien naarmuuntumisen ja haurauden) Jos lähdet matkalle, ilmoita siitä teknikollesi. Kun matkustat, vietät enemmän aikaa vedessä ja auringossa ja teet asioita, joita et tee päivittäin."
     />
     <BannerNarrow />
     <Banner />

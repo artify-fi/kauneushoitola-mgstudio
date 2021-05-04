@@ -47,7 +47,7 @@ export default [
   {
     page: 'PALVELUMME',
     label: 'Kampaaja(oppilastyö)',
-    url: `/palvelumme/kampaaja-helsinki-malminkartano/`,
+    url: `/palvelumme/kampaaja/`,
     icon: <FaGem className="icon" />,
   },
   {

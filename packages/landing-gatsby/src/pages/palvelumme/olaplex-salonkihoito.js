@@ -13,7 +13,7 @@ const olaplex = () => {
   return (
     <Layout>
       <SEO
-        title="Olaplex Salonkihoito Helsinki, Malminkartano"
+        title="Olaplex hiusten suojaus"
         description="Olaplex-hiustenhoito takaa että hiuksesi eivät enää missään tapauksessa mene heikkoon kuntoon niitä värjättäessä, vaalennettaessa sekä tehtäessä rakennekäsittelyjä. "
       />
       <OlaplexBannerNarrow />

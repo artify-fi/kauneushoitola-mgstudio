@@ -9,9 +9,15 @@ import { GatsbyContext } from '../context/context';
 import { DrawerProvider } from '../../../common/src/contexts/DrawerContext';
 import Sticky from 'react-stickynode';
 import '../css/main.css';
-//import MyMap from '../components/leaflet/Leaflet';
 
-// import '../css/style.css'
+import Yhteydenotto from '../containers/AppModern/FooterMap';
+import MyMap from '../components/leaflet/Leaflet';
+
+const location = {
+  address: 'MG Studio Tuohiaukio 4, 00410, Helsinki, Malminkartano.',
+  lat: 60.25154,
+  lng: 24.85796,
+};
 
 const Layout = ({ children }) => {
   const { isSidebarOpen } = useContext(GatsbyContext);
@@ -24,8 +30,9 @@ const Layout = ({ children }) => {
       </Sticky>
       {isSidebarOpen && <Sidebar />}
       {children}
-      {/* <Footer /> */}
-      {/* <MyMap /> */}
+      <Yhteydenotto />
+      <MyMap />
+      <Footer />
     </ThemeProvider>
   );
 };

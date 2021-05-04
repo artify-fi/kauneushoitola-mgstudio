@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../../containers/AppModern/FooterMap';
-import Layout from '../../components/layoutPage';
+import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
 
 import Banner from '../../components/palvelut/hieronta/HierontaBanner';
@@ -12,8 +12,8 @@ import TextContent from '../../components/palvelut/hieronta/HierontaTextContent'
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Geelilakkaus varpaisiin Helsinki, Malminkartano"
-      description="Terveet ja kauniisti lakatut kynnet kuuluvat jokaisen luottavan naisen kauneusarsenaliin. Manikyyri geelilakalla on kätevä tapa varmistaa kynsien hyvin hoidettu ulkonäkö pitkään ja pienellä vaivalla.  "
+      title="Hieronnan avulla onneliseksi."
+      description="Rentouttava hieronta auttaa sinua unohtamaan stressin ja jännityksen.Hieronta on hoitotapahtuma, jonka tavoitteena on lisätä kudosten aineenvaihduntaa ja parantaa verenkiertoa."
     />
     <BannerNarrow />
     <Banner />

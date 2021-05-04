@@ -43,7 +43,7 @@ const SectionWrapper = styled.div`
 const MainHeading = () => {
   return (
     <SectionWrapper id="palvelumme" className="mainheading">
-      <Heading as="h1" className="mainheading" content="Palvelumme" />
+      <Heading as="h2" className="mainheading" content="Palvelumme" />
     </SectionWrapper>
   );
 };

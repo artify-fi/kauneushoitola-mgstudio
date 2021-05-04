@@ -12,7 +12,10 @@ import TextContent from '../../components/palvelut/kampaaja/KampaajaTextContent'
 const kampaaja = () => {
   return (
     <Layout>
-      <SEO title="Kampaaja Helsinki, Malminkartano" />
+      <SEO
+        title="Hiusten leikkaus (oppilatyö)"
+        description="Kampaajat ovat myös paikka sosiaaliselle vuorovaikutukselle ja julkiselle keskustelulle. Joissakin tapauksissa kampaajat ovat myös julkisia foorumeita. Nämä ovat paikkoja avoimelle keskustelulle, ilmaista yleisön huolenaiheita ja saada kansalaiset mukaan keskusteluun tämän päivän aiheista."
+      />
       <BannerNarrow />
       <Banner />
       <Title as="h1" title="Kampaaja (oppilastyö)" />

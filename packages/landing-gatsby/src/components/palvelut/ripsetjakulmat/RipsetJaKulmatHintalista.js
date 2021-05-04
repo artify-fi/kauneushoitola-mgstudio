@@ -127,7 +127,7 @@ const KampaajaHintalista = () => {
       <Container>
         <Section>
           <Heading
-            as="h1"
+            as="h2"
             className="hintalistaheading"
             content="Ripsienpidennys/ Ripsien Ja Kulmien Kestovärjäys"
           />

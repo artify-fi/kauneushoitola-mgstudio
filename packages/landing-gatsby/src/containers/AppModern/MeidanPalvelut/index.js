@@ -1,16 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Button from 'common/src/components/Button';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
-// import Image1 from '../../../images/palvelut/naisten_hiusten_leikkaus.jpg';
-// import Image2 from '../../../images/palvelut/miesten_hiusten_leikkaus.jpg';
 import Image3 from '../../../images/palvelut/palvelut_kampaaja_oppilastyo.webp';
-// import Image4 from '../../../images/palvelut/permanentti.jpg';
-// import Image5 from '../../../images/palvelut/airtouch.jpg';
 import Image6 from '../../../images/palvelut/olaplex.jpeg';
 import Image7 from '../../../images/palvelut/hemmotteleva_kuumakivi_hieronta_w.webp';
 import Image8 from '../../../images/palvelut/hieronta_w.webp';
@@ -37,7 +31,7 @@ const DesignedAndBuilt = () => {
           </div>
           <div className="content">
             <Heading
-              as="h2"
+              as="h3"
               className="heading"
               content="Kampaaja(oppilastyö)"
             />
@@ -69,7 +63,7 @@ const DesignedAndBuilt = () => {
           </div>
           <div className="content">
             <Heading
-              as="h2"
+              as="h3"
               className="heading"
               content="Olaplex salonkihoito"
             />
@@ -95,7 +89,7 @@ const DesignedAndBuilt = () => {
             />
           </div>
           <div className="content">
-            <Heading as="h2" className="heading" content="Ripset & Kulmat" />
+            <Heading as="h3" className="heading" content="Ripset & Kulmat" />
             <Heading
               as="h4"
               className="text"
@@ -118,7 +112,7 @@ const DesignedAndBuilt = () => {
           </div>
           <div className="content">
             <Heading
-              as="h2"
+              as="h3"
               className="heading"
               content="Kasvohoito (tulossa)"
             />
@@ -143,7 +137,7 @@ const DesignedAndBuilt = () => {
             />
           </div>
           <div className="content">
-            <Heading as="h2" className="heading" content="Jalkahoito" />
+            <Heading as="h3" className="heading" content="Jalkahoito" />
             <Heading
               as="h4"
               className="text"
@@ -165,13 +159,11 @@ const DesignedAndBuilt = () => {
             />
           </div>
           <div className="content">
-            <Heading as="h2" className="heading" content="Kynnet" />
+            <Heading as="h3" className="heading" content="Kynnet" />
             <Heading
               as="h4"
               className="text"
-              content="Geelilakkaus, Geelikynnet, Manikyyri, Luxus Manikyyri
-
-              "
+              content="Geelilakkaus, Geelikynnet, Manikyyri, Luxus Manikyyri"
             />
             <Link className="explore" href="/palvelumme/kynnet/">
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
@@ -190,7 +182,7 @@ const DesignedAndBuilt = () => {
           </div>
           <div className="content">
             <Heading
-              as="h2"
+              as="h3"
               className="heading"
               content="Geelilakkaus Varpaisiin"
             />
@@ -218,7 +210,7 @@ const DesignedAndBuilt = () => {
             />
           </div>
           <div className="content">
-            <Heading as="h2" className="heading" content="Hieronta" />
+            <Heading as="h3" className="heading" content="Hieronta" />
             <Heading
               as="h4"
               className="text"
@@ -240,7 +232,7 @@ const DesignedAndBuilt = () => {
             />
           </div>
           <div className="content">
-            <Heading as="h2" className="heading" content="Kuumakivihieronta" />
+            <Heading as="h3" className="heading" content="Kuumakivihieronta" />
             <Heading
               as="h4"
               className="text"
@@ -260,103 +252,3 @@ const DesignedAndBuilt = () => {
 };
 
 export default DesignedAndBuilt;
-
-{
-  /* 2. Miesten hiusten leikkaus */
-}
-{
-  /* <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image2}
-              alt="miesten hiusten leikkaus vantaa martinlaakso"
-            />
-          </div>
-          <div className="content">
-            <Heading
-              as="h2"
-              className="heading"
-              content="Miesten hiusten leikkaus"
-            />
-            <Heading
-              as="h4"
-              className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
-            />
-            <Link className="link" href="/palvelumme/naisten-hiusten-leikkaus/">
-              <Button className="button" title="Lue lisää tai varaa aikaa" />
-            </Link>
-          </div>
-        </ContentWrapper> 
-
-      3. Varipaketti 
-       <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image3}
-              alt="naisten hiusten väripaketti vantaa martinlaakso"
-            />
-          </div>
-          <div className="content">
-            <Heading as="h2" className="heading" content="Väripaketti" />
-            <Heading
-              as="h4"
-              className="text"
-              content="Kids, you tried your best and you failed miserably. The lesson is, never try. Remember the time he ate my goldfish? And you lied and said I never had goldfish. Then why did I have the bowl."
-            />
-            <Link className="link" href="//palvelumme/permanentti//">
-              <Button className="button" title="Lue lisää tai varaa aikaa" />
-            </Link>
-          </div>
-        </ContentWrapper>
-      4. Permanentti 
-        <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image4}
-              alt="Permanentti vantaa martinlaakso"
-            />
-          </div>
-          <div className="content">
-            <Heading as="h2" className="heading" content="Permanentti" />
-            <Heading
-              as="h4"
-              className="text"
-              content="Shoplifting is a victimless crime. Like punching someone in the dark. You dont win friends with salad. Son, when you participate in sporting events, its not whether you win or lose."
-            />
-            <Link className="link" href="//palvelumme/permanentti/">
-              <Button className="button" title="Lue lisää tai varaa aikaa" />
-            </Link>
-          </div>
-        </ContentWrapper> 
- 5. Airtouch 
-        <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image5}
-              alt="Airtouch hiusten leikkaus vantaa martinlaakso vantaa martinlaakso"
-            />
-          </div>
-          <div className="content">
-            <Heading as="h2" className="heading" content="Airtouch" />
-            <Heading
-              as="h4"
-              className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!". You may remember me from such self-help tapes as '
-            />
-            <Link
-              className="link"
-              href="/palvelumme/hemmotteleva-kuumakivihieronta/"
-            >
-              <Button className="button" title="Lue lisää tai varaa aikaa" />
-            </Link>
-          </div>
-        </ContentWrapper> 
-     
-       
-     */
-}

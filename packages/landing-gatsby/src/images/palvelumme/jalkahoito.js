@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../css/main.css';
-import Layout from '../../components/layout';
-import SEO from '../../components/SEO';
+import Layout from '../../components/layoutPage';
+import SEO from '../../components/seo';
 import Footer from '../../containers/AppModern/FooterMap';
 
 import Banner from '../../components/palvelut/jalkahoito/JalkahoitoBanner';

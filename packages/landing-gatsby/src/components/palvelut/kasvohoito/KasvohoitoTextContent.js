@@ -10,7 +10,7 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            <Heading as="h1" content="Kasvohoito (tulossa)" />
+            {/* <Heading as="h2" content="Kasvohoito (tulossa)" /> */}
 
             {/* <Text content="Hieronta, jalkakylpy ja kynsien lakkaus (perus kynsilakalla)" />
 

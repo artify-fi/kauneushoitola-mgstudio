@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../../containers/AppModern/FooterMap';
-import Layout from '../../components/layout';
-import SEO from '../../components/SEO';
+import Layout from '../../components/layoutPage';
+import SEO from '../../components/seo';
 
 import Banner from '../../components/palvelut/kuumakivihieronta/KuumakiviHierontaBanner';
 import Title from '../../components/Title';

@@ -12,7 +12,10 @@ import TextContent from '../../components/palvelut/kasvohoito/KasvohoitoTextCont
 const kasvohoito = () => {
   return (
     <Layout>
-      <SEO title="Kasvohoito Helsinki, Malminkartano" description="" />
+      <SEO
+        title="Kasvojen hoito"
+        description="Meillä voit nauttia kosmetologin palveluista. Korostamme aina laatua ja asiakkaiden mukavuutta yksityisissä ja viihtyisissä huoneissa. Koristekosmetiikan alaan kuuluvat kehoa korostavat tekniikat (mukaan lukien hygienia) ja meikki, joiden tarkoituksena on havainnollistaa ulkonäköä, korostaa persoonallisuutta ja piilottaa kauneusvirheet muotivaatimusten mukaisesti."
+      />
       <BannerNarrow />
       <Banner />
       <Title as="h1" title="Kasvohoito" />

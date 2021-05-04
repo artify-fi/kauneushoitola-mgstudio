@@ -32,6 +32,7 @@ export const ContentWrapper = styled.div`
       margin-right: 0.2em;
     }
     @media only screen and (max-width: 991px) {
+      width: 40vw;
     }
     @media only screen and (max-width: 768px) {
       width: 40vw;
@@ -49,7 +50,7 @@ export const ContentWrapper = styled.div`
       width: 40vw;
     }
     @media only screen and (max-width: 991px) {
-      width: 36vw;
+      width: 40vw;
     }
     @media only screen and (max-width: 768px) {
     }
@@ -94,7 +95,7 @@ export const ContentWrapper = styled.div`
     font-family: Playfair Display;
     font-size: 1.4rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.6em;
     color: #19243a;
     letter-spacing: 0.2px;
     text-transform: none;
@@ -106,7 +107,7 @@ export const ContentWrapper = styled.div`
       padding-right: 0px;
     }
     @media only screen and (max-width: 768px) {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       width: 270px;
       padding-right: 0px;
     }
@@ -114,7 +115,7 @@ export const ContentWrapper = styled.div`
       display: flex;
       width: 100%;
       justify-content: center;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       line-height: 1.8rem;
       text-align: center;
       margin-top: -1.6rem;
