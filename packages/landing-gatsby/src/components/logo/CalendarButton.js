@@ -21,6 +21,7 @@ export default function PhoneButton() {
         }}
         color="#ff3f66"
         className={classes.margin}
+        aria-label="Calendar for reserving time to services"
       >
         <EventAvailableIcon style={{ fontSize: '2.4em' }} />
       </Fab>

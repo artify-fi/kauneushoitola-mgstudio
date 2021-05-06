@@ -20,6 +20,7 @@ export default function PhoneButton() {
         }}
         color="#ff3f66"
         className={classes.margin}
+        aria-label="Client can see where salong is situated"
       >
         <MapIcon style={{ fontSize: '2.4em' }} />
       </Fab>

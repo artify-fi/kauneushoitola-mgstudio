@@ -21,6 +21,7 @@ export default function PhoneButton() {
         }}
         color="#ff3f66"
         className={classes.margin}
+        aria-label="Client can make an easy call from here just clicking"
       >
         <PhoneIcon style={{ fontSize: '2.4em' }} />
       </Fab>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../../images/etusivu_valokuva_large.webp';
+import img from '../../../images/kauneus_hieronta_kampaaja.webp';
 
 const BannerWrapper = styled.div`
   padding-top: 100px;
@@ -68,7 +68,7 @@ export const BannerContent = styled.div`
     letter-spacing: 2px;
     font-weight: 400;
     color: rgba(20, 28, 45, 0.95);
-    margin-bottom: 12rem;
+    margin-top: -104vh;
     padding-bottom: 0.3em;
     text-align: center;
     border: 2px 0 2px 0;
@@ -78,22 +78,18 @@ export const BannerContent = styled.div`
 
     @media only screen and (min-width: 440px) and (max-width: 680px) {
       font-size: 2.6rem;
-      margin-bottom: 12rem;
     }
 
     @media only screen and (min-width: 681px) and (max-width: 998px) {
       font-size: 3rem;
-      margin-bottom: 12rem;
     }
 
     @media only screen and (min-width: 999px) and (max-width: 1366px) {
       font-size: 3.8rem;
-      margin-bottom: 12rem;
     }
 
     @media only screen and (min-width: 1366px) {
       font-size: 4.2rem;
-      margin-bottom: 12rem;
     }
   }
 `;

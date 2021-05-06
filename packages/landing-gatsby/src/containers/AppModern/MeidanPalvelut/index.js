@@ -45,6 +45,8 @@ const DesignedAndBuilt = () => {
 
             <Link
               className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus kampaajalle"
               href="/palvelumme/kampaaja-helsinki-malminkartano/"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
@@ -73,7 +75,12 @@ const DesignedAndBuilt = () => {
               content="Mikäli hiuksesi ovat huonossa kunnossa, kuivat tai karheat on niihin uskomaton apu Olaplex-salonkihoidosta.
               Olaplex-salonkihoito voidaan tehdä muun kampaamopalvelun yhteydessä tai voit varata siihen erikseen ajan."
             />
-            <Link className="explore" href="/palvelumme/olaplex-salonkihoito/">
+            <Link
+              className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus olaplex salonkihoitoon"
+              href="/palvelumme/olaplex-salonkihoito/"
+            >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>
@@ -95,7 +102,12 @@ const DesignedAndBuilt = () => {
               className="text"
               content="Ripsienpidennys klassiset/ hybrid/ volyymit. Ripsien ja kulmien värjäys sekä muotoilu"
             />
-            <Link className="explore" href="/palvelumme/ripset-kulmat/">
+            <Link
+              className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus ripsien ja kulmien tekniikkolle"
+              href="/palvelumme/ripset-kulmat/"
+            >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>
@@ -121,7 +133,12 @@ const DesignedAndBuilt = () => {
               className="text"
               content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
             />
-            <Link className="explore" href="/palvelumme/kasvohoito/">
+            <Link
+              className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus kasvohoitoon"
+              href="/palvelumme/kasvohoito/"
+            >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>
@@ -143,7 +160,12 @@ const DesignedAndBuilt = () => {
               className="text"
               content="Perusjalkohoito, Luxus jalkahoito, Jalkahoito geelilakalla"
             />
-            <Link className="explore" href="/palvelumme/jalkahoito/">
+            <Link
+              className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus jalkahoitoon"
+              href="/palvelumme/jalkahoito/"
+            >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>
@@ -165,7 +187,12 @@ const DesignedAndBuilt = () => {
               className="text"
               content="Geelilakkaus, Geelikynnet, Manikyyri, Luxus Manikyyri"
             />
-            <Link className="explore" href="/palvelumme/kynnet/">
+            <Link
+              className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus kynsiteknikolle"
+              href="/palvelumme/kynnet/"
+            >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>
@@ -193,6 +220,8 @@ const DesignedAndBuilt = () => {
             />
             <Link
               className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus varpaiden geelilakkaukseen"
               href="/palvelumme/geelilakkaus-varpaisiin/"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
@@ -216,7 +245,12 @@ const DesignedAndBuilt = () => {
               className="text"
               content="Hieronnasta apua kehon kiputiloihin."
             />
-            <Link className="explore" href="/palvelumme/hieronta/">
+            <Link
+              className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus hieroojalle"
+              href="/palvelumme/hieronta/"
+            >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>
@@ -240,6 +274,8 @@ const DesignedAndBuilt = () => {
             />
             <Link
               className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus kuumakivihieronnaan"
               href="/palvelumme/hemmotteleva-kuumakivihieronta/"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />

@@ -47,7 +47,7 @@ const Newsletter = ({
               marginTop: '1em',
             }}
           >
-            <a href="tel:+358400979051">
+            <a href="tel:+358400979051" aria-label="Call easily to MG Studio">
               {' '}
               <Button
                 style={{
@@ -78,6 +78,7 @@ const Newsletter = ({
           >
             <a
               href="https://varaa.timma.fi/MGstudio"
+              aria-label="Varaa helposti aika netista"
               target="_blank"
               rel="noopener norefferer"
               className="link"
@@ -92,6 +93,7 @@ const Newsletter = ({
                 variant="contained"
                 color="#000"
                 size="small"
+                aria-label="Reserve easily free time to MG Studio"
                 className={classes.button}
                 startIcon={<EventAvailableIcon style={{ fontSize: '1em' }} />}
               >

@@ -26,7 +26,11 @@ const Navbar = () => {
             <TextLogo alt="mgstudio_logo" />
           </Link>
           {!isSidebarOpen && (
-            <button className="toggle-btn" onClick={showSidebar}>
+            <button
+              className="toggle-btn"
+              aria-label="Toggle navigation pages"
+              onClick={showSidebar}
+            >
               <GoThreeBars />
             </button>
           )}
