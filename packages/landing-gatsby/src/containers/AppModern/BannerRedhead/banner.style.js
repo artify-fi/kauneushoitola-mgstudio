@@ -68,7 +68,7 @@ export const BannerContent = styled.div`
     letter-spacing: 2px;
     font-weight: 400;
     color: rgba(20, 28, 45, 0.95);
-    margin-top: -104vh;
+    margin-top: 8vh;
     padding-bottom: 0.3em;
     text-align: center;
     border: 2px 0 2px 0;

@@ -2,12 +2,13 @@ import styled from 'styled-components';
 
 const BlogSectionWrapper = styled.section`
   padding: 80px 0;
+  padding-bottom: 0px;
   overflow: hidden;
   @media (max-width: 990px) {
     padding: 60px 0;
   }
   @media (max-width: 767px) {
-    padding: 40px 0;
+    padding: 5px 0;
   }
 
   .feature__block {
@@ -35,15 +36,11 @@ const BlogSectionWrapper = styled.section`
       }
       @media only screen and (max-width: 420px) {
         width: calc(100% - 24px);
-        height: 70vh;       
-        margin-top: 6em;
-        margin-bottom: 6em;
-         /* &:first-child {
-          width: 100%; */
+        height: 70vh;
+        &:first-child {
+          margin-top: 8em;
         }
       }
-
-
 
       .icon__wrapper {
         position: absolute;

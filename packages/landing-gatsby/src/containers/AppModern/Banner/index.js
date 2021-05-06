@@ -10,7 +10,7 @@ import Link from 'common/src/components/Link';
 import FeatureBlock from 'common/src/components/FeatureBlock';
 import Container from 'common/src/components/UI/Container';
 import BlogSectionWrapper from './blogSection.style';
-import { BannerContent } from '../BannerRedhead/banner.style';
+import BannerWrapper, { BannerContent } from '../BannerRedhead/banner.style';
 
 const BlogSection = ({
   row,
@@ -41,8 +41,13 @@ const BlogSection = ({
   `);
 
   return (
-    <BlogSectionWrapper id="blogSection">
+    <BlogSectionWrapper id="home" alt="kauneus hieronta kampaaja ja jalkahoito">
       <Container>
+        <BannerContent>
+          <Fade up delay={200}>
+            <Heading as="h1" content="Kauneus & Hieronta" />
+          </Fade>
+        </BannerContent>
         <Box className="row" {...row}>
           {Data.agencyJson.blog.map((post, index) => (
             <FeatureBlock
@@ -68,15 +73,6 @@ const BlogSection = ({
               }
             />
           ))}
-          <BannerContent>
-            <Fade up delay={200}>
-              <Heading
-                as="h1"
-                style={{ color: 'white' }}
-                content="Kauneus & Hieronta"
-              />
-            </Fade>
-          </BannerContent>
         </Box>
       </Container>
     </BlogSectionWrapper>
