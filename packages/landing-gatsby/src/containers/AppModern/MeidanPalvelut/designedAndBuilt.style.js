@@ -23,36 +23,40 @@ export const ContentWrapper = styled.div`
   .image {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 500px;
+    justify-content: flex-start;
+    width: 28vw;
     padding: 1em;
     margin-right: 4em;
-    @media only screen and (max-width: 1366px) {
-      width: 30vw;
-      margin-right: 0.2em;
+    @media only screen and (max-width: 1560px) {
+      width: 32vw;
+      margin-right: 4em;
+    }
+    @media only screen and (max-width: 1360px) {
+      width: 36vw;
+      margin-right: 2em;
     }
     @media only screen and (max-width: 991px) {
-      width: 40vw;
+      width: 64vw;
     }
     @media only screen and (max-width: 768px) {
-      width: 40vw;
+      width: 92vw;
     }
     @media only screen and (max-width: 420px) {
       width: 96vw;
     }
   }
   .content {
-    /* display: flex;
-    justify-content: center; */
-    width: 480px;
+    width: 32vw;
     padding: 1em;
-    @media only screen and (max-width: 1366px) {
-      width: 40vw;
+    margin-left: 3em;
+    @media only screen and (max-width: 1360px) {
+      width: 36vw;
     }
     @media only screen and (max-width: 991px) {
-      width: 40vw;
+      width: 64vw;
     }
     @media only screen and (max-width: 768px) {
+      width: 92vw;
     }
     @media only screen and (max-width: 480px) {
       width: 98vw;
@@ -69,7 +73,7 @@ export const ContentWrapper = styled.div`
     letter-spacing: 1px;
     margin-bottom: 2em;
 
-    @media only screen and (max-width: 1366px) {
+    @media only screen and (max-width: 1360px) {
       font-size: 1.7rem;
       line-height: 42px;
       margin-bottom: 1.6em;
@@ -99,24 +103,29 @@ export const ContentWrapper = styled.div`
     color: #19243a;
     letter-spacing: 0.2px;
     text-transform: none;
-    @media only screen and (max-width: 1440px) {
-      font-size: 1.3rem;
+    margin-left: 1em;
+    @media only screen and (max-width: 1360px) {
+      font-size: 1.4rem;
+      margin-left: 3.2em;
+      margin-bottom: 1.6em;
     }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      font-size: 1.2rem;
-      padding-right: 0px;
+    @media only screen and (max-width: 991px) {
+      display: flex;
+      justify-content: center;
+      margin-left: 0px;
+      font-size: 1.4rem;
+      margin-bottom: 6px;
     }
     @media only screen and (max-width: 768px) {
-      font-size: 1.2rem;
-      width: 270px;
-      padding-right: 0px;
+      font-size: 1.4rem;
+      text-align: center;
     }
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 440px) {
       display: flex;
       width: 100%;
       justify-content: center;
       font-size: 1.3rem;
-      line-height: 1.8rem;
+      line-height: 1.7rem;
       text-align: center;
       margin-top: -1.6rem;
     }
@@ -136,17 +145,27 @@ export const ContentWrapper = styled.div`
   .explore {
     color: #ff3f66;
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 32px;
+    font-size: 1.4rem;
+    line-height: 1.6;
     display: inline-flex;
     align-items: center;
-    padding-left: 2em;
+    margin-left: 2em;
+    @media only screen and (max-width: 1360px) {
+      margin-left: 2em;
+      font-size: 1.4rem;
+    }
+    @media only screen and (max-width: 991px) {
+      font-size: 1.3rem;
+    }
     @media only screen and (max-width: 768px) {
       justify-content: center;
-      font-size: 1.1rem;
+      font-size: 1.3rem;
       width: 100%;
       padding-left: 0px;
       margin-top: -2em;
+    }
+    @media only screen and (max-width: 440px) {
+      font-size: 1.2rem;
     }
   }
 

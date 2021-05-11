@@ -233,11 +233,14 @@ export const Content2 = styled.div`
     letter-spacing: 2px;
     margin-top: 1.2em;
 
-    @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    @media only screen and (min-width: 769px) and (max-width: 991px) {
       line-height: 1.2rem;
       font-size: 1.3rem;
+      &:second-child {
+        margin-top: -12em;
+      }
     }
-    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    @media only screen and (min-width: 992px) and (max-width: 1360px) {
       line-height: 1.6em;
       font-size: 1.4rem;
     }
@@ -263,22 +266,25 @@ export const Content2 = styled.div`
       padding-right: 1em;
     }
 
-    @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    @media only screen and (min-width: 769px) and (max-width: 991px) {
       line-height: 1.5rem;
       font-size: 1.2rem;
       padding-left: 1.3em;
       padding-right: 1.3em;
+      margin-top: -17em;
     }
-    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    @media only screen and (min-width: 992px) and (max-width: 1360px) {
       line-height: 1.6em;
       font-size: 1.3rem;
       padding-left: 1em;
       padding-right: 1em;
+      margin-top: -17em;
     }
 
-    @media only screen and (min-width: 1367px) {
+    @media only screen and (min-width: 1361px) {
       line-height: 1.8rem;
       font-size: 1.4rem;
+      margin-top: -17em;
     }
   }
 `;

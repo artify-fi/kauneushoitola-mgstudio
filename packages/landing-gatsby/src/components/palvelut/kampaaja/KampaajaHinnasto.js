@@ -172,7 +172,7 @@ const KampaajaHintalista = () => {
               as="p"
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
-              content="30€"
+              content="35€"
             />
           </Content>
           <Line color="#fff" width="100%" />

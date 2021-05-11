@@ -138,6 +138,22 @@
       "postLink": "#2"
     }
   ],
+  "blogvalge": [
+    {
+      "id": 1,
+      "title": "Kauneushoitaja neiti ..",
+      "thumbnail_url": "../../assets/image/agency/blog/valge_kauneushoitola_mgstudio_kampaaja.webp",
+      "date": "November 02, 2018",
+      "postLink": "#1"
+    },
+    {
+      "id": 2,
+      "title": "Kauneushoitaja neiti ..",
+      "thumbnail_url": "../../assets/image/agency/blog/valge_kauneushoitaja_mgstudio.webp",
+      "date": "November 12, 2018",
+      "postLink": "#2"
+    }
+  ],
   "teamMember": [
     {
       "id": 1,

@@ -129,7 +129,7 @@ const KampaajaHintalista = () => {
           <Heading
             as="h2"
             className="hintalistaheading"
-            content="Kauniit ja kestävät kynnet! Hinnasto"
+            content="Kynnet Hinnasto"
           />
 
           <Content>
@@ -143,7 +143,7 @@ const KampaajaHintalista = () => {
           </Content>
 
           <Line color="#fff" width="100%" />
-          <Content>
+          {/* <Content>
             <Text as="p" className="hintalistatext" content="Geelikynnet" />
             <Text
               as="p"
@@ -153,7 +153,7 @@ const KampaajaHintalista = () => {
             />
           </Content>
 
-          <Line color="#fff" width="100%" />
+          <Line color="#fff" width="100%" /> */}
           <Content>
             <Text
               as="p"

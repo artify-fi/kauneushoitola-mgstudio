@@ -18,82 +18,48 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            {/* <Image
-              className="img"
-              src={PersonImage1}
-              alt="nainen makuulla kylpylä salonkissa iho- ja vartalonhoito seka rentoutuminen hieronta kosmetologia käsite helsinki malminkartano ja helsinkissa"
-            /> */}
-            <Heading
-              as="h2"
-              content="Stressi ja jännitys - kaksi suurinta ahdistusta nykyelämässä."
-            />
+            <Heading as="h2" content="Hieronnasta apua kehon kiputiloihin" />
 
-            <Text content="Rentouttava hieronta auttaa sinua unohtamaan ne. Paras hemmottelu on antaa vartalo ammattilaisen hoitaville käsille ja nauttia esimerkiksi klassisesta, thaimaalaisesta tai suklaahieronnasta. Tällaisen kokemuksen jälkeen tunnet olosi jälleen stressittömäksi ja onnellisemmaksi." />
+            <Text content="Hieronta on perinteinen, kaikenikäisille soveltuva pehmytkudoksien hoitomuoto, jonka tavoitteena on lisätä kudosten aineenvaihduntaa ja parantaa verenkiertoa. Hieronta antaa hyvän olon, vähentää stressiä ja ennaltaehkäisee erilaisia vaivoja." />
 
-            <Heading
-              as="h2"
-              content="Hieronnasta apua vartalon kiputiloihin."
-            />
-            {/* <Image
-              className="img"
-              src={PersonImage2}
-              alt="kauneushoitola kylpylä rentoutuva selkähieronta ammattimaisesti helsinki martinlaakso ja malminkartano."
-            /> */}
-            <Text content="Hieronta on perinteinen, kaikenikäisille soveltuva pehmytkudoksien hoitomuoto. Sitä käytetään esimerkiksi yleiseen rentoutumiseen, kivun lievittämiseen, ummetuksen hoitoon ja lihasten huoltamiseen. Hieronta antaa hyvän olon, vähentää stressiä ja ennaltaehkäisee erilaisia vaivoja." />
+            <Text content="Hierontaan tulon syynä ovat usein mm. erilaiset lihaskireydet, jäykkyydet ja akuutit tai krooniset kivut, stressi, rentoutuminen, palautuminen tai urheilijan lihashuolto. Yleistä on myös krooninen kipu, jossa syy voi olla muualla kuin lihaksistossa, mutta kipu aiheuttaa lihaskireyttä ja aineenvaihdunnan heikentymistä alueella.  " />
 
-            <Heading as="h2" content="Miksi hierontaan?" />
-            {/* <Image
-              className="img"
-              src={PersonImage3}
-              alt="kauneushoitola malminkarton hyva ja halpa hieronta kaikille ihmisille"
-            /> */}
-            <Text content="Hieronta on hoitotapahtuma, jonka tavoitteena on lisätä kudosten aineenvaihduntaa ja parantaa verenkiertoa. Hierontaan tulon syynä ovat usein mm. erilaiset lihaskireydet, jäykkyydet ja akuutit tai krooniset kivut, stressi, rentoutuminen, palautuminen tai urheilijan lihashuolto.  Myös vammoista toipuminen nopeutuu  oikein ajoitetulla hieronnalla. Yleistä on myös krooninen kipu, jossa syy voi olla muualla kuin lihaksistossa, mutta kipu aiheuttaa lihaskireyttä ja aineenvaihdunnan heikentymistä alueella.  Tämä puolestaan ylläpitää jatkuvaa kipua. Kysymyksessä on siis itseään ruokkiva kipukehä, jonka katkaisemisessa hieronta on usein avuksi." />
+            <Heading as="h2" content="Hieronnan hyödyt:" />
+
+            <Text content="*Kipu lievittyy" />
+            <Text content="*Aineenvaihdunta tehostuu" />
+            <Text content="*Ihon joustavuus paranee" />
+            <Text content="*Palauttaa harjoittelusta" />
+            <Text content="*Stressi vähenee" />
+            <Text content="*Keho rentoutuu" />
+            <Text content="*Mieli virkistyy" />
           </Content1>
 
           <Content2>
-            <Heading as="h2" content="Lisäksi hyvä tietää." />
-            {/* <Image
-              className="img"
-              src={PersonImage4}
-              alt="hieroja wellness selkähieronta asiakas spa keskus helsinki ja myyrmanni vantaa"
-            /> */}
-            <Text
-              content="Me kaikki muistamme hetken, jolloin kätemme tai jalkamme hulluivat. Jotkut ihmiset saavat sen joka päivä. Mitä tehdä kylmät kädet ja jalat vastaan ​​ja milloin sinun pitäisi olla ahdistunut?
-
-Talvella miinusasteet, monet ihmiset alkavat tuntea kylmää käsissään ja jaloissa. Usein kysymys ei ole siitä, ovatko käsineet päällä ja paksut sukat jalassa, vaan siitä, onko kyseessä verenkierron häiriö. Verenkierron häiriöitä voi esiintyä monilla, mutta yleisemmillä naisilla, jotka työskentelevät pakotetussa verenpaineessa. Verenkiertohäiriöt voivat johtua lämpötilasta, kehon ominaisuuksista, iästä, stressistä, tupakoinnista sekä sairaudesta.
-
-Kehoa jäähdyttäviä ruokia on suositeltavaa välttää: esimerkiksi trooppisia hedelmiä, sianlihaa, suuria määriä kylmää salaattia, kahvia ja hiilihapotettuja juomia. Lämpimäksi tulemiseksi on pidettävä etusijalla ruokia, jotka voidaan maustaa inkiväärillä, kardemummalla tai pippurilla, juoda inkivääriä, syödä naudanlihakeittoa, karitsan muhennosta, vihanneksia, parsakaalia, fenkolia, munia tai luumuja. On myös hyödyllistä käydä saunassa säännöllisesti, mutta myös liikuttaa jalkoja ja käsivarsia, porealtaita ja hierontaa."
-            />
-
-            <Heading as="h2" content="Hieronnan hyödyt:" />
-            {/* <Image
-              className="img"
-              src={PersonImage5}
-              alt="86 / 5000
-              Translation results
-              nainen kylpylä hieroja klassikko rentouttava kauneushoitola helsinkissa ja vantaalla seka uusimaalla "
-            /> */}
-            <Text
-              content="Kipu lievittyy
-              Aineenvaihdunta tehostuu
-              Ihon joustavuus paranee
-              Palauttaa harjoittelusta
-              Stressi vähenee
-              Keho rentoutuu
-              Mieli virkistyy"
-            />
-
             <Heading as="h2" content="Esteet hieronnalle:" />
 
-            <Text
-              content="
-            Flunssa, influenssa
-            Keuhkoinfektiot kuten keuhkokuume, tuberkuloosi
-            Sairaalainfektiot
-            Kaikki rokot
-            Kaikki vatsataudit
-            "
+            <Text content="*Flunssa, influenssa" />
+            <Text content="*Keuhkoinfektiot kuten keuhkokuume, tuberkuloosi" />
+            <Text content="*Sairaalainfektiot" />
+            <Text content="*Kaikki rokotet" />
+            <Text content="*Kaikki vatsataudit" />
+
+            <Heading
+              as="h2"
+              content="Muita mahdollisia esteitä hieronnalle ovat:"
             />
+
+            <Text content="*Laskimotukos" />
+            <Text content="*Sydänsairaus" />
+            <Text content="*Verenpaine" />
+            <Text content="*Syöpä (kasvainsairauksissa hoidosta tulee keskustella lääkärin kanssa ennen hoitoa)" />
+            <Text content="*Verenvuototauti" />
+            <Text content="*Diabetes" />
+            <Text content="*Astma" />
+            <Text content="*Epilepsia" />
+            <Text content="*Osteoporoosi" />
+            <Text content="*Ihottuma / ihosairaus hoidettavalla alueella" />
+            <Text content="*Jokin muu elämääsi rajoittava sairaus, kerrothan siitä hierojallesi!" />
           </Content2>
         </Section>
       </Container>

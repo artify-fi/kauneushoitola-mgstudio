@@ -45,17 +45,29 @@ export const MilestoneCard = styled.div`
   }
 
   p {
-    font-size: 1.2rem;
-    line-height: 1.4em;
+    font-size: 1.8rem;
+    line-height: 1.6em;
     font-weight: 300;
     color: #fff;
     margin: 0;
     @media only screen and (max-width: 1440px) {
-      font-size: 1.2rem;
-      line-height: 1.4em;
+      font-size: 1.6rem;
+      line-height: 1.8em;
     }
     @media only screen and (max-width: 1360px) {
-      font-size: 1rem;
+      font-size: 1.4rem;
+      line-height: 1.7em;
+    }
+    @media only screen and (max-width: 1024px) {
+      font-size: 1.4rem;
+      line-height: 1.6em;
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 1.3rem;
+      line-height: 1.5em;
+    }
+    @media only screen and (max-width: 440px) {
+      font-size: 1.2rem;
       line-height: 1.4em;
     }
   }

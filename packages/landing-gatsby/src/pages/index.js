@@ -3,8 +3,7 @@ import { ResetCSS } from 'common/src/assets/css/style';
 import { GlobalStyle, AgencyWrapper } from '../containers/Agency/agency.style';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
-
-import Banner from '../containers/AppModern/Banner';
+import BannerValge from '../containers/AppModern/BannerValge';
 import NewsletterSection from '../containers/AppModern/Newsletter';
 import MainHeading from '../components/MainHeading';
 import Palvelumme from '../containers/AppModern/MeidanPalvelut';
@@ -21,7 +20,7 @@ export default () => {
       <ResetCSS />
       <GlobalStyle />
       <AgencyWrapper>
-        <Banner />
+        <BannerValge />
         <NewsletterSection />
         <Information />
         <MainHeading />

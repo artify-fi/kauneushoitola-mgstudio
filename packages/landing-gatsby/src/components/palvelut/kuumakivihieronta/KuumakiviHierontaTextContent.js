@@ -23,12 +23,12 @@ const KuumakiviHieronta = () => {
               src={PersonImage1}
               alt="kaunis nainen rentouttava spa salonki kuumilla kivillä vartalo kauneushoito terapia helsinki, martinlaakso, malminkartano seka myyrmanni"
             /> */}
-            <Heading
+            {/* <Heading
               as="h2"
               content="Mitä on Hot Stone eli kuumakivihieronta?"
             />
 
-            <Text content="Laavakivi tai basaltti on eräänlainen magmakivi, joka muodostuu sulan laavan jähmettymällä. Laavakivi säilyttää lämmön paremmin kuin mikään muu kivi. Samanaikaisesti kuumakivihieronta voidaan tehdä myös kotimaisella kalkkikivellä, mutta kiven muoto ja sileä pinta ovat tärkeitä." />
+            <Text content="Laavakivi tai basaltti on eräänlainen magmakivi, joka muodostuu sulan laavan jähmettymällä. Laavakivi säilyttää lämmön paremmin kuin mikään muu kivi. Samanaikaisesti kuumakivihieronta voidaan tehdä myös kotimaisella kalkkikivellä, mutta kiven muoto ja sileä pinta ovat tärkeitä." /> */}
 
             <Heading
               as="h2"
@@ -36,39 +36,40 @@ const KuumakiviHieronta = () => {
             />
             <Text content="Laavakivi- tai kuumakivihieronta on yksi luonnollisimmista palautumisen muodoista, joka käyttää ainutlaatuista menetelmää maapallon lämpöenergian ohjaamiseksi ihmiskehoon. Laavakivet, joiden lämpötila on korkeampi kuin ihmisen käsissä, säteilevät voimakasta ja turvallista lämpöä, joka tunkeutuu syvään ja rentoutuu ja paranee." />
 
-            <Heading
+            {/* <Heading
               as="h2"
               content="Kuumakivihieronta auttaa löytämään sisäisen tasapainon"
-            />
+            /> */}
             {/* 
             <Image
               className="img"
               src={PersonImage2}
               alt="kuuma kivi hieronta hoito terapia vantaa myyrmäki"
             /> */}
-            <Text
+            {/* <Text
               content="Jos olet fyysisesti tai henkisesti väsynyt, tämä hoito on juuri sitä mitä tarvitset kehon virkistämiseen ja parantamiseen.
 
               Kuumakivihieronta auttaa löytämään sisäisen tasapainon, palauttamaan ruumiin ja sielun eheyden. Kivet kuumennetaan erityisessä lämmittimessä 54 - 57 asteen vedessä.
 "
-            />
+            /> */}
 
-            <Heading
+            {/* <Heading
               as="h2"
               content="Hierontatekniikat ovat pitkiä ja virtaavia"
             />
 
             <Text content="suoritetaan sekä käsin että kivillä. Lämpimiä kiviä asetetaan myös kehoon (selkä, rinta, vatsa, pohjat ja kämmenet) hetkeksi." />
+           */}
           </Content1>
 
           <Content2>
-            <Heading as="h2" content="Kuumia ja kylmiä kiviä." />
+            {/* <Heading as="h2" content="Kuumia ja kylmiä kiviä." /> */}
             {/* <Image
               className="img"
               src={PersonImage4}
               alt="väsynyt silmät saavat kuumakivi terapiaa ja hierontaa malminkartanolla vantaan lähistössä ja helsinkissä"
             /> */}
-            <Text content="Niitä voidaan käyttää myös vuorotellen. Se stimuloi verenkiertoa ja kannustaa imukudosta erittämään jätetuotteita. Tämä hieronta alkaa yleensä kuumilla kivillä, jotka rentouttavat ja vähentävät lihasjännitystä, ja päättyvät kylmiin kiviin, mikä puolestaan ​​vahvistaa immuunijärjestelmää. Voidaan tehdä myös vuorotellen kuumien ja kylmien kivien kanssa." />
+            {/* <Text content="Niitä voidaan käyttää myös vuorotellen. Se stimuloi verenkiertoa ja kannustaa imukudosta erittämään jätetuotteita. Tämä hieronta alkaa yleensä kuumilla kivillä, jotka rentouttavat ja vähentävät lihasjännitystä, ja päättyvät kylmiin kiviin, mikä puolestaan ​​vahvistaa immuunijärjestelmää. Voidaan tehdä myös vuorotellen kuumien ja kylmien kivien kanssa." /> */}
 
             <Heading
               as="h2"
@@ -90,13 +91,13 @@ const KuumakiviHieronta = () => {
               Lievittää kuukautiskipuja"
             />
 
-            <Heading as="h2" content="Verenkierto-ongelmat" />
+            {/* <Heading as="h2" content="Verenkierto-ongelmat" /> */}
             {/* <Image
               className="img"
               src={PersonImage6}
               alt="nuori ihminen saa kuumakivi terapia ja nauti täydellisesti sekä on todella tyytyväinen helsinkissa ja malminkartanolla vantaan vieressa."
             /> */}
-            <Text
+            {/* <Text
               content="Hypotensio,
               Usein vilustuminen,
               Vasta-aiheet,              
@@ -108,7 +109,7 @@ const KuumakiviHieronta = () => {
               Sydän-, munuais- ja maksan vajaatoiminta
               Raskaus,
               Infektiot ja ihosairaudet."
-            />
+            /> */}
           </Content2>
         </Section>
       </Container>

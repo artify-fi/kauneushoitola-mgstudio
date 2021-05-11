@@ -29,6 +29,7 @@ const DesignedAndBuilt = () => {
               alt="naisten hiusten leikkaus vantaa martinlaakso"
             />
           </div>
+
           <div className="content">
             <Heading
               as="h3"
@@ -37,7 +38,7 @@ const DesignedAndBuilt = () => {
             />
             <Heading as="h4" className="text" content=" Hiusten värjäys" />
             <Heading
-              style={{ paddingTop: '0.3rem' }}
+              style={{ marginTop: '0.2rem' }}
               as="h4"
               className="text"
               content="Hiusten leikkaus"
@@ -47,7 +48,7 @@ const DesignedAndBuilt = () => {
               className="explore"
               tabindex="0"
               aria-label="Ajanvaraus kampaajalle"
-              href="/palvelumme/kampaaja-helsinki-malminkartano/"
+              href="/palvelumme/kampaaja/"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>

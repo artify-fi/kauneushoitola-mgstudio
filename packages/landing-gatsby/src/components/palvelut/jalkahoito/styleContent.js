@@ -237,7 +237,7 @@ export const Content2 = styled.div`
       line-height: 1.2rem;
       font-size: 1.3rem;
     }
-    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    @media only screen and (min-width: 1024px) and (max-width: 1360px) {
       line-height: 1.6em;
       font-size: 1.4rem;
     }
@@ -269,11 +269,12 @@ export const Content2 = styled.div`
       padding-left: 1.3em;
       padding-right: 1.3em;
     }
-    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    @media only screen and (min-width: 1024px) and (max-width: 1360px) {
       line-height: 1.6em;
       font-size: 1.3rem;
       padding-left: 1em;
       padding-right: 1em;
+      margin-top: -8em;
     }
 
     @media only screen and (min-width: 1367px) {

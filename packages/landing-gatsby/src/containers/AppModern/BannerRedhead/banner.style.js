@@ -68,8 +68,7 @@ export const BannerContent = styled.div`
     letter-spacing: 2px;
     font-weight: 400;
     color: rgba(20, 28, 45, 0.95);
-    margin-top: 8vh;
-    padding-bottom: 0.3em;
+    margin-top: 10vh;
     text-align: center;
     border: 2px 0 2px 0;
     border-color: rgba(20, 28, 45, 0.95);
@@ -82,10 +81,13 @@ export const BannerContent = styled.div`
 
     @media only screen and (min-width: 681px) and (max-width: 998px) {
       font-size: 3rem;
+      margin-top: 9vh;
     }
 
     @media only screen and (min-width: 999px) and (max-width: 1366px) {
       font-size: 3.8rem;
+      margin-top: 8vh;
+      margin-bottom: 1em;
     }
 
     @media only screen and (min-width: 1366px) {

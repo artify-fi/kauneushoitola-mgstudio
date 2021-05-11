@@ -89,10 +89,11 @@ const Footer = () => {
             <Text
               style={{
                 fontWeight: '700',
+                fontSize: '1.4rem',
                 display: 'flex',
+                color: '#ff3f66',
                 justifyContent: 'flex-start',
-                textAlign: 'left',
-                marginTop: '1em',
+                marginLeft: '3.4em',
               }}
               content="(+358) 0400 9790 51"
             />
@@ -175,7 +176,7 @@ const Footer = () => {
           <Content2>
             <Heading className="aukioloajat" as="h2" content="Aukioloajat" />
             <Heading as="h3" content="MAANANTAI - PERJANTAI" />
-            <Text style={{ fontWeight: 600 }} content="10.00-18.00" />
+            <Text style={{ fontWeight: 600 }} content="12.00-18.00" />
             <Heading as="h3" content="LAUANTAI" />
             <Text style={{ fontWeight: 600 }} content="Sopimuksen mukaan" />
             <Heading as="h3" content="SUNNUNTAI" />
