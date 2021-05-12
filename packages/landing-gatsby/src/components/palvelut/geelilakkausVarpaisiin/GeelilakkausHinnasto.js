@@ -31,17 +31,22 @@ export const Section = styled.section`
     letter-spacing: -1px;
     text-align: center;
     padding-top: 3em;
+    padding-bottom: 2em;
     @media only screen and (max-width: 1366px) {
       font-size: 2.2rem;
     }
     @media only screen and (max-width: 991px) {
       font-size: 1.8rem;
+      margin-top: 2em;
+      padding-bottom: 2em;
     }
     @media only screen and (max-width: 768px) {
       font-size: 1.6rem;
     }
     @media only screen and (max-width: 480px) {
       font-size: 1.4rem;
+      margin-top: 1em;
+      padding-bottom: 0.2em;
     }
   }
   .hintalistaheading:after {
