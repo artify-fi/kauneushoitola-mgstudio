@@ -21,6 +21,7 @@ export const Section = styled.section`
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1em;
   justify-content: center;
+  align-items: flex-start;
   @media only screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-auto-flow: column;
@@ -32,6 +33,7 @@ export const Content1 = styled.div`
   justify-content: center;
   grid-column: 1 / 2;
   width: 40vw;
+  margin-bottom: 2em;
   @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     /* grid-column: 1 / 2; */
     width: 42vw;
@@ -160,6 +162,7 @@ export const Content2 = styled.div`
   justify-content: center;
   grid-column: 2 / 3;
   width: 40vw;
+  margin-top: 12em;
   @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     /* grid-column: 1 / 2; */
     width: 42vw;

@@ -32,20 +32,20 @@ const Wrapper = styled.div`
     /* OK */
     @media only screen and (min-width: 440px) and (max-width: 998px) {
       font-size: 2rem;
-      margin-top: -0.2em;
-      margin-bottom: 5rem;
+      margin-top: -2em;
+      margin-bottom: 8rem;
     }
     /* OK */
     @media only screen and (min-width: 999px) and (max-width: 1366px) {
       font-size: 2.8rem;
-      margin-top: -0.8em;
-      margin-bottom: 2.8em;
+      margin-top: -3em;
+      margin-bottom: 6em;
     }
     /* OK */
     @media only screen and (min-width: 1367px) {
       font-size: 3.4rem;
-      margin-top: -1em;
-      margin-bottom: 2em;
+      margin-top: -2em;
+      margin-bottom: 4em;
     }
   }
 `;

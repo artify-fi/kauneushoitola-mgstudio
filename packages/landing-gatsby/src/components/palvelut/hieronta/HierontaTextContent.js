@@ -6,11 +6,6 @@ import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
 // import Image from 'common/src/components/Image';
 
 // import PersonImage1 from './images/beautiful-younwoman-lying-down-spa-salon-skin-body-care-relaxation-massage-cosmetology-concept.webp';
-// import PersonImage2 from './images/beauty-spa-woman-back-massage-1.webp';
-// import PersonImage3 from './images/beauty-spa-woman-back-massage-2.webp';
-// import PersonImage4 from './images/masseur-give-wellness-back-massage-client-spa-center.webp';
-// import PersonImage5 from './images/woman-spa-is-being-massaged-by-masseur-classic-relaxing-relaxing-massages-beauty-salon.webp';
-// import PersonImage6 from './images/young-woman-having-hot-stone-massage-therapy-1.webp';
 
 const Footer = () => {
   return (

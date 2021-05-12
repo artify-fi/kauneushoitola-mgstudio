@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../containers/AppModern/FooterMap';
 import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
 
@@ -20,7 +19,6 @@ const IndexPage = () => (
     <Title as="h1" title="Hieronta" />
     <Hintalista />
     <TextContent />
-    <Footer />
   </Layout>
 );
 

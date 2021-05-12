@@ -185,6 +185,7 @@ export const Content2 = styled.div`
   justify-content: center;
   grid-column: 2 / 3;
   width: 40vw;
+  margin-top: 4em;
   @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     /* grid-column: 1 / 2; */
     width: 42vw;

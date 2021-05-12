@@ -21,6 +21,7 @@ export const Section = styled.section`
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1em;
   justify-content: center;
+  align-items: flex-start;
   @media only screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-auto-flow: column;
@@ -101,7 +102,7 @@ export const Content1 = styled.div`
     font-weight: 700;
     font-size: 1.4rem;
     text-align: center;
-    line-height: 1.52;
+    line-height: 1.5em;
     letter-spacing: 2px;
     margin-top: 1.2em;
 
@@ -225,11 +226,12 @@ export const Content2 = styled.div`
 
   h2 {
     font-family: Playfair Display, Times New Roman, serif;
+    height: 2em;
     color: #ff3f66;
     font-weight: 700;
     font-size: 1.4rem;
     text-align: center;
-    line-height: 1.52;
+    line-height: 1.5em;
     letter-spacing: 2px;
     margin-top: 1.2em;
 

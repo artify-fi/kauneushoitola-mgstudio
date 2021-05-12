@@ -1,8 +1,6 @@
 import React from 'react';
-import '../../css/main.css';
 import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
-import Footer from '../../containers/AppModern/FooterMap';
 
 import Banner from '../../components/palvelut/kynnet/KynnetBanner';
 import Title from '../../components/Title';
@@ -22,7 +20,6 @@ const IndexPage = () => (
     <Title as="h1" title="Kynnet" />
     <Hintalista />
     <TextContent />
-    <Footer />
   </Layout>
 );
 

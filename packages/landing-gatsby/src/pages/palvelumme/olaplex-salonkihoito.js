@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../containers/AppModern/FooterMap';
 import SEO from '../../components/seo';
 import Layout from '../../components/layout';
 
@@ -21,7 +20,6 @@ const olaplex = () => {
       <Title as="h1" title="Olaplex Salonkihoito" />
       <OlaplexHintalista />
       <OlaplexTextContent />
-      <Footer />
     </Layout>
   );
 };

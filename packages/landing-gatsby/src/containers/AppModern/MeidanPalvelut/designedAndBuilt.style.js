@@ -19,6 +19,9 @@ export const ContentWrapper = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  @media only screen and (min-width: 991px) {
+    margin-bottom: 3em;
+  }
 
   .image {
     display: flex;
@@ -57,9 +60,11 @@ export const ContentWrapper = styled.div`
     }
     @media only screen and (max-width: 768px) {
       width: 92vw;
+      margin: auto;
     }
     @media only screen and (max-width: 480px) {
       width: 98vw;
+      margin: auto;
     }
   }
   .heading {
@@ -162,10 +167,12 @@ export const ContentWrapper = styled.div`
       font-size: 1.3rem;
       width: 100%;
       padding-left: 0px;
+      margin: auto;
       margin-top: -2em;
     }
     @media only screen and (max-width: 440px) {
       font-size: 1.2rem;
+      margin: auto;
     }
   }
 

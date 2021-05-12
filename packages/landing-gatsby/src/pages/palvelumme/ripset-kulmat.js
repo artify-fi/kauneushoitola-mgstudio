@@ -1,8 +1,6 @@
 import React from 'react';
-import '../../css/main.css';
 import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
-import Footer from '../../containers/AppModern/FooterMap';
 
 import Banner from '../../components/palvelut/ripsetjakulmat/RipsetJaKulmatBanner';
 import Title from '../../components/Title';
@@ -13,7 +11,7 @@ import TextContent from '../../components/palvelut/ripsetjakulmat/RipsetJaKulmat
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Kauniit ripset & kulmat"
+      title="Kauniit ripset ja kulmat"
       description="Ripsienpidennys / Ripsien ja kulmien kestovärjäys. Volyymiripset tai venäläiset volumiripset tai Hollywood-ripset ovat keinotekoisten ripsien tyyli, jossa ripsiteknikko levittää kahdesta kuuteen ihanan kevyttä synteettistä ripsettä tuulettimen muotoisesti jokaiselle yksittäiselle luonnolliselle ripsien hiukselle."
     />
     <BannerNarrow />
@@ -21,7 +19,6 @@ const IndexPage = () => (
     <Title as="h1" title="Ripset & Kulmat" />
     <Hintalista />
     <TextContent />
-    <Footer />
   </Layout>
 );
 
