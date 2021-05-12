@@ -115,6 +115,7 @@ BlogSection.defaultProps = {
   row: {
     flexBox: true,
     flexWrap: 'wrap',
+    margin: 'auto',
     ml: '-12px',
     mr: '-12px',
   },

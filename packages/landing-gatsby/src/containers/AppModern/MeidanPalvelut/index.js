@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Heading from 'common/src/components/Heading';
 import Image from 'common/src/components/Image';
+import { StaticImage } from 'gatsby-plugin-image';
 import Container from 'common/src/components/UI/Container';
 import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
-import Image3 from '../../../images/palvelut/palvelut_kampaaja_oppilastyo.webp';
-import Image6 from '../../../images/palvelut/olaplex.jpeg';
+//import Image3 from '../../../images/palvelut/palvelut_kampaaja_oppilastyo.webp';
+//import Image6 from '../../../images/palvelut/olaplex.jpeg';
 import Image7 from '../../../images/palvelut/hemmotteleva_kuumakivi_hieronta_w.webp';
 import Image8 from '../../../images/palvelut/hieronta_w.webp';
 import Image9 from '../../../images/palvelut/kasvohoito.webp';
@@ -15,6 +16,7 @@ import Image12 from '../../../images/palvelut/ripset_kulmat_w.webp';
 import Image13 from '../../../images/palvelut/geelilakkaus_varpaisiin_w.webp';
 import { Icon } from 'react-icons-kit';
 import { chevronRight } from 'react-icons-kit/feather/chevronRight';
+import { fromPairs } from 'lodash';
 
 const DesignedAndBuilt = () => {
   return (
@@ -23,10 +25,14 @@ const DesignedAndBuilt = () => {
         {/* Heading of the section */}
         <ContentWrapper style={{ marginTop: '-1em' }}>
           <div className="image">
-            <Image
+            <StaticImage
               className="image"
-              src={Image3}
+              src="../../../images/palvelut/palvelut_kampaaja_oppilastyo.webp"
               alt="naisten hiusten leikkaus vantaa martinlaakso"
+              placeholder="blurred"
+              // layout="fixed"
+              width={500}
+              height={400}
             />
           </div>
 
@@ -58,10 +64,14 @@ const DesignedAndBuilt = () => {
         {/* 2. Olaplex */}
         <ContentWrapper>
           <div className="image">
-            <Image
+            <StaticImage
               className="image"
-              src={Image6}
+              src="../../../images/palvelut/olaplex.jpeg"
               alt="Olaplex hiusten leikkaus vantaa martinlaakso"
+              placeholder="blurred"
+              // layout="fixed"
+              width={500}
+              height={400}
             />
           </div>
           <div className="content">

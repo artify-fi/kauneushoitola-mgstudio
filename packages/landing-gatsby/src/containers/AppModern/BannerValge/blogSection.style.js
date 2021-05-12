@@ -38,26 +38,31 @@ const BlogSectionWrapper = styled.section`
       @media only screen and (max-width: 420px) {
         width: 92vw;
         height: 70vh;
-        &:first-child {
+        margin-top: -1em;
+        /* &:first-child {
           margin-top: 2em;
         }
+        &:second-child {
+          margin-top: -2em;
+        } */
       }
 
       .icon__wrapper {
         position: absolute;
-        bottom: 0;
+        margin: auto;
+
         left: 0;
         width: 100%;
         height: 100%;
 
         .gatsby-image-wrapper {
-          height: 100%;
+          height: auto;
         }
         img {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          margin: 1em;
+          margin: auto;
         }
       }
       .content__wrapper {
