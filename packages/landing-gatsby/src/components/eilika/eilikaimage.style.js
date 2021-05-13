@@ -4,6 +4,10 @@ const EilikaImageWrapper = styled.section`
   text-align: center;
   margin: 5% auto;
 
+  img {
+    width: 200px;
+  }
+
   /* [1] The container */
   .zoom {
     height: 300px; /* [1.1] Set it as per your need */

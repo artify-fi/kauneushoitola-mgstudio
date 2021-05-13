@@ -2,15 +2,9 @@ import React from 'react';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
+import { StaticImage } from 'gatsby-plugin-image';
+import Carousel from '../../../components/carousel/Carousel';
 import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
-// import Image from 'common/src/components/Image';
-
-// import PersonImage2 from './images/close-up-woman-receiving-pedicure-with-nail-file-her-toenails-by-manicure-master-nail-salon.jpg';
-// import PersonImage1 from './images/treatment-product-female-feet-hand-spa.webp';
-// import PersonImage3 from './images/loves-polishes-nails-with-file-large.webp';
-// import PersonImage4 from './images/polish-by-brush-wearing-white-gloves.webp';
-// import PersonImage5 from './images/pedicure-master-gloves-polishes-nails-with-file.jpg';
-// import PersonImage6 from './images/manicure-master-is-painting-female-toenails-with-maroon-nail-polish-by-brush-wearing-white-gloves.jpg';
 
 const Footer = () => {
   return (
@@ -23,6 +17,33 @@ const Footer = () => {
               content="Pedikyyrillä jalat kuntoon ja kauniiksi"
             />
 
+            <Carousel>
+              <StaticImage
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_kauniit_jalat_meiltä.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_kauniit_jalat_meiltä"
+              />
+              ,
+              <StaticImage
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_jalatallat.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Myyrmäki_Kannelmäki_jalatallat_kaikille_kesäkuntoon"
+              />
+              ,
+              <StaticImage
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_naisille.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_naisille"
+              />
+              ,
+              <StaticImage
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_punaiset_geelikynnet.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_punaiset_geelikynnet"
+              />
+              ,
+              <StaticImage
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_vanhoilli_ihmisille.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_vanhoilli_ihmisille_kesäksi"
+              />
+              ,
+            </Carousel>
             <Text content="Muistathan hoitaa jalkojasi. Ne kantavat ja liikuttavat sinua joka päivä!" />
             <Text content="Perusjalkahoitoomme sisältyy aina jalkakylpy, jalkahoidon hoidollinen osuus, johon kuuluvat tarpeen mukaan kynsien, kynsinauhojen, kovettumien käsittely. Jalkahoidon lopuksi jalkoihin levitetään hoitovoide. Perusjalkahoitoa voidaan täydentää toivotuilla lisäpalveluilla, luxus jalkahoito parafiininaamiolla, kynsien geelilakkauksella." />
           </Content1>

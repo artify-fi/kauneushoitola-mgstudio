@@ -4,7 +4,6 @@ import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
 import Banner from '../../containers/AppModern/BannerYhteystiedot';
 import Title from '../../containers/AppModern/BannerYhteystiedot/Title';
-//import MyMap from '../../components/leaflet/Leaflet';
 
 import 'leaflet/dist/leaflet.css';
 
