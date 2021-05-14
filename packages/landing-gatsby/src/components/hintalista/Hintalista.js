@@ -571,7 +571,7 @@ const Hintalista = () => {
           <Heading
             as="h2"
             className="hintalistaheading"
-            content="Kauniit ja kestävät kynnet! Hinnasto"
+            content="Kynnet Hinnasto"
           />
 
           <Content>

@@ -2,6 +2,8 @@ import React from 'react';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
+import { StaticImage } from 'gatsby-plugin-image';
+import Carousel from '../../../components/carousel/Carousel';
 
 import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
 
@@ -11,11 +13,16 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            <Heading as="h2" content="RIPSIEN PIDENNYS" />
             <Heading
-              as="h3"
+              as="h2"
               content="Klassiset ripset, hybrid ja volyymiripset"
             />
+            <Carousel>
+              <StaticImage
+                src="./images/Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki.webp"
+                alt="Ripsienpidennys_kulmien_muotoilu_värjäys_Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki"
+              />
+            </Carousel>
 
             <Text content="Ripsien pidennyksillä saat luonnolliset tai tuuheat näyttävät ripset. Ripsien pidennyksillä  säästät kaunistautumiseen kuluvaa aikaa, silmät näyttävät tummemmilta ja näkyvämmiltä. Pidennysripsiä löytyy eri pituuksissa ja kaarevuuksissa jotka sopivat silmillesi ja ripsillesi. Ripsien pidennyksistä teemme klassisia, hybrid ja volyymejä, joista hybrid ja volyymit ovat näyttävämmät ja tuuheammat." />
 

@@ -14,25 +14,31 @@ const Footer = () => {
         <Section>
           <Content1>
             <Heading as="h2" content="Kauniit ja kestävät kynnet kuukausiksi" />
+
             <Carousel>
               <StaticImage
-                src="../../../images/eilika/kauniit_kynnet1.webp"
-                alt="phone"
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_kauniit_jalat_meiltä.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_kauniit_jalat_meiltä"
               />
               ,
               <StaticImage
-                src="../../../images/eilika/kauniit_kynnet2.webp"
-                alt="phone"
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_jalatallat.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Myyrmäki_Kannelmäki_jalatallat_kaikille_kesäkuntoon"
               />
               ,
               <StaticImage
-                src="../../../images/eilika/kauniit_kynnet3.webp"
-                alt="phone"
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_naisille.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_naisille"
               />
               ,
               <StaticImage
-                src="../../../images/eilika/kauniit_kynnet4.webp"
-                alt="phone"
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_punaiset_geelikynnet.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_punaiset_geelikynnet"
+              />
+              ,
+              <StaticImage
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_vanhoilli_ihmisille.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_vanhoilli_ihmisille_kesäksi"
               />
               ,
             </Carousel>

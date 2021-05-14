@@ -2,6 +2,8 @@ import React from 'react';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
+import { StaticImage } from 'gatsby-plugin-image';
+import Carousel from '../../../components/carousel/Carousel';
 import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
 
 const Footer = () => {
@@ -15,6 +17,23 @@ const Footer = () => {
               as="h2"
               content="Kauniit ja kestävät kynnet viikoiksi"
             />
+            <Carousel>
+              <StaticImage
+                src="./images/Kauneushoitola_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_Geelilakkaus_Luxusmanikyyri_kynsien_leikkaus.webp"
+                alt="Geelilakkaus_Luxusmanikyyri_kynsien_leikkaus_Kauneushoitola_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga"
+              />
+              ,
+              <StaticImage
+                src="./images/Kauneushoitola_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_Geelilakkaus_Manikyyri_kynsien_lakkaus_parafiininaamio.webp"
+                alt="Geelilakkaus_Manikyyri_kynsien_lakkaus_parafiininaamio_Kauneushoitola_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga"
+              />
+              ,
+              <StaticImage
+                src="./images/Kauneushoitola_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_Geelilakkaus_Manikyyri.webp"
+                alt="Geelilakkaus_Manikyyri_Kauneushoitola_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga"
+              />
+              ,
+            </Carousel>
             <Text content="Geelilakkaus on ohut led-valolla kovetettava kestolakkaus, jonka kesto on huomattavasti parempi tavalliseen kynsilakkaan verrattuna. Kaunis tulos kestää 2-3 viikkoa, minkä jälkeen kynsien kasvu on jo liian havaittavissa. Geelilakkaus on suttaantumaton välittömästi lakkauksen jälkeen." />
 
             <Heading
@@ -22,7 +41,7 @@ const Footer = () => {
               as="h2"
               content="Miten geelilakkaus poistetaan?"
             />
-            <Text content="Geelilakkaus poistetaan hellävaraisesti liottamalla sille tarkoitetulla nesteellä tai viilaamalla käsi- tai sähköviilalla. Geelilakkausta ei ole tarkoitettu poistettavaksi itse kotona, eikä se ole poistettavissa kynsilakanpoistoaineella." />
+            <Text content="Geelilakkaus poistetaan viilaamalla käsi- tai sähköviilalla. Geelilakkausta ei ole tarkoitettu poistettavaksi itse kotona." />
 
             {/* 
             <Image

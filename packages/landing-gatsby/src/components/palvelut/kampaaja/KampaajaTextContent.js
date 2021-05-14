@@ -37,8 +37,8 @@ const Footer = () => {
             <Heading className="heading" as="h2" content="Tyviväri" />
             <Text content="Hius kasvaa juuresta, joten tyvikasvu on väistämätön. Tyvivärillä eli juurivärillä tarkoitetaan hiuksen omaa väriä, joka kasvaa tummempana tai vaaleampana, kuin hiusten pituuksiin laitettu väri. Tyvivärin raja on enintään 3 cm. Mikäli värjättävän tyven pituus on enemmän kuin 3 cm, ei kyseessä enää ole tyviväri vaan väri." />
 
-            <Heading className="heading" as="h2" content="Sävytys eli taitto" />
-            <Text content="Sävytys eli taitto tarkoittaa varsinaisen värin sävyttämistä eli taittamista viileään. Taitolla sävytetään lämpimät eli kultaiset eli keltaiset sävyt viileän vaaleiksi. Kylmät ja harmaat sävyt vaativat aina sävytyksen. Taitto on aina värikäsittelyn lisäpalvelu." />
+            <Heading className="heading" as="h2" content="Sävytys" />
+            <Text content="Sävytys on varsinaisen värin sävyttämistä eli taittamista viileään. Taitolla sävytetään lämpimät eli kultaiset eli keltaiset sävyt viileän vaaleiksi. Kylmät ja harmaat sävyt vaativat aina sävytyksen. Taitto on aina värikäsittelyn lisäpalvelu." />
           </Content2>
         </Section>
       </Container>
