@@ -68,7 +68,7 @@ export const BannerContent = styled.div`
     letter-spacing: 2px;
     font-weight: 400;
     color: rgba(20, 28, 45, 0.95);
-    margin-top: 10vh;
+    margin-top: 16vh;
     text-align: center;
     border: 2px 0 2px 0;
     border-color: rgba(20, 28, 45, 0.95);
@@ -80,18 +80,24 @@ export const BannerContent = styled.div`
     }
 
     @media only screen and (min-width: 681px) and (max-width: 998px) {
-      font-size: 3rem;
-      margin-top: 9vh;
+      font-size: 3.6rem;
+      padding-bottom: 10px;
+      font-weight: 500;
+      margin-top: 14vh;
     }
 
-    @media only screen and (min-width: 999px) and (max-width: 1366px) {
+    @media only screen and (min-width: 999px) and (max-width: 1360px) {
       font-size: 3.8rem;
-      margin-top: 8vh;
-      margin-bottom: 1em;
+      margin-top: 14vh;
+      padding-bottom: 10px;
+      font-weight: 500;
     }
 
-    @media only screen and (min-width: 1366px) {
+    @media only screen and (min-width: 1361px) {
       font-size: 4.2rem;
+      margin-top: 16vh;
+      padding-bottom: 10px;
+      font-weight: 500;
     }
   }
 `;

@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components';
+import { StaticImage } from 'gatsby-plugin-image';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
@@ -21,6 +23,17 @@ const Footer = () => {
   const shareText = 'Tarkista tämä kauneussalonki!';
   return (
     <SectionWrapper>
+      <Wrapper>
+        <StaticImage
+          src="../../../images/Kauneushoitola-MG-Studio-Malminkartano-Helsinki-Logo.jpg"
+          alt="Kauneushoitola-kampaaja-hieroja-jalkahoito-MG-Studio-Malminkartano-Helsinki"
+          placeholder="tracedSVG"
+          layout="constrained"
+          className="example-img"
+          // width={600}
+          as="div"
+        />
+      </Wrapper>
       <Container>
         <Section>
           <Content1>
@@ -223,5 +236,28 @@ const Footer = () => {
     </SectionWrapper>
   );
 };
+
+const Wrapper = styled.section`
+  width: 80vw;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  text-align: center;
+  margin-top: 2em;
+  @media (min-width: 421px) {
+    margin-bottom: 3em;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 3em;
+  }
+  @media (min-width: 991px) {
+    height: 460px;
+    margin-bottom: 3em;
+  }
+  @media (min-width: 1360px) {
+    height: 540px;
+    margin-bottom: 6em;
+  }
+`;
 
 export default Footer;

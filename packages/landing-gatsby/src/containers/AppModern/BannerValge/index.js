@@ -4,22 +4,13 @@ import Fade from 'react-reveal/Fade';
 import { useStaticQuery, graphql } from 'gatsby';
 import Image from 'gatsby-image';
 import Box from 'common/src/components/Box';
-import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Link from 'common/src/components/Link';
 import FeatureBlock from 'common/src/components/FeatureBlock';
 import Container from 'common/src/components/UI/Container';
 import BlogSectionWrapper from './blogSection.style';
-import BannerWrapper, { BannerContent } from '../BannerRedhead/banner.style';
+import { BannerContent } from '../BannerRedhead/banner.style';
 
-const BlogSection = ({
-  row,
-  sectionHeader,
-  sectionTitle,
-  sectionSubTitle,
-  blogTitle,
-  blogMeta,
-}) => {
+const BlogSection = ({ row }) => {
   const Data = useStaticQuery(graphql`
     query {
       agencyJson {
