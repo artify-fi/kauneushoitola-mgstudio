@@ -2,8 +2,10 @@ import React from 'react';
 import '../../css/main.css';
 import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
+import BannerNarrow from '../../components/palvelut/geelilakkausVarpaisiin/GeelilakkausBannerNarrow';
+
 import Banner from '../../containers/AppModern/BannerHintalista';
-import Title from '../../components/Title';
+//import Title from '../../components/Title';
 
 import Hintalista from '../../components/hintalista/Hintalista';
 
@@ -13,8 +15,9 @@ const IndexPage = () => (
       title="Kauneuspalveluiden hinnasto"
       description="MG Studion kauneuspalveluiden hintalista.Kaikki hinnat palveluista kuten kampaaja, hieronta, jalkahoito, geelilakkaus, kasvohoito, ripsien ja kulmien värjäus. "
     />
+    <BannerNarrow />
     <Banner />
-    <Title as="h1" title="Hintalista" />
+    {/* <Title as="h1" title="Hintalista" /> */}
     <Hintalista />
   </Layout>
 );

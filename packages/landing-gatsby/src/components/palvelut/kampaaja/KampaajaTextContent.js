@@ -2,10 +2,8 @@ import React from 'react';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
-
-import PersonImage1 from './images/mgstudio_malminkartano_helsinki_blonde-girl-getting-her-hair-done-back.jpg';
-
+import { StaticImage } from 'gatsby-plugin-image';
+import Carousel from '../../../components/carousel/Carousel';
 import SectionWrapper, { Section, Content1, Content2 } from './styleContent';
 
 const Footer = () => {
@@ -14,11 +12,27 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            <Image
-              className="img"
-              src={PersonImage1}
-              alt="nainen-kampaaja-kampauksen-blondi-nainen-kauneussalonki.webp';"
-            />
+            <Carousel>
+              <StaticImage
+                src="./images/mgstudio_malminkartano_helsinki_kampaaja_hiusten_leikkaus.jpg"
+                alt="Hiusten_leikkaus_ja_värjäys_Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki"
+              />
+              ,
+              <StaticImage
+                src="./images/Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_hiusten_valkaisu.webp"
+                alt="Hiusten_leikkaus_ja_värjäys_Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki"
+              />
+              ,
+              <StaticImage
+                src="./images/Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_hiusten_valkaisu_leikkau_otsatukka.webp"
+                alt="Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_hiusten_valkaisu_leikkau_otsatukka"
+              />
+              ,
+              <StaticImage
+                src="./images/Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_raidat.webp"
+                alt="Hiusten_raidat_Hiusten_leikkaus_ja_värjäys_Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki"
+              />
+            </Carousel>
 
             <Heading className="heading" as="h2" content="Vaalennukset" />
 

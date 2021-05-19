@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../../images/smallHero.webp';
+import img from '../../../images/Kauneushoitola-MG-Studio-Malminkartano-Helsinki-Logo.jpg';
 
 const BannerWrapper = styled.div`
   padding-top: 100px;

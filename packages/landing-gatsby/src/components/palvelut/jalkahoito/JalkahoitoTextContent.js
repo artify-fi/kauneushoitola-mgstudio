@@ -12,11 +12,6 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            <Heading
-              as="h2"
-              content="Pedikyyrillä jalat kuntoon ja kauniiksi"
-            />
-
             <Carousel>
               <StaticImage
                 src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_kauniit_jalat_meiltä.jpeg"
@@ -44,6 +39,11 @@ const Footer = () => {
               />
               ,
             </Carousel>
+            <Heading
+              as="h2"
+              content="Pedikyyrillä jalat kuntoon ja kauniiksi"
+            />
+
             <Text content="Muistathan hoitaa jalkojasi. Ne kantavat ja liikuttavat sinua joka päivä!" />
             <Text content="Perusjalkahoitoomme sisältyy aina jalkakylpy, jalkahoidon hoidollinen osuus, johon kuuluvat tarpeen mukaan kynsien, kynsinauhojen, kovettumien käsittely. Jalkahoidon lopuksi jalkoihin levitetään hoitovoide. Perusjalkahoitoa voidaan täydentää toivotuilla lisäpalveluilla, luxus jalkahoito parafiininaamiolla, kynsien geelilakkauksella." />
           </Content1>

@@ -13,16 +13,20 @@ const Footer = () => {
       <Container>
         <Section>
           <Content1>
-            <Heading
-              as="h2"
-              content="Klassiset ripset, hybrid ja volyymiripset"
-            />
             <Carousel>
               <StaticImage
                 src="./images/Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki.webp"
                 alt="Ripsienpidennys_kulmien_muotoilu_värjäys_Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki"
               />
+              <StaticImage
+                src="./images/Kauneushoitola-mgstudio-malminkartano-ripset-kulmat-volyymiripset.webp"
+                alt="ripset-kulmat-volyymiripset-Kauneushoitola-mgstudio-malminkartano-myyrmaki-haaga-helsinki"
+              />
             </Carousel>
+            <Heading
+              as="h2"
+              content="Klassiset ripset, hybrid ja volyymiripset"
+            />
 
             <Text content="Ripsien pidennyksillä saat luonnolliset tai tuuheat näyttävät ripset. Ripsien pidennyksillä  säästät kaunistautumiseen kuluvaa aikaa, silmät näyttävät tummemmilta ja näkyvämmiltä. Pidennysripsiä löytyy eri pituuksissa ja kaarevuuksissa jotka sopivat silmillesi ja ripsillesi. Ripsien pidennyksistä teemme klassisia, hybrid ja volyymejä, joista hybrid ja volyymit ovat näyttävämmät ja tuuheammat." />
 

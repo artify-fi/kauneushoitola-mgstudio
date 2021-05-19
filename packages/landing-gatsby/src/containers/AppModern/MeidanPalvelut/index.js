@@ -129,11 +129,7 @@ const DesignedAndBuilt = () => {
               className="heading"
               content="Kasvohoito (tulossa)"
             />
-            <Heading
-              as="h4"
-              className="text"
-              content='Hi. I am Troy McClure. You may remember me from such self-help tapes as "Smoke Yourself Thin" and "Get Some Confidence, Stupid!" A lifetime of working with nuclear power has left me.'
-            />
+            <Heading as="h4" className="text" content="" />
             <Link
               className="explore"
               tabindex="0"

@@ -209,7 +209,7 @@ const Hintalista = () => {
             <Text
               as="p"
               className="hintalistatext"
-              content="Latvojen leikkkaus"
+              content="Latvojen leikkaus"
             />
             <Text
               as="p"

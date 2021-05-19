@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const BlogSectionWrapper = styled.section`
-  padding: 80px 0;
+  padding: 10px 0;
   padding-bottom: 0px;
   overflow: hidden;
   @media (max-width: 990px) {
@@ -22,6 +22,7 @@ const BlogSectionWrapper = styled.section`
       transition: all 0.3s ease;
       @media only screen and (min-width: 1201px) and (max-width: 1440px) {
         height: 76vh;
+        margin-top: -1em;
       }
       @media only screen and (min-width: 1099px) and (max-width: 1200px) {
         height: 70vh;
