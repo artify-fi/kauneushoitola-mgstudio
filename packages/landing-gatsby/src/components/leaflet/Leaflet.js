@@ -27,12 +27,12 @@ export default class MyMap extends Component {
               margin: '40px',
             }}
             center={[60.2514, 24.85797]}
-            zoom={22}
-            scrollWheelZoom={false}
+            zoom={21}
+            scrollWheelZoom={true}
           >
             <TileLayer
-              attribution="Tiles &copy; Esri &mdash; Copyright: &copy;2012 DeLorme"
-              url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey=8d7822692bc24fd4a0c03d2f210558be"
             />
             <Marker position={[60.2514, 24.85797]}>
               <Popup>
