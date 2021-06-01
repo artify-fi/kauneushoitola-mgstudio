@@ -34,12 +34,14 @@ const Newsletter = ({
         <Box>
           <Heading
             as="h2"
-            content="MG Stuido'sta saat monipuolista palvelua,"
+            style={{ textTransform: 'none' }}
+            content="Kauneushotolasta MG Stuido saat monipuolista"
             {...title}
           />
           <Heading
             as="h2"
-            content="joka on tarkoitettu juuri Sinulle!"
+            style={{ textTransform: 'none' }}
+            content=" palvelua, joka on tarkoitettu juuri Sinulle!"
             {...title}
           />
           <Text
