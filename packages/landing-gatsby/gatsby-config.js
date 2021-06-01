@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     author: `Art Bachmann`,
     publisher: `hakukonestudio artify`,
-    title: `Kauneushoitola MG Studio Malminkartano, Helsinki`,
+    title: `Kauneushoitola MG Studio Helsinki, Malminkartano`,
     description: `Kauneushoitolasta MG Studio saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. `,
-    titleTemplate: `%s |MG Studio: Helsinki`,
-    siteUrl: `https://kauneushoitola-mgstudio-malminkartano.netlify.app/`,
+    titleTemplate: `%s |Kauneushoitola MG Studio Helsinki, Malminkartano`,
+    siteUrl: `https://mgstudio.fi/`,
     twitterUsername: `@mgstudio`,
     image: `logo.jpg`,
   },
@@ -81,24 +81,23 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://kauneushoitola-mgstudio-malminkartano.netlify.app/',
-        sitemap:
-          'https://kauneushoitola-mgstudio-malminkartano.netlify.app/sitemap.xml',
+        host: 'https://mgstudio.fi/',
+        sitemap: 'https://mgstudio.fi/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://kauneushoitola-mgstudio-malminkartano.netlify.app/`,
+        siteUrl: `https://mgstudio.fi/`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: 'UA-180499768-1',
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'G-P3CTFVEFEY',
+      },
+    },
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-webfonts`,

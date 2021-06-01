@@ -28,6 +28,11 @@ const Footer = () => {
                 src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_punaiset_geelikynnet.jpeg"
                 alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_punaiset_geelikynnet"
               />
+              ,
+              <StaticImage
+                src="./images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki.jpeg"
+                alt="Jalkahoito-ja-geelilakkaus-MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_siniset_geelikynnet"
+              />
             </Carousel>
 
             <Heading as="h2" content="Kauniit ja kestävät kynnet kuukausiksi" />

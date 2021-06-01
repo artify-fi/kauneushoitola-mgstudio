@@ -28,6 +28,11 @@ const Footer = () => {
                 alt="Geelilakkaus_Manikyyri_Kauneushoitola_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga"
               />
               ,
+              <StaticImage
+                src="./images/kynsien-lakkaus-mgstudio-myyrmäki-malminkartano.jpeg"
+                alt="kynsien-geelilakkaus-Manikyyri-Kauneushoitola-MG-Studio-Malminkartano-Helsinki"
+              />
+              ,
             </Carousel>
             <Heading
               className="heading"

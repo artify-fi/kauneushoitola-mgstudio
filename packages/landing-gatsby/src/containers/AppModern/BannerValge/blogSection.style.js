@@ -4,6 +4,8 @@ const BlogSectionWrapper = styled.section`
   padding: 10px 0;
   padding-bottom: 0px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
   @media (max-width: 990px) {
     padding: 60px 0;
   }
@@ -13,45 +15,25 @@ const BlogSectionWrapper = styled.section`
 
   .feature__block {
     &.blog__post {
+      display: flex;
+      align-items: center;
       border-radius: 5px;
       overflow: hidden;
       position: relative;
       width: calc(100% / 2);
       margin: auto;
-      height: 84vh;
+      padding: 1rem;
+      padding-bottom: 3rem;
+      height: 100vh;
       transition: all 0.3s ease;
-      @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-        height: 76vh;
-        margin-top: -1em;
-      }
-      @media only screen and (min-width: 1099px) and (max-width: 1200px) {
-        height: 70vh;
-      }
-      @media only screen and (max-width: 991px) {
-        width: calc(100% / 2);
-        margin-bottom: 24px;
-        height: 60vh;
-      }
       @media only screen and (max-width: 767px) {
         width: 90vw;
-        height: 90vh;
-      }
-      @media only screen and (max-width: 420px) {
-        width: 92vw;
-        height: 70vh;
-        margin-top: -1em;
-        /* &:first-child {
-          margin-top: 2em;
-        }
-        &:second-child {
-          margin-top: -2em;
-        } */
+        height: 82vh;
       }
 
       .icon__wrapper {
         position: absolute;
         margin: auto;
-
         left: 0;
         width: 100%;
         height: 100%;

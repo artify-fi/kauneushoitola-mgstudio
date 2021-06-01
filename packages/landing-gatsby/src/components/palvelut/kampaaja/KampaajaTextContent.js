@@ -24,13 +24,18 @@ const Footer = () => {
               />
               ,
               <StaticImage
-                src="./images/Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_hiusten_valkaisu_leikkau_otsatukka.webp"
+                src="./images/Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_hiusten_valkaisu_leikkaus_otsatukka.webp"
                 alt="Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_hiusten_valkaisu_leikkau_otsatukka"
               />
               ,
               <StaticImage
                 src="./images/Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_raidat.webp"
                 alt="Hiusten_raidat_Hiusten_leikkaus_ja_värjäys_Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki"
+              />
+              ,
+              <StaticImage
+                src="./images/Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_hiusten_valkaisu_leikkau.jpeg"
+                alt="Hiusten-leikkaus-värjäys-valkaisu-Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki"
               />
             </Carousel>
 

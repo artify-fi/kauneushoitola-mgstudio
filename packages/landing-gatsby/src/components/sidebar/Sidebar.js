@@ -70,16 +70,17 @@ const Wrapper = styled.aside`
       a {
         display: grid;
         grid-template-columns: auto 1fr;
-        gap: 0.25rem;
-        grid-gap: 0.25rem;
+        margin-left: 1.4rem;
+        gap: 0.45rem;
+        grid-gap: 1.6rem;
         align-items: center;
         color: #0a2540;
         text-transform: capitalize;
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 1.1rem;
         .icon {
           color: #88add2;
-          font-size: 1.1rem;
+          font-size: 1.2rem;
         }
         &:hover {
           color: #88add2;

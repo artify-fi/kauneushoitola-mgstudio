@@ -32,9 +32,18 @@ const Newsletter = ({
     <NewsletterWrapper>
       <Container>
         <Box>
-          <Heading as="h2" content="MG Studio Kauneushoitola" {...title} />
+          <Heading
+            as="h2"
+            content="MG Stuido'sta saat monipuolista palvelua,"
+            {...title}
+          />
+          <Heading
+            as="h2"
+            content="joka on tarkoitettu juuri Sinulle!"
+            {...title}
+          />
           <Text
-            content="MG Studiosta saat monipuolista palvelua, joka on tarkoitettu juuri Sinulle! MG Studion tiimi koostuu kauneus- ja hyvinvointialojen asiantuntijoista, joiden käsissä saat levähtää turvallisesti ja rentoutua arjen keskellä. Laajasta palveluvalikoimasta löydät muun muassa kampaajan, ripsiteknikon, kynsiteknikon, hierojan ja jalkahoitajan palveluja."
+            content="Meidän palveluiden valikoimasta löydät jalkahoidon, hieronnan, geelilakkauksen, ripsienpidennykset sekä hiusten värjäyksen. Tervetuloa tutustumaan!"
             {...description}
           />
           <br />
@@ -65,6 +74,10 @@ const Newsletter = ({
               </Button>
             </a>
           </div>
+          <Text
+            content="(jos emme pääse vastaamaan puhelimeen, soitamme sinulle takaisin mahdollisimman pian.)  "
+            {...description}
+          />
           <Text
             content="tai helposti ja vaivattomasti netin kautta 24/7 "
             {...descriptionBold}
@@ -135,7 +148,6 @@ Newsletter.defaultProps = {
     fontFamily: 'Playfair Display',
     lineHeight: '1.34em',
     mt: ['0.2em', '0.2em', '0.2em'],
-    mb: ['1.6em', '1.8em', '2em'],
     textAlign: ['center'],
     letterSpacing: '-0.025em',
   },

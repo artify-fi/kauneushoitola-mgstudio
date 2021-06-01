@@ -70,7 +70,7 @@ const Wrapper = styled.li`
       font-size: 1rem;
       .icon {
         font-size: 1.2rem;
-        color: #d80f06;
+        color: #d9a390;
       }
       &:hover {
         color: #88add2;
