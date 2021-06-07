@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Kauniit ripset ja kulmat"
-      description="Ripsienpidennys / Ripsien ja kulmien kestovärjäys. Volyymiripset tai venäläiset volumiripset tai Hollywood-ripset ovat keinotekoisten ripsien tyyli, jossa ripsiteknikko levittää kahdesta kuuteen ihanan kevyttä synteettistä ripsettä tuulettimen muotoisesti jokaiselle yksittäiselle luonnolliselle ripsien hiukselle."
+      description="Ripsienpidennys / Ripsien ja kulmien kestovärjäys.Volyymiripset tai venäläiset volumiripset tai Hollywood-ripset ovat keinotekoisten ripsien tyyli, jossa ripsiteknikko levittää kahdesta kuuteen ihanan kevyttä synteettistä ripsettä tuulettimen muotoisena."
     />
     <BannerNarrow />
     <Banner />

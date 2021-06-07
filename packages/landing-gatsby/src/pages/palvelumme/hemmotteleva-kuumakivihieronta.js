@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Hemmotteleva kuumakivihieronta"
-      description="Laavakivi- tai kuumakivihieronta on yksi luonnollisimmista palautumisen muodoista, joka käyttää ainutlaatuista menetelmää maapallon lämpöenergian ohjaamiseksi ihmiskehoon. Laavakividen lämpötila on korkeampi kuin ihmisen käsissä."
+      description="Laavakivi- tai kuumakivihieronta on yksi luonnollisimmista palautumisen muodoista, joka käyttää ainutlaatuista menetelmää maapallon lämpöenergian ohjaamiseksi ihmiskehoon."
     />
     <BannerNarrow />
     <Banner />

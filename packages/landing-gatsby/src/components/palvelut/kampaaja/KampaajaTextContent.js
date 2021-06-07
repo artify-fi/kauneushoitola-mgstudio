@@ -40,7 +40,6 @@ const Footer = () => {
             </Carousel>
 
             <Heading className="heading" as="h2" content="Vaalennukset" />
-
             <Text content="Hiusten vaalennus on kemiallinen prosessi, jossa hiusten väriä vaalennetaan. Vaalennuskäsittelyissä käytetään aina hapetetta. Vaalennus voidaan tehdä joko vaalennusvärillä, jolloin hiuksen omaa pigmenttiä värjätään vaaleammaksi tai ”valkaisemalla”, jolloin hiuksen pigmentti poistetaan kokonaan. Näistä kahdesta vaalennusvärjäys on hiukselle huomattavasti hellävaraisempi käsittely. Valkaisuvaalennuskäsittelyyn kannattaa aina lisätä sävytys eli taitto, joka korjaa hiusta ja poistaa vaaleata väristä ei-toivottua keltaisuutta." />
 
             <Text content="*Kylmän vaaleiden hiusten sävyn säilyttämiseksi ja ylläpitämiseksi tulee aina käyttää kotihoidossa tähän tarkoitettuja hopeashampoota ja -hoitoainetta. Ilman näitä tuotteita kylmän vaalea sävy tulee häviämään hiuksista ja hiusten sävy tulee taittamaan kylmästä lämpimään, yleensä kellertävään." />

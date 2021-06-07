@@ -97,12 +97,16 @@ const DesignedAndBuilt = () => {
             />
           </div>
           <div className="content">
-            <Heading as="h3" className="heading" content="Ripset & Kulmat" />
+            <Heading as="h3"
+              className="heading"
+              content="Ripset & Kulmat" />
+
             <Heading
               as="h4"
               className="text"
               content="Ripsienpidennys klassiset/ hybrid/ volyymit. Ripsien ja kulmien värjäys sekä muotoilu"
             />
+
             <Link
               className="explore"
               tabindex="0"
