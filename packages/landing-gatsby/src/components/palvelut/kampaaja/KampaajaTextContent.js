@@ -27,7 +27,7 @@ const Footer = () => {
                 src="./images/Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_hiusten_valkaisu_leikkaus_otsatukka.webp"
                 alt="Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_hiusten_valkaisu_leikkau_otsatukka"
               />
-              ,
+                ,
               <StaticImage
                 src="./images/Kampaaja_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_raidat.webp"
                 alt="Hiusten_raidat_Hiusten_leikkaus_ja_värjäys_Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki"
@@ -38,7 +38,6 @@ const Footer = () => {
                 alt="Hiusten-leikkaus-värjäys-valkaisu-Kauneushoitola_MG_Studio_Helsinki_Malminkartan_Myyrmaki_Haaga_Pitajanmaki"
               />
             </Carousel>
-
             <Heading className="heading" as="h2" content="Vaalennukset" />
             <Text content="Hiusten vaalennus on kemiallinen prosessi, jossa hiusten väriä vaalennetaan. Vaalennuskäsittelyissä käytetään aina hapetetta. Vaalennus voidaan tehdä joko vaalennusvärillä, jolloin hiuksen omaa pigmenttiä värjätään vaaleammaksi tai ”valkaisemalla”, jolloin hiuksen pigmentti poistetaan kokonaan. Näistä kahdesta vaalennusvärjäys on hiukselle huomattavasti hellävaraisempi käsittely. Valkaisuvaalennuskäsittelyyn kannattaa aina lisätä sävytys eli taitto, joka korjaa hiusta ja poistaa vaaleata väristä ei-toivottua keltaisuutta." />
 

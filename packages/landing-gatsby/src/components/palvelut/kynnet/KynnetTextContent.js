@@ -14,6 +14,11 @@ const Footer = () => {
           <Content1>
             <Carousel>
               <StaticImage
+                src="./images/kynsien-geelilakkaus-kauneushoitola-mgstudio-malminkartano-helsinki.jpeg"
+                alt="Geelilakkaus-manikyyri-kauneushoitola-malminkartano"
+              />
+              ,
+              <StaticImage
                 src="./images/Kauneushoitola_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga_Geelilakkaus_Luxusmanikyyri_kynsien_leikkaus.webp"
                 alt="Geelilakkaus_Luxusmanikyyri_kynsien_leikkaus_Kauneushoitola_MG_Studio_Malminkartano_Helsinki_Myyrmaki_Haaga"
               />

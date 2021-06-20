@@ -97,15 +97,25 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "UA-2634355954",
+          // "UA-2634355954",
           "G-KQHS4VRBVH",
-          "UA-198558115-1"
+          "UA-198490803-1"
           // Google Ads / Adwords / AW"AW-CONVERSION_ID",         
         ],
         // This object is used for configuration specific to this plugin
         pluginConfig: {
           // Puts tracking script in the head instead of the body
           head: false,
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: 'G-KQHS4VRBVH',
+          // Setting this parameter is optional
+          anonymize: true
         },
       },
     },

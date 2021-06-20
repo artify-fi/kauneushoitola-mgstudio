@@ -175,7 +175,7 @@ const JalkahoitoHintalista = () => {
             <Text
               as="p"
               className="hintalistatext"
-              content="Luxus jalkahoito"
+              content="Lux jalkahoito"
             />
             <Text
               as="p"
@@ -196,6 +196,19 @@ const JalkahoitoHintalista = () => {
               style={{ marginLeft: 'auto' }}
               className="hintalistatext"
               content="70€"
+            />
+          </Content>
+          <Content>
+            <Text
+              as="p"
+              className="hintalistatext"
+              content="Lux jalkahoito + geelilakkaus"
+            />
+            <Text
+              as="p"
+              style={{ marginLeft: 'auto' }}
+              className="hintalistatext"
+              content="80€"
             />
           </Content>
           <Line color="#fff" width="100%" />
