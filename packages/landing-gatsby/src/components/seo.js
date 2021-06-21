@@ -64,10 +64,6 @@ const SEO = ({ title, description, image, article, url }) => {
       )}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
-      <link
-        href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css"
-        rel="stylesheet"
-      />
     </Helmet>
   );
 };

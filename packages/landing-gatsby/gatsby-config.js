@@ -65,19 +65,19 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        output: `/sitemap.xml`,
-        exclude: [
-          `/dev-404-page`,
-          `/404`,
-          `/404.html`,
-          `/offline-plugin-app-shell-fallback`,
-        ],
-        createLinkInHead: true,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-sitemap`,
+    //   options: {
+    //     output: `/sitemap.xml`,
+    //     exclude: [
+    //       `/dev-404-page`,
+    //       `/404`,
+    //       `/404.html`,
+    //       `/offline-plugin-app-shell-fallback`,
+    //     ],
+    //     createLinkInHead: true,
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -98,9 +98,9 @@ module.exports = {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
           // "UA-2634355954",
-          "G-KQHS4VRBVH",
-          "UA-198490803-1"
-          // Google Ads / Adwords / AW"AW-CONVERSION_ID",         
+          'G-KQHS4VRBVH',
+          'UA-198490803-1',
+          // Google Ads / Adwords / AW"AW-CONVERSION_ID",
         ],
         // This object is used for configuration specific to this plugin
         pluginConfig: {
@@ -115,7 +115,7 @@ module.exports = {
         googleAnalytics: {
           trackingId: 'G-KQHS4VRBVH',
           // Setting this parameter is optional
-          anonymize: true
+          anonymize: true,
         },
       },
     },
