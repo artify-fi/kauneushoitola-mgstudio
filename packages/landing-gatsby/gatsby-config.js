@@ -10,10 +10,12 @@ module.exports = {
     image: `logo.jpg`,
   },
   plugins: [
-    `gatsby-plugin-mdx`,
     'gatsby-plugin-react-leaflet',
-    `gatsby-remark-images`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-material-ui`,
+    `gatsby-plugin-image`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-styled-components`,
@@ -49,10 +51,6 @@ module.exports = {
         path: `../common/src/data/`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-material-ui`,
-    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

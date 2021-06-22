@@ -1,20 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
-import Image3 from '../../../images/palvelut/palvelut_kampaaja_oppilastyo.webp';
-import Image6 from '../../../images/palvelut/olaplex.jpeg';
-import Image7 from '../../../images/palvelut/hemmotteleva_kuumakivi_hieronta_w.webp';
-import Image8 from '../../../images/palvelut/hieronta_w.webp';
-import Image9 from '../../../images/palvelut/kasvohoito.webp';
-import Image10 from '../../../images/palvelut/kynnet_w.webp';
-import Image11 from '../../../images/palvelut/jalkahoito_w.webp';
-import Image12 from '../../../images/palvelut/ripset_kulmat_w.webp';
-import Image13 from '../../../images/palvelut/geelilakkaus_varpaisiin_w.webp';
 import { Icon } from 'react-icons-kit';
 import { chevronRight } from 'react-icons-kit/feather/chevronRight';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const DesignedAndBuilt = () => {
   return (
@@ -22,13 +13,15 @@ const DesignedAndBuilt = () => {
       <Container>
         {/* Heading of the section */}
         <ContentWrapper style={{ marginTop: '-1em' }}>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image3}
-              alt="naisten hiusten leikkaus vantaa malminkartano"
-            />
-          </div>
+          <StaticImage
+            src="../../../images/palvelut/palvelut_kampaaja_oppilastyo.webp"
+            alt="naisten hiusten leikkaus vantaa malminkartano"
+            placeholder="blurred"
+            layout="constrained"
+            style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
+            width={400}
+            height={400}
+          />
 
           <div className="content">
             <Heading
@@ -58,13 +51,15 @@ const DesignedAndBuilt = () => {
 
         {/* 2. Olaplex */}
         <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image6}
-              alt="Olaplex hiusten leikkaus vantaa martinlaakso"
-            />
-          </div>
+          <StaticImage
+            src="../../../images/palvelut/olaplex.jpeg"
+            alt="Olaplex hiusten leikkaus vantaa martinlaakso"
+            placeholder="blurred"
+            layout="constrained"
+            style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
+            width={400}
+            height={400}
+          />
           <div className="content">
             <Heading
               as="h3"
@@ -91,22 +86,22 @@ const DesignedAndBuilt = () => {
 
         {/*3 Ripset Kulmat Ripsienpidennykset */}
         <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image12}
-              alt="Ripset Kulmat Ripsienpidennykset vantaa martinlaakso"
-            />
-          </div>
+          <StaticImage
+            src="../../../images/palvelut/ripset_kulmat_w.webp"
+            alt="Ripset Kulmat Ripsienpidennykset vantaa martinlaakso"
+            placeholder="blurred"
+            layout="constrained"
+            style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
+            width={400}
+            height={400}
+          />
           <div className="content">
             <Heading as="h3" className="heading" content="Ripset & Kulmat" />
-
             <Heading
               as="h4"
               className="text"
               content="Ripsienpidennys klassiset/ hybrid/ volyymit. Ripsien ja kulmien värjäys sekä muotoilu"
             />
-
             <Link
               to="/palvelumme/ripset_kulmat/"
               className="explore"
@@ -121,13 +116,15 @@ const DesignedAndBuilt = () => {
 
         {/* 4. Kasvohoito  */}
         <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image9}
-              alt="Kasvohoito vantaa martinlaakso"
-            />
-          </div>
+          <StaticImage
+            src="../../../images/palvelut/kasvohoito.webp"
+            alt="Kasvohoito vantaa martinlaakso"
+            placeholder="blurred"
+            layout="constrained"
+            style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
+            width={400}
+            height={400}
+          />
           <div className="content">
             <Heading
               as="h3"
@@ -149,13 +146,16 @@ const DesignedAndBuilt = () => {
 
         {/* 5 Jalkahoito */}
         <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image11}
-              alt="Jalkahoito vantaa martinlaakso"
-            />
-          </div>
+          <StaticImage
+            src="../../../images/palvelut/jalkahoito_w.webp"
+            alt="Jalkahoito vantaa martinlaakso"
+            placeholder="blurred"
+            layout="constrained"
+            style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
+            width={400}
+            height={400}
+          />
+
           <div className="content">
             <Heading as="h3" className="heading" content="Jalkahoito" />
             <Heading
@@ -177,13 +177,16 @@ const DesignedAndBuilt = () => {
 
         {/* 5.5 Kynnet */}
         <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image10}
-              alt="Jalkahoito vantaa martinlaakso"
-            />
-          </div>
+          <StaticImage
+            src="../../../images/palvelut/kynnet_w.webp"
+            alt="kauniit kynnet ja geelilakkaus vantaa martinlaakso"
+            placeholder="blurred"
+            layout="constrained"
+            style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
+            width={400}
+            height={400}
+          />
+
           <div className="content">
             <Heading as="h3" className="heading" content="Kynnet" />
             <Heading
@@ -205,13 +208,15 @@ const DesignedAndBuilt = () => {
 
         {/* 10 Geelilakkaus varpaaisiin */}
         <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image13}
-              alt="Kynnet vantaa martinlaakso"
-            />
-          </div>
+          <StaticImage
+            src="../../../images/palvelut/geelilakkaus_varpaisiin_w.webp"
+            alt="Geelilakkaus varpaaisiin vantaa martinlaakso"
+            placeholder="blurred"
+            layout="constrained"
+            style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
+            width={400}
+            height={400}
+          />
           <div className="content">
             <Heading
               as="h3"
@@ -237,13 +242,15 @@ const DesignedAndBuilt = () => {
 
         {/* 7. Hieronta */}
         <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image8}
-              alt="Hieronta vartalo vantaa martinlaakso"
-            />
-          </div>
+          <StaticImage
+            src="../../../images/palvelut/hemmotteleva_kuumakivi_hieronta_w.webp"
+            alt="Hieronta vartalo vantaa martinlaakso"
+            placeholder="blurred"
+            layout="constrained"
+            style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
+            width={400}
+            height={400}
+          />
           <div className="content">
             <Heading as="h3" className="heading" content="Hieronta" />
             <Heading
@@ -265,13 +272,15 @@ const DesignedAndBuilt = () => {
 
         {/* 7. Hemmotteleva kuumakivihieronta */}
         <ContentWrapper>
-          <div className="image">
-            <Image
-              className="image"
-              src={Image7}
-              alt="Hemmotteleva kuumakivihieronta vantaa martinlaakso"
-            />
-          </div>
+          <StaticImage
+            src="../../../images/palvelut/hieronta_w.webp"
+            alt="Hemmotteleva kuumakivihieronta vantaa martinlaakso"
+            placeholder="blurred"
+            layout="constrained"
+            style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
+            width={400}
+            height={400}
+          />
           <div className="content">
             <Heading as="h3" className="heading" content="Kuumakivihieronta" />
             <Heading
