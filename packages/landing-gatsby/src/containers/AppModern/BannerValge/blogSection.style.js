@@ -7,7 +7,7 @@ const BlogSectionWrapper = styled.section`
   display: flex;
   align-items: center;
   @media (max-width: 990px) {
-    padding: 60px 0;
+    padding: 10px 0;
   }
   @media (max-width: 767px) {
     padding: 5px 0;
@@ -23,31 +23,57 @@ const BlogSectionWrapper = styled.section`
       width: calc(100% / 2);
       margin: auto;
       padding: 1rem;
-      padding-bottom: 3rem;
-      height: 100vh;
+      margin-top: 4rem;
+      height: 94vh;
       transition: all 0.3s ease;
-      @media only screen and (max-width: 767px) {
-        width: 90vw;
-        height: 82vh;
-      }
 
-      .icon__wrapper {
-        position: absolute;
-        margin: auto;
-        left: 0;
+      @media only screen and (max-width: 1220px) {
+        margin-top: 3rem;
+        height: 84vh;
+        margin-bottom: -8rem;
+      }
+      @media only screen and (max-width: 920px) {
+        margin-bottom: -8rem;
+        margin-top: 3rem;
+        height: 76vh;
+      }
+      @media only screen and (max-width: 768px) {
+        width: 90vw;
+        height: 100vh;
+        margin-bottom: -1rem;
+      }
+      @media only screen and (max-width: 640px) {
+        height: 92vh;
+        margin-bottom: -4rem;
+      }
+      @media only screen and (max-width: 480px) {
+        margin-bottom: -14rem;
+      }
+      @media only screen and (max-width: 375px) {
+        margin-bottom: -18rem;
+      }
+      @media only screen and (max-width: 360px) {
+        margin-bottom: -13rem;
+      }
+    }
+
+    .icon__wrapper {
+      position: absolute;
+      margin: auto;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      .gatsby-image-wrapper {
+        height: auto;
+      }
+      img {
         width: 100%;
         height: 100%;
-
-        .gatsby-image-wrapper {
-          height: auto;
-        }
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          margin: auto;
-        }
+        object-fit: cover;
+        margin: auto;
       }
+
       .content__wrapper {
         opacity: 0;
         visibility: hidden;
@@ -85,20 +111,6 @@ const BlogSectionWrapper = styled.section`
           }
         }
       }
-      /* &:first-child {
-        .content__wrapper {
-          @media (max-width: 990px) {
-            opacity: 1;
-            visibility: visible;
-            a {
-              transform: translateY(0);
-            }
-            p {
-              transform: translateY(0);
-            }
-          }
-        }
-      } */
     }
   }
 `;

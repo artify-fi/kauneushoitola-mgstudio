@@ -59,7 +59,7 @@ export default [
   {
     page: 'PALVELUMME',
     label: 'Ripset & kulmat',
-    url: `/palvelumme/ripset-kulmat/`,
+    url: `/palvelumme/ripset_kulmat/`,
     icon: <FaGem className="icon" />,
   },
   {

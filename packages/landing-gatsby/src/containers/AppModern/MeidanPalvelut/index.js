@@ -45,10 +45,11 @@ const DesignedAndBuilt = () => {
             />
 
             <Link
+              to="/palvelumme/kampaaja/"
               className="explore"
               tabindex="0"
+              activeClassName="active"
               aria-label="Ajanvaraus kampaajalle"
-              href="/palvelumme/kampaaja/"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
@@ -77,10 +78,11 @@ const DesignedAndBuilt = () => {
               Olaplex-salonkihoito voidaan tehdä muun kampaamopalvelun yhteydessä tai voit varata siihen erikseen ajan."
             />
             <Link
+              to="/palvelumme/olaplex-salonkihoito/"
               className="explore"
               tabindex="0"
               aria-label="Ajanvaraus olaplex salonkihoitoon"
-              href="/palvelumme/olaplex-salonkihoito/"
+              activeClassName="active"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
@@ -97,9 +99,7 @@ const DesignedAndBuilt = () => {
             />
           </div>
           <div className="content">
-            <Heading as="h3"
-              className="heading"
-              content="Ripset & Kulmat" />
+            <Heading as="h3" className="heading" content="Ripset & Kulmat" />
 
             <Heading
               as="h4"
@@ -108,10 +108,11 @@ const DesignedAndBuilt = () => {
             />
 
             <Link
+              to="/palvelumme/ripset_kulmat/"
               className="explore"
               tabindex="0"
               aria-label="Ajanvaraus ripsien ja kulmien tekniikkolle"
-              href="/palvelumme/ripset-kulmat/"
+              activeClassName="active"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
@@ -135,10 +136,11 @@ const DesignedAndBuilt = () => {
             />
             <Heading as="h4" className="text" content="" />
             <Link
+              to="/palvelumme/kasvohoito/"
               className="explore"
               tabindex="0"
               aria-label="Ajanvaraus kasvohoitoon"
-              href="/palvelumme/kasvohoito/"
+              activeClassName="active"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
@@ -162,10 +164,11 @@ const DesignedAndBuilt = () => {
               content="Perusjalkohoito, Luxus jalkahoito, Jalkahoito geelilakalla"
             />
             <Link
+              to="/palvelumme/jalkahoito/"
               className="explore"
               tabindex="0"
               aria-label="Ajanvaraus jalkahoitoon"
-              href="/palvelumme/jalkahoito/"
+              activeClassName="active"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
@@ -189,10 +192,11 @@ const DesignedAndBuilt = () => {
               content="Geelilakkaus, Geelikynnet, Manikyyri, Luxus Manikyyri"
             />
             <Link
+              to="/palvelumme/kynnet/"
               className="explore"
               tabindex="0"
               aria-label="Ajanvaraus kynsiteknikolle"
-              href="/palvelumme/kynnet/"
+              activeClassName="active"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
@@ -220,10 +224,11 @@ const DesignedAndBuilt = () => {
               content="Kauniit ja kestävät kynnet kuukausiksi kauneushoitola martinlaakso."
             />
             <Link
+              to="/palvelumme/geelilakkaus-varpaisiin/"
               className="explore"
               tabindex="0"
               aria-label="Ajanvaraus varpaiden geelilakkaukseen"
-              href="/palvelumme/geelilakkaus-varpaisiin/"
+              activeClassName="active"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
@@ -247,10 +252,11 @@ const DesignedAndBuilt = () => {
               content="Hieronnasta apua kehon kiputiloihin."
             />
             <Link
+              to="/palvelumme/hieronta/"
               className="explore"
               tabindex="0"
               aria-label="Ajanvaraus hieroojalle"
-              href="/palvelumme/hieronta/"
+              activeClassName="active"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
@@ -274,10 +280,11 @@ const DesignedAndBuilt = () => {
               content="Kuumakivihieronta on yksi luonnollisimmista paranemisen muodoista, joka käyttää ainutlaatuista menetelmää maapallon lämpöenergian ohjaamiseksi ihmiskehoon."
             />
             <Link
+              to="/palvelumme/hemmotteleva-kuumakivihieronta/"
               className="explore"
               tabindex="0"
               aria-label="Ajanvaraus kuumakivihieronnaan"
-              href="/palvelumme/hemmotteleva-kuumakivihieronta/"
+              activeClassName="active"
             >
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>

@@ -82,7 +82,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://mgstudio.fi/',
-        sitemap: 'https://mgstudio.fi/sitemap.xml',
+        // sitemap: 'https://mgstudio.fi/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
