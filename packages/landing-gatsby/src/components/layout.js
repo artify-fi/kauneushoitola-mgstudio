@@ -13,12 +13,6 @@ import '../css/main.css';
 import Yhteydenotto from '../containers/AppModern/FooterMap';
 import MyMap from '../components/leaflet/Leaflet';
 
-const location = {
-  address: 'MG Studio Tuohiaukio 4, 00410, Helsinki, Malminkartano.',
-  lat: 60.25154,
-  lng: 24.85796,
-};
-
 const Layout = ({ children }) => {
   const { isSidebarOpen } = useContext(GatsbyContext);
   return (

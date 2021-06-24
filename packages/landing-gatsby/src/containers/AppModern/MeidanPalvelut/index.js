@@ -6,12 +6,78 @@ import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
 import { Icon } from 'react-icons-kit';
 import { chevronRight } from 'react-icons-kit/feather/chevronRight';
 import { StaticImage } from 'gatsby-plugin-image';
+import Carousel from '../../../components/carousel/Carousel';
+import { display } from 'styled-system';
 
 const DesignedAndBuilt = () => {
   return (
     <SectionWrapper id="palvelut">
       <Container>
         {/* Heading of the section */}
+
+        <ContentWrapper
+          style={{
+            marginTop: '-1em',
+          }}
+        >
+          <div className="carousel">
+            <Carousel>
+              <StaticImage
+                src="../../../components/palvelut/jalkahoito/images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_kauniit_jalat_meiltä.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_kauniit_jalat_meiltä"
+                placeholder="blurred"
+                layout="constrained"
+              />
+              ,
+              <StaticImage
+                src="../../../components/palvelut/jalkahoito/images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_jalatallat.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Myyrmäki_Kannelmäki_jalatallat_kaikille_kesäkuntoon"
+                placeholder="blurred"
+                layout="constrained"
+              />
+              ,
+              <StaticImage
+                src="../../../components/palvelut/jalkahoito/images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_naisille.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_naisille"
+                placeholder="blurred"
+                layout="constrained"
+              />
+              ,
+              <StaticImage
+                src="../../../components/palvelut/jalkahoito/images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_punaiset_geelikynnet.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_punaiset_geelikynnet"
+                placeholder="blurred"
+                layout="constrained"
+              />
+              ,
+              <StaticImage
+                src="../../../components/palvelut/jalkahoito/images/Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_vanhoilli_ihmisille.jpeg"
+                alt="Jalkahoito_MG_Studio_Malminkartano_Helsinki_Haaga_Myyrmäki_Kannelmäki_vanhoilli_ihmisille_kesäksi"
+                placeholder="blurred"
+                layout="constrained"
+              />
+            </Carousel>
+          </div>
+
+          <div className="content">
+            <Heading as="h3" className="heading" content="Jalkahoito" />
+            <Heading
+              as="h4"
+              className="text"
+              content="Perusjalkohoito, Luxus jalkahoito, Jalkahoito geelilakalla"
+            />
+            <Link
+              to="/palvelumme/jalkahoito/"
+              className="explore"
+              tabindex="0"
+              aria-label="Ajanvaraus jalkahoitoon"
+              activeClassName="active"
+            >
+              Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
+            </Link>
+          </div>
+        </ContentWrapper>
+
         <ContentWrapper style={{ marginTop: '-1em' }}>
           <StaticImage
             src="../../../images/palvelut/palvelut_kampaaja_oppilastyo.webp"
@@ -19,8 +85,8 @@ const DesignedAndBuilt = () => {
             placeholder="blurred"
             layout="constrained"
             style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
-            width={400}
-            height={400}
+            width={320}
+            height={320}
           />
 
           <div className="content">
@@ -57,8 +123,8 @@ const DesignedAndBuilt = () => {
             placeholder="blurred"
             layout="constrained"
             style={{ padding: '3rem', margin: '2rem', borderRadius: '1.4em' }}
-            width={400}
-            height={400}
+            width={320}
+            height={320}
           />
           <div className="content">
             <Heading
@@ -145,7 +211,7 @@ const DesignedAndBuilt = () => {
         </ContentWrapper>
 
         {/* 5 Jalkahoito */}
-        <ContentWrapper>
+        {/* <ContentWrapper>
           <StaticImage
             src="../../../images/palvelut/jalkahoito_w.webp"
             alt="Jalkahoito vantaa martinlaakso"
@@ -173,7 +239,7 @@ const DesignedAndBuilt = () => {
               Lue lisää ja varaa aikaa <Icon icon={chevronRight} />
             </Link>
           </div>
-        </ContentWrapper>
+        </ContentWrapper> */}
 
         {/* 5.5 Kynnet */}
         <ContentWrapper>

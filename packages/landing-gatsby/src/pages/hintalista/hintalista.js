@@ -6,9 +6,6 @@ import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 import BannerNarrow from '../../components/palvelut/geelilakkausVarpaisiin/GeelilakkausBannerNarrow';
 
-// import Banner from '../../containers/AppModern/BannerHintalista';
-//import Title from '../../components/Title';
-
 import Hintalista from '../../components/hintalista/Hintalista';
 
 const IndexPage = () => (
@@ -28,10 +25,6 @@ const IndexPage = () => (
         as="div"
       />
     </Wrapper>
-
-    {/* <BannerNarrow />
-    <Banner /> */}
-    {/* <Title as="h1" title="Hintalista" /> */}
     <Hintalista />
   </Layout>
 );

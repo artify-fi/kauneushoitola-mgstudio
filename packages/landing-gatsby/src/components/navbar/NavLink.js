@@ -9,7 +9,6 @@ const NavLink = ({ page }) => {
   return (
     <Wrapper>
       <button>{page}</button>
-
       <div className="links">
         {links.map((link, index) => {
           const { url, label, icon } = link;
