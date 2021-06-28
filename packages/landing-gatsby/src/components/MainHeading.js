@@ -15,7 +15,7 @@ const SectionWrapper = styled.div`
     font-family: Playfair Display;
     color: #000;
     font-size: 3.2rem;
-    margin-top: 1em;
+    margin-top: 3em;
     margin-bottom: 1.3em;
     line-height: 1.4em;
     font-weight: 700;
@@ -31,11 +31,12 @@ const SectionWrapper = styled.div`
     @media only screen and (max-width: 768px) {
       font-size: 2.4rem;
       text-align: center;
+      margin-top: 3.2rem;
     }
     @media only screen and (max-width: 480px) {
       font-size: 2rem;
       text-align: center;
-      margin-top: 1.4em;
+      margin-top: 2rem;
     }
   }
 `;
