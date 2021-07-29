@@ -9,7 +9,6 @@ import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import PhoneIcon from '@material-ui/icons/Phone';
-import CalendarButton from '../../../components/logo/CalendarButton';
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -17,15 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Newsletter = ({
-  sectionWrapper,
-  textArea,
-  title,
-  description,
-  descriptionBold,
-  descriptionPink,
-  link,
-}) => {
+const Newsletter = ({ title, description, descriptionBold }) => {
   const classes = useStyles();
   return (
     // <Box {...sectionWrapper} as="section">
@@ -95,7 +86,7 @@ const Newsletter = ({
               href="https://varaa.timma.fi/MGstudio"
               aria-label="Varaa helposti aika netista"
               target="_blank"
-              rel="noopener norefferer"
+              rel="noopener noreferrer"
               className="link"
             >
               {' '}

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { themeGet } from '@styled-system/theme-get';
 import bgImage from '../../../images/etusivu/tausta_uutiset_etusivu.webp';
 
 const BlockWrapper = styled.div`

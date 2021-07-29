@@ -50,7 +50,7 @@ const Footer = () => {
               <a
                 href="https://www.google.com/maps/place/MG+Studio/@60.2513955,24.8557821,17z/data=!3m1!4b1!4m5!3m4!1s0x468df777bbe4bfff:0x958876d046430823!8m2!3d60.2513955!4d24.8579761"
                 target="_blank"
-                rel="noopener norefferer"
+                rel="noopener noreferrer"
                 className="link"
               >
                 <CardButton />
@@ -59,7 +59,7 @@ const Footer = () => {
               <a
                 href="https://www.google.com/maps/place/MG+Studio/@60.2513955,24.8557821,17z/data=!3m1!4b1!4m5!3m4!1s0x468df777bbe4bfff:0x958876d046430823!8m2!3d60.2513955!4d24.8579761"
                 target="_blank"
-                rel="noopener norefferer"
+                rel="noopener noreferrer"
                 className="link"
               >
                 <Heading
@@ -133,7 +133,7 @@ const Footer = () => {
               <a
                 href="https://varaa.timma.fi/MGstudio"
                 target="_blank"
-                rel="noopener norefferer"
+                rel="noopener noreferrer"
                 className="link"
               >
                 <CalendarButton />
@@ -141,7 +141,7 @@ const Footer = () => {
               <a
                 href="https://varaa.timma.fi/MGstudio"
                 target="_blank"
-                rel="noopener norefferer"
+                rel="noopener noreferrer"
                 className="link"
               >
                 {' '}
@@ -202,7 +202,7 @@ const Footer = () => {
               <a
                 href="https://facebook.com/MGstudioFinland"
                 target="_blank"
-                rel="noopener norefferer"
+                rel="noopener noreferrer"
                 className="link"
               >
                 <Img
@@ -219,7 +219,7 @@ const Footer = () => {
               <a
                 href="https://instagram.com/MGstudioFinland"
                 target="_blank"
-                rel="noopener norefferer"
+                rel="noopener noreferrer"
                 className="link"
               >
                 <Img

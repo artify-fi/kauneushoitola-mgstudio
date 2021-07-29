@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import Heading from 'common/src/components/Heading';
-import Text from 'common/src/components/Text';
 import Container from 'common/src/components/UI/ContainerTwo';
 import Line from '../../reusableComponents/Line';
 

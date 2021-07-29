@@ -10,10 +10,12 @@ module.exports = {
     image: `logo.jpg`,
   },
   plugins: [
-    `gatsby-plugin-mdx`,
     'gatsby-plugin-react-leaflet',
-    `gatsby-remark-images`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-material-ui`,
+    `gatsby-plugin-image`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-styled-components`,
@@ -49,10 +51,6 @@ module.exports = {
         path: `../common/src/data/`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-material-ui`,
-    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -65,24 +63,24 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        output: `/sitemap.xml`,
-        exclude: [
-          `/dev-404-page`,
-          `/404`,
-          `/404.html`,
-          `/offline-plugin-app-shell-fallback`,
-        ],
-        createLinkInHead: true,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-sitemap`,
+    //   options: {
+    //     output: `/sitemap.xml`,
+    //     exclude: [
+    //       `/dev-404-page`,
+    //       `/404`,
+    //       `/404.html`,
+    //       `/offline-plugin-app-shell-fallback`,
+    //     ],
+    //     createLinkInHead: true,
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://mgstudio.fi/',
-        sitemap: 'https://mgstudio.fi/sitemap.xml',
+        // sitemap: 'https://mgstudio.fi/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
@@ -98,9 +96,9 @@ module.exports = {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
           // "UA-2634355954",
-          "G-KQHS4VRBVH",
-          "UA-198490803-1"
-          // Google Ads / Adwords / AW"AW-CONVERSION_ID",         
+          'G-KQHS4VRBVH',
+          'UA-198490803-1',
+          // Google Ads / Adwords / AW"AW-CONVERSION_ID",
         ],
         // This object is used for configuration specific to this plugin
         pluginConfig: {
@@ -115,7 +113,7 @@ module.exports = {
         googleAnalytics: {
           trackingId: 'G-KQHS4VRBVH',
           // Setting this parameter is optional
-          anonymize: true
+          anonymize: true,
         },
       },
     },

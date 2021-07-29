@@ -10,7 +10,6 @@ const MilestoneBlock = () => {
     query {
       charityJson {
         milestoneData {
-          title
           amount
           text
         }
@@ -18,7 +17,7 @@ const MilestoneBlock = () => {
     }
   `);
 
-  const { title, amount, text, counterItems } = data.charityJson.milestoneData;
+  const { amount, text } = data.charityJson.milestoneData;
 
   return (
     <Container id="milestone" width="1260px">

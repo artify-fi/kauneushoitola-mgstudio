@@ -23,6 +23,18 @@ export const ContentWrapper = styled.div`
     margin-bottom: 3em;
   }
 
+  .carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 480px;
+    height: 480px;
+    padding: 2rem;
+    border-radius: 2rem;
+    padding-left: -2px;
+  }
+
   .image {
     display: flex;
     align-items: center;
